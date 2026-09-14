@@ -23,6 +23,15 @@
     </header>
 
     <main class="archive-main">
+        <nav class="filter-bar" aria-label="Visual DNA filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="nature">Nature</button>
+            <button class="filter-btn" data-filter="memory">Memory</button>
+            <button class="filter-btn" data-filter="strange">Strange</button>
+            <button class="filter-btn" data-filter="color">Color</button>
+            <button class="filter-btn" data-filter="dream">Dream</button>
+        </nav>
+
         <section id="archive-grid" class="archive-grid" aria-live="polite"></section>
         <p id="archive-status" class="archive-status">Loading archive…</p>
     </main>

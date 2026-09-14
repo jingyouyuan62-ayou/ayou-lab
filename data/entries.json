@@ -3,10 +3,88 @@
     "id": "red-tree",
     "title": "Red Tree",
     "date": "2026-09-10",
+    "source": "collected",
+    "medium": "photo",
+    "category": "color",
+    "note": "A tree in an unusually saturated red, almost too vivid to be real.",
+    "image": "images/red-tree.PNG",
+    "accent": "#975235"
+  },
+  {
+    "id": "fireworks-night",
+    "title": "Night Sparks",
+    "date": "2026-07-25",
+    "source": "collected",
+    "medium": "photo",
+    "category": "dream",
+    "note": "Light bursting in the dark.",
+    "image": "images/fireworks-night.jpg",
+    "accent": "#201B21"
+  },
+  {
+    "id": "tomato",
+    "title": "Tomato",
+    "date": "2026-04-18",
+    "source": "collected",
+    "medium": "photo",
+    "category": "strange",
+    "note": "A fruit the color of warmth.",
+    "image": "images/tomato.jpg",
+    "accent": "#8F1912"
+  },
+  {
+    "id": "henna-collage",
+    "title": "Henna Collage",
+    "date": "2026-07-04",
+    "source": "own",
+    "medium": "collage",
+    "category": "strange",
+    "note": "A collage between a found image and my own henna.",
+    "image": "images/henna-collage.jpg",
+    "accent": "#0487DF"
+  },
+  {
+    "id": "soft-object",
+    "title": "Soft Object",
+    "date": "2026-07-08",
+    "source": "collected",
+    "medium": "photo",
+    "category": "memory",
+    "note": "Something soft I wanted to keep.",
+    "image": "images/soft-object.jpg",
+    "accent": "#56B7A8"
+  },
+  {
+    "id": "frozen-water",
+    "title": "Frozen Water",
+    "date": "2026-03-27",
+    "source": "collected",
+    "medium": "photo",
+    "category": "nature",
+    "note": "Cold water, frozen in place.",
+    "image": "images/frozen-water.jpg",
+    "accent": "#78A1D2"
+  },
+  {
+    "id": "maple-fence",
+    "title": "Maple & Fence",
+    "date": "2026-04-08",
+    "source": "collected",
+    "medium": "photo",
+    "category": "nature",
+    "note": "A red maple caught against an old fence.",
+    "image": "images/maple-fence.jpg",
+    "accent": "#D2A12C"
+  },
+  {
+    "id": "bridge-sky",
+    "title": "Bridge & Sky",
+    "date": "2025-12-22",
     "source": "own",
     "medium": "photo",
-    "tags": ["nature", "color", "strange"],
-    "note": "A tree in an unusually saturated red, almost too vivid to be real.",
-    "image": "images/red-tree.PNG"
+    "category": "nature",
+    "note": "A bridge cutting into the blue.",
+    "image": "images/bridge-sky.jpg",
+    "accent": "#5BB9E0"
   }
 ]

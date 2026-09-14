@@ -1,5 +1,6 @@
 const grid = document.getElementById("archive-grid");
 const status = document.getElementById("archive-status");
+const filterButtons = document.querySelectorAll(".filter-btn");
 
 fetch("data/entries.json")
     .then((response) => {
@@ -24,9 +25,27 @@ fetch("data/entries.json")
         status.textContent = "Could not load the archive. " + error.message;
     });
 
+filterButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+        filterButtons.forEach((b) => b.classList.remove("active"));
+        button.classList.add("active");
+        applyFilter(button.dataset.filter);
+    });
+});
+
+function applyFilter(filter) {
+    const cards = grid.querySelectorAll(".entry-card");
+    cards.forEach((card) => {
+        const show = filter === "all" || card.dataset.category === filter;
+        card.classList.toggle("is-hidden", !show);
+    });
+}
+
 function createCard(entry) {
     const card = document.createElement("article");
     card.className = "entry-card";
+    card.dataset.category = entry.category;
+    card.style.setProperty("--accent", entry.accent || "#b8543d");
 
     const media = document.createElement("div");
     media.className = "entry-card-media";
@@ -52,11 +71,11 @@ function createCard(entry) {
     note.className = "entry-note";
     note.textContent = entry.note;
 
-    const tags = document.createElement("p");
-    tags.className = "entry-tags";
-    tags.textContent = entry.tags.join(" / ");
+    const category = document.createElement("p");
+    category.className = "entry-tags";
+    category.textContent = entry.category.toUpperCase();
 
-    body.append(title, meta, note, tags);
+    body.append(title, meta, note, category);
     card.append(media, body);
 
     return card;
