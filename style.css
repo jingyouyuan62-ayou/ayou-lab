@@ -1,0 +1,263 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0 7vw;
+    background: #eee9df;
+    color: #292821;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.hero {
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.eyebrow {
+    font-size: 13px;
+    letter-spacing: 0.18em;
+    margin-bottom: 30px;
+}
+
+h1 {
+    margin: 0;
+    font-size: clamp(70px, 13vw, 180px);
+    line-height: 0.85;
+    letter-spacing: -0.07em;
+    font-weight: 500;
+}
+
+.intro {
+    margin-top: 55px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(22px, 3vw, 38px);
+    line-height: 1.25;
+    max-width: 650px;
+}
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.statement {
+    border-top: 1px solid #292821;
+    border-bottom: 1px solid #292821;
+    padding: 70px 0;
+    margin-bottom: 100px;
+}
+
+.statement p {
+    max-width: 800px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(28px, 4vw, 52px);
+    line-height: 1.15;
+    margin: 0;
+}
+
+.dna {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1px;
+    background: #292821;
+    border: 1px solid #292821;
+}
+
+.dna-item {
+    background: #eee9df;
+    min-height: 280px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dna-item:nth-child(3) {
+    background: #dce4dc;
+}
+
+.dna-item:nth-child(4) {
+    background: #e7dfc9;
+}
+
+.dna-item:nth-child(5) {
+    background: #e7d9df;
+    grid-column: span 2;
+    min-height: 220px;
+}
+
+.dna-item span {
+    font-size: 13px;
+    letter-spacing: 0.15em;
+}
+
+.dna-item h2 {
+    font-size: clamp(32px, 5vw, 65px);
+    font-weight: 500;
+    letter-spacing: -0.04em;
+    margin: 30px 0 10px;
+}
+
+.dna-item p {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 17px;
+}
+
+.enter {
+    padding: 150px 0;
+    text-align: center;
+}
+
+.enter > p:first-child {
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    margin-bottom: 30px;
+}
+
+.enter-link {
+    display: inline-block;
+    padding: 16px 26px;
+    border: 1px solid #292821;
+    border-radius: 0;
+    background: #292821;
+    color: #eee9df;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.enter-link:hover {
+    transform: translateY(-2px);
+}
+
+footer {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px 0 50px;
+    border-top: 1px solid #292821;
+    font-size: 12px;
+}
+.statement img {
+    display: block;
+    width: 70%;
+    max-width: 700px;
+    margin: 60px auto 0;
+    opacity: 0.92;
+    border-radius: 10px;
+}
+@media (max-width: 700px) {
+
+    body {
+        padding: 0 24px;
+    }
+
+    .hero {
+        min-height: 75vh;
+    }
+
+    .dna {
+        grid-template-columns: 1fr;
+    }
+
+    .dna-item:nth-child(5) {
+        grid-column: span 1;
+    }
+
+}
+
+.archive-header {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 90px 0 40px;
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 40px;
+    color: #292821;
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 0.15em;
+}
+
+.archive-header .eyebrow {
+    margin-bottom: 20px;
+}
+
+.archive-header h1 {
+    font-size: clamp(60px, 11vw, 140px);
+}
+
+.archive-header .intro {
+    margin-top: 30px;
+    font-size: clamp(20px, 3vw, 30px);
+}
+
+.archive-main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px 0 90px;
+}
+
+.archive-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1px;
+    background: #292821;
+    border: 1px solid #292821;
+}
+
+.entry-card {
+    background: #eee9df;
+}
+
+.entry-card img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #292821;
+}
+
+.entry-card-body {
+    padding: 22px 24px 26px;
+}
+
+.entry-card h2 {
+    margin: 0 0 12px;
+    font-size: clamp(24px, 3vw, 34px);
+    font-weight: 500;
+    letter-spacing: -0.02em;
+}
+
+.entry-meta,
+.entry-tags {
+    font-size: 12px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.entry-note {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.archive-status {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
+}
+
+@media (max-width: 700px) {
+    .archive-grid {
+        grid-template-columns: 1fr;
+    }
+}
