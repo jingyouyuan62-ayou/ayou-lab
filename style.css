@@ -218,17 +218,53 @@ footer {
 
 .entry-card {
     background: #eee9df;
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.entry-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 22px 48px rgba(41, 40, 33, 0.18);
+}
+
+.entry-card-media {
+    position: relative;
+    z-index: 0;
+    margin: 24px 24px 18px;
+}
+
+.entry-card-media::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: -10px;
+    bottom: -10px;
+    background: #b8543d;
+    opacity: 0.5;
+    z-index: -1;
+    border-radius: 20px;
+    transition: transform 0.35s ease;
+}
+
+.entry-card:hover .entry-card-media::before {
+    transform: translate(4px, 4px);
 }
 
 .entry-card img {
     display: block;
     width: 100%;
     height: auto;
-    border-bottom: 1px solid #292821;
+    border-radius: 18px;
+    box-shadow: 0 16px 44px rgba(41, 40, 33, 0.22);
+    transition: transform 0.5s ease;
+}
+
+.entry-card:hover img {
+    transform: scale(1.03);
 }
 
 .entry-card-body {
-    padding: 22px 24px 26px;
+    padding: 18px 24px 26px;
 }
 
 .entry-card h2 {

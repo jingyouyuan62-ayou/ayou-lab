@@ -28,10 +28,15 @@ function createCard(entry) {
     const card = document.createElement("article");
     card.className = "entry-card";
 
+    const media = document.createElement("div");
+    media.className = "entry-card-media";
+
     const image = document.createElement("img");
     image.src = entry.image;
     image.alt = entry.title;
     image.loading = "lazy";
+
+    media.appendChild(image);
 
     const body = document.createElement("div");
     body.className = "entry-card-body";
@@ -52,7 +57,7 @@ function createCard(entry) {
     tags.textContent = entry.tags.join(" / ");
 
     body.append(title, meta, note, tags);
-    card.append(image, body);
+    card.append(media, body);
 
     return card;
 }
