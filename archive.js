@@ -2,7 +2,7 @@ const grid = document.getElementById("archive-grid");
 const status = document.getElementById("archive-status");
 const filterButtons = document.querySelectorAll(".filter-btn");
 
-fetch("data/entries.json")
+fetch("data/entries.json", { cache: "no-store" })
     .then((response) => {
         if (!response.ok) {
             throw new Error("Failed to load entries.json");

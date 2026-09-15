@@ -86,5 +86,126 @@
     "note": "A bridge cutting into the blue.",
     "image": "images/bridge-sky.jpg",
     "accent": "#5BB9E0"
+  },
+  {
+    "id": "grass-field",
+    "title": "Grass Field",
+    "date": "2026-04-17",
+    "source": "own",
+    "medium": "photo",
+    "category": "nature",
+    "note": "Grass in its own green.",
+    "image": "images/grass-field.jpg",
+    "accent": "#4D9840"
+  },
+  {
+    "id": "record-store",
+    "title": "Record Store",
+    "date": "2026-07-26",
+    "source": "own",
+    "medium": "photo",
+    "category": "memory",
+    "note": "Shelves of music and old things.",
+    "image": "images/record-store.jpg",
+    "accent": "#3B7A94"
+  },
+  {
+    "id": "coastal-station",
+    "title": "Coastal Station",
+    "date": "2026-07-27",
+    "source": "own",
+    "medium": "photo",
+    "category": "nature",
+    "note": "A station by the sea.",
+    "image": "images/coastal-station.jpg",
+    "accent": "#2889C6"
+  },
+  {
+    "id": "ntu-gate",
+    "title": "College Gate",
+    "date": "2026-07-22",
+    "source": "own",
+    "medium": "photo",
+    "category": "memory",
+    "note": "The gate of the College of Liberal Arts.",
+    "image": "images/ntu-gate.jpg",
+    "accent": "#AB9F81"
+  },
+  {
+    "id": "literature-corridor",
+    "title": "Literature Corridor",
+    "date": "2026-07-22",
+    "source": "own",
+    "medium": "photo",
+    "category": "memory",
+    "note": "A corridor and classrooms in the literature museum.",
+    "image": "images/literature-corridor.jpg",
+    "accent": "#5095B4"
+  },
+  {
+    "id": "gallery-poster",
+    "title": "Exhibition Poster",
+    "date": "2026-07-23",
+    "source": "own",
+    "medium": "photo",
+    "category": "color",
+    "note": "A poster from a gallery.",
+    "image": "images/gallery-poster.jpg",
+    "accent": "#64ADC4"
+  },
+  {
+    "id": "tomato-illustration",
+    "title": "Tomato Illustration",
+    "date": "2026-08-30",
+    "source": "collected",
+    "medium": "illustration",
+    "category": "color",
+    "note": "A tomato, drawn.",
+    "image": "images/tomato-illustration.jpg",
+    "accent": "#C23B22"
+  },
+  {
+    "id": "moon",
+    "title": "Moon",
+    "date": "2026-08-22",
+    "source": "collected",
+    "medium": "photo",
+    "category": "dream",
+    "note": "The moon, quiet and far.",
+    "image": "images/moon.jpg",
+    "accent": "#042161"
+  },
+  {
+    "id": "jiming-temple",
+    "title": "Jiming Temple",
+    "date": "2025-12-22",
+    "source": "own",
+    "medium": "photo",
+    "category": "color",
+    "note": "Jiming Temple in Nanjing.",
+    "image": "images/jiming-temple.jpg",
+    "accent": "#3298D3"
+  },
+  {
+    "id": "airplane",
+    "title": "Airplane",
+    "date": "2025-12-22",
+    "source": "own",
+    "medium": "photo",
+    "category": "color",
+    "note": "A plane crossing the blue.",
+    "image": "images/airplane.jpg",
+    "accent": "#257EB1"
+  },
+  {
+    "id": "lantern-light",
+    "title": "Lantern Light",
+    "date": "2026-08-03",
+    "source": "own",
+    "medium": "photo",
+    "category": "dream",
+    "note": "People and lanterns in warm light.",
+    "image": "images/lantern-light.jpg",
+    "accent": "#A12E17"
   }
 ]
