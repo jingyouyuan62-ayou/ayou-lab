@@ -71,11 +71,25 @@ function createCard(entry) {
     note.className = "entry-note";
     note.textContent = entry.note;
 
+    body.append(title, meta, note);
+
+    const confirmed =
+        entry.echoes && Array.isArray(entry.echoes.confirmed)
+            ? entry.echoes.confirmed
+            : [];
+
+    if (confirmed.length > 0) {
+        const echo = document.createElement("p");
+        echo.className = "entry-echo";
+        echo.textContent = "↳ " + confirmed.join(" · ");
+        body.append(echo);
+    }
+
     const category = document.createElement("p");
     category.className = "entry-tags";
     category.textContent = entry.category.toUpperCase();
 
-    body.append(title, meta, note, category);
+    body.append(category);
     card.append(media, body);
 
     return card;

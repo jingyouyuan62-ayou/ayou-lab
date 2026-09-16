@@ -320,6 +320,15 @@ footer {
     line-height: 1.5;
 }
 
+.entry-echo {
+    margin: 12px 0 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 1.5;
+    color: rgba(41, 40, 33, 0.72);
+}
+
 .archive-status {
     font-family: Georgia, "Times New Roman", serif;
     font-size: 18px;
