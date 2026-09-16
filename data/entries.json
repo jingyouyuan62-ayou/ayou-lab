@@ -41,7 +41,11 @@
     "category": "strange",
     "note": "A collage between a found image and my own henna.",
     "image": "images/henna-collage.jpg",
-    "accent": "#0487DF"
+    "accent": "#0487DF",
+    "echoes": {
+      "candidates": [],
+      "confirmed": ["The pale irregular shape at the top-left and the tilted blue panel are both my own processed henna tattoo."]
+    }
   },
   {
     "id": "soft-object",
@@ -100,14 +104,18 @@
   },
   {
     "id": "record-store",
-    "title": "Record Store",
+    "title": "Chia Chia Records",
     "date": "2026-07-26",
     "source": "own",
     "medium": "photo",
     "category": "memory",
-    "note": "Shelves of music and old things.",
+    "note": "Chia Chia Records (佳佳唱片行) in Taiwan — I found albums by a singer I love here.",
     "image": "images/record-store.jpg",
-    "accent": "#3B7A94"
+    "accent": "#3B7A94",
+    "echoes": {
+      "candidates": [],
+      "confirmed": ["Chia Chia Records (佳佳唱片行), Taiwan", "I found albums by a singer I love here."]
+    }
   },
   {
     "id": "coastal-station",
@@ -144,14 +152,18 @@
   },
   {
     "id": "gallery-poster",
-    "title": "Exhibition Poster",
+    "title": "共感 / Entanglements",
     "date": "2026-07-23",
     "source": "own",
     "medium": "photo",
     "category": "color",
-    "note": "A poster from a gallery.",
+    "note": "共感 Entanglements — The Rhythm of Being, 2026.05.09–09.20, Gallery 1A 1B.",
     "image": "images/gallery-poster.jpg",
-    "accent": "#64ADC4"
+    "accent": "#64ADC4",
+    "echoes": {
+      "candidates": [],
+      "confirmed": ["共感 Entanglements — The Rhythm of Being, 2026.05.09–09.20, Gallery 1A 1B."]
+    }
   },
   {
     "id": "tomato-illustration",
@@ -166,14 +178,18 @@
   },
   {
     "id": "moon",
-    "title": "Moon",
+    "title": "Kiki's Delivery Service",
     "date": "2026-08-22",
     "source": "collected",
-    "medium": "photo",
+    "medium": "film still",
     "category": "dream",
-    "note": "The moon, quiet and far.",
+    "note": "The opening title card of Kiki's Delivery Service.",
     "image": "images/moon.jpg",
-    "accent": "#042161"
+    "accent": "#042161",
+    "echoes": {
+      "candidates": [],
+      "confirmed": ["Opening screenshot from Kiki's Delivery Service (Studio Ghibli, Hayao Miyazaki)."]
+    }
   },
   {
     "id": "jiming-temple",
