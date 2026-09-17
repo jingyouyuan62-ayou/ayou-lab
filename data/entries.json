@@ -8,7 +8,8 @@
     "category": "color",
     "note": "A tree in an unusually saturated red, almost too vivid to be real.",
     "image": "images/red-tree.PNG",
-    "accent": "#975235"
+    "accent": "#975235",
+    "ideas": ["Live2D 分层视差：近枝 / 中冠 / 远梢", "花叶飘落粒子效果"]
   },
   {
     "id": "fireworks-night",
@@ -123,12 +124,12 @@
   },
   {
     "id": "coastal-station",
-    "title": "Coastal Station",
+    "title": "Tiaoshi Station",
     "date": "2026-07-27",
     "source": "own",
     "medium": "photo",
     "category": "nature",
-    "note": "A station by the sea.",
+    "note": "Tiaoshi Station on the North Coast of Taiwan.",
     "image": "images/coastal-station.jpg",
     "accent": "#2889C6"
   },
@@ -176,7 +177,7 @@
     "source": "collected",
     "medium": "illustration",
     "category": "color",
-    "note": "A tomato, drawn.",
+    "note": "Four small drawings in pen and ink — a fingerprint wave, wildflowers, tomatoes, and a girl.",
     "image": "images/tomato-illustration.jpg",
     "accent": "#C23B22"
   },
