@@ -56,7 +56,11 @@
     "category": "memory",
     "note": "Something soft I wanted to keep.",
     "image": "images/soft-object.jpg",
-    "accent": "#56B7A8"
+    "accent": "#56B7A8",
+    "echoes": {
+      "candidates": [],
+      "confirmed": ["漂浮的梦"]
+    }
   },
   {
     "id": "frozen-water",
