@@ -1,12 +1,12 @@
 [
   {
     "id": "red-tree",
-    "title": "Red Tree",
+    "title": "Under the Canopy",
     "date": "2026-09-10",
     "source": "collected",
     "medium": "photo",
     "category": "color",
-    "note": "A tree in an unusually saturated red, almost too vivid to be real.",
+    "note": "Looking up into layers of branches, green needles, and small red blossoms.",
     "image": "images/red-tree.PNG",
     "accent": "#975235",
     "ideas": ["Live2D 分层视差：近枝 / 中冠 / 远梢", "花叶飘落粒子效果"]
