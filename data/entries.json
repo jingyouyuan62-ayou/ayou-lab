@@ -102,12 +102,12 @@
   },
   {
     "id": "grass-field",
-    "title": "Grass Field",
+    "title": "Park Bench",
     "date": "2026-04-17",
     "source": "own",
     "medium": "photo",
     "category": "nature",
-    "note": "Grass in its own green.",
+    "note": "An empty bench in the quiet green.",
     "image": "images/grass-field.jpg",
     "accent": "#4D9840"
   },
@@ -146,7 +146,11 @@
     "category": "memory",
     "note": "The gate of the College of Liberal Arts.",
     "image": "images/ntu-gate.jpg",
-    "accent": "#AB9F81"
+    "accent": "#AB9F81",
+    "echoes": {
+      "candidates": [],
+      "confirmed": ["台大文學院（牌匾「文學院」）"]
+    }
   },
   {
     "id": "literature-corridor",
@@ -209,7 +213,11 @@
     "category": "color",
     "note": "Jiming Temple in Nanjing.",
     "image": "images/jiming-temple.jpg",
-    "accent": "#3298D3"
+    "accent": "#3298D3",
+    "echoes": {
+      "candidates": [],
+      "confirmed": ["南京鸡鸣寺"]
+    }
   },
   {
     "id": "airplane",
