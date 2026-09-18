@@ -244,5 +244,165 @@
       "candidates": ["《千与千寻》式的灯笼巷"],
       "confirmed": ["九份老街"]
     }
+  },
+  {
+    "id": "glittering-sea",
+    "title": "Glittering Sea",
+    "date": "2026-09-18",
+    "source": "collected",
+    "medium": "photo",
+    "category": "dream",
+    "tags": ["sea", "glare", "boat", "blue"],
+    "note": "Sunlight broken into white glitter across the water, one small dark boat in the middle of it.",
+    "image": "images/glittering-sea.jpg",
+    "accent": "#3C5D84",
+    "echoes": {
+      "candidates": [],
+      "confirmed": []
+    }
+  },
+  {
+    "id": "forest-railway",
+    "title": "Forest Railway",
+    "date": "2026-09-18",
+    "source": "collected",
+    "medium": "photo",
+    "category": "nature",
+    "tags": ["forest", "rail", "moss", "mist"],
+    "note": "A narrow track curving into a damp forest, moss on everything that has stopped moving.",
+    "image": "images/forest-railway.jpg",
+    "accent": "#3A452B",
+    "echoes": {
+      "candidates": [],
+      "confirmed": ["阿里山森林鐵道"]
+    }
+  },
+  {
+    "id": "fallen-leaves",
+    "title": "Fallen Leaves",
+    "date": "2025-11-02",
+    "source": "own",
+    "medium": "photo",
+    "category": "color",
+    "tags": ["leaves", "stone", "yellow", "autumn"],
+    "note": "Wutong leaves lying on grey stone, scattered along one long diagonal seam.",
+    "image": "images/fallen-leaves.jpg",
+    "accent": "#D6C468",
+    "echoes": {
+      "candidates": [],
+      "confirmed": ["梧桐落葉"]
+    }
+  },
+  {
+    "id": "white-bells",
+    "title": "White Bells",
+    "date": "2025-10-16",
+    "source": "own",
+    "medium": "photo",
+    "category": "nature",
+    "tags": ["flower", "ivory", "stalk", "backlight"],
+    "note": "Pale bell-shaped flowers hanging from a thick green stalk, lit from behind.",
+    "image": "images/white-bells.jpg",
+    "accent": "#2F3D2C",
+    "echoes": {
+      "candidates": [],
+      "confirmed": []
+    }
+  },
+  {
+    "id": "old-machine",
+    "title": "Old Machine",
+    "date": "2026-07-23",
+    "source": "own",
+    "medium": "photo",
+    "category": "strange",
+    "tags": ["museum", "machine", "wood", "exhibition"],
+    "note": "An old wooden apparatus standing alone on a grey gallery floor, a lamp and a lantern beside it. Said to read a person's shadow and draw their profile.",
+    "image": "images/old-machine.jpg",
+    "accent": "#8A7A68",
+    "echoes": {
+      "candidates": ["暗房放大機／早期攝影器材"],
+      "confirmed": ["共感 Entanglements 展場的一件展品"]
+    }
+  },
+  {
+    "id": "above-jiufen",
+    "title": "Above Jiufen",
+    "date": "2026-08-03",
+    "source": "own",
+    "medium": "photo",
+    "category": "memory",
+    "tags": ["dusk", "coast", "clouds", "town"],
+    "note": "Blue hour over the hillside town, clouds streaking above the coast and the small island offshore.",
+    "image": "images/above-jiufen.jpg",
+    "accent": "#1F3A52",
+    "echoes": {
+      "candidates": [],
+      "confirmed": ["九份"]
+    }
+  },
+  {
+    "id": "green-courtyard",
+    "title": "Green Courtyard",
+    "date": "2026-07-20",
+    "source": "own",
+    "medium": "photo",
+    "category": "nature",
+    "tags": ["courtyard", "fountain", "green", "palm"],
+    "note": "A stone fountain spilling into a pond, palm trees and dense green all around it. Shot with a Fujifilm film-simulation filter.",
+    "image": "images/green-courtyard.jpg",
+    "accent": "#33543F",
+    "echoes": {
+      "candidates": [],
+      "confirmed": ["松山文創園區"]
+    }
+  },
+  {
+    "id": "snow-globes",
+    "title": "Snow Globes",
+    "date": "2025-12-12",
+    "source": "own",
+    "medium": "photo",
+    "category": "memory",
+    "tags": ["snowglobe", "lantern", "gold", "kitsch"],
+    "note": "A shop display of glowing snow globes and lanterns, each one holding its own small scene.",
+    "image": "images/snow-globes.jpg",
+    "accent": "#8E6A42",
+    "echoes": {
+      "candidates": [],
+      "confirmed": ["上海外灘源聖誕集市"]
+    }
+  },
+  {
+    "id": "backlit-reeds",
+    "title": "Backlit Reeds",
+    "date": "2025-11-09",
+    "source": "collected",
+    "medium": "photo",
+    "category": "color",
+    "tags": ["reeds", "backlight", "gold", "sky"],
+    "note": "Backlit reeds leaning across the sky, a yellow-green willow behind them.",
+    "image": "images/backlit-reeds.jpg",
+    "accent": "#B7AE52",
+    "echoes": {
+      "candidates": [],
+      "confirmed": []
+    }
+  },
+  {
+    "id": "gulls-on-water",
+    "title": "Gulls & Water",
+    "date": "2026-02-21",
+    "source": "unclear",
+    "medium": "photo",
+    "category": "nature",
+    "tags": ["gulls", "water", "teal", "flight"],
+    "note": "Three gulls on green water — one rising, one skimming, one already floating.",
+    "image": "images/gulls-on-water.jpg",
+    "accent": "#6FA29E",
+    "echoes": {
+      "candidates": [],
+      "confirmed": ["青島"]
+    }
   }
 ]
