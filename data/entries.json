@@ -20,7 +20,11 @@
     "category": "dream",
     "note": "Light bursting in the dark.",
     "image": "images/fireworks-night.jpg",
-    "accent": "#201B21"
+    "accent": "#201B21",
+    "echoes": {
+      "candidates": [],
+      "confirmed": ["大稻埕夏日烟花祭"]
+    }
   },
   {
     "id": "tomato",
@@ -75,14 +79,14 @@
     "accent": "#78A1D2"
   },
   {
-    "id": "maple-fence",
-    "title": "Maple & Fence",
+    "id": "ginkgo-fence",
+    "title": "Ginkgo & Fence",
     "date": "2026-04-08",
     "source": "collected",
     "medium": "photo",
     "category": "nature",
-    "note": "A red maple caught against an old fence.",
-    "image": "images/maple-fence.jpg",
+    "note": "A golden ginkgo, backlit until it glows.",
+    "image": "images/ginkgo-fence.jpg",
     "accent": "#D2A12C"
   },
   {
@@ -227,6 +231,10 @@
     "category": "dream",
     "note": "People and lanterns in warm light.",
     "image": "images/lantern-light.jpg",
-    "accent": "#A12E17"
+    "accent": "#A12E17",
+    "echoes": {
+      "candidates": ["《千与千寻》式的灯笼巷"],
+      "confirmed": ["九份老街"]
+    }
   }
 ]
