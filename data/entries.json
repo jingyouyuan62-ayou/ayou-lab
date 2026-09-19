@@ -404,5 +404,53 @@
       "candidates": [],
       "confirmed": ["青島"]
     }
+  },
+  {
+    "id": "daisies",
+    "title": "Daisies",
+    "date": "2026-09-18",
+    "source": "collected",
+    "medium": "photo",
+    "category": "nature",
+    "tags": ["daisies", "white", "yellow", "green"],
+    "note": "A dense patch of white daisies opening above dark leaves and stone.",
+    "image": "images/daisies.jpg",
+    "accent": "#3E4523",
+    "echoes": {
+      "candidates": [],
+      "confirmed": []
+    }
+  },
+  {
+    "id": "cherry-blossoms",
+    "title": "Cherry Blossoms",
+    "date": "2026-04-16",
+    "source": "own",
+    "medium": "photo",
+    "category": "color",
+    "tags": ["blossom", "pink", "blue", "spring"],
+    "note": "Double cherry blossoms held up against a deep blue sky.",
+    "image": "images/cherry-blossoms.jpg",
+    "accent": "#4888C8",
+    "echoes": {
+      "candidates": ["八重櫻（重瓣櫻花）— 品種待確認"],
+      "confirmed": []
+    }
+  },
+  {
+    "id": "moon-branches",
+    "title": "Moon & Branches",
+    "date": "2026-01-29",
+    "source": "own",
+    "medium": "photo",
+    "category": "dream",
+    "tags": ["moon", "branches", "blue", "winter"],
+    "note": "A pale moon held between bare branches in a clear blue sky.",
+    "image": "images/moon-branches.jpg",
+    "accent": "#4868A8",
+    "echoes": {
+      "candidates": [],
+      "confirmed": []
+    }
   }
 ]
