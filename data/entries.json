@@ -457,7 +457,7 @@
     "id": "golden-branches",
     "title": "Golden Branches",
     "date": "2025-12-03",
-    "source": "collected",
+    "source": "own",
     "medium": "photo",
     "category": "nature",
     "tags": ["conifer", "gold", "green", "autumn"],
@@ -465,15 +465,15 @@
     "image": "images/golden-branches.jpg",
     "accent": "#8A6A38",
     "echoes": {
-      "candidates": ["水杉／落羽杉轉色 — 樹種待確認"],
-      "confirmed": []
+      "candidates": [],
+      "confirmed": ["水杉"]
     }
   },
   {
     "id": "fishing-harbor",
     "title": "Fishing Harbor",
     "date": "2026-02-21",
-    "source": "collected",
+    "source": "own",
     "medium": "photo",
     "category": "memory",
     "tags": ["harbor", "boats", "beach", "sea"],
@@ -481,8 +481,8 @@
     "image": "images/fishing-harbor.jpg",
     "accent": "#88B8D8",
     "echoes": {
-      "candidates": ["與同日拍的 Gulls & Water 同一趟海邊 — 地點待確認"],
-      "confirmed": []
+      "candidates": [],
+      "confirmed": ["青島", "畫面中的人是路人"]
     }
   },
   {
@@ -498,7 +498,7 @@
     "accent": "#587898",
     "echoes": {
       "candidates": [],
-      "confirmed": []
+      "confirmed": ["黑框是有意加的：讓人想到冬天的海"]
     }
   },
   {
@@ -529,8 +529,8 @@
     "image": "images/meadow-cabin.jpg",
     "accent": "#485828",
     "echoes": {
-      "candidates": ["高海拔牧場／林場 — 地點待確認"],
-      "confirmed": []
+      "candidates": [],
+      "confirmed": ["新疆"]
     }
   }
 ]
