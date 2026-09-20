@@ -765,7 +765,7 @@
     "id": "hydrangeas",
     "title": "Hydrangeas",
     "date": "2026-09-18",
-    "source": "collected",
+    "source": "own",
     "medium": "photo",
     "category": "nature",
     "tags": ["hydrangea", "blue", "garden", "grass"],
@@ -773,15 +773,15 @@
     "image": "images/hydrangeas.jpg",
     "accent": "#486868",
     "echoes": {
-      "candidates": ["繡球花（紫陽花）— 地點待確認"],
-      "confirmed": []
+      "candidates": [],
+      "confirmed": ["阿里山"]
     }
   },
   {
     "id": "fallen-tree",
     "title": "Fallen Tree",
     "date": "2026-08-01",
-    "source": "collected",
+    "source": "own",
     "medium": "photo",
     "category": "nature",
     "tags": ["tree", "water", "roots", "green"],
@@ -789,15 +789,15 @@
     "image": "images/fallen-tree.jpg",
     "accent": "#689878",
     "echoes": {
-      "candidates": ["水池邊的枯木與氣根 — 地點待確認"],
-      "confirmed": []
+      "candidates": [],
+      "confirmed": ["台南四草綠色隧道"]
     }
   },
   {
     "id": "pond-grass",
     "title": "Pond Grass",
     "date": "2026-09-18",
-    "source": "collected",
+    "source": "own",
     "medium": "photo",
     "category": "nature",
     "tags": ["pond", "grass", "dark", "orange"],
@@ -805,15 +805,15 @@
     "image": "images/pond-grass.jpg",
     "accent": "#1E2A18",
     "echoes": {
-      "candidates": ["與 Fallen Tree 可能是同一處水塘 — 地點待確認"],
-      "confirmed": []
+      "candidates": [],
+      "confirmed": ["阿里山", "讓我想起山裡潮濕微涼的空氣"]
     }
   },
   {
     "id": "lighthouse",
     "title": "Lighthouse",
     "date": "2026-09-18",
-    "source": "collected",
+    "source": "own",
     "medium": "photo",
     "category": "memory",
     "tags": ["lighthouse", "white", "grass", "blue"],
@@ -821,8 +821,8 @@
     "image": "images/lighthouse.jpg",
     "accent": "#1888C8",
     "echoes": {
-      "candidates": ["台灣的燈塔（鵝鑾鼻一帶？）— 地點待確認"],
-      "confirmed": []
+      "candidates": [],
+      "confirmed": ["台灣的燈塔（鵝鑾鼻一帶）", "再往前走可以看見太平洋，我在那裡看到人生中最藍的海"]
     }
   }
 ]
