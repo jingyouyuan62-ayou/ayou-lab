@@ -549,8 +549,8 @@
     "image": "images/cloud-line.jpg",
     "accent": "#586838",
     "echoes": {
-      "candidates": ["與 Meadow Cabin 同一趟（新疆）— 地點待確認"],
-      "confirmed": []
+      "candidates": [],
+      "confirmed": ["新疆"]
     }
   },
   {
@@ -565,8 +565,8 @@
     "image": "images/blue-house.jpg",
     "accent": "#0878C8",
     "echoes": {
-      "candidates": ["青島老城區一帶的建築 — 地點待確認"],
-      "confirmed": []
+      "candidates": [],
+      "confirmed": ["青島老城區"]
     }
   },
   {
@@ -582,14 +582,14 @@
     "accent": "#486828",
     "echoes": {
       "candidates": ["柑橘類果樹 — 品種待確認"],
-      "confirmed": []
+      "confirmed": ["想到電影《以你的名字呼喚我》的義大利夏天"]
     }
   },
   {
     "id": "lotus-pond",
     "title": "Lotus Pond",
     "date": "2025-11-04",
-    "source": "collected",
+    "source": "own",
     "medium": "photo",
     "category": "nature",
     "tags": ["lotus", "pond", "duckweed", "green"],
@@ -598,7 +598,7 @@
     "accent": "#65917E",
     "echoes": {
       "candidates": [],
-      "confirmed": []
+      "confirmed": ["荷花"]
     }
   },
   {
@@ -613,8 +613,8 @@
     "image": "images/osmanthus.jpg",
     "accent": "#C08A2A",
     "echoes": {
-      "candidates": ["桂花 — 品種待確認"],
-      "confirmed": []
+      "candidates": [],
+      "confirmed": ["桂花"]
     }
   }
 ]
