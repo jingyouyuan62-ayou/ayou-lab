@@ -629,15 +629,15 @@
     "image": "images/forest-walk.jpg",
     "accent": "#485828",
     "echoes": {
-      "candidates": ["與 Forest Railway 同一批（阿里山一帶）— 地點待確認"],
-      "confirmed": []
+      "candidates": [],
+      "confirmed": ["阿里山"]
     }
   },
   {
     "id": "magnolia",
     "title": "Magnolia",
     "date": "2026-09-18",
-    "source": "collected",
+    "source": "own",
     "medium": "photo",
     "category": "nature",
     "tags": ["magnolia", "white", "leaves", "blue"],
@@ -655,7 +655,7 @@
     "date": "2026-09-18",
     "source": "collected",
     "medium": "photo",
-    "category": "color",
+    "category": "dream",
     "tags": ["magnolia", "white", "teal", "spring"],
     "note": "White magnolia blossoms on bare branches against a muted teal sky.",
     "image": "images/yulan.jpg",
@@ -677,8 +677,8 @@
     "image": "images/pasture-forest.jpg",
     "accent": "#486838",
     "echoes": {
-      "candidates": ["與 Meadow Cabin／Cloud Line 同一趟（新疆）— 地點待確認"],
-      "confirmed": []
+      "candidates": [],
+      "confirmed": ["新疆"]
     }
   },
   {
@@ -687,14 +687,14 @@
     "date": "2026-09-18",
     "source": "collected",
     "medium": "photo",
-    "category": "dream",
+    "category": "memory",
     "tags": ["canal", "trees", "bridge", "green"],
     "note": "A canal running straight between two walls of trees, a small bridge closing the far end.",
     "image": "images/green-canal.jpg",
     "accent": "#285838",
     "echoes": {
-      "candidates": ["水杉林道 — 地點待確認"],
-      "confirmed": []
+      "candidates": [],
+      "confirmed": ["夏日的水杉", "我很喜歡杉樹"]
     }
   }
 ]
