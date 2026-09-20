@@ -616,5 +616,85 @@
       "candidates": [],
       "confirmed": ["桂花"]
     }
+  },
+  {
+    "id": "forest-walk",
+    "title": "Forest Walk",
+    "date": "2026-09-18",
+    "source": "collected",
+    "medium": "photo",
+    "category": "nature",
+    "tags": ["walkway", "forest", "steps", "green"],
+    "note": "A wooden walkway and its steps curving down through dense wet green.",
+    "image": "images/forest-walk.jpg",
+    "accent": "#485828",
+    "echoes": {
+      "candidates": ["與 Forest Railway 同一批（阿里山一帶）— 地點待確認"],
+      "confirmed": []
+    }
+  },
+  {
+    "id": "magnolia",
+    "title": "Magnolia",
+    "date": "2026-09-18",
+    "source": "collected",
+    "medium": "photo",
+    "category": "nature",
+    "tags": ["magnolia", "white", "leaves", "blue"],
+    "note": "A magnolia holding one open white flower, its dark leaves turning russet underneath.",
+    "image": "images/magnolia.jpg",
+    "accent": "#887808",
+    "echoes": {
+      "candidates": ["廣玉蘭（Magnolia grandiflora）— 品種待確認"],
+      "confirmed": []
+    }
+  },
+  {
+    "id": "yulan",
+    "title": "Yulan",
+    "date": "2026-09-18",
+    "source": "collected",
+    "medium": "photo",
+    "category": "color",
+    "tags": ["magnolia", "white", "teal", "spring"],
+    "note": "White magnolia blossoms on bare branches against a muted teal sky.",
+    "image": "images/yulan.jpg",
+    "accent": "#688888",
+    "echoes": {
+      "candidates": ["白玉蘭（Magnolia denudata）— 品種待確認"],
+      "confirmed": []
+    }
+  },
+  {
+    "id": "pasture-forest",
+    "title": "Pasture & Forest",
+    "date": "2025-11-09",
+    "source": "collected",
+    "medium": "photo",
+    "category": "nature",
+    "tags": ["pasture", "forest", "cattle", "green"],
+    "note": "Bands of dark conifer forest cutting across bright pasture, with cattle grazing on the grass.",
+    "image": "images/pasture-forest.jpg",
+    "accent": "#486838",
+    "echoes": {
+      "candidates": ["與 Meadow Cabin／Cloud Line 同一趟（新疆）— 地點待確認"],
+      "confirmed": []
+    }
+  },
+  {
+    "id": "green-canal",
+    "title": "Green Canal",
+    "date": "2026-09-18",
+    "source": "collected",
+    "medium": "photo",
+    "category": "dream",
+    "tags": ["canal", "trees", "bridge", "green"],
+    "note": "A canal running straight between two walls of trees, a small bridge closing the far end.",
+    "image": "images/green-canal.jpg",
+    "accent": "#285838",
+    "echoes": {
+      "candidates": ["水杉林道 — 地點待確認"],
+      "confirmed": []
+    }
   }
 ]
