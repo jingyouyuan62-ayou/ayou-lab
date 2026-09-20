@@ -35,7 +35,11 @@
     "category": "strange",
     "note": "A fruit the color of warmth.",
     "image": "images/tomato.jpg",
-    "accent": "#8F1912"
+    "accent": "#8F1912",
+    "echoes": {
+      "candidates": [],
+      "confirmed": ["想到馬蒂斯的《舞蹈》（Matisse, La Danse）"]
+    }
   },
   {
     "id": "henna-collage",
@@ -530,7 +534,7 @@
     "accent": "#485828",
     "echoes": {
       "candidates": [],
-      "confirmed": ["新疆"]
+      "confirmed": ["新疆", "想到缺省樂隊的〈Meadow〉"]
     }
   }
 ]
