@@ -701,7 +701,7 @@
     "id": "city-canopy",
     "title": "City Canopy",
     "date": "2025-11-04",
-    "source": "collected",
+    "source": "own",
     "medium": "photo",
     "category": "nature",
     "tags": ["canopy", "branches", "glass", "green"],
@@ -717,7 +717,7 @@
     "id": "record-collage",
     "title": "Record Collage",
     "date": "2026-05-04",
-    "source": "collected",
+    "source": "own",
     "medium": "collage",
     "category": "strange",
     "tags": ["record", "collage", "text", "teal"],
@@ -725,15 +725,15 @@
     "image": "images/record-collage.jpg",
     "accent": "#486858",
     "echoes": {
-      "candidates": ["唱片封面或歌詞排版式的拼貼 — 來源待確認"],
-      "confirmed": []
+      "candidates": [],
+      "confirmed": ["歌曲〈Bloody Mary girl〉：左上為其封面，日文為歌詞", "右下是自己照封面做的拼豆", "我很喜歡這首歌"]
     }
   },
   {
     "id": "slow-down",
     "title": "Slow Down",
     "date": "2026-07-21",
-    "source": "collected",
+    "source": "own",
     "medium": "photo",
     "category": "memory",
     "tags": ["sign", "street", "characters", "pipes"],
@@ -741,15 +741,15 @@
     "image": "images/slow-down.jpg",
     "accent": "#886848",
     "echoes": {
-      "candidates": ["台灣街頭的「減速慢行」標誌 — 地點待確認"],
-      "confirmed": []
+      "candidates": [],
+      "confirmed": ["台北赤峰街"]
     }
   },
   {
     "id": "dusk-street",
     "title": "Dusk Street",
     "date": "2026-07-21",
-    "source": "collected",
+    "source": "own",
     "medium": "photo",
     "category": "color",
     "tags": ["street", "signs", "dusk", "scooters"],
@@ -757,8 +757,8 @@
     "image": "images/dusk-street.jpg",
     "accent": "#98B8D8",
     "echoes": {
-      "candidates": ["台灣街景（路牌上寫著 WEI-SHUI STATION）— 地點待確認"],
-      "confirmed": []
+      "candidates": [],
+      "confirmed": ["台北迪化街附近"]
     }
   }
 ]
