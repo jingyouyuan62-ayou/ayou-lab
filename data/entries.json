@@ -452,5 +452,85 @@
       "candidates": [],
       "confirmed": []
     }
+  },
+  {
+    "id": "golden-branches",
+    "title": "Golden Branches",
+    "date": "2025-12-03",
+    "source": "collected",
+    "medium": "photo",
+    "category": "nature",
+    "tags": ["conifer", "gold", "green", "autumn"],
+    "note": "A conifer turning gold against darker green, its thin needles hanging in sprays.",
+    "image": "images/golden-branches.jpg",
+    "accent": "#8A6A38",
+    "echoes": {
+      "candidates": ["水杉／落羽杉轉色 — 樹種待確認"],
+      "confirmed": []
+    }
+  },
+  {
+    "id": "fishing-harbor",
+    "title": "Fishing Harbor",
+    "date": "2026-02-21",
+    "source": "collected",
+    "medium": "photo",
+    "category": "memory",
+    "tags": ["harbor", "boats", "beach", "sea"],
+    "note": "Small fishing boats moored along a low breakwater, the beach empty except for one figure walking away.",
+    "image": "images/fishing-harbor.jpg",
+    "accent": "#88B8D8",
+    "echoes": {
+      "candidates": ["與同日拍的 Gulls & Water 同一趟海邊 — 地點待確認"],
+      "confirmed": []
+    }
+  },
+  {
+    "id": "rocks-surf",
+    "title": "Rocks & Surf",
+    "date": "2026-03-30",
+    "source": "collected",
+    "medium": "photo",
+    "category": "nature",
+    "tags": ["rocks", "waves", "foam", "blue"],
+    "note": "Dark rocks taking the surf, foam spreading over them into the sand.",
+    "image": "images/rocks-surf.jpg",
+    "accent": "#587898",
+    "echoes": {
+      "candidates": [],
+      "confirmed": []
+    }
+  },
+  {
+    "id": "flower-field",
+    "title": "Flower Field",
+    "date": "2025-11-03",
+    "source": "collected",
+    "medium": "photo",
+    "category": "color",
+    "tags": ["flowers", "purple", "pink", "blue"],
+    "note": "Stock flowers in purple, pink, yellow and white standing up against a deep blue sky.",
+    "image": "images/flower-field.jpg",
+    "accent": "#4888B8",
+    "echoes": {
+      "candidates": ["紫羅蘭（stock, Matthiola）— 品種待確認"],
+      "confirmed": []
+    }
+  },
+  {
+    "id": "meadow-cabin",
+    "title": "Meadow Cabin",
+    "date": "2025-11-09",
+    "source": "collected",
+    "medium": "photo",
+    "category": "memory",
+    "tags": ["cabin", "meadow", "forest", "quiet"],
+    "note": "A log cabin on a green slope below a dark wall of conifers, a few cows grazing further down.",
+    "image": "images/meadow-cabin.jpg",
+    "accent": "#485828",
+    "echoes": {
+      "candidates": ["高海拔牧場／林場 — 地點待確認"],
+      "confirmed": []
+    }
   }
 ]
