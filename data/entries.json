@@ -760,5 +760,69 @@
       "candidates": [],
       "confirmed": ["台北迪化街附近"]
     }
+  },
+  {
+    "id": "hydrangeas",
+    "title": "Hydrangeas",
+    "date": "2026-09-18",
+    "source": "collected",
+    "medium": "photo",
+    "category": "nature",
+    "tags": ["hydrangea", "blue", "garden", "grass"],
+    "note": "A bank of blue hydrangeas flowering above long grass, with tree branches hanging over them.",
+    "image": "images/hydrangeas.jpg",
+    "accent": "#486868",
+    "echoes": {
+      "candidates": ["繡球花（紫陽花）— 地點待確認"],
+      "confirmed": []
+    }
+  },
+  {
+    "id": "fallen-tree",
+    "title": "Fallen Tree",
+    "date": "2026-08-01",
+    "source": "collected",
+    "medium": "photo",
+    "category": "nature",
+    "tags": ["tree", "water", "roots", "green"],
+    "note": "A dead tree lying half in green water, its bare branches and roots spread out among living shrubs.",
+    "image": "images/fallen-tree.jpg",
+    "accent": "#689878",
+    "echoes": {
+      "candidates": ["水池邊的枯木與氣根 — 地點待確認"],
+      "confirmed": []
+    }
+  },
+  {
+    "id": "pond-grass",
+    "title": "Pond Grass",
+    "date": "2026-09-18",
+    "source": "collected",
+    "medium": "photo",
+    "category": "nature",
+    "tags": ["pond", "grass", "dark", "orange"],
+    "note": "One tuft of tall grass standing out of a dark pond, with a few small orange flowers among the blades.",
+    "image": "images/pond-grass.jpg",
+    "accent": "#1E2A18",
+    "echoes": {
+      "candidates": ["與 Fallen Tree 可能是同一處水塘 — 地點待確認"],
+      "confirmed": []
+    }
+  },
+  {
+    "id": "lighthouse",
+    "title": "Lighthouse",
+    "date": "2026-09-18",
+    "source": "collected",
+    "medium": "photo",
+    "category": "memory",
+    "tags": ["lighthouse", "white", "grass", "blue"],
+    "note": "A white lighthouse behind a long white wall, on a green slope under a deep blue sky.",
+    "image": "images/lighthouse.jpg",
+    "accent": "#1888C8",
+    "echoes": {
+      "candidates": ["台灣的燈塔（鵝鑾鼻一帶？）— 地點待確認"],
+      "confirmed": []
+    }
   }
 ]
