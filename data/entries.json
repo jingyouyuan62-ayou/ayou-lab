@@ -824,5 +824,21 @@
       "candidates": [],
       "confirmed": ["台灣的燈塔（鵝鑾鼻一帶）", "再往前走可以看見太平洋，我在那裡看到人生中最藍的海"]
     }
+  },
+  {
+    "id": "embroidered-lilies",
+    "title": "Embroidered Lilies",
+    "date": "2026-08-30",
+    "source": "collected",
+    "medium": "embroidery",
+    "category": "memory",
+    "tags": ["embroidery", "lily", "red", "linen"],
+    "note": "Red lilies outlined in embroidery thread on cream linen, with a name stitched below them.",
+    "image": "images/embroidered-lilies.jpg",
+    "accent": "#981838",
+    "echoes": {
+      "candidates": ["繡上的字是 Aimili — 品牌或名字待確認"],
+      "confirmed": []
+    }
   }
 ]
