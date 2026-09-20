@@ -696,5 +696,69 @@
       "candidates": [],
       "confirmed": ["夏日的水杉", "我很喜歡杉樹"]
     }
+  },
+  {
+    "id": "city-canopy",
+    "title": "City Canopy",
+    "date": "2025-11-04",
+    "source": "collected",
+    "medium": "photo",
+    "category": "nature",
+    "tags": ["canopy", "branches", "glass", "green"],
+    "note": "Branches and leaves spreading across a pale glass facade, seen from underneath.",
+    "image": "images/city-canopy.jpg",
+    "accent": "#545F52",
+    "echoes": {
+      "candidates": ["行道樹與現代建築 — 地點待確認"],
+      "confirmed": []
+    }
+  },
+  {
+    "id": "record-collage",
+    "title": "Record Collage",
+    "date": "2026-05-04",
+    "source": "collected",
+    "medium": "collage",
+    "category": "strange",
+    "tags": ["record", "collage", "text", "teal"],
+    "note": "A record whose label holds a photo of someone swimming, ringed by Japanese text and loose green marks; below it a hand holds a beaded mosaic of the same photo.",
+    "image": "images/record-collage.jpg",
+    "accent": "#486858",
+    "echoes": {
+      "candidates": ["唱片封面或歌詞排版式的拼貼 — 來源待確認"],
+      "confirmed": []
+    }
+  },
+  {
+    "id": "slow-down",
+    "title": "Slow Down",
+    "date": "2026-07-21",
+    "source": "collected",
+    "medium": "photo",
+    "category": "memory",
+    "tags": ["sign", "street", "characters", "pipes"],
+    "note": "A slow-down sign and a road-bump triangle mounted on a pipe, above plants and parked scooters.",
+    "image": "images/slow-down.jpg",
+    "accent": "#886848",
+    "echoes": {
+      "candidates": ["台灣街頭的「減速慢行」標誌 — 地點待確認"],
+      "confirmed": []
+    }
+  },
+  {
+    "id": "dusk-street",
+    "title": "Dusk Street",
+    "date": "2026-07-21",
+    "source": "collected",
+    "medium": "photo",
+    "category": "color",
+    "tags": ["street", "signs", "dusk", "scooters"],
+    "note": "A street at dusk stacked with clinic and restaurant signs, a rider crossing in front and a place-name sign hanging over the road.",
+    "image": "images/dusk-street.jpg",
+    "accent": "#98B8D8",
+    "echoes": {
+      "candidates": ["台灣街景（路牌上寫著 WEI-SHUI STATION）— 地點待確認"],
+      "confirmed": []
+    }
   }
 ]
