@@ -536,5 +536,85 @@
       "candidates": [],
       "confirmed": ["新疆", "想到缺省樂隊的〈Meadow〉"]
     }
+  },
+  {
+    "id": "cloud-line",
+    "title": "Cloud Line",
+    "date": "2025-11-09",
+    "source": "collected",
+    "medium": "photo",
+    "category": "nature",
+    "tags": ["meadow", "clouds", "cattle", "hill"],
+    "note": "Clouds sitting along the ridge of a green hill, with a few cattle grazing on the slope below.",
+    "image": "images/cloud-line.jpg",
+    "accent": "#586838",
+    "echoes": {
+      "candidates": ["與 Meadow Cabin 同一趟（新疆）— 地點待確認"],
+      "confirmed": []
+    }
+  },
+  {
+    "id": "blue-house",
+    "title": "Blue House",
+    "date": "2026-09-18",
+    "source": "collected",
+    "medium": "photo",
+    "category": "memory",
+    "tags": ["house", "blue", "pine", "granite"],
+    "note": "A pale blue house with a stone base behind pine branches, a red Happy New Year sign on its balcony.",
+    "image": "images/blue-house.jpg",
+    "accent": "#0878C8",
+    "echoes": {
+      "candidates": ["青島老城區一帶的建築 — 地點待確認"],
+      "confirmed": []
+    }
+  },
+  {
+    "id": "cut-oranges",
+    "title": "Cut Oranges",
+    "date": "2025-11-03",
+    "source": "collected",
+    "medium": "photo",
+    "category": "strange",
+    "tags": ["oranges", "branch", "blue", "halved"],
+    "note": "Oranges hanging on a branch, several of them cut open, held against a flat blue sky.",
+    "image": "images/cut-oranges.jpg",
+    "accent": "#486828",
+    "echoes": {
+      "candidates": ["柑橘類果樹 — 品種待確認"],
+      "confirmed": []
+    }
+  },
+  {
+    "id": "lotus-pond",
+    "title": "Lotus Pond",
+    "date": "2025-11-04",
+    "source": "collected",
+    "medium": "photo",
+    "category": "nature",
+    "tags": ["lotus", "pond", "duckweed", "green"],
+    "note": "Lotus leaves standing on their stalks above a pond covered with duckweed.",
+    "image": "images/lotus-pond.jpg",
+    "accent": "#65917E",
+    "echoes": {
+      "candidates": [],
+      "confirmed": []
+    }
+  },
+  {
+    "id": "osmanthus",
+    "title": "Osmanthus",
+    "date": "2025-11-03",
+    "source": "collected",
+    "medium": "photo",
+    "category": "color",
+    "tags": ["osmanthus", "yellow", "autumn", "blossom"],
+    "note": "A cluster of small four-petalled osmanthus flowers lit from behind, deep green leaves around them.",
+    "image": "images/osmanthus.jpg",
+    "accent": "#C08A2A",
+    "echoes": {
+      "candidates": ["桂花 — 品種待確認"],
+      "confirmed": []
+    }
   }
 ]
