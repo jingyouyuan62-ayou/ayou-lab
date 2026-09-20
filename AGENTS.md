@@ -212,3 +212,87 @@ When there are multiple technically valid approaches:
 4. explain the trade-offs
 
 Do not over-engineer early stages.
+
+## 12. Archive Working Conventions
+
+These conventions were agreed with the user while growing the archive. Follow them
+unless the user overrides them explicitly.
+
+### Hosting and publishing
+
+- The site is published on GitHub Pages from `jingyouyuan62-ayou/ayou-lab`
+  (public repo, `main` branch, root folder).
+- Permanent URL: `https://jingyouyuan62-ayou.github.io/ayou-lab/`
+  (archive page: `.../archive.html`).
+- Publishing the site never depends on the user's computer being on. Only the local
+  preview server (`python3 -m http.server`) depends on this Mac.
+- Adding images = edit `data/entries.json`, add files under `images/`, commit, push.
+  GitHub Pages rebuilds in about a minute; the URL stays the same.
+- The repo is public for now, so every image is publicly downloadable. Keep it public
+  until the user says the project is mature enough to move to a private host; paid or
+  gated content is a later option, not a current one.
+
+### Batch workflow
+
+- Work through candidates from `~/Desktop/文艺小垃圾`.
+- Review images **one at a time** with a single image-view call; never call several
+  image tools in parallel.
+- Pick a small batch (roughly 3–5 images) per round, then stop and report.
+- Before choosing, run a perceptual-hash comparison against `images/`: archived files
+  are often edited copies of the originals (cropped, watermark removed), so identical
+  bytes are not required to spot a duplicate.
+- Copy files into `images/`; never move or delete the user's originals. Deleting files
+  from `文艺小垃圾` requires an explicit request.
+
+### Entry conventions
+
+- `source` is `own` or `collected`. Default to `collected`; only write `own` when the
+  user says they took the photo. Do not infer ownership from EXIF — saved photos keep
+  the original camera metadata.
+- Dates come from EXIF when present. If a file has no capture date (for example after a
+  Photoshop re-save), use the import/export date and say so in the report.
+- Titles: one to three plain English words taken from the image itself, matching the
+  existing archive voice. Never reuse the device filename (`IMG_1234`).
+- Filenames: descriptive kebab-case (`fallen-leaves.jpg`), never colliding with an
+  existing file.
+- `category` holds the Visual DNA and drives the filters: `nature`, `memory`,
+  `strange`, `color`, `dream`.
+- `accent` is a hex colour actually measured from the image. Sample the real pixels
+  rather than inventing a value.
+- `echoes.candidates` are AI suggestions only; `echoes.confirmed` is for what the user
+  has confirmed, including place names, identifications and their own associations
+  (for example an intentional crop or what an image reminds them of).
+- New entries carry `tags`; the original 19 entries do not. Do not retrofit old entries
+  unless the user asks.
+- The original 19 entries are frozen: do not touch them unless the user reports a
+  specific error.
+
+### Editing rules
+
+- Make minimal, targeted diffs. Never rewrite `data/entries.json` wholesale (a full
+  re-serialisation reflows every array and buries the real change).
+- Do not edit image files unless the user asks for it. When asked, verify the result
+  (dimensions plus a visual check) and report what changed.
+- After every batch: validate JSON, confirm every `image` path resolves, check for
+  duplicate ids, then commit, push, and verify the live URL really serves the new data.
+
+### Known file pitfalls
+
+- Files with an `AMPF`/`MPF` container (iPhone 16 Pro Max, Display P3) render as pure
+  black in macOS image decoding and cannot be archived as they are. Ask the user to
+  re-export them from Photos.
+- `sips --cropOffset` does not work on this machine; for precise cropping convert to PNG,
+  crop with a small Python script, then convert back to JPEG.
+- `osascript`/JXA cannot write images here (CoreGraphics destination creation fails),
+  so do not rely on it for image work.
+- Browser automation for `file://` URLs is blocked by policy. Do not work around it;
+  ask the user instead.
+
+### Working with the user's computer
+
+- Stay within project scope: `~/Desktop/Ayou-Lab`, the `文艺小垃圾` folder, git and the
+  browser steps needed for publishing.
+- Never delete, rewrite history, force-push, change account permissions or publish
+  anything new without explaining the mechanism and asking first.
+- While driving the browser, element indices shift if the user clicks or types in the
+  same window. Re-read the accessibility tree immediately before each click.
