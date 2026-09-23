@@ -840,5 +840,37 @@
       "candidates": ["繡上的字是 Aimili — 品牌或名字待確認"],
       "confirmed": []
     }
+  },
+  {
+    "id": "sunlit-canopy",
+    "title": "Sunlit Canopy",
+    "date": "2026-09-18",
+    "source": "collected",
+    "medium": "photo",
+    "category": "nature",
+    "tags": ["canopy", "leaves", "backlight", "sky"],
+    "note": "Looking up into a plane tree, its leaves lit from behind until the green turns yellow against an open blue sky.",
+    "image": "images/sunlit-canopy.jpg",
+    "accent": "#CABE2A",
+    "echoes": {
+      "candidates": ["法國梧桐（懸鈴木）行道樹，葉形與城市行道樹一致，拍攝地點未確認"],
+      "confirmed": []
+    }
+  },
+  {
+    "id": "long-afternoon",
+    "title": "Long Afternoon",
+    "date": "2026-07-21",
+    "source": "collected",
+    "medium": "collage",
+    "category": "dream",
+    "tags": ["collage", "poem", "green", "heron"],
+    "note": "A fountain plaza at the edge of a flat green field, teal raindrops falling across it and a night heron standing beside a few lines of a poem.",
+    "image": "images/long-afternoon.jpg",
+    "accent": "#039674",
+    "echoes": {
+      "candidates": ["夜鷺（黑冠夜鷺）— 依黑色頭背與灰白身體判斷，待確認", "白格紋屋頂與水池廣場的地點未確認"],
+      "confirmed": []
+    }
   }
 ]
