@@ -869,8 +869,8 @@
     "image": "images/long-afternoon.jpg",
     "accent": "#039674",
     "echoes": {
-      "candidates": ["夜鷺（黑冠夜鷺）— 依黑色頭背與灰白身體判斷，待確認", "白格紋屋頂與水池廣場的地點未確認"],
-      "confirmed": []
+      "candidates": ["夜鷺（黑冠夜鷺）— 依黑色頭背與灰白身體判斷，待確認"],
+      "confirmed": ["台北松山文創園區"]
     }
   }
 ]
