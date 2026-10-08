@@ -872,5 +872,53 @@
       "candidates": ["夜鷺（黑冠夜鷺）— 依黑色頭背與灰白身體判斷，待確認", "背景的白色格紋斜屋頂建築，疑似台北文創大樓（誠品生活松菸）一帶，未確認"],
       "confirmed": ["台北松山文創園區", "園區裡的噴水池（巴洛克花園一帶）", "去這裡的路上遇到一位很友善、很健談的計程車司機"]
     }
+  },
+  {
+    "id": "lake-road",
+    "title": "Lake Road",
+    "date": "2025-12-22",
+    "source": "collected",
+    "medium": "photo",
+    "category": "nature",
+    "tags": ["road", "lake", "hills", "blue", "guardrail"],
+    "note": "An empty road curving down between dry ochre hills toward a pale turquoise lake, the yellow centre line running the whole way out of frame.",
+    "image": "images/lake-road.jpg",
+    "accent": "#6B99BB",
+    "echoes": {
+      "candidates": ["高原湖泊旁的環湖公路（水色與礫石山丘類似賽里木湖一帶），地點未確認"],
+      "confirmed": []
+    }
+  },
+  {
+    "id": "purple-roses",
+    "title": "Purple Roses",
+    "date": "2026-09-04",
+    "source": "collected",
+    "medium": "textile",
+    "category": "memory",
+    "tags": ["roses", "pattern", "purple", "linen", "vintage"],
+    "note": "Purple roses printed on pale sage linen, with a faint damask swirl showing through the weave underneath.",
+    "image": "images/purple-roses.jpg",
+    "accent": "#6A4B72",
+    "echoes": {
+      "candidates": ["老式印花布或壁紙上的舊玫瑰圖樣，可能是抱枕、桌布或包布，來源未確認"],
+      "confirmed": []
+    }
+  },
+  {
+    "id": "lilac-hydrangeas",
+    "title": "Lilac Hydrangeas",
+    "date": "2026-07-29",
+    "source": "collected",
+    "medium": "photo",
+    "category": "nature",
+    "tags": ["hydrangea", "lilac", "shade", "moss", "leaves"],
+    "note": "A spray of lilac hydrangeas opening in deep shade, the oldest flowers fading to white while a mossy branch crosses the dark green behind them.",
+    "image": "images/lilac-hydrangeas.jpg",
+    "accent": "#756087",
+    "echoes": {
+      "candidates": ["繡球花在樹蔭下的逆光姿態，地點未確認"],
+      "confirmed": []
+    }
   }
 ]
