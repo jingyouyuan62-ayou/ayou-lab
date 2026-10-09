@@ -238,6 +238,8 @@ unless the user overrides them explicitly.
 - Review images **one at a time** with a single image-view call; never call several
   image tools in parallel.
 - Pick a small batch (roughly 3–5 images) per round, then stop and report.
+- In every batch report, state which Visual DNA category (and title) each new image was
+  filed under, so the user does not have to search the archive page for it.
 - Before choosing, run a perceptual-hash comparison against `images/`: archived files
   are often edited copies of the originals (cropped, watermark removed), so identical
   bytes are not required to spot a duplicate.

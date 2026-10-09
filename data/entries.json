@@ -876,8 +876,8 @@
   {
     "id": "lake-road",
     "title": "Lake Road",
-    "date": "2025-12-22",
-    "source": "collected",
+    "date": "2025-07-08",
+    "source": "own",
     "medium": "photo",
     "category": "nature",
     "tags": ["road", "lake", "hills", "blue", "guardrail"],
@@ -885,8 +885,8 @@
     "image": "images/lake-road.jpg",
     "accent": "#6B99BB",
     "echoes": {
-      "candidates": ["高原湖泊旁的環湖公路（水色與礫石山丘類似賽里木湖一帶），地點未確認"],
-      "confirmed": []
+      "candidates": [],
+      "confirmed": ["新疆喀拉峻"]
     }
   },
   {
@@ -895,7 +895,7 @@
     "date": "2026-09-04",
     "source": "collected",
     "medium": "textile",
-    "category": "memory",
+    "category": "dream",
     "tags": ["roses", "pattern", "purple", "linen", "vintage"],
     "note": "Purple roses printed on pale sage linen, with a faint damask swirl showing through the weave underneath.",
     "image": "images/purple-roses.jpg",
@@ -917,8 +917,8 @@
     "image": "images/lilac-hydrangeas.jpg",
     "accent": "#756087",
     "echoes": {
-      "candidates": ["繡球花在樹蔭下的逆光姿態，地點未確認"],
-      "confirmed": []
+      "candidates": [],
+      "confirmed": ["阿里山", "和 pond grass 是同一位拍攝者", "很空靈、很夢幻的一張——看到這張圖會讓我願意相信世界上有精靈"]
     }
   }
 ]
