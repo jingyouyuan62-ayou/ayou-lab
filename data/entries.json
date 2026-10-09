@@ -952,5 +952,53 @@
       "candidates": ["畫面下方署名 KAHA MIND（作者或品牌，未確認）"],
       "confirmed": ["已裁掉右下角小紅書浮水印"]
     }
+  },
+  {
+    "id": "mountain-pavilion",
+    "title": "Mountain Pavilion",
+    "date": "2025-12-22",
+    "source": "collected",
+    "medium": "photo",
+    "category": "nature",
+    "tags": ["temple", "mountain", "mist", "pine", "blue"],
+    "note": "A tiered pavilion with a blue plaque and saffron drapes standing on a wooded ridge, its far peaks and the flat city below dissolved into blue mist.",
+    "image": "images/mountain-pavilion.jpg",
+    "accent": "#97BBD4",
+    "echoes": {
+      "candidates": ["山中樓閣，殿宇形制接近山上祠廟（如泰山碧霞祠一類，地點未確認）"],
+      "confirmed": []
+    }
+  },
+  {
+    "id": "green-tunnel",
+    "title": "Green Tunnel",
+    "date": "2026-08-01",
+    "source": "collected",
+    "medium": "photo",
+    "category": "nature",
+    "tags": ["mangrove", "water", "green", "branches", "tunnel"],
+    "note": "Mangrove branches reaching out low over still green water, their pale limbs and their reflections closing the passage into a tunnel.",
+    "image": "images/green-tunnel.jpg",
+    "accent": "#4A806D",
+    "echoes": {
+      "candidates": ["紅樹林綠色隧道，疑似台南四草（與 fallen tree 同地，未確認）"],
+      "confirmed": []
+    }
+  },
+  {
+    "id": "backlit-thicket",
+    "title": "Backlit Thicket",
+    "date": "2026-08-07",
+    "source": "collected",
+    "medium": "photo",
+    "category": "nature",
+    "tags": ["leaves", "backlight", "green", "canopy", "tangle"],
+    "note": "A dense tangle of branches lit from behind, one patch of leaves burning yellow-green against a sliver of blue sky.",
+    "image": "images/backlit-thicket.jpg",
+    "accent": "#9BB151",
+    "echoes": {
+      "candidates": ["與 sunlit canopy 同為逆光樹冠的拍法，是否同系列未確認"],
+      "confirmed": []
+    }
   }
 ]
