@@ -920,5 +920,53 @@
       "candidates": [],
       "confirmed": ["阿里山", "和 pond grass 是同一位拍攝者", "很空靈、很夢幻的一張——看到這張圖會讓我願意相信世界上有精靈"]
     }
+  },
+  {
+    "id": "tomato-study",
+    "title": "Tomato Study",
+    "date": "2026-08-30",
+    "source": "collected",
+    "medium": "illustration",
+    "category": "color",
+    "tags": ["tomato", "line", "red", "blue", "text"],
+    "note": "Five tomatoes drawn as bare crimson circles, each stem unravelling into a tangle of blue line.",
+    "image": "images/tomato-study.jpg",
+    "accent": "#8C2D40",
+    "echoes": {
+      "candidates": ["同一帳號的極簡線條插畫系列，來源未確認"],
+      "confirmed": ["已裁掉右下角小紅書浮水印"]
+    }
+  },
+  {
+    "id": "your-own-path",
+    "title": "Your Own Path",
+    "date": "2026-08-30",
+    "source": "collected",
+    "medium": "illustration",
+    "category": "dream",
+    "tags": ["fingerprint", "waves", "text", "blue", "boat"],
+    "note": "A fingerprint whose ridges turn into open water, one small orange boat riding the middle, and a reminder written around the arch.",
+    "image": "images/your-own-path.jpg",
+    "accent": "#336AD3",
+    "echoes": {
+      "candidates": ["畫面下方署名 KAHA MIND（作者或品牌，未確認）"],
+      "confirmed": ["已裁掉右下角小紅書浮水印"]
+    }
+  },
+  {
+    "id": "pink-apple",
+    "title": "Pink Apple",
+    "date": "2026-07-19",
+    "source": "collected",
+    "medium": "illustration",
+    "category": "strange",
+    "tags": ["apple", "character", "pink", "stars", "crayon"],
+    "note": "A pink apple with two eyes and four small legs, standing between two green stars.",
+    "image": "images/pink-apple.jpg",
+    "accent": "#EF8D7E",
+    "echoes": {
+      "candidates": ["手繪蠟筆質感的角色插畫，來源未確認"],
+      "confirmed": ["已裁掉右下角小紅書浮水印"]
+    }
   }
 ]
