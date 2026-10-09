@@ -240,6 +240,10 @@ unless the user overrides them explicitly.
 - Pick a small batch (roughly 3–5 images) per round, then stop and report.
 - In every batch report, state which Visual DNA category (and title) each new image was
   filed under, so the user does not have to search the archive page for it.
+- Keep an eye on how long the conversation has grown. When it gets close to the context
+  limit, stop and tell the user to start a new conversation, and hand over a short
+  summary: the batch just finished, which files in `文艺小垃圾` are still unreviewed,
+  and any decision still waiting on the user.
 - Before choosing, run a perceptual-hash comparison against `images/`: archived files
   are often edited copies of the originals (cropped, watermark removed), so identical
   bytes are not required to spot a duplicate.
