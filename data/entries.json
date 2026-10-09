@@ -952,21 +952,5 @@
       "candidates": ["畫面下方署名 KAHA MIND（作者或品牌，未確認）"],
       "confirmed": ["已裁掉右下角小紅書浮水印"]
     }
-  },
-  {
-    "id": "pink-apple",
-    "title": "Pink Apple",
-    "date": "2026-07-19",
-    "source": "collected",
-    "medium": "illustration",
-    "category": "strange",
-    "tags": ["apple", "character", "pink", "stars", "crayon"],
-    "note": "A pink apple with two eyes and four small legs, standing between two green stars.",
-    "image": "images/pink-apple.jpg",
-    "accent": "#EF8D7E",
-    "echoes": {
-      "candidates": ["手繪蠟筆質感的角色插畫，來源未確認"],
-      "confirmed": ["已裁掉右下角小紅書浮水印"]
-    }
   }
 ]

@@ -284,6 +284,10 @@ unless the user overrides them explicitly.
 
 ### Known file pitfalls
 
+- Files that decode to pure black (AMPF/MPF containers, some HEIC and DJI exports, and a
+  few screenshots) are skipped, not chased. Do not re-raise them or ask for re-exports.
+- The user's own avatar / profile picture is not archive material. The pink apple
+  character (`IMG_3443.JPG`) is the user's avatar — never add it to the archive.
 - Files with an `AMPF`/`MPF` container (iPhone 16 Pro Max, Display P3) render as pure
   black in macOS image decoding and cannot be archived as they are. Ask the user to
   re-export them from Photos.
