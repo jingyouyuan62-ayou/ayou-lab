@@ -1000,5 +1000,69 @@
       "candidates": [],
       "confirmed": ["前往台灣最南點（鵝鑾鼻）的路上", "途中要經過一條很長的小道"]
     }
+  },
+  {
+    "id": "valley-overlook",
+    "title": "Valley Overlook",
+    "date": "2025-12-22",
+    "source": "collected",
+    "medium": "photo",
+    "category": "nature",
+    "tags": ["valley", "boardwalk", "mountains", "clouds", "grassland"],
+    "note": "A wide valley of green and ochre hills under a heavy cloud sky, a wooden boardwalk stepping down the slope toward one small figure at the rail.",
+    "image": "images/valley-overlook.jpg",
+    "accent": "#3D83B2",
+    "echoes": {
+      "candidates": ["疑似新疆草原一帶（與 lake road 同類，地點未確認）"],
+      "confirmed": []
+    }
+  },
+  {
+    "id": "listening",
+    "title": "Listening!",
+    "date": "2026-07-31",
+    "source": "collected",
+    "medium": "graphic",
+    "category": "memory",
+    "tags": ["y2k", "glow", "music", "icon", "black"],
+    "note": "A glowing green figure ringed by floating neon notes, the word LISTENING! glowing along the bottom — a piece of early-internet desktop furniture.",
+    "image": "images/listening.jpg",
+    "accent": "#9DDABB",
+    "echoes": {
+      "candidates": ["即時通訊時代的狀態圖示一類的 Y2K 網路素材，來源未確認"],
+      "confirmed": []
+    }
+  },
+  {
+    "id": "purple-swirls",
+    "title": "Purple Swirls",
+    "date": "2026-09-04",
+    "source": "collected",
+    "medium": "photo",
+    "category": "color",
+    "tags": ["purple", "pattern", "stars", "swirls", "texture"],
+    "note": "A purple surface covered in pale swirls, stars and small flowers, seen close enough that the halftone mesh shows through.",
+    "image": "images/purple-swirls.jpg",
+    "accent": "#9785A0",
+    "echoes": {
+      "candidates": ["像印花布、貼膜或筆記本封面一類的表面，具體物件未確認"],
+      "confirmed": []
+    }
+  },
+  {
+    "id": "road-mirror",
+    "title": "Road Mirror",
+    "date": "2026-04-08",
+    "source": "collected",
+    "medium": "photo",
+    "category": "strange",
+    "tags": ["mirror", "road", "sky", "reflection", "blue"],
+    "note": "A convex road mirror on an orange pole, holding a whole small world of road, water and sky inside its curve.",
+    "image": "images/road-mirror.jpg",
+    "accent": "#007EBA",
+    "echoes": {
+      "candidates": ["道路凸面鏡，地點未確認"],
+      "confirmed": []
+    }
   }
 ]
