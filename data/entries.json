@@ -922,38 +922,6 @@
     }
   },
   {
-    "id": "tomato-study",
-    "title": "Tomato Study",
-    "date": "2026-08-30",
-    "source": "collected",
-    "medium": "illustration",
-    "category": "color",
-    "tags": ["tomato", "line", "red", "blue", "text"],
-    "note": "Five tomatoes drawn as bare crimson circles, each stem unravelling into a tangle of blue line.",
-    "image": "images/tomato-study.jpg",
-    "accent": "#8C2D40",
-    "echoes": {
-      "candidates": ["同一帳號的極簡線條插畫系列，來源未確認"],
-      "confirmed": ["已裁掉右下角小紅書浮水印"]
-    }
-  },
-  {
-    "id": "your-own-path",
-    "title": "Your Own Path",
-    "date": "2026-08-30",
-    "source": "collected",
-    "medium": "illustration",
-    "category": "dream",
-    "tags": ["fingerprint", "waves", "text", "blue", "boat"],
-    "note": "A fingerprint whose ridges turn into open water, one small orange boat riding the middle, and a reminder written around the arch.",
-    "image": "images/your-own-path.jpg",
-    "accent": "#336AD3",
-    "echoes": {
-      "candidates": ["畫面下方署名 KAHA MIND（作者或品牌，未確認）"],
-      "confirmed": ["已裁掉右下角小紅書浮水印"]
-    }
-  },
-  {
     "id": "mountain-pavilion",
     "title": "Mountain Pavilion",
     "date": "2025-09-07",
@@ -1005,7 +973,7 @@
     "id": "valley-overlook",
     "title": "Valley Overlook",
     "date": "2025-12-22",
-    "source": "collected",
+    "source": "own",
     "medium": "photo",
     "category": "nature",
     "tags": ["valley", "boardwalk", "mountains", "clouds", "grassland"],
@@ -1013,24 +981,8 @@
     "image": "images/valley-overlook.jpg",
     "accent": "#3D83B2",
     "echoes": {
-      "candidates": ["疑似新疆草原一帶（與 lake road 同類，地點未確認）"],
-      "confirmed": []
-    }
-  },
-  {
-    "id": "listening",
-    "title": "Listening!",
-    "date": "2026-07-31",
-    "source": "collected",
-    "medium": "graphic",
-    "category": "memory",
-    "tags": ["y2k", "glow", "music", "icon", "black"],
-    "note": "A glowing green figure ringed by floating neon notes, the word LISTENING! glowing along the bottom — a piece of early-internet desktop furniture.",
-    "image": "images/listening.jpg",
-    "accent": "#9DDABB",
-    "echoes": {
-      "candidates": ["即時通訊時代的狀態圖示一類的 Y2K 網路素材，來源未確認"],
-      "confirmed": []
+      "candidates": [],
+      "confirmed": ["新疆"]
     }
   },
   {
