@@ -957,7 +957,7 @@
     "id": "mountain-pavilion",
     "title": "Mountain Pavilion",
     "date": "2025-12-22",
-    "source": "collected",
+    "source": "own",
     "medium": "photo",
     "category": "nature",
     "tags": ["temple", "mountain", "mist", "pine", "blue"],
@@ -965,15 +965,15 @@
     "image": "images/mountain-pavilion.jpg",
     "accent": "#97BBD4",
     "echoes": {
-      "candidates": ["山中樓閣，殿宇形制接近山上祠廟（如泰山碧霞祠一類，地點未確認）"],
-      "confirmed": []
+      "candidates": ["殿宇具體名稱未確認，形制接近泰山碧霞祠／南天門一帶"],
+      "confirmed": ["泰山", "高考後偷跑出去玩；爸媽發現我不在的時候，我已經在泰山腳下"]
     }
   },
   {
     "id": "green-tunnel",
     "title": "Green Tunnel",
     "date": "2026-08-01",
-    "source": "collected",
+    "source": "own",
     "medium": "photo",
     "category": "nature",
     "tags": ["mangrove", "water", "green", "branches", "tunnel"],
@@ -981,15 +981,15 @@
     "image": "images/green-tunnel.jpg",
     "accent": "#4A806D",
     "echoes": {
-      "candidates": ["紅樹林綠色隧道，疑似台南四草（與 fallen tree 同地，未確認）"],
-      "confirmed": []
+      "candidates": [],
+      "confirmed": ["台南四草綠色隧道", "紅樹林景觀"]
     }
   },
   {
     "id": "backlit-thicket",
     "title": "Backlit Thicket",
     "date": "2026-08-07",
-    "source": "collected",
+    "source": "own",
     "medium": "photo",
     "category": "nature",
     "tags": ["leaves", "backlight", "green", "canopy", "tangle"],
@@ -997,8 +997,8 @@
     "image": "images/backlit-thicket.jpg",
     "accent": "#9BB151",
     "echoes": {
-      "candidates": ["與 sunlit canopy 同為逆光樹冠的拍法，是否同系列未確認"],
-      "confirmed": []
+      "candidates": [],
+      "confirmed": ["前往台灣最南點（鵝鑾鼻）的路上", "途中要經過一條很長的小道"]
     }
   }
 ]
