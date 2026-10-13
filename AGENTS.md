@@ -240,6 +240,11 @@ unless the user overrides them explicitly.
 - Pick a small batch (roughly 3–5 images) per round, then stop and report.
 - In every batch report, state which Visual DNA category (and title) each new image was
   filed under, so the user does not have to search the archive page for it.
+- Write batch reports in Chinese, and give every new image the full analysis rather than a
+  summary line. For each image cover: composition, color, typography, texture, material,
+  spatial depth, hierarchy, mood, visual style, interaction, Visual DNA, accent (with the
+  measured hex value), Echoes and uncertainty. Observation first, interpretation second,
+  and say plainly what the image does not show.
 - Keep an eye on how long the conversation has grown. When it gets close to the context
   limit, stop and tell the user to start a new conversation, and hand over a short
   summary: the batch just finished, which files in `文艺小垃圾` are still unreviewed,
