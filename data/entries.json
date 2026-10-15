@@ -1016,5 +1016,37 @@
       "candidates": ["道路凸面鏡，地點未確認"],
       "confirmed": []
     }
+  },
+  {
+    "id": "matcha-dessert",
+    "title": "Matcha Dessert",
+    "date": "2026-04-04",
+    "source": "collected",
+    "medium": "photo",
+    "category": "color",
+    "tags": ["matcha", "dessert", "green", "cream", "black"],
+    "note": "A cylinder of matcha under a swirl of cream, dark syrup running down its side, on a white plate on a black table.",
+    "image": "images/matcha-dessert.jpg",
+    "accent": "#859A52",
+    "echoes": {
+      "candidates": ["抹茶甜點；餐巾上有「茶」字標誌，店家未確認"],
+      "confirmed": []
+    }
+  },
+  {
+    "id": "teal-liberty",
+    "title": "Teal Liberty",
+    "date": "2026-09-18",
+    "source": "collected",
+    "medium": "photo",
+    "category": "color",
+    "tags": ["statue", "teal", "sky", "wallpaper", "green"],
+    "note": "The Statue of Liberty seen from below against a flat teal sky, her torch arm cut off by the top of the frame; a photo wallpaper credited SOULAB.",
+    "image": "images/teal-liberty.png",
+    "accent": "#71AA9D",
+    "echoes": {
+      "candidates": ["自由女神像（Statue of Liberty）；照片來自 SOULAB WALLPAPER 帳號"],
+      "confirmed": []
+    }
   }
 ]
