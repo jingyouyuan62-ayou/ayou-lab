@@ -1021,7 +1021,7 @@
     "id": "matcha-dessert",
     "title": "Matcha Dessert",
     "date": "2026-04-04",
-    "source": "collected",
+    "source": "own",
     "medium": "photo",
     "category": "color",
     "tags": ["matcha", "dessert", "green", "cream", "black"],
@@ -1045,8 +1045,8 @@
     "image": "images/teal-liberty.png",
     "accent": "#71AA9D",
     "echoes": {
-      "candidates": ["自由女神像（Statue of Liberty）；照片來自 SOULAB WALLPAPER 帳號"],
-      "confirmed": []
+      "candidates": ["照片來自 SOULAB WALLPAPER 帳號（自由女神像，Statue of Liberty）"],
+      "confirmed": ["把它當作手機壁紙，用來顯化"]
     }
   }
 ]
