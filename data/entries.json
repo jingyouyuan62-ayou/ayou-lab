@@ -1053,7 +1053,7 @@
     "id": "fujin-street",
     "title": "Fujin Street",
     "date": "2026-07-26",
-    "source": "collected",
+    "source": "own",
     "medium": "photo",
     "category": "memory",
     "tags": ["street", "taipei", "sign", "blue", "corner"],
@@ -1061,8 +1061,8 @@
     "image": "images/fujin-street.jpg",
     "accent": "#3B6984",
     "echoes": {
-      "candidates": ["台北富錦街（路牌可見：富錦街 107／187 巷）"],
-      "confirmed": []
+      "candidates": [],
+      "confirmed": ["富錦街（路牌可見 107／187 巷）", "《藍色大門》(Blue Gate Crossing) 的取景地就在這條街", "我很喜歡這部電影"]
     }
   }
 ]
