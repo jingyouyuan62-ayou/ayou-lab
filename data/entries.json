@@ -1048,5 +1048,21 @@
       "candidates": ["照片來自 SOULAB WALLPAPER 帳號（自由女神像，Statue of Liberty）"],
       "confirmed": ["把它當作手機壁紙，用來顯化"]
     }
+  },
+  {
+    "id": "fujin-street",
+    "title": "Fujin Street",
+    "date": "2026-07-26",
+    "source": "collected",
+    "medium": "photo",
+    "category": "memory",
+    "tags": ["street", "taipei", "sign", "blue", "corner"],
+    "note": "A Taipei street corner in blue — a stone-tiled building under dappled tree shadow, a 富錦街 street sign on the pole, a green pedestrian light and crosswalk stripes below.",
+    "image": "images/fujin-street.jpg",
+    "accent": "#3B6984",
+    "echoes": {
+      "candidates": ["台北富錦街（路牌可見：富錦街 107／187 巷）"],
+      "confirmed": []
+    }
   }
 ]
