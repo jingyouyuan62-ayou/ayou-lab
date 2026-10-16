@@ -1048,21 +1048,5 @@
       "candidates": ["照片來自 SOULAB WALLPAPER 帳號（自由女神像，Statue of Liberty）"],
       "confirmed": ["把它當作手機壁紙，用來顯化"]
     }
-  },
-  {
-    "id": "white-trunks",
-    "title": "White Trunks",
-    "date": "2026-04-17",
-    "source": "collected",
-    "medium": "photo",
-    "category": "nature",
-    "tags": ["bench", "park", "green", "trunks", "path"],
-    "note": "A dark metal bench on a stone plaza under a canopy of green maples, the tree trunks whitewashed at their base, tall grass and a dirt path in front.",
-    "image": "images/white-trunks.jpg",
-    "accent": "#4A7F43",
-    "echoes": {
-      "candidates": ["公園裡被塗白的樹幹——常見的防蟲處理，地點未確認"],
-      "confirmed": ["從 Dazz Pro 修圖截圖中裁出，只保留照片主體"]
-    }
   }
 ]
