@@ -245,13 +245,19 @@ unless the user overrides them explicitly.
   spatial depth, hierarchy, mood, visual style, interaction, Visual DNA, accent (with the
   measured hex value), Echoes and uncertainty. Observation first, interpretation second,
   and say plainly what the image does not show.
+- Attach the images themselves to every batch report: embed each new image inline from its
+  local absolute path, so the user does not have to open the sidebar to look at them.
+- Screenshots are archived as photos only: crop away the app UI, black bars and any text
+  strip so that just the photo subject remains, and never annotate an entry with the fact
+  that it came from a screenshot or an app.
 - Keep an eye on how long the conversation has grown. When it gets close to the context
   limit, stop and tell the user to start a new conversation, and hand over a short
   summary: the batch just finished, which files in `文艺小垃圾` are still unreviewed,
   and any decision still waiting on the user.
 - Before choosing, run a perceptual-hash comparison against `images/`: archived files
   are often edited copies of the originals (cropped, watermark removed), so identical
-  bytes are not required to spot a duplicate.
+  bytes are not required to spot a duplicate. Crop the content bounds first (black bars
+  and letterboxing hide duplicates), and compare the cropped image, not the raw file.
 - Copy files into `images/`; never move or delete the user's originals. Deleting files
   from `文艺小垃圾` requires an explicit request.
 
