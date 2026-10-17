@@ -224,6 +224,9 @@ unless the user overrides them explicitly.
   (public repo, `main` branch, root folder).
 - Permanent URL: `https://jingyouyuan62-ayou.github.io/ayou-lab/`
   (archive page: `.../archive.html`).
+- At the start of every new conversation, open the live Archive page
+  (`https://jingyouyuan62-ayou.github.io/ayou-lab/archive.html`) in the Codex browser
+  side panel before continuing archive work. This is a standing user preference.
 - Publishing the site never depends on the user's computer being on. Only the local
   preview server (`python3 -m http.server`) depends on this Mac.
 - Adding images = edit `data/entries.json`, add files under `images/`, commit, push.
