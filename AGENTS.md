@@ -235,9 +235,10 @@ unless the user overrides them explicitly.
 ### Batch workflow
 
 - Work through candidates from `~/Desktop/文艺小垃圾`.
+- Do not re-analyse images that are already in the archive; analyse only unreviewed candidates.
 - Review images **one at a time** with a single image-view call; never call several
   image tools in parallel.
-- Pick a small batch (roughly 3–5 images) per round, then stop and report.
+- Pick exactly 3 images per round, then stop and report.
 - In every batch report, state which Visual DNA category (and title) each new image was
   filed under, so the user does not have to search the archive page for it.
 - Write batch reports in Chinese, and give every new image the full analysis rather than a
@@ -245,6 +246,9 @@ unless the user overrides them explicitly.
   spatial depth, hierarchy, mood, visual style, interaction, Visual DNA, accent (with the
   measured hex value), Echoes and uncertainty. Observation first, interpretation second,
   and say plainly what the image does not show.
+- The authoritative field list, depth requirements, output format and quality checklist
+  live in `docs/IMAGE_ANALYSIS_SPEC.md` (it also requires `content` and `title`). Read it
+  together with this file before analysing or importing any image.
 - Attach the images themselves to every batch report: embed each new image inline from its
   local absolute path, so the user does not have to open the sidebar to look at them.
 - Screenshots are archived as photos only: crop away the app UI, black bars and any text
@@ -268,7 +272,7 @@ unless the user overrides them explicitly.
   the original camera metadata.
 - Dates come from EXIF when present. If a file has no capture date (for example after a
   Photoshop re-save), use the import/export date and say so in the report.
-- Titles: one to three plain English words taken from the image itself, matching the
+- Titles: one to five plain English words taken from the image itself, matching the
   existing archive voice. Never reuse the device filename (`IMG_1234`).
 - Filenames: descriptive kebab-case (`fallen-leaves.jpg`), never colliding with an
   existing file.
@@ -279,6 +283,10 @@ unless the user overrides them explicitly.
 - `echoes.candidates` are AI suggestions only; `echoes.confirmed` is for what the user
   has confirmed, including place names, identifications and their own associations
   (for example an intentional crop or what an image reminds them of).
+- New entries carry a full `analysis` object: `content`, `composition`, `color`,
+  `typography`, `texture`, `material`, `spatialDepth`, `hierarchy`, `mood`,
+  `visualStyle`, `interaction`, `dna`, `uncertainty`. Title, accent and echoes stay in
+  the existing top-level fields. Existing entries are not backfilled.
 - New entries carry `tags`; the original 19 entries do not. Do not retrofit old entries
   unless the user asks.
 - The original 19 entries are frozen: do not touch them unless the user reports a
@@ -292,6 +300,8 @@ unless the user overrides them explicitly.
   (dimensions plus a visual check) and report what changed.
 - After every batch: validate JSON, confirm every `image` path resolves, check for
   duplicate ids, then commit, push, and verify the live URL really serves the new data.
+- `python3 scripts/check_archive.py` performs that structural pass; the analysis-depth
+  checklist in `docs/IMAGE_ANALYSIS_SPEC.md` still has to be checked by hand.
 
 ### Known file pitfalls
 
