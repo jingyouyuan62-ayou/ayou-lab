@@ -1098,22 +1098,6 @@
     }
   },
   {
-    "id": "tape-wall",
-    "title": "Tape Wall",
-    "date": "2026-07-29",
-    "source": "collected",
-    "medium": "photo",
-    "category": "memory",
-    "tags": ["cassette", "selfie", "stickers", "y2k", "wall"],
-    "note": "A wall of second-hand cassettes packed edge to edge behind a selfie, overlaid with hand-drawn stars, hearts and a dotty <333.",
-    "image": "images/tape-wall.jpg",
-    "accent": "#D88F82",
-    "echoes": {
-      "candidates": ["磁帶牆與拍貼感貼紙；Y2K 網路相簿的記憶感"],
-      "confirmed": []
-    }
-  },
-  {
     "id": "silver-sail",
     "title": "Silver Sail",
     "date": "2026-10-17",
