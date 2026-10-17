@@ -236,6 +236,9 @@ unless the user overrides them explicitly.
 
 - Work through candidates from `~/Desktop/文艺小垃圾`.
 - Do not re-analyse images that are already in the archive; analyse only unreviewed candidates.
+- Never archive photos that show the user themselves — including selfies and group photos
+  where the user appears. Skip them at selection time; if it is unclear whether the person
+  is the user, ask before importing.
 - Review images **one at a time** with a single image-view call; never call several
   image tools in parallel.
 - Pick exactly 3 images per round, then stop and report.

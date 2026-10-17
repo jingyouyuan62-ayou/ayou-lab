@@ -333,6 +333,8 @@ python3 scripts/check_archive.py
 
 如果候选图与 Archive 中的图片是同一张（包括裁剪、去水印、重新导出等版本），按重复处理并跳过；不要因为文件名不同就重新分析。
 
+不得归档使用者本人出现的照片，包括自拍和合影；选图时直接跳过，无法判断时先询问。
+
 工具异常处理：
 
 - 出现 `No tool output found for tool call ...`、`413 Payload Too Large` 或类似状态错误时，立即停止相关操作。
