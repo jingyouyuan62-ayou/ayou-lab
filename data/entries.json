@@ -1064,5 +1064,53 @@
       "candidates": [],
       "confirmed": ["富錦街（路牌可見 107／187 巷）", "《藍色大門》(Blue Gate Crossing) 的取景地就在這條街", "我很喜歡這部電影"]
     }
+  },
+  {
+    "id": "gulls-overhead",
+    "title": "Gulls Overhead",
+    "date": "2026-02-20",
+    "source": "collected",
+    "medium": "photo",
+    "category": "nature",
+    "tags": ["gulls", "sky", "flock", "blue", "flight"],
+    "note": "A flock of gulls against an open blue sky, one bird centred with its wings fully spread, the upper half left almost empty.",
+    "image": "images/gulls-overhead.jpg",
+    "accent": "#6685B4",
+    "echoes": {
+      "candidates": ["海鷗群；海邊或港口上空的常見風景，地點未確認"],
+      "confirmed": []
+    }
+  },
+  {
+    "id": "lantern-tree",
+    "title": "Lantern Tree",
+    "date": "2025-11-08",
+    "source": "collected",
+    "medium": "photo",
+    "category": "dream",
+    "tags": ["lantern", "night", "leaves", "glow", "street"],
+    "note": "A many-globed street lamp glowing among dark plane-tree leaves at night, its warm light turning the foliage around it yellow-green.",
+    "image": "images/lantern-tree.jpg",
+    "accent": "#CBBB54",
+    "echoes": {
+      "candidates": ["街燈夜景；像歐式街燈被樹葉包圍，具體地點未確認"],
+      "confirmed": []
+    }
+  },
+  {
+    "id": "tape-wall",
+    "title": "Tape Wall",
+    "date": "2026-07-29",
+    "source": "collected",
+    "medium": "photo",
+    "category": "memory",
+    "tags": ["cassette", "selfie", "stickers", "y2k", "wall"],
+    "note": "A wall of second-hand cassettes packed edge to edge behind a selfie, overlaid with hand-drawn stars, hearts and a dotty <333.",
+    "image": "images/tape-wall.jpg",
+    "accent": "#D88F82",
+    "echoes": {
+      "candidates": ["磁帶牆與拍貼感貼紙；Y2K 網路相簿的記憶感"],
+      "confirmed": []
+    }
   }
 ]
