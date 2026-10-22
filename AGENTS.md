@@ -244,6 +244,12 @@ unless the user overrides them explicitly.
   is the user, ask before importing.
 - Review images **one at a time** with a single image-view call; never call several
   image tools in parallel.
+- A normal three-image round stays in one conversation. Before viewing a candidate, run
+  `python3 scripts/archive_work.py prepare <image>` and view only the compressed copy
+  under `archive-work/vision/`; do not put the full-size original into the conversation.
+- After each image, immediately save the complete structured analysis under
+  `archive-work/analyses/` and mark it with `scripts/archive_work.py`. Read the saved
+  analysis and `archive-work/progress.json` when resuming instead of re-reading images.
 - Pick exactly 3 images per round, then stop and report.
 - In every batch report, state which Visual DNA category (and title) each new image was
   filed under, so the user does not have to search the archive page for it.
@@ -255,8 +261,9 @@ unless the user overrides them explicitly.
 - The authoritative field list, depth requirements, output format and quality checklist
   live in `docs/IMAGE_ANALYSIS_SPEC.md` (it also requires `content` and `title`). Read it
   together with this file before analysing or importing any image.
-- Attach the images themselves to every batch report: embed each new image inline from its
-  local absolute path, so the user does not have to open the sidebar to look at them.
+- Attach the compressed analysis copies to every batch report: embed each new image inline
+  from its absolute `archive-work/vision/` path, so the report stays viewable without
+  repeatedly sending multi-megabyte originals.
 - Screenshots are archived as photos only: crop away the app UI, black bars and any text
   strip so that just the photo subject remains, and never annotate an entry with the fact
   that it came from a screenshot or an app.

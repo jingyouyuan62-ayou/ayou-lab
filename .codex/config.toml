@@ -1,0 +1,3 @@
+# Project-local guardrail for long Ayou-Lab conversations.
+model_auto_compact_token_limit = 400000
+model_auto_compact_token_limit_scope = "total"
