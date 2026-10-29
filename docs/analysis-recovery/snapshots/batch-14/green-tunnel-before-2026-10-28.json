@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "entryId": "green-tunnel",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "entry": {
+    "id": "green-tunnel",
+    "title": "Green Tunnel",
+    "date": "2026-08-01",
+    "source": "own",
+    "medium": "photo",
+    "category": "nature",
+    "tags": [
+      "mangrove",
+      "water",
+      "green",
+      "branches",
+      "tunnel"
+    ],
+    "note": "Mangrove branches reaching out low over still green water, their pale limbs and their reflections closing the passage into a tunnel.",
+    "image": "images/green-tunnel.jpg",
+    "accent": "#4A806D",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "台南四草綠色隧道",
+        "紅樹林景觀"
+      ]
+    }
+  },
+  "imageSha256": "4dc7f2557dc1a30896ba698951f196533c3c9ddc24b4f3faa29e6df4b9ff3481"
+}

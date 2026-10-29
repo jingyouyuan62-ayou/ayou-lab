@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "entryId": "valley-overlook",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "entry": {
+    "id": "valley-overlook",
+    "title": "Valley Overlook",
+    "date": "2025-12-22",
+    "source": "own",
+    "medium": "photo",
+    "category": "nature",
+    "tags": [
+      "valley",
+      "boardwalk",
+      "mountains",
+      "clouds",
+      "grassland"
+    ],
+    "note": "A wide valley of green and ochre hills under a heavy cloud sky, a wooden boardwalk stepping down the slope toward one small figure at the rail.",
+    "image": "images/valley-overlook.jpg",
+    "accent": "#3D83B2",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "新疆"
+      ]
+    }
+  },
+  "imageSha256": "2eccd775af736bbd9b08e74c8e6fc355192ecbad07d40ba0e30994fc46f6013b"
+}

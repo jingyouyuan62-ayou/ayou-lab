@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "entryId": "glittering-sea",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "imageSha256": "200315422460ee4f4a9a00cfd153c75753404da25f04daf271ef6a256f820657",
+  "entry": {
+    "id": "glittering-sea",
+    "title": "Glittering Sea",
+    "date": "2026-09-18",
+    "source": "collected",
+    "medium": "photo",
+    "category": "dream",
+    "tags": [
+      "sea",
+      "glare",
+      "boat",
+      "blue"
+    ],
+    "note": "Sunlight broken into white glitter across the water, one small dark boat in the middle of it.",
+    "image": "images/glittering-sea.jpg",
+    "accent": "#3C5D84",
+    "echoes": {
+      "candidates": [],
+      "confirmed": []
+    }
+  }
+}

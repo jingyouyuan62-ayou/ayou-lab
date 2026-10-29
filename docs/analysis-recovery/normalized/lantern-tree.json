@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "entryId": "lantern-tree",
+  "sourceFormat": "dense_prose",
+  "status": "ready_for_review",
+  "entryReferences": {
+    "image": "images/lantern-tree.jpg",
+    "imageSha256": "cc2400cbd90dda2f66c89a8563e396d909527534d4d563a98731c115a14d89d2",
+    "title": "Lantern Tree",
+    "category": "dream",
+    "accent": "#CBBB54",
+    "echoes": {
+      "candidates": [
+        "街燈夜景；像歐式街燈被樹葉包圍，具體地點未確認"
+      ],
+      "confirmed": []
+    }
+  },
+  "proposedPatch": {
+    "analysis": {
+      "content": "灯杆从底部正中升起，多灯罩的街灯位于中上部，奶白灯罩向四周展开，像一棵发光的树；树叶从四边向中心挤压，几乎没有露天的空。",
+      "composition": "竖幅 2390×2953；灯杆从底部贯穿到中心，灯罩在画面中上部向四周展开，树叶从四边向中央挤压，几乎没有负空间。",
+      "color": "叶子被灯光染成黄绿（#998F3A、#CBBB54），阴影处是深橄榄到近黑（#333016），灯罩最亮处是暖米白。",
+      "typography": "画面中无可读文字。",
+      "texture": "叶片密集细小，很多边缘虚焦成柔和散景；灯杆表面有金属粗糙感，夜景高感光度带来轻微颗粒。",
+      "material": "灯杆呈金属粗糙表面；画面还可辨认灯罩、灯光与树叶，其他材质无法进一步确认。",
+      "spatialDepth": "前景是虚焦叶片，中景是清晰的灯头，背景是虚化夜色；灯杆把视线从底部引到中心。",
+      "hierarchy": "最亮是灯头，其次是被照亮的左上叶片，最后才是深色背景。",
+      "mood": "像安静的夜路，温暖但不亲密，带旧城公园的味道。",
+      "visualStyle": "夜拍、柔焦、黄色偏移，略有老照片滤镜感。",
+      "interaction": "让灯罩极慢地呼吸式明暗，或让前景叶片滚动时以不同速度做视差。",
+      "dna": "主类 DREAM（夜色、暖光与柔焦共同主导）；Archive category 记 dream。",
+      "uncertainty": "看不出城市与具体地点，灯罩数量因遮挡无法数清，画面也没有人物或路牌。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a142a1-1b91-7b32-89cb-cb8ed877d66c",
+      "messageId": "153bc33e-5a59-4739-b966-50c45ae06020",
+      "timestamp": "2026-10-17T06:20:35.775Z",
+      "sourceTitle": "Lantern Tree",
+      "originalArtifact": "docs/analysis-recovery/original/lantern-tree.txt",
+      "originalSha256": "aecb60b0fd41e65ea52d78a7130fdc41965f9faae206d88bdcf87484a96a74db",
+      "sourceFormat": "dense_prose",
+      "mappingVersion": "2026-10-26.v2.1"
+    }
+  },
+  "mappingNotes": [
+    "原始报告把 13 个维度压缩在同一条“观察”段落中；标准化只按原句拆分和标点整理，没有新增视觉判断。",
+    "content、composition、color、texture、spatialDepth、hierarchy、mood、visualStyle、interaction、dna 和 uncertainty 均由原段落直接映射。",
+    "原文只明确写到“灯杆表面有金属粗糙感”；material 保留这一有限证据，其他材质标记为无法进一步确认。",
+    "当前顶层 Echo candidate 少于原文提到的联想；按当前条目保留，不擅自增加已确认联想。"
+  ],
+  "pending": []
+}

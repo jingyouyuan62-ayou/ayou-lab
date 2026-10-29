@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "entryId": "green-canal",
+  "sourceFormat": "structured_markdown",
+  "status": "ready_for_review",
+  "finalizedAt": "2026-10-28",
+  "validationDraft": null,
+  "entryReferences": {
+    "image": "images/green-canal.jpg",
+    "imageSha256": "7476546b3cab755360a813d89a5e0a9ef29c8e7ea2056ef67432435008e051c6",
+    "title": "Green Canal",
+    "category": "memory",
+    "accent": "#285838",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "夏日的水杉",
+        "我很喜歡杉樹"
+      ]
+    }
+  },
+  "proposedPatch": {
+    "analysis": {
+      "content": "一条笔直的水渠夹在两列高大乔木之间，尽头有一座小桥把画面收住；水面映出树影与天空，两侧树干下部露出水面与树根。",
+      "composition": "高度对称的绿色隧道，透视消失点位于中轴线，桥是终点。",
+      "color": "深浅不同的绿（#285838、#588858）与水面反射出的浅蓝（#C8D8E8）。",
+      "typography": "画面中无可读文字。",
+      "texture": "树叶的羽状细密、水面的镜面反射与轻微波纹、树干的粗糙。",
+      "material": "历史原文记录为数字照片，色调偏青绿。",
+      "spatialDepth": "很强，对称透视线把视线直接推到尽头的小桥。",
+      "hierarchy": "中轴的水渠与小桥 → 两侧的树墙 → 顶部一线天空。",
+      "mood": "静谧、几乎超现实，像走进一条绿色的走廊。",
+      "visualStyle": "景观摄影，接近绿色教堂式的对称构图。",
+      "interaction": "可做随滚动推进的透视动效（仅为可能性，未实现）。",
+      "dna": "历史原文主类为 DREAM（canal / trees / bridge / green）；Archive category 保持当前值 memory。",
+      "uncertainty": "地点和树种无法确认；原文根据羽状落叶与直干推测很像水杉，但不能确定。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "ef5362cb-bf65-4a4b-976c-72ec17049607",
+      "timestamp": "2026-09-20T10:41:53.904Z",
+      "sourceTitle": "Green Canal",
+      "originalArtifact": "docs/analysis-recovery/original/green-canal.txt",
+      "originalSha256": "a60177e053e9124f9ffedfaf339cc86b4f29dd1b06046c6d97de90db184b80b9",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
+    }
+  },
+  "mappingNotes": [
+    "原文“内容”映射为 content，其余字段按原名映射。",
+    "原文 typography 写“无文字”，标准化为规范空值句。",
+    "原文树种候选已由后续使用者确认并在当前 confirmed 中记录为“夏日的水杉”“我很喜歡杉樹”；当前状态原样保留。",
+    "原文 Visual DNA 为 DREAM；当前 Archive category 为 memory，按现有顶层状态保留。"
+  ],
+  "pending": []
+}

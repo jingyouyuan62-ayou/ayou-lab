@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "entryId": "embroidered-lilies",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "entry": {
+    "id": "embroidered-lilies",
+    "title": "Embroidered Lilies",
+    "date": "2026-08-30",
+    "source": "collected",
+    "medium": "embroidery",
+    "category": "memory",
+    "tags": [
+      "embroidery",
+      "lily",
+      "red",
+      "linen"
+    ],
+    "note": "Red lilies outlined in embroidery thread on cream linen, with a name stitched below them.",
+    "image": "images/embroidered-lilies.jpg",
+    "accent": "#981838",
+    "echoes": {
+      "candidates": [
+        "繡上的字是 Aimili — 品牌或名字待確認"
+      ],
+      "confirmed": []
+    }
+  },
+  "imageSha256": "1187cfe0a14491cc5103966e26344f92ae9edfc963c389477c6bc7342c10716c"
+}

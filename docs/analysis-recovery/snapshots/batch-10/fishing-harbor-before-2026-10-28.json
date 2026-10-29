@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "entryId": "fishing-harbor",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "entry": {
+    "id": "fishing-harbor",
+    "title": "Fishing Harbor",
+    "date": "2026-02-21",
+    "source": "own",
+    "medium": "photo",
+    "category": "memory",
+    "tags": [
+      "harbor",
+      "boats",
+      "beach",
+      "sea"
+    ],
+    "note": "Small fishing boats moored along a low breakwater, the beach empty except for one figure walking away.",
+    "image": "images/fishing-harbor.jpg",
+    "accent": "#88B8D8",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "青島",
+        "畫面中的人是路人"
+      ]
+    }
+  },
+  "imageSha256": "eb62b2ce498e37a47af69dd2305f56965806deb42cefd9d8a8751863901f2da7"
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "entryId": "gulls-overhead",
+  "capturedAt": "2026-10-27",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "imageSha256": "43912072390913f7660ba5c24acc2696694a18044ab71acf5ad801f8b8e8404c",
+  "entry": {
+    "id": "gulls-overhead",
+    "title": "Gulls Overhead",
+    "date": "2026-02-20",
+    "source": "collected",
+    "medium": "photo",
+    "category": "nature",
+    "tags": [
+      "gulls",
+      "sky",
+      "flock",
+      "blue",
+      "flight"
+    ],
+    "note": "A flock of gulls against an open blue sky, one bird centred with its wings fully spread, the upper half left almost empty.",
+    "image": "images/gulls-overhead.jpg",
+    "accent": "#6685B4",
+    "echoes": {
+      "candidates": [
+        "海鷗群；海邊或港口上空的常見風景，地點未確認"
+      ],
+      "confirmed": []
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "entryId": "ntu-gate",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "entry": {
+    "id": "ntu-gate",
+    "title": "College Gate",
+    "date": "2026-07-22",
+    "source": "own",
+    "medium": "photo",
+    "category": "memory",
+    "note": "The gate of the College of Liberal Arts.",
+    "image": "images/ntu-gate.jpg",
+    "accent": "#AB9F81",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "台大文學院（牌匾「文學院」）"
+      ]
+    }
+  },
+  "imageSha256": "a12e48bfa9f9a502a0ba61ef76323860ec94e3db4d2d7a7da39fa71e9f6cb992"
+}

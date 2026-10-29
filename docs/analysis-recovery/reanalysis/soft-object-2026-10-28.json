@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "entryId": "soft-object",
+  "kind": "owner_authorized_image_reanalysis",
+  "status": "applied",
+  "createdAt": "2026-10-28",
+  "image": {
+    "path": "images/soft-object.jpg",
+    "sha256": "8dfc881ebb5df38e542e295f17c46b37470a2d0b4a468ff4d4d75a534ee6e147",
+    "width": 1600,
+    "height": 1598
+  },
+  "historicalTrace": {
+    "original": "docs/analysis-recovery/original/soft-object.txt",
+    "originalSha256": "6a4bb41d58a54edd61c48eba51a158ed453397735d68e8dc98af42aec996d7af",
+    "normalized": "docs/analysis-recovery/normalized/soft-object.json",
+    "normalizedSha256": "974ed7a25dcf71c3d2fb564d5207fa8994317f2d668bd49cd4c2807016a2fc50",
+    "previousArchiveAnalysis": "docs/analysis-recovery/reanalysis/soft-object-before-2026-10-28.json"
+  },
+  "preservedEntryMetadata": {
+    "title": "Soft Object",
+    "category": "memory",
+    "accent": "#56B7A8",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "漂浮的梦"
+      ]
+    }
+  },
+  "proposedAnalysis": {
+    "content": "一只白色小布偶（两只耳朵、大眼睛、小小微笑）漂浮在青绿色水面上，周围一圈圈涟漪，背景是虚化的绿叶。柔焦、梦幻，又有一点轻微的超现实（玩偶泡在水里）。",
+    "composition": "中心构图，主体小、环境大量虚化",
+    "color": "青绿水面 #4E9E96、米白布偶 #F2F0EA、虚化绿 #5E8A6E",
+    "typography": "画面中无可读文字。",
+    "texture": "水面波纹、柔焦、绒毛质感",
+    "material": "水、毛绒",
+    "spatialDepth": "浅，靠景深区分",
+    "hierarchy": "白布偶 → 涟漪 → 虚化绿叶",
+    "mood": "梦幻、柔软、治愈，略带孤独",
+    "visualStyle": "柔焦梦幻摄影",
+    "interaction": "涟漪动画、悬浮微动",
+    "dna": "主 dream，次 memory",
+    "uncertainty": "无法确认这个兔形玩偶的具体角色、品牌或来源；它看起来贴在青绿色水纹表面，但没有清楚的入水线或投影，因此不能判定是实物漂浮在水中、贴近水面拍摄，还是后期合成的图像。画面没有可验证的地点、日期与尺度信息。"
+  },
+  "comparisonWithHistoricalDraft": {
+    "preservedConclusions": [
+      "保留历史标准化草案中已有、且本轮未修改的全部视觉判断。",
+      "保留当前标题、category、accent 与 Echoes；不新增 confirmed Echo。"
+    ],
+    "refinements": [
+      "根据原图补足 uncertainty：保留玩偶身份、来源、尺度与地点未知，并说明难以判断实物漂浮还是数字合成。"
+    ],
+    "changedVisualConclusions": [],
+    "historicalInformationLost": [],
+    "unsupportedAdditions": []
+  },
+  "validation": {
+    "oneImageReadOnly": true,
+    "allThirteenAnalysisFieldsPresent": true,
+    "allValuesAreNonEmptyStrings": true,
+    "imageAndHistoricalArtifactsTraceable": true,
+    "preservedTitleCategoryAccentAndEchoes": true,
+    "noUnsupportedConfirmedEchoes": true
+  }
+}

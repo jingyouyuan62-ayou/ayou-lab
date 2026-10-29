@@ -1,0 +1,16 @@
+**3. Lilac Hydrangeas** — `images/lilac-hydrangeas.jpg`（源 `994ae632…JPG`，1440×1920，0.37MB）
+
+- composition：竖幅。花团从左上部斜向铺到右下；一根带苔的枝条在左侧中段竖切画面；背景是几乎全黑的叶丛，右下角散着几朵褪成米白的花。
+- color：暗场主导（接近纯黑的像素占 33%），淡紫花球实测 `#756087`，另混有米白与淡粉的过花期花朵；右缘一小片被阳光打亮的黄绿叶片。
+- typography：无。
+- texture：花瓣纸质、边缘清晰；叶片有光泽与中脉；暗部化成颗粒；亮部边缘带轻微光晕（bloom）。
+- material：活体植物组织，枝条上有苔。
+- spatialDepth：浅，靠光的衰减建立——最亮的花离镜头最近，背景读不出空间。
+- hierarchy：中偏右最亮的一团花 → 深色苔枝这条线 → 底部褪白的花。
+- mood：幽暗、梦幻、临界的将谢感，像黄昏。
+- visualStyle：暗调特写，阴影提亮加光晕，接近明暗对照法（chiaroscuro）。
+- interaction：暗底会让人想放大看花的结构；放进页面后，反而把站点的暖灰底衬得更亮。
+- dna：nature 为主，dream 为辅。
+- accent：`#756087`。
+- echoes：candidate 写了「繡球花在樹蔭下的逆光姿態」，地点未确认。
+- uncertainty：无 EXIF，日期取文件日期 2026-07-29。

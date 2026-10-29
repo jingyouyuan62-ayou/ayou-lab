@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "entryId": "tomato-illustration",
+  "kind": "owner_authorized_image_reanalysis",
+  "status": "applied",
+  "createdAt": "2026-10-28",
+  "image": {
+    "path": "images/tomato-illustration.jpg",
+    "sha256": "c2c44a9d6a358da639668253d73ae16d605630154d36e47a81f063387a4cfa62",
+    "width": 1200,
+    "height": 1600
+  },
+  "historicalTrace": {
+    "original": "docs/analysis-recovery/original/tomato-illustration.txt",
+    "originalSha256": "eef3624c9e71eeca8d9bfcac59d0ca4f40a16e102a08b83613140dc21264cf3c",
+    "normalized": "docs/analysis-recovery/normalized/tomato-illustration.json",
+    "normalizedSha256": "bbebaf13c129b9edefec016e7f531629542c49478b2ead0c296d441bf0737f0f",
+    "previousArchiveAnalysis": "docs/analysis-recovery/reanalysis/tomato-illustration-before-2026-10-28.json"
+  },
+  "preservedEntryMetadata": {
+    "title": "Tomato Illustration",
+    "category": "color",
+    "accent": "#C23B22",
+    "echoes": null
+  },
+  "proposedAnalysis": {
+    "content": "这张是四格手绘拼贴：左上是指纹变成蓝色海浪、配一句英文格言；右上是花瓶与野花线稿；左下是番茄线稿、写着 tomato.；右下是炭笔女孩小画。",
+    "composition": "2×2 网格拼贴，每格独立，留白多",
+    "color": "米白纸 #F5F2E8、蓝墨水 #3A7BC8、番茄红 #C0392B、淡黄纸 #F5EFCF",
+    "typography": "有。手写英文格言 / KAMA MIND / tomato.，随手、笔记本感",
+    "texture": "纸张、笔触、手绘粗糙感",
+    "material": "纸、墨水",
+    "spatialDepth": "平面拼贴",
+    "hierarchy": "四格平等",
+    "mood": "温柔、私密、手作、文艺",
+    "visualStyle": "手账/插画拼贴",
+    "interaction": "网格悬停放大单格、线条绘制动画",
+    "dna": "我读到的是 dream / memory；你之前把它放在 color，可以再定",
+    "uncertainty": "本图未发现需特别保留的不确定项。"
+  },
+  "comparisonWithHistoricalDraft": {
+    "preservedConclusions": [
+      "保留历史标准化草案中已有、且本轮未修改的全部视觉判断。",
+      "保留当前标题、category、accent 与 Echoes；不新增 confirmed Echo。"
+    ],
+    "refinements": [
+      "根据原图确认四格手绘内容、可读文字与纸张拼贴关系均清楚，不再为 uncertainty 强行补充泛化限制。"
+    ],
+    "changedVisualConclusions": [],
+    "historicalInformationLost": [],
+    "unsupportedAdditions": []
+  },
+  "validation": {
+    "oneImageReadOnly": true,
+    "allThirteenAnalysisFieldsPresent": true,
+    "allValuesAreNonEmptyStrings": true,
+    "imageAndHistoricalArtifactsTraceable": true,
+    "preservedTitleCategoryAccentAndEchoes": true,
+    "noUnsupportedConfirmedEchoes": true
+  }
+}

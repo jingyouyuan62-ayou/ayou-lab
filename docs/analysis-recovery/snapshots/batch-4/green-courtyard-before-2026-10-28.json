@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "entryId": "green-courtyard",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "imageSha256": "2e7d3076299d4c32e4011fbc498c49c3bbf70bed8dddbec34909b5db311834fe",
+  "entry": {
+    "id": "green-courtyard",
+    "title": "Green Courtyard",
+    "date": "2026-07-20",
+    "source": "own",
+    "medium": "photo",
+    "category": "nature",
+    "tags": [
+      "courtyard",
+      "fountain",
+      "green",
+      "palm"
+    ],
+    "note": "A stone fountain spilling into a pond, palm trees and dense green all around it. Shot with a Fujifilm film-simulation filter.",
+    "image": "images/green-courtyard.jpg",
+    "accent": "#33543F",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "松山文創園區"
+      ]
+    }
+  }
+}

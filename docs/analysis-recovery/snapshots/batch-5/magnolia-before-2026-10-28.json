@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "entryId": "magnolia",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "imageSha256": "8803cd76d9a1d8e332628ae2b6c4f8ffa8c23ae98a93054eab3e23b2e1d3728f",
+  "entry": {
+    "id": "magnolia",
+    "title": "Magnolia",
+    "date": "2026-09-18",
+    "source": "own",
+    "medium": "photo",
+    "category": "nature",
+    "tags": [
+      "magnolia",
+      "white",
+      "leaves",
+      "blue"
+    ],
+    "note": "A magnolia holding one open white flower, its dark leaves turning russet underneath.",
+    "image": "images/magnolia.jpg",
+    "accent": "#887808",
+    "echoes": {
+      "candidates": [
+        "廣玉蘭（Magnolia grandiflora）— 品種待確認"
+      ],
+      "confirmed": []
+    }
+  }
+}

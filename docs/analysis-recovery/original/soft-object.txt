@@ -1,0 +1,20 @@
+## 2. Soft Object
+
+实际画面是：一只白色小布偶（两只耳朵、大眼睛、小小微笑）漂浮在青绿色水面上，周围一圈圈涟漪，背景是虚化的绿叶。柔焦、梦幻，又有一点轻微的超现实（玩偶泡在水里）。
+
+- composition：中心构图，主体小、环境大量虚化
+- color：青绿水面 #4E9E96、米白布偶 #F2F0EA、虚化绿 #5E8A6E
+- typography：无
+- texture：水面波纹、柔焦、绒毛质感
+- material：水、毛绒
+- spatialDepth：浅，靠景深区分
+- hierarchy：白布偶 → 涟漪 → 虚化绿叶
+- mood：梦幻、柔软、治愈，略带孤独
+- visualStyle：柔焦梦幻摄影
+- interaction：涟漪动画、悬浮微动
+- dna：主 dream，次 memory
+- accent：#56B7A8
+
+`echoes`：`{ "candidates": ["宫崎骏式小精灵", "盲盒/扭蛋玩偶", "漂浮的梦"], "confirmed": [] }`
+
+✓ 自动分析这次是对的。

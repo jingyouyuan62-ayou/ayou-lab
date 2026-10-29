@@ -1,0 +1,17 @@
+## 3. Literature Corridor
+
+画面是一条**空无一人的走廊**：上浅蓝、下深蓝的双色墙面，白色天花，左侧一排高窗透着光，右侧是带玻璃的教室门，水磨石地面，尽头有一扇绿门。一点透视很强。
+
+- composition：强单点透视，两侧线条向中心汇聚
+- color：浅蓝 #A8C8DC、深蓝 #5E86A8、白 #EDEDE8、尽头绿门 #5E7A50
+- texture：水磨石、粉刷墙、玻璃、木门框
+- spatialDepth：极强的纵深
+- hierarchy：尽头的门 → 两侧窗与门 → 地面
+- mood：安静、空旷、怀旧，带一点忧郁和梦境
+- visualStyle：空间摄影，蓝色调，胶片感
+- dna：主 memory，次 dream
+- accent：#5095B4
+
+`echoes`：`{ "candidates": ["空走廊", "梦里的学校"], "confirmed": [] }`
+
+✓ 和现有条目一致。

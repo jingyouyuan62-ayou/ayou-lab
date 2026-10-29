@@ -1,0 +1,16 @@
+## 1. Cloud Line（原 `IMG_5112.jpeg`，2025-11-09 19:45）
+
+- **内容**：绿色山坡横贯画面，山脊上压着一层低云；左侧远处有一间小屋，坡面上几只牛羊在吃草；天空被云层填满，左上隐约露出山尖。
+- **composition**：上三分之一是云与远山，中间是斜向延伸的山脊线，动物沿坡面排成一条松散的横线。
+- **color**：黄绿与灰绿（`#586838`、`#384838`），云是暖白到灰（`#C8C8A8`），整体低对比。
+- **typography**：无文字。
+- **texture**：草坡细密、云的棉絮状边缘、远山被雾化。
+- **material**：数字照片，长焦压缩感。
+- **spatialDepth**：强；草坡—动物—山脊—云层—远山层层后退。
+- **hierarchy**：山脊的云 → 草坡与动物 → 左侧小屋。
+- **mood**：辽阔、安静，云贴着地面，近乎梦境。
+- **visualStyle**：高原牧场风景，和 Meadow Cabin 是同一趟的姊妹作。
+- **interaction**：无。
+- **dna**：nature（meadow / clouds / cattle / hill），accent `#586838`。
+- **echoes**：candidates「與 Meadow Cabin 同一趟（新疆）— 地點待確認」。
+- **不确定**：地点；EXIF 是 19:45 但画面明亮，和 Meadow Cabin 是同一个时间疑点。

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "entryId": "green-canal",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "imageSha256": "7476546b3cab755360a813d89a5e0a9ef29c8e7ea2056ef67432435008e051c6",
+  "entry": {
+    "id": "green-canal",
+    "title": "Green Canal",
+    "date": "2026-09-18",
+    "source": "collected",
+    "medium": "photo",
+    "category": "memory",
+    "tags": [
+      "canal",
+      "trees",
+      "bridge",
+      "green"
+    ],
+    "note": "A canal running straight between two walls of trees, a small bridge closing the far end.",
+    "image": "images/green-canal.jpg",
+    "accent": "#285838",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "夏日的水杉",
+        "我很喜歡杉樹"
+      ]
+    }
+  }
+}

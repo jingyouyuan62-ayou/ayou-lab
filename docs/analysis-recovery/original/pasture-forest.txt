@@ -1,0 +1,16 @@
+## 4. Pasture & Forest（原 `IMG_5114.jpeg`，2025-11-09 19:45）
+
+- **内容**：草场与深色针叶林交替成带状，远处草甸上散落着大量羊群（像小白点），近处牛群在吃草或卧着；左下有一道斜向的阴影。
+- **composition**：近乎水平的分层——顶部林带、中部亮草甸与远处羊群、下部林带、最前景草坡与牛群。
+- **color**：亮草绿（`#486838`、`#587858`）对近黑林带（`#181818`），对比强烈。
+- **typography**：无文字。
+- **texture**：草的柔顺、林带的密实颗粒、远处羊群的细碎点。
+- **material**：数字照片，长焦压缩让层次被压平。
+- **spatialDepth**：强，但被长焦压缩成"多层平行带"。
+- **hierarchy**：中部亮草甸上的羊群 → 两道林带 → 前景牛群。
+- **mood**：辽阔、丰饶、安静，几乎像图案。
+- **visualStyle**：高原牧场风景，与 Meadow Cabin、Cloud Line 同属新疆那一组。
+- **interaction**：无。
+- **dna**：nature（pasture / forest / cattle / green），accent `#486838`。
+- **echoes**：candidates「與 Meadow Cabin／Cloud Line 同一趟（新疆）— 地點待確認」。
+- **不确定**：具体地点。

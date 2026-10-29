@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "entryId": "fujin-street",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "entry": {
+    "id": "fujin-street",
+    "title": "Fujin Street",
+    "date": "2026-07-26",
+    "source": "own",
+    "medium": "photo",
+    "category": "memory",
+    "tags": [
+      "street",
+      "taipei",
+      "sign",
+      "blue",
+      "corner"
+    ],
+    "note": "A Taipei street corner in blue — a stone-tiled building under dappled tree shadow, a 富錦街 street sign on the pole, a green pedestrian light and crosswalk stripes below.",
+    "image": "images/fujin-street.jpg",
+    "accent": "#3B6984",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "富錦街（路牌可見 107／187 巷）",
+        "《藍色大門》(Blue Gate Crossing) 的取景地就在這條街",
+        "我很喜歡這部電影"
+      ]
+    }
+  },
+  "imageSha256": "393a74f023e5982a39053f51af8a2712d10fb70952a4c06ac264e4a8ee3c555a"
+}

@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "entryId": "backlit-thicket",
+  "sourceFormat": "structured_markdown",
+  "status": "ready_for_review",
+  "finalizedAt": "2026-10-28",
+  "entryReferences": {
+    "title": "Backlit Thicket",
+    "category": "nature",
+    "accent": "#9BB151",
+    "image": "images/backlit-thicket.jpg",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "前往台灣最南點（鵝鑾鼻）的路上",
+        "途中要經過一條很長的小道"
+      ]
+    },
+    "imageSha256": "5b8a6dd61719df31a7544e674f3c4149d79511ec7b2beb0726d79e9cc04d5e3f"
+  },
+  "mappingNotes": [
+    "原文未另列 content；标准化时只把 composition 已有的可见描述移入 content，没有新增观察。",
+    "历史原文中的 Echoes 原样保存在原文文件；正式条目继续使用当前候选/确认分层，未自动改写。",
+    "原文 accent #9BB151（逆光高光黄绿）；区域实测高光带 #93AA4F、最亮 #B7C13E。 与当前 Archive 顶层 accent #9BB151 一并保留。"
+  ],
+  "pending": [],
+  "proposedPatch": {
+    "analysis": {
+      "content": "历史原文未单列 content；原文 composition 记录：竖幅 1320×1976。满幅枝叶、无单一焦点；一条被阳光穿透的黄绿亮带斜穿中部（左上偏中→中右）；右上角露出一块蓝天与剪影叶；下半浓荫，左侧是细密枯枝的网。",
+      "composition": "竖幅 1320×1976。满幅枝叶、无单一焦点；一条被阳光穿透的黄绿亮带斜穿中部（左上偏中→中右）；右上角露出一块蓝天与剪影叶；下半浓荫，左侧是细密枯枝的网。",
+      "color": "绿色主导、跨度极大——阴影近黑绿 #17261B、中间绿、逆光酸黄绿高光（最亮 #B7C13E，高光带均值 #93AA4F）；右上天空是被叶隙切碎的蓝 #74A6A2；全图均值 #49623A。",
+      "typography": "画面中无可读文字。",
+      "texture": "密集小叶与交错细枝形成网状；叶隙透光成小孔；颗粒/噪点明显（胶片感）。",
+      "material": "叶、枝条；叶片逆光呈半透光，有次表面透光的发光感。",
+      "spatialDepth": "浅但分层——前景细枝、中层发光叶片、背后叶隙与天空；像一团有光从背后/上方打入的块体。",
+      "hierarchy": "① 发光的黄绿叶带；② 右上蓝天缺口；③ 底部与左侧深色缠结作框。",
+      "mood": "郁郁葱葱、盛夏、繁密，略带压倒性的密；斑驳日光，略微混乱。",
+      "visualStyle": "自然逆光摄影；与已归档 sunlit canopy 属同类\"仰视透光树冠\"拍法。",
+      "interaction": "光斑随光移动；风动叶片；可做斑驳光影动效。",
+      "dna": "归档 nature；color（强绿）可作备选。",
+      "uncertainty": "物种未知；地点未知；是否与 sunlit canopy 同一次拍摄未知；日期 2026-08-07 来自 EXIF；无法判断是照片还是视频截图。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a11eef-e71c-7240-bd19-bb7c015e6da3",
+      "messageId": "833145ce-78da-43c3-8136-1ea4ec355d75",
+      "timestamp": "2026-10-13T05:42:04.688Z",
+      "sourceTitle": "Backlit Thicket",
+      "originalArtifact": "docs/analysis-recovery/original/backlit-thicket.txt",
+      "originalSha256": "d81eb891e07c6bb9d0ed876a90f4c706f8db8230e444e03f53b2d6df067ad72c",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
+    }
+  }
+}

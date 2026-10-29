@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "entryId": "golden-branches",
+  "sourceFormat": "structured_markdown",
+  "status": "ready_for_review",
+  "finalizedAt": "2026-10-28",
+  "entryReferences": {
+    "title": "Golden Branches",
+    "category": "nature",
+    "accent": "#8A6A38",
+    "image": "images/golden-branches.jpg",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "水杉"
+      ]
+    },
+    "imageSha256": "412b897e76644067da24aca913e35e887fb83b2b6d52ec8b4932415eaec07156"
+  },
+  "mappingNotes": [
+    "历史原文中的 Echoes 原样保存在原文文件；正式条目继续使用当前候选/确认分层，未自动改写。",
+    "原文 accent #8A6A38 与当前 Archive 顶层 accent #8A6A38 一并保留。"
+  ],
+  "pending": [],
+  "proposedPatch": {
+    "analysis": {
+      "content": "一棵正在转黄的针叶树（水杉/落羽杉一类）枝叶特写；左侧一根粗树干，背景是深绿针叶林和少量阔叶。",
+      "composition": "树干在左缘充当竖框，金黄枝叶像帘幕从右上斜向左下。",
+      "color": "金棕（#886838、#785838、#584828）对深绿，整体暖调。",
+      "typography": "画面中无可读文字。",
+      "texture": "细密下垂的羽状针叶，树干纵向裂纹明显。",
+      "material": "数字照片，带轻微胶片感暖调；画面最上方有一条很窄的暗边，像导出裁切残留。",
+      "spatialDepth": "中；前景枝叶—树干—背景林层。",
+      "hierarchy": "中央金黄叶幕 → 左侧树干 → 暗绿背景。",
+      "mood": "秋末的温暖与迟缓。",
+      "visualStyle": "季节自然特写，与 Ginkgo & Fence 同属\"变色树\"family。",
+      "interaction": "未发现与画面结构直接相关的交互方案。",
+      "dna": "nature（conifer / gold / green / autumn）",
+      "uncertainty": "树种；顶部那条暗边是否是你有意保留的。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "7ab96e70-667d-4ac2-a137-3b440b4a09e4",
+      "timestamp": "2026-09-20T09:43:07.435Z",
+      "sourceTitle": "Golden Branches",
+      "originalArtifact": "docs/analysis-recovery/original/golden-branches.txt",
+      "originalSha256": "1de21dd4677f770e0dc8ff2d80b7208e579e0bb5bebdaac4a3a591e0598d2d45",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
+    }
+  }
+}

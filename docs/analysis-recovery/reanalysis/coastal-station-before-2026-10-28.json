@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "entryId": "coastal-station",
+  "capturedAt": "2026-10-28",
+  "reason": "项目所有者授权原图重分析前的历史标准化草案快照。",
+  "entryReferences": {
+    "title": "Tiaoshi Station",
+    "category": "nature",
+    "accent": "#2889C6",
+    "echoes": null,
+    "image": "images/coastal-station.jpg",
+    "imageSha256": "f4ae5fa69dc4f8cbc2474554be0676ff4fe5d44ae272ecec474cb5f7af0d4735"
+  },
+  "analysis": {
+    "content": "台湾南迴公路旁的海边小车站/候车亭，白墙红瓦，紧贴大海和礁石；前景公路上写着「南迴公路」，还停着一辆黄色出租车；远处海面有一座小岛。",
+    "composition": "横向分层（天/海/岸/公路），车站居中偏左，公路斜切前景",
+    "color": "海蓝 #1E4A78、天空蓝 #6FA8D8、红瓦 #B85C3A、白墙 #EDE9E0、黄车 #E8B923",
+    "typography": "有。路面大字「南迴公路」、站牌小字、车牌",
+    "texture": "海面波纹、礁石、沥青",
+    "material": "混凝土、瓦、沥青、海水",
+    "spatialDepth": "公路 → 车站 → 海 → 天，层次清楚",
+    "hierarchy": "白色车站 → 蓝海 → 黄色出租车（跳色）",
+    "mood": "晴朗、辽阔、夏天、旅途感",
+    "visualStyle": "台式海滨旅行摄影",
+    "interaction": "横向图层视差、海浪微动",
+    "dna": "主 nature，次 memory",
+    "uncertainty": "待补充：历史原文未提供可核验的 uncertainty 内容。"
+  },
+  "analysisSource": {
+    "type": "historical_chat_recovery",
+    "sessionId": "01a09ed2-fcd9-7ba0-a7dd-bc85721df254",
+    "messageId": "340473bb-fd9d-49cd-a4e6-a81ee61d266d",
+    "timestamp": "2026-09-17T06:20:42.927Z",
+    "sourceTitle": "Coastal Station",
+    "originalArtifact": "docs/analysis-recovery/original/coastal-station.txt",
+    "originalSha256": "6ff72cac68cdf51ebe532512c830a0e2dae840ba59632abb4863aed030568bd4",
+    "sourceFormat": "structured_markdown",
+    "mappingVersion": "2026-10-26.v2.1"
+  }
+}

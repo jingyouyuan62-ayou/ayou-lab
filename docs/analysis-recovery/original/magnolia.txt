@@ -1,0 +1,16 @@
+## 2. Magnolia（原 `a766ac…jpeg`）
+
+- **内容**：一棵广玉兰，只开了一朵白色大花，其余是革质深绿叶片，许多叶子翻出赭红的背面；背景是干净蓝天。
+- **composition**：树冠占据右侧与下方，左上是留白的天空；那朵白花是唯一的亮点，位于画面中部偏右。
+- **color**：深绿（`#081808`）＋赭金叶背（最饱和点 `#887808`）＋白花＋蓝天，四色层次分明。
+- **typography**：无文字。
+- **texture**：叶片革质发亮、花瓣厚实绵密。
+- **material**：数字照片，光线偏侧逆光。
+- **spatialDepth**：中，靠枝叶的层叠与天空衬托。
+- **hierarchy**：白花 → 翻起的赭色叶背 → 深绿叶与蓝天。
+- **mood**：夏日午后，安静而有一点珍稀感（整棵树只开一朵）。
+- **visualStyle**：树木特写，与 archive 里 Under the Canopy 同属"抬头看树"的视角。
+- **interaction**：无。
+- **dna**：nature（magnolia / white / leaves / blue），accent `#887808`（取自叶背的赭金）。
+- **echoes**：candidates「廣玉蘭（Magnolia grandiflora）— 品種待確認」。
+- **不确定**：品种；**无拍摄时间**，date 暂用导出日 2026-09-18。

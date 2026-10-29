@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "entryId": "above-jiufen",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "imageSha256": "b6db9e38366a4fb4cf2346976d5e0a837622b13ccacd49b020600b8ea700d8e5",
+  "entry": {
+    "id": "above-jiufen",
+    "title": "Above Jiufen",
+    "date": "2026-08-03",
+    "source": "own",
+    "medium": "photo",
+    "category": "memory",
+    "tags": [
+      "dusk",
+      "coast",
+      "clouds",
+      "town"
+    ],
+    "note": "Blue hour over the hillside town, clouds streaking above the coast and the small island offshore.",
+    "image": "images/above-jiufen.jpg",
+    "accent": "#1F3A52",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "九份"
+      ]
+    }
+  }
+}

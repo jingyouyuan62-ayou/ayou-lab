@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "entryId": "purple-swirls",
+  "sourceFormat": "structured_markdown",
+  "status": "ready_for_review",
+  "finalizedAt": "2026-10-28",
+  "entryReferences": {
+    "title": "Purple Swirls",
+    "category": "color",
+    "accent": "#9785A0",
+    "image": "images/purple-swirls.jpg",
+    "echoes": {
+      "candidates": [
+        "像印花布、貼膜或筆記本封面一類的表面，具體物件未確認"
+      ],
+      "confirmed": []
+    },
+    "imageSha256": "5fc31b4abf56167666a8271e825e21dff43ae73e85b0439eaf14a818dafb9df7"
+  },
+  "mappingNotes": [
+    "原文未另列 content；标准化时只把 composition 已有的可见描述移入 content，没有新增观察。",
+    "历史原文中的 Echoes 原样保存在原文文件；正式条目继续使用当前候选/确认分层，未自动改写。",
+    "原文 accent #9785A0（丁香紫）。 与当前 Archive 顶层 accent #9785A0 一并保留。"
+  ],
+  "pending": [],
+  "proposedPatch": {
+    "analysis": {
+      "content": "历史原文未单列 content；原文 composition 记录：竖幅 1080×1920。满幅重复图案（漩涡、星、花），无焦点、无主体，像一段被框住的连续纹样。",
+      "composition": "竖幅 1080×1920。满幅重复图案（漩涡、星、花），无焦点、无主体，像一段被框住的连续纹样。",
+      "color": "紫底 + 淡绿/奶白卷纹与星芒。实测主色 #9785A0（丁香紫），浅纹 #A49BA7 与淡绿。整体柔和、低对比。",
+      "typography": "画面中无可读文字。",
+      "texture": "关键特征是覆盖全图的细密网点（halftone / 织物或贴膜的网格），把图案统一成一层带颗粒的膜。",
+      "material": "像印在布、贴膜或塑料表面的印花；网点提示可能是翻拍屏幕或带网格的打印面。",
+      "spatialDepth": "基本为平面；网点形成极薄的一层表面质感。",
+      "hierarchy": "无主次——通篇图案，明暗均匀。",
+      "mood": "甜、廉价可爱、怀旧；带一点小时候文具/贴纸的年代感。",
+      "visualStyle": "Y2K 印花／文具图案／甜系图案。",
+      "interaction": "适合做平铺背景或纹理层；漩涡可缓慢旋转铺陈。",
+      "dna": "归档 color（紫绿对比）；memory（童年印花）可作备选。",
+      "uncertainty": "实物是什么（布／贴膜／屏幕）未知；无 EXIF，日期用导入日 2026-09-04。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a11eef-e71c-7240-bd19-bb7c015e6da3",
+      "messageId": "8079f667-1daf-4514-abb5-dc313bfa299e",
+      "timestamp": "2026-10-13T11:47:53.548Z",
+      "sourceTitle": "Purple Swirls",
+      "originalArtifact": "docs/analysis-recovery/original/purple-swirls.txt",
+      "originalSha256": "41c55ba7b2128faa53df39a25f3e4bc55bddb5196d9ecfa87d5cc024fe7f1c63",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
+    }
+  }
+}

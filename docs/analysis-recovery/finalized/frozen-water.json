@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "entryId": "frozen-water",
+  "sourceFormat": "structured_json",
+  "status": "ready_for_review",
+  "finalizedAt": "2026-10-27",
+  "validationDraft": "docs/analysis-recovery/normalized/frozen-water.json",
+  "entryReferences": {
+    "image": "images/frozen-water.jpg",
+    "imageSha256": "2be173a15418e6c26133131509b0c81cb9a664c747c03a80e5dd44910777ba4b",
+    "title": "Horse in Snow",
+    "category": "dream",
+    "accent": "#9FB6D4",
+    "echoes": {
+      "candidates": [],
+      "confirmed": []
+    }
+  },
+  "proposedPatch": {
+    "analysis": {
+      "content": "雪原上低头吃草的马，黄昏蓝调时刻。",
+      "composition": "马在下方中偏右；白桦树构成垂直轴；地平线在上三分之一；下半部大片雪地留白。",
+      "color": "历史原文记录主色为 #C9D6E8，调色板为 #C5793C、#D9C2D2、#9FB6D4、#3E4A5A；整体冷调、低饱和。",
+      "typography": "画面中无可读文字。",
+      "texture": "柔和、轻微模糊、梦幻；雪面平滑，树枝纤细。",
+      "material": "画面可辨认的是雪、马毛、白桦树皮与暮色空气。",
+      "spatialDepth": "前景雪地 / 中景马与树林 / 背景白桦与天空，层次清晰。",
+      "hierarchy": "暖橙色的马（冷底上的焦点）→ 白桦树 → 粉紫色天空。",
+      "mood": "安静、冷冽、梦幻、温柔，略带孤独。",
+      "visualStyle": "柔焦冬日风景，偏绘画感。",
+      "interaction": "雪/马/树做分层视差；蓝到粉的渐变随滚动变化；雾霜质感叠加。",
+      "dna": "原文主类为 DREAM，次类为 NATURE，置信度为 high；Archive category 已按历史分析改为 dream。",
+      "uncertainty": "历史原文仅指出原条目标题、分类和强调色不准确，现均已按该分析修正；原文未提供其他需要保留的不确定项。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a09ed2-fcd9-7ba0-a7dd-bc85721df254",
+      "messageId": "198eacd4-a553-4a56-b4a7-9b4d57d05cff",
+      "timestamp": "2026-09-16T08:02:42.432Z",
+      "sourceTitle": "Frozen Water",
+      "originalArtifact": "docs/analysis-recovery/original/frozen-water.txt",
+      "originalSha256": "cbfea702a4da46d9796516db724d84c705403044a1b64ca8fbc8e17c69231516",
+      "sourceFormat": "structured_json",
+      "mappingVersion": "2026-10-26.v2.1"
+    }
+  },
+  "mappingNotes": [
+    "原文的 color 嵌套对象被展开为等价的单段文字，没有新增颜色判断。",
+    "原文的 typography.present=false 映射为规范空值句“画面中无可读文字。”",
+    "原文的 visualHierarchy 改名为 hierarchy。",
+    "原文的 interaction 数组被合并为单段、以分号分隔的文字。",
+    "原文的 dna 对象被展开为单段文字，保留 primary、secondary 与 confidence。",
+    "原文的 implementationHints 不属于 16 项分析，只在原文文件中保留，未擅自并入 interaction。",
+    "项目所有者已确认“以修改后的为准”：标题改为 Horse in Snow，category 改为 dream，accent 改为历史记录中的 #9FB6D4；note 同步修正为雪地中的马。",
+    "analysisSource.sourceTitle 继续保存历史分析当时的标题 Frozen Water，用于追溯；当前标题改为 Horse in Snow。"
+  ],
+  "pending": []
+}

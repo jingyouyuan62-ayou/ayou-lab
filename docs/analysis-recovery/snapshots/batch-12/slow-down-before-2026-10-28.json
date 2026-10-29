@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "entryId": "slow-down",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "entry": {
+    "id": "slow-down",
+    "title": "Slow Down",
+    "date": "2026-07-21",
+    "source": "own",
+    "medium": "photo",
+    "category": "memory",
+    "tags": [
+      "sign",
+      "street",
+      "characters",
+      "pipes"
+    ],
+    "note": "A slow-down sign and a road-bump triangle mounted on a pipe, above plants and parked scooters.",
+    "image": "images/slow-down.jpg",
+    "accent": "#886848",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "台北赤峰街"
+      ]
+    }
+  },
+  "imageSha256": "cc812cf5921f4ff53b0687b52af6e8650987290afc77e8cac71d3d3decc95470"
+}

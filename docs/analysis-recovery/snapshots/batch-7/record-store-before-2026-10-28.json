@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "entryId": "record-store",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "entry": {
+    "id": "record-store",
+    "title": "Chia Chia Records",
+    "date": "2026-07-26",
+    "source": "own",
+    "medium": "photo",
+    "category": "memory",
+    "note": "Chia Chia Records (佳佳唱片行) in Taiwan — I found albums by a singer I love here.",
+    "image": "images/record-store.jpg",
+    "accent": "#3B7A94",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "Chia Chia Records (佳佳唱片行), Taiwan",
+        "I found albums by a singer I love here."
+      ]
+    }
+  },
+  "imageSha256": "b6feadd36ef3fe1cb032ed93bd0719b46ee18958986bf402c0d50b5e57f05ac2"
+}

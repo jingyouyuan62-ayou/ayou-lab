@@ -1,0 +1,20 @@
+## 4. Gallery Poster
+
+画面：画廊展厅，一面蓝白大理石纹理墙，墙上打了白色圆点；墙上文字是「共感 / Entanglements / 存在的節奏 / The Rhythm of Being」，日期 `2026 05-09 – 09-20`，`Gallery 1A 1B`，以及一串艺术家名单；地面是灰色大理石，天花有轨道灯。
+
+- composition：强透视，墙角线向左侧收束；壁画铺满画面；圆形元素反复出现
+- color：冰蓝 #A9C4DA、白 #EDF1F4、淡赭 #C9A98A、灰石 #8A9AA0；冷、低饱和
+- typography：有。展览标题（黑体，左对齐）、日期、展厅号、艺术家小字
+- texture：大理石纹理、粉质壁画、地面反光
+- material：石材、涂料、金属灯具
+- spatialDepth：室内透视（墙/地/天）
+- hierarchy：大标题「共感」→ 蓝色壁画 → 白色圆点 → 地面倒影
+- mood：冷静、当代、干净、带一点梦幻
+- visualStyle：当代美术馆视觉
+- interaction：圆点作为悬停焦点、文字滑入、反光渐变
+- dna：主 color，次 memory
+- accent：#64ADC4
+
+`echoes`：`{ "candidates": ["细胞/流体图像", "当代美术馆视觉系统"], "confirmed": [] }`
+
+✓ 与 OCR 一致，而且能补全展览全名。

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "entryId": "lantern-light",
+  "kind": "owner_authorized_image_reanalysis",
+  "status": "applied",
+  "createdAt": "2026-10-28",
+  "image": {
+    "path": "images/lantern-light.jpg",
+    "sha256": "dcf66a251488b20945555e8db9ccdf042fb06292e9efc0cd25b18fcc784f6e74",
+    "width": 1076,
+    "height": 1600
+  },
+  "historicalTrace": {
+    "original": "docs/analysis-recovery/original/lantern-light.txt",
+    "originalSha256": "c4ef8f67451288f31c184e7881c1c8860e388fb914b6b5246061345d2aa1ef1b",
+    "normalized": "docs/analysis-recovery/normalized/lantern-light.json",
+    "normalizedSha256": "8ab194a09b1810e9b459ce5cffb151d8050bd5d45e03e652aca0a7652dd6ef2a",
+    "previousArchiveAnalysis": "docs/analysis-recovery/reanalysis/lantern-light-before-2026-10-28.json"
+  },
+  "preservedEntryMetadata": {
+    "title": "Lantern Light",
+    "category": "dream",
+    "accent": "#A12E17",
+    "echoes": {
+      "candidates": [
+        "《千与千寻》式的灯笼巷"
+      ],
+      "confirmed": [
+        "九份老街"
+      ]
+    }
+  },
+  "proposedAnalysis": {
+    "content": "夜晚的老街巷子，头顶挂满红灯笼，灯笼上写着「九份」两个字；下方是来往的人群，左侧是卖帽子的小店，巷子向里延伸，全是暖红的灯光。所以这张其实是九份老街。",
+    "composition": "纵向深巷透视，灯笼在上方形成引导线，人群在下方",
+    "color": "红灯笼 #E8452E、暖橙光、暗背景 #3A2420、白字；暖、饱和红主导",
+    "typography": "有。灯笼上重复的「九份」，形成节奏",
+    "texture": "灯笼纸、暖光、夜色、人群",
+    "material": "纸灯笼、木、布料",
+    "spatialDepth": "深巷纵深，灯笼层层递进",
+    "hierarchy": "红灯笼 → 人群 → 店铺细节",
+    "mood": "热闹、温暖、怀旧、拥挤",
+    "visualStyle": "夜间街拍，暖红调，复古胶片感",
+    "interaction": "灯笼摇曳、人群流动、纵深视差",
+    "dna": "主 dream，次 memory",
+    "uncertainty": "本图未发现需特别保留的不确定项。"
+  },
+  "comparisonWithHistoricalDraft": {
+    "preservedConclusions": [
+      "保留历史标准化草案中已有、且本轮未修改的全部视觉判断。",
+      "保留当前标题、category、accent 与 Echoes；不新增 confirmed Echo。"
+    ],
+    "refinements": [
+      "根据原图确认灯笼上的「九份」可读，街道、人群与灯笼层次清楚，不再为 uncertainty 强行添加地点或身份问题。"
+    ],
+    "changedVisualConclusions": [],
+    "historicalInformationLost": [],
+    "unsupportedAdditions": []
+  },
+  "validation": {
+    "oneImageReadOnly": true,
+    "allThirteenAnalysisFieldsPresent": true,
+    "allValuesAreNonEmptyStrings": true,
+    "imageAndHistoricalArtifactsTraceable": true,
+    "preservedTitleCategoryAccentAndEchoes": true,
+    "noUnsupportedConfirmedEchoes": true
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "entryId": "cherry-blossoms",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "entry": {
+    "id": "cherry-blossoms",
+    "title": "Cherry Blossoms",
+    "date": "2026-04-16",
+    "source": "own",
+    "medium": "photo",
+    "category": "color",
+    "tags": [
+      "blossom",
+      "pink",
+      "blue",
+      "spring"
+    ],
+    "note": "Double cherry blossoms held up against a deep blue sky.",
+    "image": "images/cherry-blossoms.jpg",
+    "accent": "#4888C8",
+    "echoes": {
+      "candidates": [
+        "八重櫻（重瓣櫻花）— 品種待確認"
+      ],
+      "confirmed": []
+    }
+  },
+  "imageSha256": "de45e6cd6377be4fa8881e3feb2036dc539a86bee43cdc1d99d930c9d0ca19cc"
+}

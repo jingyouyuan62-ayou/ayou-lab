@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "entryId": "red-tree",
+  "kind": "owner_authorized_image_reanalysis",
+  "status": "applied",
+  "createdAt": "2026-10-28",
+  "image": {
+    "path": "images/red-tree.PNG",
+    "sha256": "0c2228c0cd42f0ca492622ca238202b7439589788abdac8d5648543e9af8c496",
+    "width": 1178,
+    "height": 707
+  },
+  "historicalTrace": {
+    "original": "docs/analysis-recovery/original/red-tree.txt",
+    "originalSha256": "004885821e89e7f62dfad23a93f5b0cf3ab463133c46052a82109c817ab92be0",
+    "normalized": "docs/analysis-recovery/normalized/red-tree.json",
+    "normalizedSha256": "255805c37baa408bdeab8a1bcac85a38ccd98c92f57dcc543e8cb6122f8b6b15",
+    "previousArchiveAnalysis": "docs/analysis-recovery/reanalysis/red-tree-before-2026-10-28.json"
+  },
+  "preservedEntryMetadata": {
+    "title": "Under the Canopy",
+    "category": "color",
+    "accent": "#975235",
+    "echoes": null
+  },
+  "proposedAnalysis": {
+    "content": "实际画面是从下往上看的树冠：深色、盘曲的枝干交织成网，绿色羽状叶（像松柏针叶），成簇的鲜红小花/果实点缀其间，背景是米色天空。整体被压平成一张图案，很像屏风画或印染布。",
+    "composition": "满构图、无单一焦点；枝条从四周向中间交织",
+    "color": "米色底 #E8E3D2、近黑枝干 #2A2E28、灰绿 #7A8A72、鲜红点缀 #D8442E",
+    "typography": "画面中无可读文字。",
+    "texture": "平面图案感，红色呈细密点状",
+    "material": "纸、织物、屏风画",
+    "spatialDepth": "几乎没有纵深，被压平",
+    "hierarchy": "枝干骨架 → 红色簇点 → 绿叶 → 米色底",
+    "mood": "繁盛、古典、装饰性、略带神秘",
+    "visualStyle": "图案化植物画",
+    "interaction": "作为背景纹理平铺、局部放大、缓慢漂移",
+    "dna": "主 color，次 nature",
+    "uncertainty": "画面无法确认它是真实树冠的仰拍，还是对绘画、屏风、印花布等平面作品的翻拍或数字合成；红色簇究竟是花、果还是装饰纹样也不能确定。具体树种、地点与拍摄或创作日期同样无法由画面证明。"
+  },
+  "comparisonWithHistoricalDraft": {
+    "preservedConclusions": [
+      "保留历史标准化草案中已有、且本轮未修改的全部视觉判断。",
+      "保留当前标题、category、accent 与 Echoes；不新增 confirmed Echo。"
+    ],
+    "refinements": [
+      "根据原图补足 uncertainty：区分真实树冠与平面作品翻拍/数字合成的可能，并保留红色簇身份、树种、地点与日期的真实不确定性。"
+    ],
+    "changedVisualConclusions": [],
+    "historicalInformationLost": [],
+    "unsupportedAdditions": []
+  },
+  "validation": {
+    "oneImageReadOnly": true,
+    "allThirteenAnalysisFieldsPresent": true,
+    "allValuesAreNonEmptyStrings": true,
+    "imageAndHistoricalArtifactsTraceable": true,
+    "preservedTitleCategoryAccentAndEchoes": true,
+    "noUnsupportedConfirmedEchoes": true
+  }
+}

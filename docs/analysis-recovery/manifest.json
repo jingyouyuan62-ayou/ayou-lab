@@ -1,0 +1,1501 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-26",
+  "updatedAt": "2026-10-28",
+  "archiveSnapshot": {
+    "entries": 83,
+    "withAnalysis": 83,
+    "missingAnalysis": 0
+  },
+  "accessibility": {
+    "reviewed": 72,
+    "recoverable": 72,
+    "recoveryBaselineMissingAnalysis": 72,
+    "importedFormalAnalyses": 72,
+    "unrecoverable": 0,
+    "structuredFieldAnalysis": 70,
+    "denseProseAnalysis": 2,
+    "scannedSessionFiles": 47,
+    "scannedFormats": [
+      "jsonl",
+      "jsonl.zst"
+    ],
+    "denseProseEntries": [
+      "gulls-overhead",
+      "lantern-tree"
+    ],
+    "pendingReanalysis": 0
+  },
+  "validationReports": [
+    "docs/analysis-recovery/validation-round-2.md",
+    "docs/analysis-recovery/formal-trial-1.md",
+    "docs/analysis-recovery/reanalysis/night-sparks-validation.md",
+    "docs/analysis-recovery/batch-2.md",
+    "docs/analysis-recovery/batch-3.md",
+    "docs/analysis-recovery/batch-4.md",
+    "docs/analysis-recovery/batch-5.md",
+    "docs/analysis-recovery/batch-6.md",
+    "docs/analysis-recovery/remaining-recovery.md",
+    "docs/analysis-recovery/reanalysis/batch-1.md",
+    "docs/analysis-recovery/reanalysis/batch-2.md",
+    "docs/analysis-recovery/reanalysis/batch-3.md",
+    "docs/analysis-recovery/reanalysis/batch-4.md",
+    "docs/analysis-recovery/reanalysis/batch-5.md"
+  ],
+  "formalTrial": {
+    "completed": 5,
+    "failed": 0,
+    "entriesWithPendingFields": 1,
+    "entries": [
+      "tomato",
+      "fireworks-night",
+      "ginkgo-fence",
+      "henna-collage",
+      "lantern-tree"
+    ]
+  },
+  "recoveryBatches": [
+    {
+      "batchId": "2026-10-27-recovery-2",
+      "completedAt": "2026-10-27",
+      "completed": 3,
+      "failed": 0,
+      "entries": [
+        "frozen-water",
+        "cloud-line",
+        "gulls-overhead"
+      ],
+      "entriesWithPendingMetadata": [],
+      "metadataRevisions": [
+        "frozen-water"
+      ],
+      "reanalysisRequired": []
+    },
+    {
+      "batchId": "2026-10-28-recovery-3",
+      "completedAt": "2026-10-28",
+      "completed": 5,
+      "failed": 0,
+      "entries": [
+        "glittering-sea",
+        "forest-railway",
+        "fallen-leaves",
+        "white-bells",
+        "old-machine"
+      ],
+      "entriesWithPendingMetadata": [],
+      "reanalysisRequired": []
+    },
+    {
+      "batchId": "2026-10-28-recovery-4",
+      "completedAt": "2026-10-28",
+      "completed": 5,
+      "failed": 0,
+      "entries": [
+        "above-jiufen",
+        "green-courtyard",
+        "snow-globes",
+        "backlit-reeds",
+        "gulls-on-water"
+      ],
+      "entriesWithPendingMetadata": [],
+      "reanalysisRequired": []
+    },
+    {
+      "batchId": "2026-10-28-recovery-5",
+      "completedAt": "2026-10-28",
+      "completed": 5,
+      "failed": 0,
+      "entries": [
+        "forest-walk",
+        "magnolia",
+        "yulan",
+        "pasture-forest",
+        "green-canal"
+      ],
+      "entriesWithPendingMetadata": [],
+      "reanalysisRequired": []
+    },
+    {
+      "batchId": "2026-10-28-recovery-6",
+      "completedAt": "2026-10-28",
+      "completed": 3,
+      "failed": 0,
+      "entries": [
+        "blue-house",
+        "cut-oranges",
+        "osmanthus"
+      ],
+      "entriesWithPendingMetadata": [],
+      "reanalysisRequired": []
+    },
+    {
+      "batchId": "2026-10-28-recovery-7",
+      "completedAt": "2026-10-28",
+      "completed": 0,
+      "pending": 5,
+      "failed": 0,
+      "entries": [
+        "red-tree",
+        "soft-object",
+        "bridge-sky",
+        "grass-field",
+        "record-store"
+      ],
+      "entriesWithPendingFields": [
+        "red-tree",
+        "soft-object",
+        "bridge-sky",
+        "grass-field",
+        "record-store"
+      ],
+      "reanalysisRequired": [
+        "red-tree",
+        "soft-object",
+        "bridge-sky",
+        "grass-field",
+        "record-store"
+      ]
+    },
+    {
+      "batchId": "2026-10-28-recovery-8",
+      "completedAt": "2026-10-28",
+      "completed": 0,
+      "pending": 5,
+      "failed": 0,
+      "entries": [
+        "coastal-station",
+        "ntu-gate",
+        "literature-corridor",
+        "gallery-poster",
+        "tomato-illustration"
+      ],
+      "entriesWithPendingFields": [
+        "coastal-station",
+        "ntu-gate",
+        "literature-corridor",
+        "gallery-poster",
+        "tomato-illustration"
+      ],
+      "reanalysisRequired": [
+        "coastal-station",
+        "ntu-gate",
+        "literature-corridor",
+        "gallery-poster",
+        "tomato-illustration"
+      ]
+    },
+    {
+      "batchId": "2026-10-28-recovery-9",
+      "completedAt": "2026-10-28",
+      "completed": 0,
+      "pending": 4,
+      "failed": 0,
+      "entries": [
+        "moon",
+        "jiming-temple",
+        "airplane",
+        "lantern-light"
+      ],
+      "entriesWithPendingFields": [
+        "moon",
+        "jiming-temple",
+        "airplane",
+        "lantern-light"
+      ],
+      "reanalysisRequired": [
+        "moon",
+        "jiming-temple",
+        "airplane",
+        "lantern-light"
+      ]
+    },
+    {
+      "batchId": "2026-10-28-recovery-10",
+      "completedAt": "2026-10-28",
+      "completed": 5,
+      "pending": 0,
+      "failed": 0,
+      "entries": [
+        "daisies",
+        "cherry-blossoms",
+        "moon-branches",
+        "golden-branches",
+        "fishing-harbor"
+      ],
+      "entriesWithPendingFields": [],
+      "reanalysisRequired": []
+    },
+    {
+      "batchId": "2026-10-28-recovery-11",
+      "completedAt": "2026-10-28",
+      "completed": 5,
+      "pending": 0,
+      "failed": 0,
+      "entries": [
+        "rocks-surf",
+        "flower-field",
+        "meadow-cabin",
+        "lotus-pond",
+        "city-canopy"
+      ],
+      "entriesWithPendingFields": [],
+      "reanalysisRequired": []
+    },
+    {
+      "batchId": "2026-10-28-recovery-12",
+      "completedAt": "2026-10-28",
+      "completed": 5,
+      "pending": 0,
+      "failed": 0,
+      "entries": [
+        "record-collage",
+        "slow-down",
+        "dusk-street",
+        "hydrangeas",
+        "fallen-tree"
+      ],
+      "entriesWithPendingFields": [],
+      "reanalysisRequired": []
+    },
+    {
+      "batchId": "2026-10-28-recovery-13",
+      "completedAt": "2026-10-28",
+      "completed": 5,
+      "pending": 0,
+      "failed": 0,
+      "entries": [
+        "pond-grass",
+        "lighthouse",
+        "embroidered-lilies",
+        "sunlit-canopy",
+        "long-afternoon"
+      ],
+      "entriesWithPendingFields": [],
+      "reanalysisRequired": []
+    },
+    {
+      "batchId": "2026-10-28-recovery-14",
+      "completedAt": "2026-10-28",
+      "completed": 5,
+      "pending": 0,
+      "failed": 0,
+      "entries": [
+        "lake-road",
+        "purple-roses",
+        "lilac-hydrangeas",
+        "mountain-pavilion",
+        "green-tunnel"
+      ],
+      "entriesWithPendingFields": [],
+      "reanalysisRequired": []
+    },
+    {
+      "batchId": "2026-10-28-recovery-15",
+      "completedAt": "2026-10-28",
+      "completed": 5,
+      "pending": 0,
+      "failed": 0,
+      "entries": [
+        "backlit-thicket",
+        "valley-overlook",
+        "purple-swirls",
+        "road-mirror",
+        "matcha-dessert"
+      ],
+      "entriesWithPendingFields": [],
+      "reanalysisRequired": []
+    },
+    {
+      "batchId": "2026-10-28-recovery-16",
+      "completedAt": "2026-10-28",
+      "completed": 2,
+      "pending": 0,
+      "failed": 0,
+      "entries": [
+        "teal-liberty",
+        "fujin-street"
+      ],
+      "entriesWithPendingFields": [],
+      "reanalysisRequired": []
+    },
+    {
+      "batchId": "2026-10-28-reanalysis-1",
+      "completedAt": "2026-10-28",
+      "completed": 3,
+      "pending": 0,
+      "failed": 0,
+      "entries": [
+        "red-tree",
+        "soft-object",
+        "bridge-sky"
+      ],
+      "mode": "owner_authorized_image_reanalysis"
+    },
+    {
+      "batchId": "2026-10-28-reanalysis-2",
+      "completedAt": "2026-10-28",
+      "completed": 3,
+      "pending": 0,
+      "failed": 0,
+      "entries": [
+        "grass-field",
+        "record-store",
+        "coastal-station"
+      ],
+      "mode": "owner_authorized_image_reanalysis"
+    },
+    {
+      "batchId": "2026-10-28-reanalysis-3",
+      "completedAt": "2026-10-28",
+      "completed": 3,
+      "pending": 0,
+      "failed": 0,
+      "entries": [
+        "ntu-gate",
+        "literature-corridor",
+        "gallery-poster"
+      ],
+      "mode": "owner_authorized_image_reanalysis"
+    },
+    {
+      "batchId": "2026-10-28-reanalysis-4",
+      "completedAt": "2026-10-28",
+      "completed": 3,
+      "pending": 0,
+      "failed": 0,
+      "entries": [
+        "tomato-illustration",
+        "jiming-temple",
+        "airplane"
+      ],
+      "mode": "owner_authorized_image_reanalysis"
+    },
+    {
+      "batchId": "2026-10-28-reanalysis-5",
+      "completedAt": "2026-10-28",
+      "completed": 2,
+      "pending": 0,
+      "failed": 0,
+      "entries": [
+        "moon",
+        "lantern-light"
+      ],
+      "mode": "owner_authorized_image_reanalysis"
+    }
+  ],
+  "samples": [
+    {
+      "entryId": "frozen-water",
+      "validationRound": 1,
+      "batchId": "2026-10-27-recovery-2",
+      "archiveStatus": "imported",
+      "importedAt": "2026-10-27",
+      "sourceFormat": "structured_json",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/frozen-water.txt",
+      "validationDraft": "docs/analysis-recovery/normalized/frozen-water.json",
+      "normalized": "docs/analysis-recovery/finalized/frozen-water.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-2/frozen-water-before-2026-10-27.json",
+      "metadataRevision": "docs/analysis-recovery/revisions/frozen-water-2026-10-28.json"
+    },
+    {
+      "entryId": "cloud-line",
+      "validationRound": 1,
+      "batchId": "2026-10-27-recovery-2",
+      "archiveStatus": "imported",
+      "importedAt": "2026-10-27",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/cloud-line.txt",
+      "validationDraft": "docs/analysis-recovery/normalized/cloud-line.json",
+      "normalized": "docs/analysis-recovery/finalized/cloud-line.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-2/cloud-line-before-2026-10-27.json"
+    },
+    {
+      "entryId": "gulls-overhead",
+      "validationRound": 1,
+      "batchId": "2026-10-27-recovery-2",
+      "archiveStatus": "imported",
+      "importedAt": "2026-10-27",
+      "sourceFormat": "dense_prose",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/gulls-overhead.txt",
+      "validationDraft": "docs/analysis-recovery/normalized/gulls-overhead.json",
+      "normalized": "docs/analysis-recovery/finalized/gulls-overhead.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-2/gulls-overhead-before-2026-10-27.json"
+    },
+    {
+      "entryId": "tomato",
+      "validationRound": 2,
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_json",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/tomato.txt",
+      "normalized": "docs/analysis-recovery/normalized/tomato.json"
+    },
+    {
+      "entryId": "fireworks-night",
+      "validationRound": 2,
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "needs_owner_confirmation",
+      "original": "docs/analysis-recovery/original/night-sparks.txt",
+      "normalized": "docs/analysis-recovery/normalized/night-sparks.json"
+    },
+    {
+      "entryId": "ginkgo-fence",
+      "validationRound": 2,
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/ginkgo-fence.txt",
+      "normalized": "docs/analysis-recovery/normalized/ginkgo-fence.json"
+    },
+    {
+      "entryId": "henna-collage",
+      "validationRound": 2,
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/henna-collage.txt",
+      "normalized": "docs/analysis-recovery/normalized/henna-collage.json"
+    },
+    {
+      "entryId": "lantern-tree",
+      "validationRound": 2,
+      "archiveStatus": "imported",
+      "sourceFormat": "dense_prose",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/lantern-tree.txt",
+      "normalized": "docs/analysis-recovery/normalized/lantern-tree.json"
+    },
+    {
+      "entryId": "glittering-sea",
+      "validationRound": 3,
+      "batchId": "2026-10-28-recovery-3",
+      "archiveStatus": "imported",
+      "importedAt": "2026-10-28",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/glittering-sea.txt",
+      "normalized": "docs/analysis-recovery/finalized/glittering-sea.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-3/glittering-sea-before-2026-10-28.json"
+    },
+    {
+      "entryId": "forest-railway",
+      "validationRound": 3,
+      "batchId": "2026-10-28-recovery-3",
+      "archiveStatus": "imported",
+      "importedAt": "2026-10-28",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/forest-railway.txt",
+      "normalized": "docs/analysis-recovery/finalized/forest-railway.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-3/forest-railway-before-2026-10-28.json"
+    },
+    {
+      "entryId": "fallen-leaves",
+      "validationRound": 3,
+      "batchId": "2026-10-28-recovery-3",
+      "archiveStatus": "imported",
+      "importedAt": "2026-10-28",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/fallen-leaves.txt",
+      "normalized": "docs/analysis-recovery/finalized/fallen-leaves.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-3/fallen-leaves-before-2026-10-28.json"
+    },
+    {
+      "entryId": "white-bells",
+      "validationRound": 3,
+      "batchId": "2026-10-28-recovery-3",
+      "archiveStatus": "imported",
+      "importedAt": "2026-10-28",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/white-bells.txt",
+      "normalized": "docs/analysis-recovery/finalized/white-bells.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-3/white-bells-before-2026-10-28.json"
+    },
+    {
+      "entryId": "old-machine",
+      "validationRound": 3,
+      "batchId": "2026-10-28-recovery-3",
+      "archiveStatus": "imported",
+      "importedAt": "2026-10-28",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/old-machine.txt",
+      "normalized": "docs/analysis-recovery/finalized/old-machine.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-3/old-machine-before-2026-10-28.json"
+    },
+    {
+      "entryId": "above-jiufen",
+      "validationRound": 4,
+      "batchId": "2026-10-28-recovery-4",
+      "archiveStatus": "imported",
+      "importedAt": "2026-10-28",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/above-jiufen.txt",
+      "normalized": "docs/analysis-recovery/finalized/above-jiufen.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-4/above-jiufen-before-2026-10-28.json"
+    },
+    {
+      "entryId": "green-courtyard",
+      "validationRound": 4,
+      "batchId": "2026-10-28-recovery-4",
+      "archiveStatus": "imported",
+      "importedAt": "2026-10-28",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/green-courtyard.txt",
+      "normalized": "docs/analysis-recovery/finalized/green-courtyard.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-4/green-courtyard-before-2026-10-28.json"
+    },
+    {
+      "entryId": "snow-globes",
+      "validationRound": 4,
+      "batchId": "2026-10-28-recovery-4",
+      "archiveStatus": "imported",
+      "importedAt": "2026-10-28",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/snow-globes.txt",
+      "normalized": "docs/analysis-recovery/finalized/snow-globes.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-4/snow-globes-before-2026-10-28.json"
+    },
+    {
+      "entryId": "backlit-reeds",
+      "validationRound": 4,
+      "batchId": "2026-10-28-recovery-4",
+      "archiveStatus": "imported",
+      "importedAt": "2026-10-28",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/backlit-reeds.txt",
+      "normalized": "docs/analysis-recovery/finalized/backlit-reeds.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-4/backlit-reeds-before-2026-10-28.json"
+    },
+    {
+      "entryId": "gulls-on-water",
+      "validationRound": 4,
+      "batchId": "2026-10-28-recovery-4",
+      "archiveStatus": "imported",
+      "importedAt": "2026-10-28",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/gulls-on-water.txt",
+      "normalized": "docs/analysis-recovery/finalized/gulls-on-water.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-4/gulls-on-water-before-2026-10-28.json"
+    },
+    {
+      "entryId": "forest-walk",
+      "validationRound": 5,
+      "batchId": "2026-10-28-recovery-5",
+      "archiveStatus": "imported",
+      "importedAt": "2026-10-28",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/forest-walk.txt",
+      "normalized": "docs/analysis-recovery/finalized/forest-walk.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-5/forest-walk-before-2026-10-28.json"
+    },
+    {
+      "entryId": "magnolia",
+      "validationRound": 5,
+      "batchId": "2026-10-28-recovery-5",
+      "archiveStatus": "imported",
+      "importedAt": "2026-10-28",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/magnolia.txt",
+      "normalized": "docs/analysis-recovery/finalized/magnolia.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-5/magnolia-before-2026-10-28.json"
+    },
+    {
+      "entryId": "yulan",
+      "validationRound": 5,
+      "batchId": "2026-10-28-recovery-5",
+      "archiveStatus": "imported",
+      "importedAt": "2026-10-28",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/yulan.txt",
+      "normalized": "docs/analysis-recovery/finalized/yulan.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-5/yulan-before-2026-10-28.json"
+    },
+    {
+      "entryId": "pasture-forest",
+      "validationRound": 5,
+      "batchId": "2026-10-28-recovery-5",
+      "archiveStatus": "imported",
+      "importedAt": "2026-10-28",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/pasture-forest.txt",
+      "normalized": "docs/analysis-recovery/finalized/pasture-forest.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-5/pasture-forest-before-2026-10-28.json"
+    },
+    {
+      "entryId": "green-canal",
+      "validationRound": 5,
+      "batchId": "2026-10-28-recovery-5",
+      "archiveStatus": "imported",
+      "importedAt": "2026-10-28",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/green-canal.txt",
+      "normalized": "docs/analysis-recovery/finalized/green-canal.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-5/green-canal-before-2026-10-28.json"
+    },
+    {
+      "entryId": "blue-house",
+      "validationRound": 6,
+      "batchId": "2026-10-28-recovery-6",
+      "archiveStatus": "imported",
+      "importedAt": "2026-10-28",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/blue-house.txt",
+      "normalized": "docs/analysis-recovery/finalized/blue-house.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-6/blue-house-before-2026-10-28.json"
+    },
+    {
+      "entryId": "cut-oranges",
+      "validationRound": 6,
+      "batchId": "2026-10-28-recovery-6",
+      "archiveStatus": "imported",
+      "importedAt": "2026-10-28",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/cut-oranges.txt",
+      "normalized": "docs/analysis-recovery/finalized/cut-oranges.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-6/cut-oranges-before-2026-10-28.json"
+    },
+    {
+      "entryId": "osmanthus",
+      "validationRound": 6,
+      "batchId": "2026-10-28-recovery-6",
+      "archiveStatus": "imported",
+      "importedAt": "2026-10-28",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/osmanthus.txt",
+      "normalized": "docs/analysis-recovery/finalized/osmanthus.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-6/osmanthus-before-2026-10-28.json"
+    },
+    {
+      "entryId": "red-tree",
+      "validationRound": 7,
+      "batchId": "2026-10-28-recovery-7",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "needs_owner_confirmation",
+      "original": "docs/analysis-recovery/original/red-tree.txt",
+      "normalized": "docs/analysis-recovery/normalized/red-tree.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-7/red-tree-before-2026-10-28.json",
+      "reanalysisRequired": false,
+      "historicalPendingFields": [
+        "uncertainty"
+      ],
+      "importedAt": "2026-10-28",
+      "reanalysisAppliedAt": "2026-10-28"
+    },
+    {
+      "entryId": "soft-object",
+      "validationRound": 7,
+      "batchId": "2026-10-28-recovery-7",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "needs_owner_confirmation",
+      "original": "docs/analysis-recovery/original/soft-object.txt",
+      "normalized": "docs/analysis-recovery/normalized/soft-object.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-7/soft-object-before-2026-10-28.json",
+      "reanalysisRequired": false,
+      "historicalPendingFields": [
+        "uncertainty"
+      ],
+      "importedAt": "2026-10-28",
+      "reanalysisAppliedAt": "2026-10-28"
+    },
+    {
+      "entryId": "bridge-sky",
+      "validationRound": 7,
+      "batchId": "2026-10-28-recovery-7",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "needs_owner_confirmation",
+      "original": "docs/analysis-recovery/original/bridge-sky.txt",
+      "normalized": "docs/analysis-recovery/normalized/bridge-sky.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-7/bridge-sky-before-2026-10-28.json",
+      "reanalysisRequired": false,
+      "historicalPendingFields": [
+        "uncertainty"
+      ],
+      "importedAt": "2026-10-28",
+      "reanalysisAppliedAt": "2026-10-28"
+    },
+    {
+      "entryId": "grass-field",
+      "validationRound": 7,
+      "batchId": "2026-10-28-recovery-7",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "needs_owner_confirmation",
+      "original": "docs/analysis-recovery/original/grass-field.txt",
+      "normalized": "docs/analysis-recovery/normalized/grass-field.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-7/grass-field-before-2026-10-28.json",
+      "reanalysisRequired": false,
+      "historicalPendingFields": [
+        "typography",
+        "material",
+        "interaction",
+        "uncertainty"
+      ],
+      "importedAt": "2026-10-28",
+      "reanalysisAppliedAt": "2026-10-28"
+    },
+    {
+      "entryId": "record-store",
+      "validationRound": 7,
+      "batchId": "2026-10-28-recovery-7",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "needs_owner_confirmation",
+      "original": "docs/analysis-recovery/original/record-store.txt",
+      "normalized": "docs/analysis-recovery/normalized/record-store.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-7/record-store-before-2026-10-28.json",
+      "reanalysisRequired": false,
+      "historicalPendingFields": [
+        "uncertainty"
+      ],
+      "importedAt": "2026-10-28",
+      "reanalysisAppliedAt": "2026-10-28"
+    },
+    {
+      "entryId": "coastal-station",
+      "validationRound": 8,
+      "batchId": "2026-10-28-recovery-8",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "needs_owner_confirmation",
+      "original": "docs/analysis-recovery/original/coastal-station.txt",
+      "normalized": "docs/analysis-recovery/normalized/coastal-station.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-8/coastal-station-before-2026-10-28.json",
+      "reanalysisRequired": false,
+      "historicalPendingFields": [
+        "uncertainty"
+      ],
+      "importedAt": "2026-10-28",
+      "reanalysisAppliedAt": "2026-10-28"
+    },
+    {
+      "entryId": "ntu-gate",
+      "validationRound": 8,
+      "batchId": "2026-10-28-recovery-8",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "needs_owner_confirmation",
+      "original": "docs/analysis-recovery/original/ntu-gate.txt",
+      "normalized": "docs/analysis-recovery/normalized/ntu-gate.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-8/ntu-gate-before-2026-10-28.json",
+      "reanalysisRequired": false,
+      "historicalPendingFields": [
+        "spatialDepth",
+        "hierarchy",
+        "interaction",
+        "uncertainty"
+      ],
+      "importedAt": "2026-10-28",
+      "reanalysisAppliedAt": "2026-10-28"
+    },
+    {
+      "entryId": "literature-corridor",
+      "validationRound": 8,
+      "batchId": "2026-10-28-recovery-8",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "needs_owner_confirmation",
+      "original": "docs/analysis-recovery/original/literature-corridor.txt",
+      "normalized": "docs/analysis-recovery/normalized/literature-corridor.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-8/literature-corridor-before-2026-10-28.json",
+      "reanalysisRequired": false,
+      "historicalPendingFields": [
+        "typography",
+        "material",
+        "interaction",
+        "uncertainty"
+      ],
+      "importedAt": "2026-10-28",
+      "reanalysisAppliedAt": "2026-10-28"
+    },
+    {
+      "entryId": "gallery-poster",
+      "validationRound": 8,
+      "batchId": "2026-10-28-recovery-8",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "needs_owner_confirmation",
+      "original": "docs/analysis-recovery/original/gallery-poster.txt",
+      "normalized": "docs/analysis-recovery/normalized/gallery-poster.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-8/gallery-poster-before-2026-10-28.json",
+      "reanalysisRequired": false,
+      "historicalPendingFields": [
+        "uncertainty"
+      ],
+      "importedAt": "2026-10-28",
+      "reanalysisAppliedAt": "2026-10-28"
+    },
+    {
+      "entryId": "tomato-illustration",
+      "validationRound": 8,
+      "batchId": "2026-10-28-recovery-8",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "needs_owner_confirmation",
+      "original": "docs/analysis-recovery/original/tomato-illustration.txt",
+      "normalized": "docs/analysis-recovery/normalized/tomato-illustration.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-8/tomato-illustration-before-2026-10-28.json",
+      "reanalysisRequired": false,
+      "historicalPendingFields": [
+        "uncertainty"
+      ],
+      "importedAt": "2026-10-28",
+      "reanalysisAppliedAt": "2026-10-28"
+    },
+    {
+      "entryId": "moon",
+      "validationRound": 9,
+      "batchId": "2026-10-28-recovery-9",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "needs_owner_confirmation",
+      "original": "docs/analysis-recovery/original/moon.txt",
+      "normalized": "docs/analysis-recovery/normalized/moon.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-9/moon-before-2026-10-28.json",
+      "reanalysisRequired": false,
+      "historicalPendingFields": [
+        "uncertainty"
+      ],
+      "importedAt": "2026-10-28",
+      "reanalysisAppliedAt": "2026-10-28"
+    },
+    {
+      "entryId": "jiming-temple",
+      "validationRound": 9,
+      "batchId": "2026-10-28-recovery-9",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "needs_owner_confirmation",
+      "original": "docs/analysis-recovery/original/jiming-temple.txt",
+      "normalized": "docs/analysis-recovery/normalized/jiming-temple.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-9/jiming-temple-before-2026-10-28.json",
+      "reanalysisRequired": false,
+      "historicalPendingFields": [
+        "typography",
+        "interaction",
+        "uncertainty"
+      ],
+      "importedAt": "2026-10-28",
+      "reanalysisAppliedAt": "2026-10-28"
+    },
+    {
+      "entryId": "airplane",
+      "validationRound": 9,
+      "batchId": "2026-10-28-recovery-9",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "needs_owner_confirmation",
+      "original": "docs/analysis-recovery/original/airplane.txt",
+      "normalized": "docs/analysis-recovery/normalized/airplane.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-9/airplane-before-2026-10-28.json",
+      "reanalysisRequired": false,
+      "historicalPendingFields": [
+        "typography",
+        "material",
+        "hierarchy",
+        "interaction",
+        "uncertainty"
+      ],
+      "importedAt": "2026-10-28",
+      "reanalysisAppliedAt": "2026-10-28"
+    },
+    {
+      "entryId": "lantern-light",
+      "validationRound": 9,
+      "batchId": "2026-10-28-recovery-9",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "needs_owner_confirmation",
+      "original": "docs/analysis-recovery/original/lantern-light.txt",
+      "normalized": "docs/analysis-recovery/normalized/lantern-light.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-9/lantern-light-before-2026-10-28.json",
+      "reanalysisRequired": false,
+      "historicalPendingFields": [
+        "uncertainty"
+      ],
+      "importedAt": "2026-10-28",
+      "reanalysisAppliedAt": "2026-10-28"
+    },
+    {
+      "entryId": "daisies",
+      "validationRound": 10,
+      "batchId": "2026-10-28-recovery-10",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/daisies.txt",
+      "normalized": "docs/analysis-recovery/finalized/daisies.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-10/daisies-before-2026-10-28.json",
+      "validationDraft": "docs/analysis-recovery/normalized/daisies.json",
+      "importedAt": "2026-10-28"
+    },
+    {
+      "entryId": "cherry-blossoms",
+      "validationRound": 10,
+      "batchId": "2026-10-28-recovery-10",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/cherry-blossoms.txt",
+      "normalized": "docs/analysis-recovery/finalized/cherry-blossoms.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-10/cherry-blossoms-before-2026-10-28.json",
+      "validationDraft": "docs/analysis-recovery/normalized/cherry-blossoms.json",
+      "importedAt": "2026-10-28"
+    },
+    {
+      "entryId": "moon-branches",
+      "validationRound": 10,
+      "batchId": "2026-10-28-recovery-10",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/moon-branches.txt",
+      "normalized": "docs/analysis-recovery/finalized/moon-branches.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-10/moon-branches-before-2026-10-28.json",
+      "validationDraft": "docs/analysis-recovery/normalized/moon-branches.json",
+      "importedAt": "2026-10-28"
+    },
+    {
+      "entryId": "golden-branches",
+      "validationRound": 10,
+      "batchId": "2026-10-28-recovery-10",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/golden-branches.txt",
+      "normalized": "docs/analysis-recovery/finalized/golden-branches.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-10/golden-branches-before-2026-10-28.json",
+      "validationDraft": "docs/analysis-recovery/normalized/golden-branches.json",
+      "importedAt": "2026-10-28"
+    },
+    {
+      "entryId": "fishing-harbor",
+      "validationRound": 10,
+      "batchId": "2026-10-28-recovery-10",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/fishing-harbor.txt",
+      "normalized": "docs/analysis-recovery/finalized/fishing-harbor.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-10/fishing-harbor-before-2026-10-28.json",
+      "validationDraft": "docs/analysis-recovery/normalized/fishing-harbor.json",
+      "importedAt": "2026-10-28"
+    },
+    {
+      "entryId": "rocks-surf",
+      "validationRound": 11,
+      "batchId": "2026-10-28-recovery-11",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/rocks-surf.txt",
+      "normalized": "docs/analysis-recovery/finalized/rocks-surf.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-11/rocks-surf-before-2026-10-28.json",
+      "validationDraft": "docs/analysis-recovery/normalized/rocks-surf.json",
+      "importedAt": "2026-10-28"
+    },
+    {
+      "entryId": "flower-field",
+      "validationRound": 11,
+      "batchId": "2026-10-28-recovery-11",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/flower-field.txt",
+      "normalized": "docs/analysis-recovery/finalized/flower-field.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-11/flower-field-before-2026-10-28.json",
+      "validationDraft": "docs/analysis-recovery/normalized/flower-field.json",
+      "importedAt": "2026-10-28"
+    },
+    {
+      "entryId": "meadow-cabin",
+      "validationRound": 11,
+      "batchId": "2026-10-28-recovery-11",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/meadow-cabin.txt",
+      "normalized": "docs/analysis-recovery/finalized/meadow-cabin.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-11/meadow-cabin-before-2026-10-28.json",
+      "validationDraft": "docs/analysis-recovery/normalized/meadow-cabin.json",
+      "importedAt": "2026-10-28"
+    },
+    {
+      "entryId": "lotus-pond",
+      "validationRound": 11,
+      "batchId": "2026-10-28-recovery-11",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/lotus-pond.txt",
+      "normalized": "docs/analysis-recovery/finalized/lotus-pond.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-11/lotus-pond-before-2026-10-28.json",
+      "validationDraft": "docs/analysis-recovery/normalized/lotus-pond.json",
+      "importedAt": "2026-10-28"
+    },
+    {
+      "entryId": "city-canopy",
+      "validationRound": 11,
+      "batchId": "2026-10-28-recovery-11",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/city-canopy.txt",
+      "normalized": "docs/analysis-recovery/finalized/city-canopy.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-11/city-canopy-before-2026-10-28.json",
+      "validationDraft": "docs/analysis-recovery/normalized/city-canopy.json",
+      "importedAt": "2026-10-28"
+    },
+    {
+      "entryId": "record-collage",
+      "validationRound": 12,
+      "batchId": "2026-10-28-recovery-12",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/record-collage.txt",
+      "normalized": "docs/analysis-recovery/finalized/record-collage.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-12/record-collage-before-2026-10-28.json",
+      "validationDraft": "docs/analysis-recovery/normalized/record-collage.json",
+      "importedAt": "2026-10-28"
+    },
+    {
+      "entryId": "slow-down",
+      "validationRound": 12,
+      "batchId": "2026-10-28-recovery-12",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/slow-down.txt",
+      "normalized": "docs/analysis-recovery/finalized/slow-down.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-12/slow-down-before-2026-10-28.json",
+      "validationDraft": "docs/analysis-recovery/normalized/slow-down.json",
+      "importedAt": "2026-10-28"
+    },
+    {
+      "entryId": "dusk-street",
+      "validationRound": 12,
+      "batchId": "2026-10-28-recovery-12",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/dusk-street.txt",
+      "normalized": "docs/analysis-recovery/finalized/dusk-street.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-12/dusk-street-before-2026-10-28.json",
+      "validationDraft": "docs/analysis-recovery/normalized/dusk-street.json",
+      "importedAt": "2026-10-28"
+    },
+    {
+      "entryId": "hydrangeas",
+      "validationRound": 12,
+      "batchId": "2026-10-28-recovery-12",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/hydrangeas.txt",
+      "normalized": "docs/analysis-recovery/finalized/hydrangeas.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-12/hydrangeas-before-2026-10-28.json",
+      "validationDraft": "docs/analysis-recovery/normalized/hydrangeas.json",
+      "importedAt": "2026-10-28"
+    },
+    {
+      "entryId": "fallen-tree",
+      "validationRound": 12,
+      "batchId": "2026-10-28-recovery-12",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/fallen-tree.txt",
+      "normalized": "docs/analysis-recovery/finalized/fallen-tree.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-12/fallen-tree-before-2026-10-28.json",
+      "validationDraft": "docs/analysis-recovery/normalized/fallen-tree.json",
+      "importedAt": "2026-10-28"
+    },
+    {
+      "entryId": "pond-grass",
+      "validationRound": 13,
+      "batchId": "2026-10-28-recovery-13",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/pond-grass.txt",
+      "normalized": "docs/analysis-recovery/finalized/pond-grass.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-13/pond-grass-before-2026-10-28.json",
+      "validationDraft": "docs/analysis-recovery/normalized/pond-grass.json",
+      "importedAt": "2026-10-28"
+    },
+    {
+      "entryId": "lighthouse",
+      "validationRound": 13,
+      "batchId": "2026-10-28-recovery-13",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/lighthouse.txt",
+      "normalized": "docs/analysis-recovery/finalized/lighthouse.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-13/lighthouse-before-2026-10-28.json",
+      "validationDraft": "docs/analysis-recovery/normalized/lighthouse.json",
+      "importedAt": "2026-10-28"
+    },
+    {
+      "entryId": "embroidered-lilies",
+      "validationRound": 13,
+      "batchId": "2026-10-28-recovery-13",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/embroidered-lilies.txt",
+      "normalized": "docs/analysis-recovery/finalized/embroidered-lilies.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-13/embroidered-lilies-before-2026-10-28.json",
+      "validationDraft": "docs/analysis-recovery/normalized/embroidered-lilies.json",
+      "importedAt": "2026-10-28"
+    },
+    {
+      "entryId": "sunlit-canopy",
+      "validationRound": 13,
+      "batchId": "2026-10-28-recovery-13",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/sunlit-canopy.txt",
+      "normalized": "docs/analysis-recovery/finalized/sunlit-canopy.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-13/sunlit-canopy-before-2026-10-28.json",
+      "validationDraft": "docs/analysis-recovery/normalized/sunlit-canopy.json",
+      "importedAt": "2026-10-28"
+    },
+    {
+      "entryId": "long-afternoon",
+      "validationRound": 13,
+      "batchId": "2026-10-28-recovery-13",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/long-afternoon.txt",
+      "normalized": "docs/analysis-recovery/finalized/long-afternoon.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-13/long-afternoon-before-2026-10-28.json",
+      "validationDraft": "docs/analysis-recovery/normalized/long-afternoon.json",
+      "importedAt": "2026-10-28"
+    },
+    {
+      "entryId": "lake-road",
+      "validationRound": 14,
+      "batchId": "2026-10-28-recovery-14",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/lake-road.txt",
+      "normalized": "docs/analysis-recovery/finalized/lake-road.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-14/lake-road-before-2026-10-28.json",
+      "validationDraft": "docs/analysis-recovery/normalized/lake-road.json",
+      "importedAt": "2026-10-28"
+    },
+    {
+      "entryId": "purple-roses",
+      "validationRound": 14,
+      "batchId": "2026-10-28-recovery-14",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/purple-roses.txt",
+      "normalized": "docs/analysis-recovery/finalized/purple-roses.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-14/purple-roses-before-2026-10-28.json",
+      "validationDraft": "docs/analysis-recovery/normalized/purple-roses.json",
+      "importedAt": "2026-10-28"
+    },
+    {
+      "entryId": "lilac-hydrangeas",
+      "validationRound": 14,
+      "batchId": "2026-10-28-recovery-14",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/lilac-hydrangeas.txt",
+      "normalized": "docs/analysis-recovery/finalized/lilac-hydrangeas.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-14/lilac-hydrangeas-before-2026-10-28.json",
+      "validationDraft": "docs/analysis-recovery/normalized/lilac-hydrangeas.json",
+      "importedAt": "2026-10-28"
+    },
+    {
+      "entryId": "mountain-pavilion",
+      "validationRound": 14,
+      "batchId": "2026-10-28-recovery-14",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/mountain-pavilion.txt",
+      "normalized": "docs/analysis-recovery/finalized/mountain-pavilion.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-14/mountain-pavilion-before-2026-10-28.json",
+      "validationDraft": "docs/analysis-recovery/normalized/mountain-pavilion.json",
+      "importedAt": "2026-10-28"
+    },
+    {
+      "entryId": "green-tunnel",
+      "validationRound": 14,
+      "batchId": "2026-10-28-recovery-14",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/green-tunnel.txt",
+      "normalized": "docs/analysis-recovery/finalized/green-tunnel.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-14/green-tunnel-before-2026-10-28.json",
+      "validationDraft": "docs/analysis-recovery/normalized/green-tunnel.json",
+      "importedAt": "2026-10-28"
+    },
+    {
+      "entryId": "backlit-thicket",
+      "validationRound": 15,
+      "batchId": "2026-10-28-recovery-15",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/backlit-thicket.txt",
+      "normalized": "docs/analysis-recovery/finalized/backlit-thicket.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-15/backlit-thicket-before-2026-10-28.json",
+      "validationDraft": "docs/analysis-recovery/normalized/backlit-thicket.json",
+      "importedAt": "2026-10-28"
+    },
+    {
+      "entryId": "valley-overlook",
+      "validationRound": 15,
+      "batchId": "2026-10-28-recovery-15",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/valley-overlook.txt",
+      "normalized": "docs/analysis-recovery/finalized/valley-overlook.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-15/valley-overlook-before-2026-10-28.json",
+      "validationDraft": "docs/analysis-recovery/normalized/valley-overlook.json",
+      "importedAt": "2026-10-28"
+    },
+    {
+      "entryId": "purple-swirls",
+      "validationRound": 15,
+      "batchId": "2026-10-28-recovery-15",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/purple-swirls.txt",
+      "normalized": "docs/analysis-recovery/finalized/purple-swirls.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-15/purple-swirls-before-2026-10-28.json",
+      "validationDraft": "docs/analysis-recovery/normalized/purple-swirls.json",
+      "importedAt": "2026-10-28"
+    },
+    {
+      "entryId": "road-mirror",
+      "validationRound": 15,
+      "batchId": "2026-10-28-recovery-15",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/road-mirror.txt",
+      "normalized": "docs/analysis-recovery/finalized/road-mirror.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-15/road-mirror-before-2026-10-28.json",
+      "validationDraft": "docs/analysis-recovery/normalized/road-mirror.json",
+      "importedAt": "2026-10-28"
+    },
+    {
+      "entryId": "matcha-dessert",
+      "validationRound": 15,
+      "batchId": "2026-10-28-recovery-15",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/matcha-dessert.txt",
+      "normalized": "docs/analysis-recovery/finalized/matcha-dessert.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-15/matcha-dessert-before-2026-10-28.json",
+      "validationDraft": "docs/analysis-recovery/normalized/matcha-dessert.json",
+      "importedAt": "2026-10-28"
+    },
+    {
+      "entryId": "teal-liberty",
+      "validationRound": 16,
+      "batchId": "2026-10-28-recovery-16",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/teal-liberty.txt",
+      "normalized": "docs/analysis-recovery/finalized/teal-liberty.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-16/teal-liberty-before-2026-10-28.json",
+      "validationDraft": "docs/analysis-recovery/normalized/teal-liberty.json",
+      "importedAt": "2026-10-28"
+    },
+    {
+      "entryId": "fujin-street",
+      "validationRound": 16,
+      "batchId": "2026-10-28-recovery-16",
+      "archiveStatus": "imported",
+      "sourceFormat": "structured_markdown",
+      "status": "ready_for_review",
+      "original": "docs/analysis-recovery/original/fujin-street.txt",
+      "normalized": "docs/analysis-recovery/finalized/fujin-street.json",
+      "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-16/fujin-street-before-2026-10-28.json",
+      "validationDraft": "docs/analysis-recovery/normalized/fujin-street.json",
+      "importedAt": "2026-10-28"
+    }
+  ],
+  "reanalyses": [
+    {
+      "entryId": "fireworks-night",
+      "status": "applied",
+      "authorizedAt": "2026-10-27",
+      "reason": "项目所有者明确要求：历史分析没有足够可靠信息支持 uncertainty 时，重新读取原图完成分析，不得只保留待补充状态。",
+      "historicalDraft": "docs/analysis-recovery/normalized/night-sparks.json",
+      "beforeSnapshot": "docs/analysis-recovery/reanalysis/night-sparks-before-2026-10-27.json",
+      "draft": "docs/analysis-recovery/reanalysis/night-sparks-2026-10-27.json"
+    },
+    {
+      "entryId": "red-tree",
+      "status": "applied",
+      "authorizedAt": "2026-10-28",
+      "reason": "项目所有者确认可以直接根据原图补全历史分析中缺失的真实限制事项，并要求每三张一组处理。",
+      "historicalDraft": "docs/analysis-recovery/normalized/red-tree.json",
+      "beforeSnapshot": "docs/analysis-recovery/reanalysis/red-tree-before-2026-10-28.json",
+      "draft": "docs/analysis-recovery/reanalysis/red-tree-2026-10-28.json"
+    },
+    {
+      "entryId": "soft-object",
+      "status": "applied",
+      "authorizedAt": "2026-10-28",
+      "reason": "项目所有者确认可以直接根据原图补全历史分析中缺失的真实限制事项，并要求每三张一组处理。",
+      "historicalDraft": "docs/analysis-recovery/normalized/soft-object.json",
+      "beforeSnapshot": "docs/analysis-recovery/reanalysis/soft-object-before-2026-10-28.json",
+      "draft": "docs/analysis-recovery/reanalysis/soft-object-2026-10-28.json"
+    },
+    {
+      "entryId": "bridge-sky",
+      "status": "applied",
+      "authorizedAt": "2026-10-28",
+      "reason": "项目所有者确认可以直接根据原图补全历史分析中缺失的真实限制事项，并要求每三张一组处理。",
+      "historicalDraft": "docs/analysis-recovery/normalized/bridge-sky.json",
+      "beforeSnapshot": "docs/analysis-recovery/reanalysis/bridge-sky-before-2026-10-28.json",
+      "draft": "docs/analysis-recovery/reanalysis/bridge-sky-2026-10-28.json"
+    },
+    {
+      "entryId": "grass-field",
+      "status": "applied",
+      "authorizedAt": "2026-10-28",
+      "reason": "项目所有者确认可以直接根据原图补全历史分析中缺失的真实限制事项，并要求每三张一组处理。",
+      "historicalDraft": "docs/analysis-recovery/normalized/grass-field.json",
+      "beforeSnapshot": "docs/analysis-recovery/reanalysis/grass-field-before-2026-10-28.json",
+      "draft": "docs/analysis-recovery/reanalysis/grass-field-2026-10-28.json"
+    },
+    {
+      "entryId": "record-store",
+      "status": "applied",
+      "authorizedAt": "2026-10-28",
+      "reason": "项目所有者确认可以直接根据原图补全历史分析中缺失的真实限制事项，并要求每三张一组处理。",
+      "historicalDraft": "docs/analysis-recovery/normalized/record-store.json",
+      "beforeSnapshot": "docs/analysis-recovery/reanalysis/record-store-before-2026-10-28.json",
+      "draft": "docs/analysis-recovery/reanalysis/record-store-2026-10-28.json"
+    },
+    {
+      "entryId": "coastal-station",
+      "status": "applied",
+      "authorizedAt": "2026-10-28",
+      "reason": "项目所有者确认可以直接根据原图补全历史分析中缺失的真实限制事项，并要求每三张一组处理。",
+      "historicalDraft": "docs/analysis-recovery/normalized/coastal-station.json",
+      "beforeSnapshot": "docs/analysis-recovery/reanalysis/coastal-station-before-2026-10-28.json",
+      "draft": "docs/analysis-recovery/reanalysis/coastal-station-2026-10-28.json"
+    },
+    {
+      "entryId": "ntu-gate",
+      "status": "applied",
+      "authorizedAt": "2026-10-28",
+      "reason": "项目所有者确认可以按原图补全历史分析缺口；uncertainty 只在确有值得保留的不确定事项时记录。",
+      "historicalDraft": "docs/analysis-recovery/normalized/ntu-gate.json",
+      "beforeSnapshot": "docs/analysis-recovery/reanalysis/ntu-gate-before-2026-10-28.json",
+      "draft": "docs/analysis-recovery/reanalysis/ntu-gate-2026-10-28.json"
+    },
+    {
+      "entryId": "literature-corridor",
+      "status": "applied",
+      "authorizedAt": "2026-10-28",
+      "reason": "项目所有者确认可以按原图补全历史分析缺口；uncertainty 只在确有值得保留的不确定事项时记录。",
+      "historicalDraft": "docs/analysis-recovery/normalized/literature-corridor.json",
+      "beforeSnapshot": "docs/analysis-recovery/reanalysis/literature-corridor-before-2026-10-28.json",
+      "draft": "docs/analysis-recovery/reanalysis/literature-corridor-2026-10-28.json"
+    },
+    {
+      "entryId": "gallery-poster",
+      "status": "applied",
+      "authorizedAt": "2026-10-28",
+      "reason": "项目所有者确认可以按原图补全历史分析缺口；uncertainty 只在确有值得保留的不确定事项时记录。",
+      "historicalDraft": "docs/analysis-recovery/normalized/gallery-poster.json",
+      "beforeSnapshot": "docs/analysis-recovery/reanalysis/gallery-poster-before-2026-10-28.json",
+      "draft": "docs/analysis-recovery/reanalysis/gallery-poster-2026-10-28.json"
+    },
+    {
+      "entryId": "tomato-illustration",
+      "status": "applied",
+      "authorizedAt": "2026-10-28",
+      "reason": "项目所有者确认可以按原图补全历史分析缺口；没有值得保留的不确定项时使用规范空值句，不强行补写。",
+      "historicalDraft": "docs/analysis-recovery/normalized/tomato-illustration.json",
+      "beforeSnapshot": "docs/analysis-recovery/reanalysis/tomato-illustration-before-2026-10-28.json",
+      "draft": "docs/analysis-recovery/reanalysis/tomato-illustration-2026-10-28.json"
+    },
+    {
+      "entryId": "jiming-temple",
+      "status": "applied",
+      "authorizedAt": "2026-10-28",
+      "reason": "项目所有者确认可以按原图补全历史分析缺口；没有值得保留的不确定项时使用规范空值句，不强行补写。",
+      "historicalDraft": "docs/analysis-recovery/normalized/jiming-temple.json",
+      "beforeSnapshot": "docs/analysis-recovery/reanalysis/jiming-temple-before-2026-10-28.json",
+      "draft": "docs/analysis-recovery/reanalysis/jiming-temple-2026-10-28.json"
+    },
+    {
+      "entryId": "airplane",
+      "status": "applied",
+      "authorizedAt": "2026-10-28",
+      "reason": "项目所有者确认可以按原图补全历史分析缺口；没有值得保留的不确定项时使用规范空值句，不强行补写。",
+      "historicalDraft": "docs/analysis-recovery/normalized/airplane.json",
+      "beforeSnapshot": "docs/analysis-recovery/reanalysis/airplane-before-2026-10-28.json",
+      "draft": "docs/analysis-recovery/reanalysis/airplane-2026-10-28.json"
+    },
+    {
+      "entryId": "moon",
+      "status": "applied",
+      "authorizedAt": "2026-10-28",
+      "reason": "项目所有者确认可以按原图补全历史分析缺口；没有值得保留的不确定项时使用规范空值句，不强行补写。",
+      "historicalDraft": "docs/analysis-recovery/normalized/moon.json",
+      "beforeSnapshot": "docs/analysis-recovery/reanalysis/moon-before-2026-10-28.json",
+      "draft": "docs/analysis-recovery/reanalysis/moon-2026-10-28.json"
+    },
+    {
+      "entryId": "lantern-light",
+      "status": "applied",
+      "authorizedAt": "2026-10-28",
+      "reason": "项目所有者确认可以按原图补全历史分析缺口；没有值得保留的不确定项时使用规范空值句，不强行补写。",
+      "historicalDraft": "docs/analysis-recovery/normalized/lantern-light.json",
+      "beforeSnapshot": "docs/analysis-recovery/reanalysis/lantern-light-before-2026-10-28.json",
+      "draft": "docs/analysis-recovery/reanalysis/lantern-light-2026-10-28.json"
+    }
+  ],
+  "remainingWork": {
+    "pendingReanalysis": 0,
+    "status": "complete",
+    "reason": "项目所有者已授权按三张一组读取原图；14 条历史缺口均已补全并写入，历史原文、旧映射、重分析前快照和重分析记录全部保留。"
+  }
+}

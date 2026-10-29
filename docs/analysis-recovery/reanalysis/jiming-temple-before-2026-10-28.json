@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "entryId": "jiming-temple",
+  "capturedAt": "2026-10-28",
+  "reason": "项目所有者授权原图重分析前的历史标准化草案快照。",
+  "entryReferences": {
+    "title": "Jiming Temple",
+    "category": "color",
+    "accent": "#3298D3",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "南京鸡鸣寺"
+      ]
+    },
+    "image": "images/jiming-temple.jpg",
+    "imageSha256": "6ec4e942e9383732069a6fba26541adfb4ca890b0b55c8f244aaf369526ab8ad"
+  },
+  "analysis": {
+    "content": "画面是仰视的中式多层塔：红粉色木构、青蓝色瓦、白色栏杆、顶端金色塔刹；前景是一道灰蓝瓦檐和深色木构，背景是湛蓝天空。",
+    "composition": "塔居中偏右，前景屋檐形成斜线，仰视",
+    "color": "天蓝 #1E6FB8、塔身红 #B84A4A、瓦青蓝 #5E8AA0、金塔刹 #D8B84A",
+    "typography": "待补充：历史原文未提供可核验的 typography 内容。",
+    "texture": "木雕、瓦、彩绘",
+    "material": "木、瓦、彩绘、金",
+    "spatialDepth": "前景屋檐 → 中景塔 → 背景天空",
+    "hierarchy": "塔身 → 金色塔刹 → 前景瓦檐",
+    "mood": "庄严、繁复、明亮、华丽",
+    "visualStyle": "传统建筑仰视摄影",
+    "interaction": "待补充：历史原文未提供可核验的 interaction 内容。",
+    "dna": "主 color，次 memory",
+    "uncertainty": "待补充：历史原文未提供可核验的 uncertainty 内容。"
+  },
+  "analysisSource": {
+    "type": "historical_chat_recovery",
+    "sessionId": "01a09ed2-fcd9-7ba0-a7dd-bc85721df254",
+    "messageId": "75185437-e322-499f-b271-75379b3f3179",
+    "timestamp": "2026-09-18T04:06:25.465Z",
+    "sourceTitle": "Jiming Temple",
+    "originalArtifact": "docs/analysis-recovery/original/jiming-temple.txt",
+    "originalSha256": "d030ec191c66a990d2d987ddb3b246071794aa61e47d5e3e797b48dfd387872d",
+    "sourceFormat": "structured_markdown",
+    "mappingVersion": "2026-10-26.v2.1"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "entryId": "white-bells",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "imageSha256": "d06a16df02d8b69b0e6c8219c64f5e213a618727021b05e682f89e16344199c7",
+  "entry": {
+    "id": "white-bells",
+    "title": "White Bells",
+    "date": "2025-10-16",
+    "source": "own",
+    "medium": "photo",
+    "category": "nature",
+    "tags": [
+      "flower",
+      "ivory",
+      "stalk",
+      "backlight"
+    ],
+    "note": "Pale bell-shaped flowers hanging from a thick green stalk, lit from behind.",
+    "image": "images/white-bells.jpg",
+    "accent": "#2F3D2C",
+    "echoes": {
+      "candidates": [],
+      "confirmed": []
+    }
+  }
+}

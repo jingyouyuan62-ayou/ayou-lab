@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "entryId": "lake-road",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "entry": {
+    "id": "lake-road",
+    "title": "Lake Road",
+    "date": "2025-07-08",
+    "source": "own",
+    "medium": "photo",
+    "category": "nature",
+    "tags": [
+      "road",
+      "lake",
+      "hills",
+      "blue",
+      "guardrail"
+    ],
+    "note": "An empty road curving down between dry ochre hills toward a pale turquoise lake, the yellow centre line running the whole way out of frame.",
+    "image": "images/lake-road.jpg",
+    "accent": "#6B99BB",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "新疆喀拉峻"
+      ]
+    }
+  },
+  "imageSha256": "29312fd0aa8e53041b7b5a593b291c61f463a4bcb4daf260979b5fe31841e3f1"
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "entryId": "airplane",
+  "capturedAt": "2026-10-28",
+  "reason": "项目所有者授权原图重分析前的历史标准化草案快照。",
+  "entryReferences": {
+    "title": "Airplane",
+    "category": "color",
+    "accent": "#257EB1",
+    "echoes": null,
+    "image": "images/airplane.jpg",
+    "imageSha256": "4b1e73c5200c4216389ec4dbff9699b42713eed92d79babae6aeab515efe6b0d"
+  },
+  "analysis": {
+    "content": "画面是飞机舷窗视角：左上角是机翼（翼梢有红色航司标志），下方是连绵的雪山与河谷，上方是深蓝天空。",
+    "composition": "机翼从左上方斜入，雪山占据下半，俯视地平线",
+    "color": "天空湛蓝 #1E7FC0、雪白、山脊蓝灰 #7E9AB0、红色标志点缀",
+    "typography": "待补充：历史原文未提供可核验的 typography 内容。",
+    "texture": "金属机翼、雪、云、岩石",
+    "material": "待补充：历史原文未提供可核验的 material 内容。",
+    "spatialDepth": "极强的高空俯视纵深",
+    "hierarchy": "待补充：历史原文未提供可核验的 hierarchy 内容。",
+    "mood": "辽阔、壮丽、冷冽、旅途感",
+    "visualStyle": "机窗航拍，冷蓝调",
+    "interaction": "待补充：历史原文未提供可核验的 interaction 内容。",
+    "dna": "主 color，次 nature",
+    "uncertainty": "待补充：历史原文未提供可核验的 uncertainty 内容。"
+  },
+  "analysisSource": {
+    "type": "historical_chat_recovery",
+    "sessionId": "01a09ed2-fcd9-7ba0-a7dd-bc85721df254",
+    "messageId": "75185437-e322-499f-b271-75379b3f3179",
+    "timestamp": "2026-09-18T04:06:25.465Z",
+    "sourceTitle": "Airplane",
+    "originalArtifact": "docs/analysis-recovery/original/airplane.txt",
+    "originalSha256": "6474e9472e85f0e0e34089de7494b87208b57a2b70b64ec5f1ac15ddb2838ba4",
+    "sourceFormat": "structured_markdown",
+    "mappingVersion": "2026-10-26.v2.1"
+  }
+}

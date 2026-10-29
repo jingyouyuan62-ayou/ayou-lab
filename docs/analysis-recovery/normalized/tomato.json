@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "entryId": "tomato",
+  "sourceFormat": "structured_json",
+  "status": "ready_for_review",
+  "entryReferences": {
+    "image": "images/tomato.jpg",
+    "imageSha256": "445dfaf2b577bd4ef9cd9364740d23eb227e717e6b0bd2b1339830301133788c",
+    "title": "Tomato",
+    "category": "strange",
+    "accent": "#8F1912",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "想到馬蒂斯的《舞蹈》（Matisse, La Danse）"
+      ]
+    }
+  },
+  "proposedPatch": {
+    "analysis": {
+      "content": "俯拍静物：一颗红番茄，周围散落数枚绿色星形萼片。",
+      "composition": "居中、近似对称、放射式排布；大面积留白；俯视平铺。",
+      "color": "主色 #A62B1F；调色板 #8F1912、#3E5A2E、#E8E8E6；整体暖色、高饱和。",
+      "typography": "画面中无可读文字。",
+      "texture": "番茄皮光滑带高光，台面哑光，轻微颗粒。",
+      "material": "新鲜果实、湿润果皮、哑光纸面。",
+      "spatialDepth": "浅景深、接近平面，靠柔和投影产生轻微立体。",
+      "hierarchy": "番茄最先被看到，其次是散落的绿色星形。",
+      "mood": "干净、俏皮，带一点仪式感和轻微超现实。",
+      "visualStyle": "高调极简静物，但构图有异样感。",
+      "interaction": "放射状排布可做悬停位移；萼片可缓慢旋转或漂移；投影随鼠标偏移。",
+      "dna": "主类 STRANGE，次类 COLOR，置信度为 high；Archive category 记 strange。",
+      "uncertainty": "萼片是有意布置还是巧合？这决定它有多“strange”。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a09ed2-fcd9-7ba0-a7dd-bc85721df254",
+      "messageId": "198eacd4-a553-4a56-b4a7-9b4d57d05cff",
+      "timestamp": "2026-09-16T08:02:42.432Z",
+      "sourceTitle": "Tomato",
+      "originalArtifact": "docs/analysis-recovery/original/tomato.txt",
+      "originalSha256": "3c64ffa769c66e6577ce01b05aea2dd7b2437ae92aa2491ec2109e3b74222749",
+      "sourceFormat": "structured_json",
+      "mappingVersion": "2026-10-26.v2.1"
+    }
+  },
+  "mappingNotes": [
+    "原文 color 与 dna 对象、typography 对象、interaction 数组被展开为等价 string。",
+    "原文 visualHierarchy 改名为 hierarchy。",
+    "原文没有 echoes 字段；当前顶层 confirmed 联想来自后续使用者确认，按当前条目保留，不标记为新增分析。",
+    "原文 implementationHints 不属于 16 项分析，只保留在原始文件中。",
+    "原文顶层 accent 与当前 accent 都是 #8F1912。"
+  ],
+  "pending": []
+}

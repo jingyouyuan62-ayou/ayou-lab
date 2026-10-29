@@ -1,0 +1,20 @@
+## 3. Tomato Illustration
+
+这张是**四格手绘拼贴**：左上是指纹变成蓝色海浪、配一句英文格言；右上是花瓶与野花线稿；左下是番茄线稿、写着 `tomato.`；右下是炭笔女孩小画。
+
+- composition：2×2 网格拼贴，每格独立，留白多
+- color：米白纸 #F5F2E8、蓝墨水 #3A7BC8、番茄红 #C0392B、淡黄纸 #F5EFCF
+- typography：有。手写英文格言 / `KAMA MIND` / `tomato.`，随手、笔记本感
+- texture：纸张、笔触、手绘粗糙感
+- material：纸、墨水
+- spatialDepth：平面拼贴
+- hierarchy：四格平等
+- mood：温柔、私密、手作、文艺
+- visualStyle：手账/插画拼贴
+- interaction：网格悬停放大单格、线条绘制动画
+- dna：我读到的是 dream / memory；你之前把它放在 color，可以再定
+- accent：#C23B22
+
+`echoes`：`{ "candidates": ["手账文化", "小红书插画", "独立 zine"], "confirmed": [] }`
+
+⚠️ 右下角还留着**小红书水印**（`小红书号: 1669749535`）。之前为了不切到左边内容，这张我没有裁，所以水印还在。

@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "entryId": "ntu-gate",
+  "sourceFormat": "structured_markdown",
+  "status": "needs_owner_confirmation",
+  "finalizedAt": "2026-10-28",
+  "entryReferences": {
+    "title": "College Gate",
+    "category": "memory",
+    "accent": "#AB9F81",
+    "image": "images/ntu-gate.jpg",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "台大文學院（牌匾「文學院」）"
+      ]
+    },
+    "imageSha256": "a12e48bfa9f9a502a0ba61ef76323860ec94e3db4d2d7a7da39fa71e9f6cb992"
+  },
+  "mappingNotes": [
+    "历史原文中的 Echoes 原样保存在原文文件；正式条目继续使用当前候选/确认分层，未自动改写。",
+    "原文 accent #AB9F81 与当前 Archive 顶层 accent #AB9F81 一并保留。"
+  ],
+  "pending": [
+    "spatialDepth：历史原文未提供可核验内容；需重新读取原图确认，本轮未调用视觉模型。",
+    "hierarchy：历史原文未提供可核验内容；需重新读取原图确认，本轮未调用视觉模型。",
+    "interaction：历史原文未提供可核验内容；需重新读取原图确认，本轮未调用视觉模型。",
+    "uncertainty：历史原文未提供可核验内容；需重新读取原图确认，本轮未调用视觉模型。"
+  ],
+  "proposedPatch": {
+    "analysis": {
+      "content": "画面是深蓝黑色的木门（十字格纹 + 方形小玻璃），旁边是米褐色小砖墙，墙上挂着一块竖排木牌，写着金字「文學院」。",
+      "composition": "左半是门，右半是墙与牌匾，正面平视",
+      "color": "门深蓝黑 #2A3540、砖墙米褐 #C8BCA8、木牌浅黄、金字",
+      "typography": "有。「文學院」三字，金色楷体，竖排",
+      "texture": "木门漆面、砖纹、木牌",
+      "material": "木、砖、石、玻璃",
+      "spatialDepth": "待补充：历史原文未提供可核验的 spatialDepth 内容。",
+      "hierarchy": "待补充：历史原文未提供可核验的 hierarchy 内容。",
+      "mood": "安静、庄重、旧校园的时间感",
+      "visualStyle": "建筑细节摄影，低饱和正视",
+      "interaction": "待补充：历史原文未提供可核验的 interaction 内容。",
+      "dna": "主 memory，次 color",
+      "uncertainty": "待补充：历史原文未提供可核验的 uncertainty 内容。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a09ed2-fcd9-7ba0-a7dd-bc85721df254",
+      "messageId": "75185437-e322-499f-b271-75379b3f3179",
+      "timestamp": "2026-09-18T04:06:25.465Z",
+      "sourceTitle": "College Gate",
+      "originalArtifact": "docs/analysis-recovery/original/ntu-gate.txt",
+      "originalSha256": "58d2ba57f0ca2871ced52553f7efbde3c04ca47e93257ff186f42720a31a9977",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
+    }
+  }
+}

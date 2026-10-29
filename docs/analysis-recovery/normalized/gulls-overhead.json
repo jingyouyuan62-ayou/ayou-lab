@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "entryId": "gulls-overhead",
+  "sourceFormat": "dense_prose",
+  "status": "needs_owner_confirmation",
+  "entryReferences": {
+    "image": "images/gulls-overhead.jpg",
+    "imageSha256": "43912072390913f7660ba5c24acc2696694a18044ab71acf5ad801f8b8e8404c",
+    "title": "Gulls Overhead",
+    "category": "nature",
+    "accent": "#6685B4",
+    "echoes": {
+      "candidates": [
+        "海鷗群；海邊或港口上空的常見風景，地點未確認"
+      ],
+      "confirmed": []
+    }
+  },
+  "proposedPatch": {
+    "analysis": {
+      "content": "上半张几乎全是空的蓝天，中央偏下有一只双翼完全展开的大海鸥，呈斜向的 V 字；其余海鸥沿右侧和底部排布，多只被画框切掉一部分。",
+      "composition": "竖幅 3024×4032；上半张几乎全是空的蓝天，中央偏下有一只双翼完全展开的大海鸥，呈斜向的 V 字；其余海鸥沿右侧和底部排布，多只被画框切掉一部分。",
+      "color": "天空从 #5E7DAC 到 #6585B4 之间几乎没有渐变；鸥身偏冷白，翼尖近黑，喙和脚带一点黄。",
+      "typography": "画面中无可读文字。",
+      "texture": "天空平滑无云；羽毛的层叠细纹和黑色翼缘很清楚，带轻微手机锐化痕迹。",
+      "material": "待补充：历史原文没有单独归纳材质，只明确写到天空与羽毛的可见纹理。",
+      "spatialDepth": "空间深度只靠鸟的大小和遮挡判断，中央那只最近，右侧与底部的小鸥更远，没有地平线。",
+      "hierarchy": "中央大海鸥 → 四周小鸥 → 整片蓝天。",
+      "mood": "开阔、轻盈，有点被鸟群包围的抬头瞬间。",
+      "visualStyle": "接近克制的高对比纪实，蓝天占大面积使它像一块色块海报。",
+      "interaction": "可以让鸟群沿不同方向极慢漂移，或让天空渐变随光标移动。",
+      "dna": "Visual DNA：NATURE。Archive category 记 nature。",
+      "uncertainty": "无法判断拍摄地点与海鸥种类；EXIF 只有 2026-02-20 08:59。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a142a1-1b91-7b32-89cb-cb8ed877d66c",
+      "messageId": "153bc33e-5a59-4739-b966-50c45ae06020",
+      "timestamp": "2026-10-17T06:20:35.775Z",
+      "sourceTitle": "Gulls Overhead",
+      "originalArtifact": "docs/analysis-recovery/original/gulls-overhead.txt",
+      "originalSha256": "5412e962598df053725225c321bfd46e48637bbd7db81694e14235d6cd3ffb72",
+      "sourceFormat": "dense_prose",
+      "mappingVersion": "2026-10-26.v2.1"
+    }
+  },
+  "mappingNotes": [
+    "原始报告把多个维度写在同一条“观察”段落中；标准化只按原句拆分，没有新增视觉判断。",
+    "原文没有明确归纳 material，因此该字段标记为待补充，而不是从“羽毛”一词反推完整材质。",
+    "原文的 Echo 保留为候选；地点与种类仍未确认。"
+  ],
+  "pending": [
+    "确认是否接受 material 使用“待补充”保留历史原文缺口。"
+  ]
+}

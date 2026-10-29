@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "entryId": "matcha-dessert",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "entry": {
+    "id": "matcha-dessert",
+    "title": "Matcha Dessert",
+    "date": "2026-04-04",
+    "source": "own",
+    "medium": "photo",
+    "category": "color",
+    "tags": [
+      "matcha",
+      "dessert",
+      "green",
+      "cream",
+      "black"
+    ],
+    "note": "A cylinder of matcha under a swirl of cream, dark syrup running down its side, on a white plate on a black table.",
+    "image": "images/matcha-dessert.jpg",
+    "accent": "#859A52",
+    "echoes": {
+      "candidates": [
+        "抹茶甜點；餐巾上有「茶」字標誌，店家未確認"
+      ],
+      "confirmed": []
+    }
+  },
+  "imageSha256": "1ca927d824baf6139328b3ffd90915cf603ed7e1f20adb8ca0a9784f87cdb79d"
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "entryId": "moon-branches",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "entry": {
+    "id": "moon-branches",
+    "title": "Moon & Branches",
+    "date": "2026-01-29",
+    "source": "collected",
+    "medium": "photo",
+    "category": "dream",
+    "tags": [
+      "moon",
+      "branches",
+      "blue",
+      "winter"
+    ],
+    "note": "A pale moon held between bare branches in a clear blue sky.",
+    "image": "images/moon-branches.jpg",
+    "accent": "#4868A8",
+    "echoes": {
+      "candidates": [],
+      "confirmed": []
+    }
+  },
+  "imageSha256": "21db3f902fedf348d6936a0bb0f33e6dcbf5e4aa47fe8fadf2f391b1879f1702"
+}

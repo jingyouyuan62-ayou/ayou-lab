@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "entryId": "moon",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "entry": {
+    "id": "moon",
+    "title": "Kiki's Delivery Service",
+    "date": "2026-08-22",
+    "source": "collected",
+    "medium": "film still",
+    "category": "dream",
+    "note": "The opening title card of Kiki's Delivery Service.",
+    "image": "images/moon.jpg",
+    "accent": "#042161",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "Opening screenshot from Kiki's Delivery Service (Studio Ghibli, Hayao Miyazaki)."
+      ]
+    }
+  },
+  "imageSha256": "a6f5558d2d80281f2ad2832e4d9f12f02fe9b34dcbfac324d44ab8c47b90a228"
+}

@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "entryId": "fireworks-night",
+  "kind": "owner_authorized_image_reanalysis",
+  "status": "applied",
+  "createdAt": "2026-10-27",
+  "image": {
+    "path": "images/fireworks-night.jpg",
+    "sha256": "6cf54733eeab0ae35167ff242bf8b9f1ada65f57297109dadab3e3a1415f241d",
+    "width": 1600,
+    "height": 900
+  },
+  "historicalTrace": {
+    "original": "docs/analysis-recovery/original/night-sparks.txt",
+    "originalSha256": "ef4a1146293d52b1019ab8530329159c48efdda88050085b8438d6d69bfc55a8",
+    "normalized": "docs/analysis-recovery/normalized/night-sparks.json",
+    "normalizedSha256": "a6fa086f5afc356ff548749c4a0364276892d1f45707d0332fb4f1346b611d6f",
+    "previousArchiveAnalysis": "docs/analysis-recovery/reanalysis/night-sparks-before-2026-10-27.json"
+  },
+  "preservedEntryMetadata": {
+    "title": "Night Sparks",
+    "category": "dream",
+    "accent": "#201B21",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "大稻埕夏日烟花祭"
+      ]
+    }
+  },
+  "proposedAnalysis": {
+    "content": "横幅夜景中有多组烟花绽放：中央偏左一组最大、最密，右中一组向右侧展开，左下、右下和底部还有更小的白色、粉紫及少量偏蓝碎光。左侧与底部由近黑色的树冠剪影遮住部分画面，底部中央可见少量零散亮光；画面中没有清晰人物、建筑轮廓、地平线或可读地点标识。",
+    "composition": "画面为 16:9 横幅。两组最大烟花分别占据中上部偏左与右中，形成不平衡的双重点；暗色树冠从左缘压入并向底边展开，遮住下半部部分碎光并充当暗色底座。上半部大片近黑夜空为负空间，使花束彼此分离；视线从中央最大花束移向右中花束，再被底部零散光点引回。",
+    "color": "背景由近黑夜空主导，夜空近黑处约 #090B12，左侧树冠暗部约 #040403；主高光为暖白，中央和右侧烟花的亮部平均约 #C8BAB9，峰值可到白色；低处散布粉紫约 #C9B0B7 与少量偏蓝约 #9FA9D1 的短促光迹。高亮火花只占小面积，却因与大面积暗背景形成强明度对比而成为焦点；粉紫位于下方，为暖白爆光增加第二层色温。",
+    "typography": "画面中无可读文字、数字或标识；文字不参与构图、层级或信息传达。",
+    "texture": "烟花由细密、断续的放射线与颗粒状亮点构成，外围比中心更松散；暗天纹理平滑，只带轻微压缩与夜景噪点。前景树冠近乎没有内部细节，边缘是不规则的叶团剪影；底部灯光比远处火花更实、更小，形成近处硬边与远处细碎光迹的纹理差异。",
+    "material": "可辨认的是夜空中的光与烟、前景树叶形成的剪影，以及底部少量灯光或地表亮点。树冠内部过暗，具体树种不可辨；没有足够证据确认建筑、水面或地表的材质。",
+    "spatialDepth": "最前层是左侧与底部的树冠剪影，它们最暗并遮住部分低处光迹；中间层是沿下半部散布的较小粉紫、蓝白与白色烟花以及底部灯光；后层是两组主烟花和更碎的远端花束，最远为近黑夜空与残余烟雾。深度主要由尺度、遮挡和亮度差建立；机位看似位于树下或低处远望，但这是推测。",
+    "hierarchy": "1）中央偏左的最大花束，面积与亮度最高，先夺走视线；2）右中第二大花束，以次大面积和向右展开的线条续接视线；3）底部粉紫、蓝白与白色碎光，色相变化和贴近树冠的位置形成第三层；4）左缘与底边树冠面积虽大，但因亮度最低退为暗框。",
+    "mood": "大面积黑天与细碎高亮爆裂形成开阔、庆典和短暂的感觉；低处树冠压住画面，使观看位置像在树下或远处，因而在热闹之外留下一点距离感。画面没有人物、声音或现场环境，不能据此判断人群密度或真实气氛。",
+    "visualStyle": "以强对比夜景摄影为基础：近黑底色、暖白高光、轻微长曝光或拖尾感和细颗粒光迹；花束边缘偏软，可能来自远距离、手持、长曝光或后期处理，具体手段无法确认。",
+    "interaction": "1）将树冠与烟花分成前后两层做轻微视差，滚动时树影先动、烟花后动；2）火花只做缓慢闪烁与极短拖尾，保留瞬间感；3）悬停底部粉紫碎光时略提亮该色层，强调画面第二层色彩。",
+    "dna": "主类 DREAM：大面积近黑夜空、漂浮的细线和短暂爆裂共同制造梦境式悬浮感；次类 COLOR：暖白高光与底部粉紫、蓝光在黑底上形成决定性色彩对比。Archive category 保持 dream。",
+    "uncertainty": "画面本身无法核实具体拍摄地点、真实拍摄日期、机位与设备；大稻埕夏日烟花祭来自使用者已确认记录，不是图像本身的标识。多组烟花是在同一瞬间同时绽放、发生在很短的连续时间内，还是由长曝光或后期叠加形成，单张图不足以判定；前景树种以及底部零散亮光的具体来源也无法确认。"
+  },
+  "comparisonWithHistoricalDraft": {
+    "preservedConclusions": [
+      "保留夜景烟花、白色与金白主光、低处粉色点缀、树冠暗框、主类 DREAM 与次类 COLOR 的核心视觉判断。",
+      "保留现有标题 Night Sparks、category dream、accent #201B21，以及使用者已确认的 Echo「大稻埕夏日烟花祭」。",
+      "没有把历史中的夏夜庆典、花火等联想升级为新的 confirmed Echo。"
+    ],
+    "refinements": [
+      "把原文的中央、周围与树影层级展开为有原因的四步注意力顺序。",
+      "补足画幅、负空间、双重点、三层空间关系及近远纹理差异。",
+      "将颜色从色名扩展为主色、辅助色与强调色的角色关系，并用实测颜色支撑。",
+      "把历史缺失的 uncertainty 改为原图仍真实无法确定的地点、时间、设备、烟花时序与前景树种。"
+    ],
+    "changedVisualConclusions": [],
+    "historicalInformationLost": [],
+    "unsupportedAdditions": []
+  },
+  "validation": {
+    "oneImageReadOnly": true,
+    "allThirteenAnalysisFieldsPresent": true,
+    "allValuesAreNonEmptyStrings": true,
+    "imageAndHistoricalArtifactsTraceable": true,
+    "preservedTitleCategoryAccentAndEchoes": true,
+    "noUnsupportedConfirmedEchoes": true
+  }
+}

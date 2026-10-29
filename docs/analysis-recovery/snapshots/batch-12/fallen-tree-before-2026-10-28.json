@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "entryId": "fallen-tree",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "entry": {
+    "id": "fallen-tree",
+    "title": "Fallen Tree",
+    "date": "2026-08-01",
+    "source": "own",
+    "medium": "photo",
+    "category": "nature",
+    "tags": [
+      "tree",
+      "water",
+      "roots",
+      "green"
+    ],
+    "note": "A dead tree lying half in green water, its bare branches and roots spread out among living shrubs.",
+    "image": "images/fallen-tree.jpg",
+    "accent": "#689878",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "台南四草綠色隧道"
+      ]
+    }
+  },
+  "imageSha256": "de453b7bdccde98f38bcc300ff292fcbe6df759585eaeb7b416dc1b90e18e120"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "entryId": "fallen-leaves",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "imageSha256": "b507416bd8f1e0f991be368155f36dc54a5e09e9244e585f571b5319bdc1c0c3",
+  "entry": {
+    "id": "fallen-leaves",
+    "title": "Fallen Leaves",
+    "date": "2025-11-02",
+    "source": "own",
+    "medium": "photo",
+    "category": "color",
+    "tags": [
+      "leaves",
+      "stone",
+      "yellow",
+      "autumn"
+    ],
+    "note": "Wutong leaves lying on grey stone, scattered along one long diagonal seam.",
+    "image": "images/fallen-leaves.jpg",
+    "accent": "#D6C468",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "梧桐落葉"
+      ]
+    }
+  }
+}

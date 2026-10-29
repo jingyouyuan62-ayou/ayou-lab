@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "entryId": "ntu-gate",
+  "kind": "owner_authorized_image_reanalysis",
+  "status": "applied",
+  "createdAt": "2026-10-28",
+  "image": {
+    "path": "images/ntu-gate.jpg",
+    "sha256": "a12e48bfa9f9a502a0ba61ef76323860ec94e3db4d2d7a7da39fa71e9f6cb992",
+    "width": 1075,
+    "height": 1600
+  },
+  "historicalTrace": {
+    "original": "docs/analysis-recovery/original/ntu-gate.txt",
+    "originalSha256": "58d2ba57f0ca2871ced52553f7efbde3c04ca47e93257ff186f42720a31a9977",
+    "normalized": "docs/analysis-recovery/normalized/ntu-gate.json",
+    "normalizedSha256": "84114a6db2eefe04d85a32032294a604869805466e2d9e8b9e255d7db6bc2fa6",
+    "previousArchiveAnalysis": "docs/analysis-recovery/reanalysis/ntu-gate-before-2026-10-28.json"
+  },
+  "preservedEntryMetadata": {
+    "title": "College Gate",
+    "category": "memory",
+    "accent": "#AB9F81",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "台大文學院（牌匾「文學院」）"
+      ]
+    }
+  },
+  "proposedAnalysis": {
+    "content": "画面是深蓝黑色的木门（十字格纹 + 方形小玻璃），旁边是米褐色小砖墙，墙上挂着一块竖排木牌，写着金字「文學院」。",
+    "composition": "左半是门，右半是墙与牌匾，正面平视",
+    "color": "门深蓝黑 #2A3540、砖墙米褐 #C8BCA8、木牌浅黄、金字",
+    "typography": "有。「文學院」三字，金色楷体，竖排",
+    "texture": "木门漆面、砖纹、木牌",
+    "material": "木、砖、石、玻璃",
+    "spatialDepth": "画面呈近正面、被压缩的浅空间：深色木门和砖墙是最前层，略微退后的白色门框与墙面形成很浅的第二层，只有左下露出一小段门槛和地面。画面没有走廊、远景或明显透视，深度主要来自门框凹入与门底阴影。",
+    "hierarchy": "1）右侧浅色木牌与深色「文學院」三字因高反差先被看到；2）左侧大面积深蓝黑木门及其中四块方玻璃形成第二视觉块；3）灰褐砖墙因纹理细密而退后；4）底部狭窄地面只作承托。",
+    "mood": "安静、庄重、旧校园的时间感",
+    "visualStyle": "建筑细节摄影，低饱和正视",
+    "interaction": "1）将木门、门框与砖墙分成浅层前后关系做极轻微横向视差，幅度保持在几像素内；2）悬停木牌时让木纹与字缘轻微提亮，不改变牌匾内容。",
+    "dna": "主 memory，次 color",
+    "uncertainty": "「文學院」牌匾文字可读，但画面只包含一扇木门、一段砖墙和牌匾，无法据此确认它在校园中的具体位置或是否为主要入口；门后空间、楼内用途、拍摄日期以及木牌的制作年代都不能由这张照片证明。"
+  },
+  "comparisonWithHistoricalDraft": {
+    "preservedConclusions": [
+      "保留历史标准化草案中已有、且本轮未修改的全部视觉判断。",
+      "保留当前标题、category、accent 与 Echoes；不新增 confirmed Echo。"
+    ],
+    "refinements": [
+      "根据原图补足 spatialDepth、hierarchy、interaction 与 uncertainty；沿用已确认的 College Gate 与台大文學院信息，没有新增 Echo。"
+    ],
+    "changedVisualConclusions": [],
+    "historicalInformationLost": [],
+    "unsupportedAdditions": []
+  },
+  "validation": {
+    "oneImageReadOnly": true,
+    "allThirteenAnalysisFieldsPresent": true,
+    "allValuesAreNonEmptyStrings": true,
+    "imageAndHistoricalArtifactsTraceable": true,
+    "preservedTitleCategoryAccentAndEchoes": true,
+    "noUnsupportedConfirmedEchoes": true
+  }
+}

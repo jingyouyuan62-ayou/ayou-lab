@@ -1,0 +1,18 @@
+## 4. Jiming Temple
+
+画面是仰视的**中式多层塔**：红粉色木构、青蓝色瓦、白色栏杆、顶端金色塔刹；前景是一道灰蓝瓦檐和深色木构，背景是湛蓝天空。
+
+- composition：塔居中偏右，前景屋檐形成斜线，仰视
+- color：天蓝 #1E6FB8、塔身红 #B84A4A、瓦青蓝 #5E8AA0、金塔刹 #D8B84A
+- texture：木雕、瓦、彩绘
+- material：木、瓦、彩绘、金
+- spatialDepth：前景屋檐 → 中景塔 → 背景天空
+- hierarchy：塔身 → 金色塔刹 → 前景瓦檐
+- mood：庄严、繁复、明亮、华丽
+- visualStyle：传统建筑仰视摄影
+- dna：主 color，次 memory
+- accent：#3298D3
+
+`echoes`：`{ "candidates": ["南朝古寺", "中式塔"], "confirmed": ["南京鸡鸣寺"] }`
+
+✓ 和你说的鸡鸣寺一致。

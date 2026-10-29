@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "entryId": "gallery-poster",
+  "sourceFormat": "structured_markdown",
+  "status": "needs_owner_confirmation",
+  "finalizedAt": "2026-10-28",
+  "entryReferences": {
+    "title": "共感 / Entanglements",
+    "category": "color",
+    "accent": "#64ADC4",
+    "image": "images/gallery-poster.jpg",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "共感 Entanglements — The Rhythm of Being, 2026.05.09–09.20, Gallery 1A 1B."
+      ]
+    },
+    "imageSha256": "4f073b666348efe635950e7140cbaed5f17209c56e08e0233915aba03ba92fb3"
+  },
+  "mappingNotes": [
+    "历史原文标题为「Gallery Poster」；当前 Archive 标题为「共感 / Entanglements」，标题按现有条目保留。",
+    "历史原文中的 Echoes 原样保存在原文文件；正式条目继续使用当前候选/确认分层，未自动改写。",
+    "原文 accent #64ADC4 与当前 Archive 顶层 accent #64ADC4 一并保留。"
+  ],
+  "pending": [
+    "uncertainty：历史原文未提供可核验内容；需重新读取原图确认，本轮未调用视觉模型。"
+  ],
+  "proposedPatch": {
+    "analysis": {
+      "content": "画廊展厅，一面蓝白大理石纹理墙，墙上打了白色圆点；墙上文字是「共感 / Entanglements / 存在的節奏 / The Rhythm of Being」，日期 2026 05-09 – 09-20，Gallery 1A 1B，以及一串艺术家名单；地面是灰色大理石，天花有轨道灯。",
+      "composition": "强透视，墙角线向左侧收束；壁画铺满画面；圆形元素反复出现",
+      "color": "冰蓝 #A9C4DA、白 #EDF1F4、淡赭 #C9A98A、灰石 #8A9AA0；冷、低饱和",
+      "typography": "有。展览标题（黑体，左对齐）、日期、展厅号、艺术家小字",
+      "texture": "大理石纹理、粉质壁画、地面反光",
+      "material": "石材、涂料、金属灯具",
+      "spatialDepth": "室内透视（墙/地/天）",
+      "hierarchy": "大标题「共感」→ 蓝色壁画 → 白色圆点 → 地面倒影",
+      "mood": "冷静、当代、干净、带一点梦幻",
+      "visualStyle": "当代美术馆视觉",
+      "interaction": "圆点作为悬停焦点、文字滑入、反光渐变",
+      "dna": "主 color，次 memory",
+      "uncertainty": "待补充：历史原文未提供可核验的 uncertainty 内容。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a09ed2-fcd9-7ba0-a7dd-bc85721df254",
+      "messageId": "884b5813-a0a4-4e9b-818b-ffbb0e988cd8",
+      "timestamp": "2026-09-16T08:28:27.196Z",
+      "sourceTitle": "Gallery Poster",
+      "originalArtifact": "docs/analysis-recovery/original/gallery-poster.txt",
+      "originalSha256": "d54a3214b981c53122a6aad2485ea07f82ec4d3799e9f45e98daca05498202b0",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
+    }
+  }
+}

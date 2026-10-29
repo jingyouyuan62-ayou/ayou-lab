@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "entryId": "long-afternoon",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "entry": {
+    "id": "long-afternoon",
+    "title": "Long Afternoon",
+    "date": "2026-07-21",
+    "source": "own",
+    "medium": "collage",
+    "category": "dream",
+    "tags": [
+      "collage",
+      "poem",
+      "green",
+      "heron"
+    ],
+    "note": "A fountain plaza at the edge of a flat green field, teal raindrops falling across it and a night heron standing beside a few lines of a poem.",
+    "image": "images/long-afternoon.jpg",
+    "accent": "#039674",
+    "echoes": {
+      "candidates": [
+        "夜鷺（黑冠夜鷺）— 依黑色頭背與灰白身體判斷，待確認",
+        "背景的白色格紋斜屋頂建築，疑似台北文創大樓（誠品生活松菸）一帶，未確認"
+      ],
+      "confirmed": [
+        "台北松山文創園區",
+        "園區裡的噴水池（巴洛克花園一帶）",
+        "去這裡的路上遇到一位很友善、很健談的計程車司機"
+      ]
+    }
+  },
+  "imageSha256": "9a397d64744b89d8623399e94bc5fdbca90714fb70943a5ece37ab83c63efc76"
+}

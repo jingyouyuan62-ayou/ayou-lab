@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "entryId": "lotus-pond",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "entry": {
+    "id": "lotus-pond",
+    "title": "Lotus Pond",
+    "date": "2025-11-04",
+    "source": "own",
+    "medium": "photo",
+    "category": "nature",
+    "tags": [
+      "lotus",
+      "pond",
+      "duckweed",
+      "green"
+    ],
+    "note": "Lotus leaves standing on their stalks above a pond covered with duckweed.",
+    "image": "images/lotus-pond.jpg",
+    "accent": "#65917E",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "荷花"
+      ]
+    }
+  },
+  "imageSha256": "caedfec1f35bc7aab8a997e248dd39b4e90b3ad36e7f23150bcdf9442addc172"
+}

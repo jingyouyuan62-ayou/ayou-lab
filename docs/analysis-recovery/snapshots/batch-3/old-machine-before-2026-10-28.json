@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "entryId": "old-machine",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "imageSha256": "7e80bfc606798f9e62f1c063a3b55d69119f4d7f47f956c20bf10fc071475633",
+  "entry": {
+    "id": "old-machine",
+    "title": "Old Machine",
+    "date": "2026-07-23",
+    "source": "own",
+    "medium": "photo",
+    "category": "strange",
+    "tags": [
+      "museum",
+      "machine",
+      "wood",
+      "exhibition"
+    ],
+    "note": "An old wooden apparatus standing alone on a grey gallery floor, a lamp and a lantern beside it. Said to read a person's shadow and draw their profile.",
+    "image": "images/old-machine.jpg",
+    "accent": "#8A7A68",
+    "echoes": {
+      "candidates": [
+        "暗房放大機／早期攝影器材"
+      ],
+      "confirmed": [
+        "共感 Entanglements 展場的一件展品"
+      ]
+    }
+  }
+}

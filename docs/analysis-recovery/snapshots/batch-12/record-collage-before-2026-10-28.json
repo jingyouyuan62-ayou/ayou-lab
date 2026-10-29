@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "entryId": "record-collage",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "entry": {
+    "id": "record-collage",
+    "title": "Record Collage",
+    "date": "2026-05-04",
+    "source": "own",
+    "medium": "collage",
+    "category": "strange",
+    "tags": [
+      "record",
+      "collage",
+      "text",
+      "teal"
+    ],
+    "note": "A record whose label holds a photo of someone swimming, ringed by Japanese text and loose green marks; below it a hand holds a beaded mosaic of the same photo.",
+    "image": "images/record-collage.jpg",
+    "accent": "#486858",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "歌曲〈Bloody Mary girl〉：左上為其封面，日文為歌詞",
+        "右下是自己照封面做的拼豆",
+        "我很喜歡這首歌"
+      ]
+    }
+  },
+  "imageSha256": "d4ab84d17796c7ecc8cf8c5cf9a5c571e51deb042124857c21ef6722e5cb9e2c"
+}

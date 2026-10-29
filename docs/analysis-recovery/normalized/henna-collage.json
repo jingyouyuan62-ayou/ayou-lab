@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "entryId": "henna-collage",
+  "sourceFormat": "structured_markdown",
+  "status": "ready_for_review",
+  "entryReferences": {
+    "image": "images/henna-collage.jpg",
+    "imageSha256": "3062007649f5eb6b7669370fbe5e061ad53eca20eb64486698c59f3d4fd721df",
+    "title": "Henna Collage",
+    "category": "strange",
+    "accent": "#0487DF",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "The pale irregular shape at the top-left and the tilted blue panel are both my own processed henna tattoo."
+      ]
+    }
+  },
+  "proposedPatch": {
+    "analysis": {
+      "content": "画面实际是：钴蓝底色铺满黄色圆点（半调网点），上面叠着几张撕边的白色星形纸片、带着紫色网点；中间是两块蓝色矩形面板，里面是一段蓝粉色的细密分叉纹理（像叶脉，也像热成像扫描）；一条亮品红的斜线穿过画面，背后还有绿色网点区域。",
+      "composition": "不对称、倾斜动感；撕边星形向外炸开；中央蓝色面板是锚点。",
+      "color": "钴蓝 #1560B0、亮黄 #E8E23C、青蓝 #29B7E8、品红 #E8257F、白粉 #F2E4EC；高饱和。",
+      "typography": "画面中无可读文字。",
+      "texture": "半调网点、撕纸边、颗粒、扫描/热成像质感。",
+      "material": "纸、印刷网点、丝线/光束。",
+      "spatialDepth": "画面呈扁平二维拼贴，以叠层而非真实纵深建立前后关系。",
+      "hierarchy": "中央蓝色面板 + 品红线最先 → 白色星形 → 网点底。",
+      "mood": "躁动、俏皮、叛逆、zine 感。",
+      "visualStyle": "数字拼贴 / 网版（riso）/ 波普。",
+      "interaction": "叠层视差、网点流动、线条绘制动画。",
+      "dna": "主类 STRANGE，次类 COLOR；Archive category 记 strange。",
+      "uncertainty": "当次原文未能确认海娜纹身在画面中的具体位置，并询问蓝色面板里的分叉纹理是否就是海娜；后续使用者已确认左上不规则浅色形状和中部斜放蓝色面板都是其处理过的海娜纹身。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a09ed2-fcd9-7ba0-a7dd-bc85721df254",
+      "messageId": "884b5813-a0a4-4e9b-818b-ffbb0e988cd8",
+      "timestamp": "2026-09-16T08:28:27.200Z",
+      "sourceTitle": "Henna Collage",
+      "originalArtifact": "docs/analysis-recovery/original/henna-collage.txt",
+      "originalSha256": "b2a8ce57892c8728e8d26da7aef118a73fa3f806745b03ab88c85e0289c51217",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
+    }
+  },
+  "mappingNotes": [
+    "原文内容段落没有单独的 content 标签，按同一画面的观察段映射到 content。",
+    "原文 Echoes 只有 AI candidates；后续使用者确认了个人海娜纹身，并写入当前 confirmed。标准化保留当前 confirmed，不把历史 candidates 回填成个人事实。",
+    "原文 uncertainty 记录的是确认前的疑问；标准化保留这段历史疑点，并明确后续确认结果。"
+  ],
+  "pending": []
+}

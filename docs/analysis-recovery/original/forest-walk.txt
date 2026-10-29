@@ -1,0 +1,16 @@
+## 1. Forest Walk（原 `IMG_6552.jpeg`）
+
+- **内容**：一条木栈道带着台阶在浓绿中蜿蜒下行，两侧是茂密的灌木、蕨类与高树，光线柔和；远处栈道转向消失在树后。
+- **composition**：栈道作为 S 形引导线从左上经中间阶梯到右下；树干与枝叶在四周形成自然边框。
+- **color**：饱满的黄绿到深绿（`#485828`、`#586828`），没有强对比色。
+- **typography**：无文字。
+- **texture**：木板的横向纹理、蕨类的羽状叶片、湿润的草。
+- **material**：数字照片，光线柔，像阴天或林下散射光。
+- **spatialDepth**：强；栈道由近及远逐级收缩，纵深明确。
+- **hierarchy**：栈道与阶梯 → 两侧植被 → 深处光斑。
+- **mood**：湿润、安静、被绿色包围。
+- **visualStyle**：山间步道纪实，和 Forest Railway 是同一批的来源。
+- **interaction**：无。
+- **dna**：nature（walkway / forest / steps / green），accent `#485828`。
+- **echoes**：candidates「與 Forest Railway 同一批（阿里山一帶）— 地點待確認」。
+- **不确定**：地点；**无拍摄时间**（EXIF 被清空），date 暂用导出日 2026-09-18。

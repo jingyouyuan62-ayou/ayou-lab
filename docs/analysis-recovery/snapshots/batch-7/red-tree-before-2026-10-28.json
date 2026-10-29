@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "entryId": "red-tree",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "entry": {
+    "id": "red-tree",
+    "title": "Under the Canopy",
+    "date": "2026-09-10",
+    "source": "collected",
+    "medium": "photo",
+    "category": "color",
+    "note": "Looking up into layers of branches, green needles, and small red blossoms.",
+    "image": "images/red-tree.PNG",
+    "accent": "#975235",
+    "ideas": [
+      "Live2D 分层视差：近枝 / 中冠 / 远梢",
+      "花叶飘落粒子效果"
+    ]
+  },
+  "imageSha256": "0c2228c0cd42f0ca492622ca238202b7439589788abdac8d5648543e9af8c496"
+}

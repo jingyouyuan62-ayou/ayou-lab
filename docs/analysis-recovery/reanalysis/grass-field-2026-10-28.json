@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "entryId": "grass-field",
+  "kind": "owner_authorized_image_reanalysis",
+  "status": "applied",
+  "createdAt": "2026-10-28",
+  "image": {
+    "path": "images/grass-field.jpg",
+    "sha256": "804cf4962c1b26b68b124453f3f907db0b83fc83959c66f18bd9b53fd5e30a75",
+    "width": 1075,
+    "height": 1600
+  },
+  "historicalTrace": {
+    "original": "docs/analysis-recovery/original/grass-field.txt",
+    "originalSha256": "7110084838b4c128c7858730a7cd43dc2a3c04469b99b9b612fd4d52b9b95d0d",
+    "normalized": "docs/analysis-recovery/normalized/grass-field.json",
+    "normalizedSha256": "4b7f59639e5d13948fca444240253230039b6f19cff0e6b8851eb00faeb93d60",
+    "previousArchiveAnalysis": "docs/analysis-recovery/reanalysis/grass-field-before-2026-10-28.json"
+  },
+  "preservedEntryMetadata": {
+    "title": "Park Bench",
+    "category": "nature",
+    "accent": "#4D9840",
+    "echoes": null
+  },
+  "proposedAnalysis": {
+    "content": "画面不是单纯草地，而是公园一角：黑色铁艺长椅放在石板小广场上，周围是草地和泥土小径，后面是刷白的树干和小池塘，上方是翠绿的枫树枝叶罩下来。",
+    "composition": "长椅居中偏左，绿叶从上方覆盖成框；前景草地、中景长椅与石板、背景树干与水面",
+    "color": "翠绿 #4E8C3A、树干白 #E8E8E0、长椅深黑 #22262A、石板灰",
+    "typography": "画面中没有任何可读文字、数字或编辑性标识；白色树干只是表面处理，不构成文字。",
+    "texture": "草、树皮、石板、铁艺",
+    "material": "可辨认的材质包括前景草地与湿土、刷白的树干和树皮、黑色金属长椅、灰蓝色石材铺地，以及后方的水面。枝叶是活体植物组织。",
+    "spatialDepth": "前景草地 → 中景长椅 → 背景池塘，层次清楚",
+    "hierarchy": "黑色长椅 → 绿色枝叶 → 白色树干",
+    "mood": "安静、清凉、无人、夏日午后",
+    "visualStyle": "日系公园摄影，绿调胶片感",
+    "interaction": "1）将上方叶冠、前景树干与草地、长椅和石板、后方水面分成多层，做缓慢视差；2）悬停时让树影与水面反光轻微明暗变化，保持空椅的安静感。",
+    "dna": "主 nature，次 dream",
+    "uncertainty": "无法确认具体公园、地点、拍摄日期与树种；白色树干所用药剂或涂料及其维护用途只能看出是人工处理，不能仅凭照片断定。空长椅是长期无人还是恰好无人经过，也无法从单张画面判断。"
+  },
+  "comparisonWithHistoricalDraft": {
+    "preservedConclusions": [
+      "保留历史标准化草案中已有、且本轮未修改的全部视觉判断。",
+      "保留当前标题、category、accent 与 Echoes；不新增 confirmed Echo。"
+    ],
+    "refinements": [
+      "根据原图补足 typography、material、interaction 与 uncertainty；现有构图、颜色、空间、DNA 和历史判断均保持不变。"
+    ],
+    "changedVisualConclusions": [],
+    "historicalInformationLost": [],
+    "unsupportedAdditions": []
+  },
+  "validation": {
+    "oneImageReadOnly": true,
+    "allThirteenAnalysisFieldsPresent": true,
+    "allValuesAreNonEmptyStrings": true,
+    "imageAndHistoricalArtifactsTraceable": true,
+    "preservedTitleCategoryAccentAndEchoes": true,
+    "noUnsupportedConfirmedEchoes": true
+  }
+}

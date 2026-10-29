@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "entryId": "teal-liberty",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "entry": {
+    "id": "teal-liberty",
+    "title": "Teal Liberty",
+    "date": "2026-09-18",
+    "source": "collected",
+    "medium": "photo",
+    "category": "color",
+    "tags": [
+      "statue",
+      "teal",
+      "sky",
+      "wallpaper",
+      "green"
+    ],
+    "note": "The Statue of Liberty seen from below against a flat teal sky, her torch arm cut off by the top of the frame; a photo wallpaper credited SOULAB.",
+    "image": "images/teal-liberty.png",
+    "accent": "#71AA9D",
+    "echoes": {
+      "candidates": [
+        "照片來自 SOULAB WALLPAPER 帳號（自由女神像，Statue of Liberty）"
+      ],
+      "confirmed": [
+        "把它當作手機壁紙，用來顯化"
+      ]
+    }
+  },
+  "imageSha256": "60a2f80dab3478f110bf5939fa8c3c4520dfb986e3181eca20a91b7b6a354e48"
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "entryId": "pond-grass",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "entry": {
+    "id": "pond-grass",
+    "title": "Pond Grass",
+    "date": "2026-09-18",
+    "source": "own",
+    "medium": "photo",
+    "category": "nature",
+    "tags": [
+      "pond",
+      "grass",
+      "dark",
+      "orange"
+    ],
+    "note": "One tuft of tall grass standing out of a dark pond, with a few small orange flowers among the blades.",
+    "image": "images/pond-grass.jpg",
+    "accent": "#1E2A18",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "阿里山",
+        "讓我想起山裡潮濕微涼的空氣"
+      ]
+    }
+  },
+  "imageSha256": "68540470a5c6a98eb18e09beae486c63ee8b079748eedf3ef359630049e99024"
+}

@@ -1,0 +1,34 @@
+## 1. Tomato
+
+自然语言：一颗饱满的红番茄放在白灰色台面上，周围散落着几枚番茄的绿色星形萼片，其中一枚还留在番茄顶部。整体是俯拍静物，红与白灰形成强对比，绿色星形萼片呈放射状分布。
+
+```json
+{
+  "content": "俯拍静物：一颗红番茄，周围散落数枚绿色星形萼片",
+  "composition": "居中、近似对称、放射式排布；大面积留白；俯视平铺",
+  "color": {
+    "dominant": "#A62B1F",
+    "palette": ["#8F1912", "#3E5A2E", "#E8E8E6"],
+    "temperature": "warm",
+    "saturation": "high"
+  },
+  "typography": { "present": false, "notes": "" },
+  "texture": "番茄皮光滑带高光，台面哑光，轻微颗粒",
+  "material": "新鲜果实、湿润果皮、哑光纸面",
+  "spatialDepth": "浅景深、接近平面，靠柔和投影产生轻微立体",
+  "visualHierarchy": "番茄最先被看到，其次是散落的绿色星形",
+  "mood": "干净、俏皮，带一点仪式感和轻微超现实",
+  "visualStyle": "高调极简静物，但构图有异样感",
+  "interaction": ["放射状排布可做悬停位移", "萼片可缓慢旋转或漂移", "投影随鼠标偏移"],
+  "dna": { "primary": "strange", "secondary": ["color"], "confidence": "high" },
+  "accent": "#8F1912",
+  "implementationHints": {
+    "layout": "居中锚点 + 环绕装饰元素",
+    "type": "字重克制，给图留空间",
+    "motion": "小幅、慢速、环绕式",
+    "radius": "中等圆角",
+    "spacing": "大留白"
+  },
+  "uncertainty": "萼片是有意布置还是巧合？这决定它有多‘strange’"
+}
+```

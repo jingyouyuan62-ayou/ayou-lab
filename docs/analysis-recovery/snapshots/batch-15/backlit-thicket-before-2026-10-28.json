@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "entryId": "backlit-thicket",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "entry": {
+    "id": "backlit-thicket",
+    "title": "Backlit Thicket",
+    "date": "2026-08-07",
+    "source": "own",
+    "medium": "photo",
+    "category": "nature",
+    "tags": [
+      "leaves",
+      "backlight",
+      "green",
+      "canopy",
+      "tangle"
+    ],
+    "note": "A dense tangle of branches lit from behind, one patch of leaves burning yellow-green against a sliver of blue sky.",
+    "image": "images/backlit-thicket.jpg",
+    "accent": "#9BB151",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "前往台灣最南點（鵝鑾鼻）的路上",
+        "途中要經過一條很長的小道"
+      ]
+    }
+  },
+  "imageSha256": "5b8a6dd61719df31a7544e674f3c4149d79511ec7b2beb0726d79e9cc04d5e3f"
+}

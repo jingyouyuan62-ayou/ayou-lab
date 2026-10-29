@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "entryId": "osmanthus",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "imageSha256": "6ef35336fd9a9cb497a77f8872f545bfb00f292617560b9c0e773a3df44e6f7b",
+  "entry": {
+    "id": "osmanthus",
+    "title": "Osmanthus",
+    "date": "2025-11-03",
+    "source": "collected",
+    "medium": "photo",
+    "category": "color",
+    "tags": [
+      "osmanthus",
+      "yellow",
+      "autumn",
+      "blossom"
+    ],
+    "note": "A cluster of small four-petalled osmanthus flowers lit from behind, deep green leaves around them.",
+    "image": "images/osmanthus.jpg",
+    "accent": "#C08A2A",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "桂花"
+      ]
+    }
+  }
+}

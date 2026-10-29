@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "entryId": "white-bells",
+  "sourceFormat": "structured_markdown",
+  "status": "ready_for_review",
+  "finalizedAt": "2026-10-28",
+  "validationDraft": null,
+  "entryReferences": {
+    "image": "images/white-bells.jpg",
+    "imageSha256": "d06a16df02d8b69b0e6c8219c64f5e213a618727021b05e682f89e16344199c7",
+    "title": "White Bells",
+    "category": "nature",
+    "accent": "#2F3D2C",
+    "echoes": {
+      "candidates": [],
+      "confirmed": []
+    }
+  },
+  "proposedPatch": {
+    "analysis": {
+      "content": "粗壮绿色花茎上的一个花序，多朵乳白钟形花苞下垂，间有褐色干枯苞片与卷须状残片；背景是被虚化的暗绿枝叶。",
+      "composition": "左侧花茎构成强竖线，花序居中偏上，右下有一条交叉的细茎；浅景深压缩空间。",
+      "color": "象牙白（#E8E8E8–#D8C8A8）与多层绿（#182818–#989858），并带少量干褐。",
+      "typography": "画面中无可读文字。",
+      "texture": "花瓣呈蜡质或纸质半透光，苞片干燥起皱。",
+      "material": "历史原文记录为数字照片，有明显手机浅景深虚化。",
+      "spatialDepth": "中等，靠背景虚化与前后茎的遮挡建立。",
+      "hierarchy": "中央花朵 → 左侧粗茎 → 右下细茎 → 暗背景。",
+      "mood": "安静、微凉，接近植物标本的静物感。",
+      "visualStyle": "植物特写；原文判断画面为丝兰或凤尾兰一类的钟形花。",
+      "interaction": "未发现与画面结构直接相关的交互方案。",
+      "dna": "原文主类为 NATURE（flower / ivory / stalk / backlight）；Archive category 记 nature。",
+      "uncertainty": "具体品种无法确认；这些花是尚未开放还是本来就这样下垂，也无法确定。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "7ec740c5-5017-401a-bd95-3bfb516c6426",
+      "timestamp": "2026-09-18T15:27:56.972Z",
+      "sourceTitle": "White Bells",
+      "originalArtifact": "docs/analysis-recovery/original/white-bells.txt",
+      "originalSha256": "a55a4ef2bb307c2fa858e8ad1b8377d3d48fc02cd31a21866531f0e367723d58",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
+    }
+  },
+  "mappingNotes": [
+    "原文的“画面内容”映射为 content，其余逐维字段按原顺序映射。",
+    "原文 typography 写“无文字”，interaction 写“无”，均改为规范规定的明确空值句。",
+    "原文 AI candidate“絲蘭／鳳尾蘭（Yucca）— 品種待確認”保留在原文中；当前顶层 Echoes 为空数组，未擅自新增候选。",
+    "原文 accent #2F3D2C 与当前顶层 accent 一致。"
+  ],
+  "pending": []
+}

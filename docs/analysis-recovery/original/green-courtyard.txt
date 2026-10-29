@@ -1,0 +1,16 @@
+**2. Green Courtyard**（原 `IMG_3547.jpeg` → `images/green-courtyard.jpg`，2026-07-20）
+
+- **看到**：石造水盤把水落進下方水池，四周是棕櫚與濃密綠植，後方有建築外牆。
+- **composition**：水盤在左侧近景起框，棕櫚在中央偏右形成放射狀，前景水池與石階壓住底部。
+- **color**：被胶片感滤镜统一过的深绿（`#284838`–`#486858`），水盤是偏灰的绿。
+- **typography**：无文字。
+- **texture**：石材表面、落水的连续水线、棕櫚叶片的齿状边缘。
+- **material**：数字照片，绿色明显被调过（推测是胶片模拟滤镜）。
+- **spatialDepth**：中，靠前景水盤与后景建筑分层。
+- **hierarchy**：棕櫚 → 水盤與落水 → 背景建築與灌木。
+- **mood**：潮濕、安靜、略带人造感的绿。
+- **visualStyle**：旅途中庭園纪实，色调接近胶片刻录。
+- **interaction**：几乎无。
+- **dna**：nature（tags: courtyard / fountain / green / palm），accent `#33543F`。
+- **echoes**：留空。
+- **不确定**：地点（是旅館、校園还是公园中庭？）；绿色是否为后期滤镜造成。

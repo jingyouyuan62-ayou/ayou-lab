@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "entryId": "record-store",
+  "kind": "owner_authorized_image_reanalysis",
+  "status": "applied",
+  "createdAt": "2026-10-28",
+  "image": {
+    "path": "images/record-store.jpg",
+    "sha256": "b6feadd36ef3fe1cb032ed93bd0719b46ee18958986bf402c0d50b5e57f05ac2",
+    "width": 1075,
+    "height": 1600
+  },
+  "historicalTrace": {
+    "original": "docs/analysis-recovery/original/record-store.txt",
+    "originalSha256": "a1f426c47b536bae719032489522613fffd058eb87a267b6d3d2a024d11036c4",
+    "normalized": "docs/analysis-recovery/normalized/record-store.json",
+    "normalizedSha256": "f9804f20fdbe9fb92bb63ab109091f2f421b7c6299d8aa3c203f769756504888",
+    "previousArchiveAnalysis": "docs/analysis-recovery/reanalysis/record-store-before-2026-10-28.json"
+  },
+  "preservedEntryMetadata": {
+    "title": "Chia Chia Records",
+    "category": "memory",
+    "accent": "#3B7A94",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "Chia Chia Records (佳佳唱片行), Taiwan",
+        "I found albums by a singer I love here."
+      ]
+    }
+  },
+  "proposedAnalysis": {
+    "content": "唱片行内部，满墙 CD 与唱片，蓝白色手写标签卡配二维码，地上堆着纸箱，后墙有涂鸦，浅色瓷砖地面，冷青调。",
+    "composition": "强对角线透视，货架从左上向右下延伸，右侧地面留白",
+    "color": "冷青灰 #7E939B、纸白 #E6E4DC、标签蓝 #4A7FA8、木架暖褐；低到中饱和",
+    "typography": "有。大量店内小标签（中文+英文），密集网格排列",
+    "texture": "CD 盒反光、纸板、瓷砖、涂鸦墙",
+    "material": "塑料、纸、金属架、瓷砖",
+    "spatialDepth": "强透视，货架层层推进",
+    "hierarchy": "密集 CD 阵列 → 蓝色标签卡 → 地面纸箱",
+    "mood": "复古、拥挤、被音乐包围的日常温暖",
+    "visualStyle": "低饱和冷调纪实摄影，胶片感",
+    "interaction": "密集网格滚动、标签悬停、货架视差",
+    "dna": "主 memory，次 color",
+    "uncertainty": "画面本身没有足以独立确认店名、街道或城市的完整招牌；「Chia Chia Records」来自已确认记录。远景涂鸦、海报和大多数唱片标签字太小，具体作品与版本无法逐项辨认；拍摄日期、楼层与机位也不能由画面确认。"
+  },
+  "comparisonWithHistoricalDraft": {
+    "preservedConclusions": [
+      "保留历史标准化草案中已有、且本轮未修改的全部视觉判断。",
+      "保留当前标题、category、accent 与 Echoes；不新增 confirmed Echo。"
+    ],
+    "refinements": [
+      "根据原图补足 uncertainty：区分画面可证信息与使用者已确认的店名地点，并保留唱片版本、涂鸦、日期和机位限制。"
+    ],
+    "changedVisualConclusions": [],
+    "historicalInformationLost": [],
+    "unsupportedAdditions": []
+  },
+  "validation": {
+    "oneImageReadOnly": true,
+    "allThirteenAnalysisFieldsPresent": true,
+    "allValuesAreNonEmptyStrings": true,
+    "imageAndHistoricalArtifactsTraceable": true,
+    "preservedTitleCategoryAccentAndEchoes": true,
+    "noUnsupportedConfirmedEchoes": true
+  }
+}

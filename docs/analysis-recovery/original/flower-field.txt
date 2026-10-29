@@ -1,0 +1,16 @@
+## 4. Flower Field（原 `IMG_4845.jpeg`，2025-11-03）
+
+- **内容**：一片紫罗兰（stock）花田，紫、粉、黄、白、红、橙的花穗向上生长，背景是纯净的深蓝天空。
+- **composition**：花穗作竖线密集排列，近处虚、远处实；下方拥挤，上方留出大片天空。
+- **color**：深蓝天空（`#4888B8`）与高饱和多彩花色形成强对比。
+- **typography**：无文字。
+- **texture**：花瓣的缎面质感、绿色花茎细线、失焦花穗的柔糊。
+- **material**：数字照片，晴日直射光。
+- **spatialDepth**：中，靠虚实与花穗高低建立。
+- **hierarchy**：中央最高的粉白花穗 → 两侧彩色花群 → 蓝天。
+- **mood**：明亮、繁盛，有一点糖霜感。
+- **visualStyle**：花田摄影，接近"野花地"记录。
+- **interaction**：无。
+- **dna**：color（flowers / purple / pink / blue），accent `#4888B8`（取画面里占比最大的天空蓝）。
+- **echoes**：candidates「紫羅蘭（stock, Matthiola）— 品種待確認」。
+- **不确定**：品种与地点。

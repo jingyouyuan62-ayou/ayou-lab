@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "entryId": "old-machine",
+  "sourceFormat": "structured_markdown",
+  "status": "ready_for_review",
+  "finalizedAt": "2026-10-28",
+  "validationDraft": null,
+  "entryReferences": {
+    "image": "images/old-machine.jpg",
+    "imageSha256": "7e80bfc606798f9e62f1c063a3b55d69119f4d7f47f956c20bf10fc071475633",
+    "title": "Old Machine",
+    "category": "strange",
+    "accent": "#8A7A68",
+    "echoes": {
+      "candidates": [
+        "暗房放大機／早期攝影器材"
+      ],
+      "confirmed": [
+        "共感 Entanglements 展場的一件展品"
+      ]
+    }
+  },
+  "proposedPatch": {
+    "analysis": {
+      "content": "白色美术馆房间里立着一台深木色老机器，由木框、金属支臂和镜片结构组成，像放大机或早期摄影、印刷器械；右侧黑色三脚架上装一盏点亮的工作灯，架子中间挂一盏小油灯；地面贴有「請勿越線 Please do not step over」的胶带字。",
+      "composition": "主体在左三分线上，高灯在右，地面与墙的交线横切画面下部，四周大量留白。",
+      "color": "暖灰米白墙面平均约 #8C8175，机器是深棕木与黑色金属；点亮的灯是全画面唯一高亮白点。",
+      "typography": "地面胶带文字为「請勿越線 Please do not step over」，中英混排、无衬线，属于功能性的展览用语。",
+      "texture": "墙面有均匀噪点或颗粒，木头有光泽与磨痕，地面哑光。",
+      "material": "历史原文记录为数字照片，整体偏暖并带轻微颗粒感。",
+      "spatialDepth": "中等，靠地面延伸、脚架与主体的前后关系以及灯光照射范围建立。",
+      "hierarchy": "老机器 → 工作灯 → 油灯 → 地面文字。",
+      "mood": "安静、疏离，像被摆好的一幕舞台。",
+      "visualStyle": "美术馆展览现场记录，接近类型学静物摄影。",
+      "interaction": "未发现与画面结构直接相关的明确交互点。",
+      "dna": "原文主类为 STRANGE（museum / machine / wood / exhibition）；Archive category 记 strange。",
+      "uncertainty": "这台装置的正式名称与用途无法确认，因此不能断言它是展品还是展场工具；油灯是否属于作品的一部分也无法确认。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "7ec740c5-5017-401a-bd95-3bfb516c6426",
+      "timestamp": "2026-09-18T15:27:56.972Z",
+      "sourceTitle": "Old Machine",
+      "originalArtifact": "docs/analysis-recovery/original/old-machine.txt",
+      "originalSha256": "8d817310c738b2d73432393aad3d888a2c95a33b32f51521fb9fec9985649486",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
+    }
+  },
+  "mappingNotes": [
+    "原文的“画面内容”映射为 content，其余逐维字段按原顺序映射。",
+    "机器形状保留原文的观察与推测语气，没有把“像放大机”写成确定识别。",
+    "原文 candidate“2026-07-23 同日拍的 共感 Entanglements 展場”已由后续使用者确认；当前 confirmed 原样保留。",
+    "原文 accent #8A7A68 与当前顶层 accent 一致。"
+  ],
+  "pending": []
+}

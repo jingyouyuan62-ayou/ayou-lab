@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "entryId": "airplane",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "entry": {
+    "id": "airplane",
+    "title": "Airplane",
+    "date": "2025-12-22",
+    "source": "own",
+    "medium": "photo",
+    "category": "color",
+    "note": "A plane crossing the blue.",
+    "image": "images/airplane.jpg",
+    "accent": "#257EB1"
+  },
+  "imageSha256": "4b1e73c5200c4216389ec4dbff9699b42713eed92d79babae6aeab515efe6b0d"
+}

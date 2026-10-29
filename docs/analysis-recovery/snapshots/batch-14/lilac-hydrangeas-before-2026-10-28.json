@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "entryId": "lilac-hydrangeas",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "entry": {
+    "id": "lilac-hydrangeas",
+    "title": "Lilac Hydrangeas",
+    "date": "2026-07-29",
+    "source": "collected",
+    "medium": "photo",
+    "category": "nature",
+    "tags": [
+      "hydrangea",
+      "lilac",
+      "shade",
+      "moss",
+      "leaves"
+    ],
+    "note": "A spray of lilac hydrangeas opening in deep shade, the oldest flowers fading to white while a mossy branch crosses the dark green behind them.",
+    "image": "images/lilac-hydrangeas.jpg",
+    "accent": "#756087",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "阿里山",
+        "和 pond grass 是同一位拍攝者",
+        "很空靈、很夢幻的一張——看到這張圖會讓我願意相信世界上有精靈"
+      ]
+    }
+  },
+  "imageSha256": "6e73c0dcb8193b34fceb1e22f58c4341f8357a3532df15a7efe973dd97fa29fb"
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "entryId": "fireworks-night",
+  "capturedAt": "2026-10-27",
+  "reason": "项目所有者要求针对历史原文缺少 uncertainty 的问题，重新读取原图并完成正式完整分析。",
+  "entryReferences": {
+    "image": "images/fireworks-night.jpg",
+    "imageSha256": "6cf54733eeab0ae35167ff242bf8b9f1ada65f57297109dadab3e3a1415f241d",
+    "title": "Night Sparks",
+    "category": "dream",
+    "accent": "#201B21",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "大稻埕夏日烟花祭"
+      ]
+    }
+  },
+  "analysis": {
+    "content": "夜空中同时绽放多组烟花，主体是白色和金色的大朵放射状火花，下方还有一些粉红色的爆点；底部和两侧是树木的黑色剪影，像画框一样把烟花围住。",
+    "composition": "烟花群集中在画面中上部，深色树影在底部形成框架，不对称。",
+    "color": "夜空近黑 #0A0C12、火花白/金 #F5E6C8、粉色点缀 #E85A7A；高对比。",
+    "typography": "画面中无可读文字。",
+    "texture": "细线状火花、烟雾、夜景颗粒。",
+    "material": "夜空、烟雾、光。",
+    "spatialDepth": "烟花在远处，树影贴在近处。",
+    "hierarchy": "中央大烟花 → 周围爆点 → 树影。",
+    "mood": "绚烂、庆祝、短暂，热闹里带一点孤独。",
+    "visualStyle": "夜景烟花摄影。",
+    "interaction": "火花粒子、绽放动画、点击触发。",
+    "dna": "主类 DREAM，次类 COLOR；Archive category 记 dream。",
+    "uncertainty": "待补充：历史原文未提供可核验的 uncertainty 内容。"
+  },
+  "analysisSource": {
+    "type": "historical_chat_recovery",
+    "sessionId": "01a09ed2-fcd9-7ba0-a7dd-bc85721df254",
+    "messageId": "d3be6bbb-28e1-4e9d-b6fb-c86761bc290d",
+    "timestamp": "2026-09-18T02:32:25.146Z",
+    "sourceTitle": "Night Sparks",
+    "originalArtifact": "docs/analysis-recovery/original/night-sparks.txt",
+    "originalSha256": "ef4a1146293d52b1019ab8530329159c48efdda88050085b8438d6d69bfc55a8",
+    "sourceFormat": "structured_markdown",
+    "mappingVersion": "2026-10-26.v2.1"
+  }
+}

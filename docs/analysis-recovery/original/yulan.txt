@@ -1,0 +1,16 @@
+## 3. Yulan（原 `IMG_0079.jpeg`）
+
+- **内容**：白玉兰开在光秃的枝条上，花瓣乳白微暖，背景是被调成灰青色的天空。
+- **composition**：枝条从左侧与下方岔开，花朵沿枝分布；天空作为大面积负空间，构图疏朗。
+- **color**：白与灰青（`#688888`、`#586868`）为主，枝条是近黑的褐。
+- **typography**：无文字。
+- **texture**：花瓣的蜡感与半透明、枝条的干燥细密。
+- **material**：数字照片，色调被压过（偏胶片青）。
+- **spatialDepth**：浅到中，仰拍让花朵几乎贴在天空上。
+- **hierarchy**：中下部集中的花簇 → 放射的枝条 → 灰青天空。
+- **mood**：早春、清冷，花开但树枝还空着。
+- **visualStyle**：春日仰拍花卉照，与 Cherry Blossoms 构成"春花"的一组对照。
+- **interaction**：无。
+- **dna**：color（magnolia / white / teal / spring），accent `#688888`。
+- **echoes**：candidates「白玉蘭（Magnolia denudata）— 品種待確認」。
+- **不确定**：品种；**无拍摄时间**，date 暂用导出日 2026-09-18。

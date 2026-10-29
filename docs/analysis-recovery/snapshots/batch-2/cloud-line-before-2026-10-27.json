@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "entryId": "cloud-line",
+  "capturedAt": "2026-10-27",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "imageSha256": "12b604597ee0265133b4fa6ec821a182cc1872edd1ea6e7943c552f44eca9550",
+  "entry": {
+    "id": "cloud-line",
+    "title": "Cloud Line",
+    "date": "2025-11-09",
+    "source": "collected",
+    "medium": "photo",
+    "category": "nature",
+    "tags": [
+      "meadow",
+      "clouds",
+      "cattle",
+      "hill"
+    ],
+    "note": "Clouds sitting along the ridge of a green hill, with a few cattle grazing on the slope below.",
+    "image": "images/cloud-line.jpg",
+    "accent": "#586838",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "新疆"
+      ]
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "entryId": "airplane",
+  "kind": "owner_authorized_image_reanalysis",
+  "status": "applied",
+  "createdAt": "2026-10-28",
+  "image": {
+    "path": "images/airplane.jpg",
+    "sha256": "4b1e73c5200c4216389ec4dbff9699b42713eed92d79babae6aeab515efe6b0d",
+    "width": 1069,
+    "height": 1600
+  },
+  "historicalTrace": {
+    "original": "docs/analysis-recovery/original/airplane.txt",
+    "originalSha256": "6474e9472e85f0e0e34089de7494b87208b57a2b70b64ec5f1ac15ddb2838ba4",
+    "normalized": "docs/analysis-recovery/normalized/airplane.json",
+    "normalizedSha256": "904b58cfc92cea8b8368402dbdfed984276421dfa144caee34ce2f8308aa10be",
+    "previousArchiveAnalysis": "docs/analysis-recovery/reanalysis/airplane-before-2026-10-28.json"
+  },
+  "preservedEntryMetadata": {
+    "title": "Airplane",
+    "category": "color",
+    "accent": "#257EB1",
+    "echoes": null
+  },
+  "proposedAnalysis": {
+    "content": "画面是飞机舷窗视角：左上角是机翼（翼梢有红色航司标志），下方是连绵的雪山与河谷，上方是深蓝天空。",
+    "composition": "机翼从左上方斜入，雪山占据下半，俯视地平线",
+    "color": "天空湛蓝 #1E7FC0、雪白、山脊蓝灰 #7E9AB0、红色标志点缀",
+    "typography": "画面中没有可读文字或数字；翼梢只有红色航空公司图形标志，它不构成可读排版。",
+    "texture": "金属机翼、雪、云、岩石",
+    "material": "可辨认的材质包括机翼的涂装金属或复合材料、下方积雪与裸露岩石、远处云层与高空雾气。机舱玻璃本身不在画面内，无法判断是否隔着玻璃拍摄。",
+    "spatialDepth": "极强的高空俯视纵深",
+    "hierarchy": "1）左侧深蓝机翼以大面积暗色实体和斜向轮廓先被看到；2）下方雪山的明暗山脊形成第二层复杂纹理；3）远处浅色雾带把天空与地表分开；4）顶部的蓝色高空作为最大负空间留在最后。",
+    "mood": "辽阔、壮丽、冷冽、旅途感",
+    "visualStyle": "机窗航拍，冷蓝调",
+    "interaction": "1）将机翼作为静止前景，让下方雪山地貌随滚动缓慢反向移动，造成高空视差；2）悬停云层与地平线时略增强雾带的明暗层次，不改变原始蓝色调。",
+    "dna": "主 color，次 nature",
+    "uncertainty": "本图未发现需特别保留的不确定项。"
+  },
+  "comparisonWithHistoricalDraft": {
+    "preservedConclusions": [
+      "保留历史标准化草案中已有、且本轮未修改的全部视觉判断。",
+      "保留当前标题、category、accent 与 Echoes；不新增 confirmed Echo。"
+    ],
+    "refinements": [
+      "根据原图补足 typography、material、hierarchy、interaction 与 uncertainty；不新增航司身份或高原地点判断。"
+    ],
+    "changedVisualConclusions": [],
+    "historicalInformationLost": [],
+    "unsupportedAdditions": []
+  },
+  "validation": {
+    "oneImageReadOnly": true,
+    "allThirteenAnalysisFieldsPresent": true,
+    "allValuesAreNonEmptyStrings": true,
+    "imageAndHistoricalArtifactsTraceable": true,
+    "preservedTitleCategoryAccentAndEchoes": true,
+    "noUnsupportedConfirmedEchoes": true
+  }
+}

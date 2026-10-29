@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "entryId": "bridge-sky",
+  "kind": "owner_authorized_image_reanalysis",
+  "status": "applied",
+  "createdAt": "2026-10-28",
+  "image": {
+    "path": "images/bridge-sky.jpg",
+    "sha256": "4e0dfcf45f92c2de77aef618022131db46c65362f9ca79b41856cbe00247572a",
+    "width": 1063,
+    "height": 1600
+  },
+  "historicalTrace": {
+    "original": "docs/analysis-recovery/original/bridge-sky.txt",
+    "originalSha256": "9ecf2232dd9bf85b235e56aeb0477bfe2b0380dff8a06fd4febd18969e398960",
+    "normalized": "docs/analysis-recovery/normalized/bridge-sky.json",
+    "normalizedSha256": "3bca0f394569074213dc03466b7973bc07bb8b59ed42e339085c660db0838040",
+    "previousArchiveAnalysis": "docs/analysis-recovery/reanalysis/bridge-sky-before-2026-10-28.json"
+  },
+  "preservedEntryMetadata": {
+    "title": "Bridge & Sky",
+    "category": "nature",
+    "accent": "#5BB9E0",
+    "echoes": null
+  },
+  "proposedAnalysis": {
+    "content": "一座巨大的高架桥横跨天空，钢桁架桥身从左上斜跨过去；右侧是一根巨大的混凝土桥墩，中间有拱形开口；下方是深墨绿的针叶林和草坡。低角度仰拍，气势很强。",
+    "composition": "强对角线（桥身）+ 右侧垂直巨柱；天与林分层；仰视",
+    "color": "天蓝 #4FA8DE、云白、混凝土灰 #B8B8AE、森林墨绿 #2E4A34、草坡黄绿 #8FA84E",
+    "typography": "画面中无可读文字。",
+    "texture": "混凝土粗糙面、钢桁架、云、针叶林",
+    "material": "混凝土、钢、云、树",
+    "spatialDepth": "前景桥墩 → 中景桥身与森林 → 远景天空，纵深强",
+    "hierarchy": "巨大桥墩 → 桥身 → 蓝天白云 → 森林",
+    "mood": "壮阔，压迫感和开阔感同时存在，工业与自然对照",
+    "visualStyle": "工程/建筑摄影，明亮冷调，胶片感",
+    "interaction": "仰视视差、云层流动",
+    "dna": "主 nature，次 strange",
+    "uncertainty": "无法确认桥梁名称、所在地点、跨度与实际尺度；仰拍和广角透视会放大桥体高度与压迫感，画面不能用来判断真实距离。前景针叶林的具体树种也不能确认，天空的饱和度与胶片色偏无法区分是现场光线还是后期处理。"
+  },
+  "comparisonWithHistoricalDraft": {
+    "preservedConclusions": [
+      "保留历史标准化草案中已有、且本轮未修改的全部视觉判断。",
+      "保留当前标题、category、accent 与 Echoes；不新增 confirmed Echo。"
+    ],
+    "refinements": [
+      "根据原图补足 uncertainty：记录桥梁身份、地点、跨度、真实尺度、树种与色彩处理均无法核实。"
+    ],
+    "changedVisualConclusions": [],
+    "historicalInformationLost": [],
+    "unsupportedAdditions": []
+  },
+  "validation": {
+    "oneImageReadOnly": true,
+    "allThirteenAnalysisFieldsPresent": true,
+    "allValuesAreNonEmptyStrings": true,
+    "imageAndHistoricalArtifactsTraceable": true,
+    "preservedTitleCategoryAccentAndEchoes": true,
+    "noUnsupportedConfirmedEchoes": true
+  }
+}

@@ -1,0 +1,20 @@
+## 2. Bridge & Sky
+
+画面：一座巨大的高架桥横跨天空，钢桁架桥身从左上斜跨过去；右侧是一根巨大的混凝土桥墩，中间有拱形开口；下方是深墨绿的针叶林和草坡。低角度仰拍，气势很强。
+
+- composition：强对角线（桥身）+ 右侧垂直巨柱；天与林分层；仰视
+- color：天蓝 #4FA8DE、云白、混凝土灰 #B8B8AE、森林墨绿 #2E4A34、草坡黄绿 #8FA84E
+- typography：无
+- texture：混凝土粗糙面、钢桁架、云、针叶林
+- material：混凝土、钢、云、树
+- spatialDepth：前景桥墩 → 中景桥身与森林 → 远景天空，纵深强
+- hierarchy：巨大桥墩 → 桥身 → 蓝天白云 → 森林
+- mood：壮阔，压迫感和开阔感同时存在，工业与自然对照
+- visualStyle：工程/建筑摄影，明亮冷调，胶片感
+- interaction：仰视视差、云层流动
+- dna：主 nature，次 strange
+- accent：#5BB9E0
+
+`echoes`：`{ "candidates": ["巨型结构的压倒感", "工业与自然对照"], "confirmed": [] }`
+
+✓ 是你拍的那张桥。

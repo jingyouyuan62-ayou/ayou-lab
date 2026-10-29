@@ -1,0 +1,34 @@
+## 2. Frozen Water
+
+这里有个重要发现：**这张其实不是“冰冻的水面”。** 画面是一匹棕橙色的马在雪地里低头吃草，黄昏蓝调时刻，背景是白桦树和深色树林，天空从浅蓝过渡到粉紫。之前的自动分析只抓到了“雪”，把马漏掉了，标题也是错的。
+
+```json
+{
+  "content": "雪原上低头吃草的马，黄昏蓝调时刻",
+  "composition": "马在下方中偏右；白桦树构成垂直轴；地平线在上三分之一；下半部大片雪地留白",
+  "color": {
+    "dominant": "#C9D6E8",
+    "palette": ["#C5793C", "#D9C2D2", "#9FB6D4", "#3E4A5A"],
+    "temperature": "cool",
+    "saturation": "low"
+  },
+  "typography": { "present": false, "notes": "" },
+  "texture": "柔和、轻微模糊、梦幻；雪面平滑，树枝纤细",
+  "material": "雪、马毛、白桦树皮、暮色空气",
+  "spatialDepth": "前景雪地 / 中景马与树林 / 背景白桦与天空，层次清晰",
+  "visualHierarchy": "暖橙色的马（冷底上的焦点）→ 白桦树 → 粉紫色天空",
+  "mood": "安静、冷冽、梦幻、温柔，略带孤独",
+  "visualStyle": "柔焦冬日风景，偏绘画感",
+  "interaction": ["雪/马/树做分层视差", "蓝到粉的渐变随滚动变化", "雾霜质感叠加"],
+  "dna": { "primary": "dream", "secondary": ["nature"], "confidence": "high" },
+  "accent": "#9FB6D4",
+  "implementationHints": {
+    "layout": "横向大图 + 大量留白",
+    "type": "细衬线或轻字重",
+    "motion": "缓慢视差与淡入",
+    "radius": "较大圆角，柔化边界",
+    "spacing": "舒展"
+  },
+  "uncertainty": "现条目把它放在 nature、标题为 Frozen Water，建议改成与‘马 / 雪原 / 黄昏’相关"
+}
+```

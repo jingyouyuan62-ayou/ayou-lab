@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "entryId": "embroidered-lilies",
+  "sourceFormat": "structured_markdown",
+  "status": "ready_for_review",
+  "finalizedAt": "2026-10-28",
+  "entryReferences": {
+    "title": "Embroidered Lilies",
+    "category": "memory",
+    "accent": "#981838",
+    "image": "images/embroidered-lilies.jpg",
+    "echoes": {
+      "candidates": [
+        "繡上的字是 Aimili — 品牌或名字待確認"
+      ],
+      "confirmed": []
+    },
+    "imageSha256": "1187cfe0a14491cc5103966e26344f92ae9edfc963c389477c6bc7342c10716c"
+  },
+  "mappingNotes": [
+    "历史原文中的 Echoes 原样保存在原文文件；正式条目继续使用当前候选/确认分层，未自动改写。",
+    "原文 accent #981838 与当前 Archive 顶层 accent #981838 一并保留。"
+  ],
+  "pending": [],
+  "proposedPatch": {
+    "analysis": {
+      "content": "亚麻布上用暗红线绣出的三朵百合，下方绣着草写字母 \"Aimili\"。",
+      "composition": "三朵花集中在中央偏上，草写的名字在下方充当\"落款\"；四周留白均匀，像一块标本布。",
+      "color": "米白亚麻（#D8D8C8、#D8D8D8）＋深红绣线（最饱和处 #981838），只有两种颜色。",
+      "typography": "绣出的 \"Aimili\"，草写体，字本身就是绣品的一部分，不是后加的文字。",
+      "texture": "亚麻的粗织网格、绣线的绒感、布面轻微的起伏与折痕。",
+      "material": "刺绣（medium: embroidery，这是档案里第一个非照片材料，之前只有 photo / collage / illustration / film still）。",
+      "spatialDepth": "几乎没有，是一张平面纺织品的正面记录。",
+      "hierarchy": "三朵红百合 → \"Aimili\" 字样 → 亚麻底。",
+      "mood": "安静、手作、有点旧物的温度。",
+      "visualStyle": "工艺／织物记录，和 Henna Collage 同属\"手工材料\"。",
+      "interaction": "未发现与画面结构直接相关的交互方案。",
+      "dna": "memory（embroidery / lily / red / linen）",
+      "uncertainty": "来源（我先按规则记 collected，如果是你自己的作品或收藏的物件，告我）；日期无 EXIF，暂用与同批文件（Tomato Illustration）一致的 2026-08-30。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "cbbe30d0-6490-40b5-8f02-be9b4223f86b",
+      "timestamp": "2026-09-20T17:02:49.211Z",
+      "sourceTitle": "Embroidered Lilies",
+      "originalArtifact": "docs/analysis-recovery/original/embroidered-lilies.txt",
+      "originalSha256": "6d81e81c5a222eac907e91975955b222ddb02603b8cfb260ee798434566f9f9f",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "entryId": "coastal-station",
+  "kind": "owner_authorized_image_reanalysis",
+  "status": "applied",
+  "createdAt": "2026-10-28",
+  "image": {
+    "path": "images/coastal-station.jpg",
+    "sha256": "f4ae5fa69dc4f8cbc2474554be0676ff4fe5d44ae272ecec474cb5f7af0d4735",
+    "width": 1075,
+    "height": 1600
+  },
+  "historicalTrace": {
+    "original": "docs/analysis-recovery/original/coastal-station.txt",
+    "originalSha256": "6ff72cac68cdf51ebe532512c830a0e2dae840ba59632abb4863aed030568bd4",
+    "normalized": "docs/analysis-recovery/normalized/coastal-station.json",
+    "normalizedSha256": "39761bc78cc393a04265e99c025d0c2fa2c4b32ae9283a0fb51b921266c5e924",
+    "previousArchiveAnalysis": "docs/analysis-recovery/reanalysis/coastal-station-before-2026-10-28.json"
+  },
+  "preservedEntryMetadata": {
+    "title": "Tiaoshi Station",
+    "category": "nature",
+    "accent": "#2889C6",
+    "echoes": null
+  },
+  "proposedAnalysis": {
+    "content": "台湾南迴公路旁的海边小车站/候车亭，白墙红瓦，紧贴大海和礁石；前景公路上写着「南迴公路」，还停着一辆黄色出租车；远处海面有一座小岛。",
+    "composition": "横向分层（天/海/岸/公路），车站居中偏左，公路斜切前景",
+    "color": "海蓝 #1E4A78、天空蓝 #6FA8D8、红瓦 #B85C3A、白墙 #EDE9E0、黄车 #E8B923",
+    "typography": "有。路面大字「南迴公路」、站牌小字、车牌",
+    "texture": "海面波纹、礁石、沥青",
+    "material": "混凝土、瓦、沥青、海水",
+    "spatialDepth": "公路 → 车站 → 海 → 天，层次清楚",
+    "hierarchy": "白色车站 → 蓝海 → 黄色出租车（跳色）",
+    "mood": "晴朗、辽阔、夏天、旅途感",
+    "visualStyle": "台式海滨旅行摄影",
+    "interaction": "横向图层视差、海浪微动",
+    "dna": "主 nature，次 memory",
+    "uncertainty": "画面中能辨出站体上的 Tiaoshi 字样，但不能仅凭它确认正式行政名称、路线归属或周边地点。远处小岛名称、拍摄日期、所在楼层与实际机位无法确定；黄色出租车是经过、停靠还是候客，也只能从静止画面推测。"
+  },
+  "comparisonWithHistoricalDraft": {
+    "preservedConclusions": [
+      "保留历史标准化草案中已有、且本轮未修改的全部视觉判断。",
+      "保留当前标题、category、accent 与 Echoes；不新增 confirmed Echo。"
+    ],
+    "refinements": [
+      "根据原图补足 uncertainty：保留正式站名、路线归属、远岛名称、日期、机位与车辆状态的真实限制。"
+    ],
+    "changedVisualConclusions": [],
+    "historicalInformationLost": [],
+    "unsupportedAdditions": []
+  },
+  "validation": {
+    "oneImageReadOnly": true,
+    "allThirteenAnalysisFieldsPresent": true,
+    "allValuesAreNonEmptyStrings": true,
+    "imageAndHistoricalArtifactsTraceable": true,
+    "preservedTitleCategoryAccentAndEchoes": true,
+    "noUnsupportedConfirmedEchoes": true
+  }
+}

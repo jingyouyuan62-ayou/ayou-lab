@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "entryId": "gallery-poster",
+  "kind": "owner_authorized_image_reanalysis",
+  "status": "applied",
+  "createdAt": "2026-10-28",
+  "image": {
+    "path": "images/gallery-poster.jpg",
+    "sha256": "4f073b666348efe635950e7140cbaed5f17209c56e08e0233915aba03ba92fb3",
+    "width": 1084,
+    "height": 1600
+  },
+  "historicalTrace": {
+    "original": "docs/analysis-recovery/original/gallery-poster.txt",
+    "originalSha256": "d54a3214b981c53122a6aad2485ea07f82ec4d3799e9f45e98daca05498202b0",
+    "normalized": "docs/analysis-recovery/normalized/gallery-poster.json",
+    "normalizedSha256": "970dcfd2d3a50c1a95fa02b34d9849f33f964e374c4f01eed4daf547679e0e15",
+    "previousArchiveAnalysis": "docs/analysis-recovery/reanalysis/gallery-poster-before-2026-10-28.json"
+  },
+  "preservedEntryMetadata": {
+    "title": "共感 / Entanglements",
+    "category": "color",
+    "accent": "#64ADC4",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "共感 Entanglements — The Rhythm of Being, 2026.05.09–09.20, Gallery 1A 1B."
+      ]
+    }
+  },
+  "proposedAnalysis": {
+    "content": "画廊展厅，一面蓝白大理石纹理墙，墙上打了白色圆点；墙上文字是「共感 / Entanglements / 存在的節奏 / The Rhythm of Being」，日期 2026 05-09 – 09-20，Gallery 1A 1B，以及一串艺术家名单；地面是灰色大理石，天花有轨道灯。",
+    "composition": "强透视，墙角线向左侧收束；壁画铺满画面；圆形元素反复出现",
+    "color": "冰蓝 #A9C4DA、白 #EDF1F4、淡赭 #C9A98A、灰石 #8A9AA0；冷、低饱和",
+    "typography": "有。展览标题（黑体，左对齐）、日期、展厅号、艺术家小字",
+    "texture": "大理石纹理、粉质壁画、地面反光",
+    "material": "石材、涂料、金属灯具",
+    "spatialDepth": "室内透视（墙/地/天）",
+    "hierarchy": "大标题「共感」→ 蓝色壁画 → 白色圆点 → 地面倒影",
+    "mood": "冷静、当代、干净、带一点梦幻",
+    "visualStyle": "当代美术馆视觉",
+    "interaction": "圆点作为悬停焦点、文字滑入、反光渐变",
+    "dna": "主 color，次 memory",
+    "uncertainty": "本图未发现需特别保留的不确定项。"
+  },
+  "comparisonWithHistoricalDraft": {
+    "preservedConclusions": [
+      "保留历史标准化草案中已有、且本轮未修改的全部视觉判断。",
+      "保留当前标题、category、accent 与 Echoes；不新增 confirmed Echo。"
+    ],
+    "refinements": [
+      "根据原图确认展览标题、日期和展厅编号均可读，因此不再为 uncertainty 虚构额外限制。"
+    ],
+    "changedVisualConclusions": [],
+    "historicalInformationLost": [],
+    "unsupportedAdditions": []
+  },
+  "validation": {
+    "oneImageReadOnly": true,
+    "allThirteenAnalysisFieldsPresent": true,
+    "allValuesAreNonEmptyStrings": true,
+    "imageAndHistoricalArtifactsTraceable": true,
+    "preservedTitleCategoryAccentAndEchoes": true,
+    "noUnsupportedConfirmedEchoes": true
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "entryId": "jiming-temple",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "entry": {
+    "id": "jiming-temple",
+    "title": "Jiming Temple",
+    "date": "2025-12-22",
+    "source": "own",
+    "medium": "photo",
+    "category": "color",
+    "note": "Jiming Temple in Nanjing.",
+    "image": "images/jiming-temple.jpg",
+    "accent": "#3298D3",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "南京鸡鸣寺"
+      ]
+    }
+  },
+  "imageSha256": "6ec4e942e9383732069a6fba26541adfb4ca890b0b55c8f244aaf369526ab8ad"
+}

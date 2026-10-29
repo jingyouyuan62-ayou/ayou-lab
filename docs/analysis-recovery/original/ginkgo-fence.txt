@@ -1,0 +1,20 @@
+## 3. Maple & Fence
+
+⚠️ 这里我有个疑问：这棵树看起来更像**银杏**（叶子小而密、扇形、整棵金黄），不太像枫树。画面是逆光的金黄色大树，右侧深绿松枝框住，下方一条蓝色栏杆横过，前景是暗色灌木和石阶，天空很亮。
+
+- composition：树冠占左侧与中部；右侧松枝作框；底部栏杆做水平线；逆光高调
+- color：金黄 #F2C43C、亮白天空、墨绿 #2E4A2E、栏杆蓝 #3A7BC8；暖黄主导
+- typography：无
+- texture：细密叶片、逆光透光、针叶
+- material：树叶、光、金属栏杆、石
+- spatialDepth：前景灌木/栏杆 → 中景大树 → 背景亮天空
+- hierarchy：金色树冠 → 蓝栏杆 → 深绿松枝
+- mood：明亮、温暖、秋天、短暂
+- visualStyle：逆光秋景，高调胶片感
+- interaction：落叶飘动、光斑闪烁
+- dna：主 nature，次 color
+- accent：#D2A12C
+
+`echoes`：`{ "candidates": ["秋天的银杏", "逆光的树"], "confirmed": [] }`
+
+要不要确认一下它是银杏还是枫树？如果是银杏，标题「Maple & Fence」也该跟着改。

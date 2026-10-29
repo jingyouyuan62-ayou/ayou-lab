@@ -1,0 +1,18 @@
+**新增：Embroidered Lilies**
+
+- **标题**：Embroidered Lilies（`images/embroidered-lilies.jpg`）
+- **内容**：亚麻布上用暗红线绣出的三朵百合，下方绣着草写字母 "Aimili"。
+- **composition**：三朵花集中在中央偏上，草写的名字在下方充当"落款"；四周留白均匀，像一块标本布。
+- **color**：米白亚麻（`#D8D8C8`、`#D8D8D8`）＋深红绣线（最饱和处 `#981838`），只有两种颜色。
+- **typography**：绣出的 "Aimili"，草写体，字本身就是绣品的一部分，不是后加的文字。
+- **texture**：亚麻的粗织网格、绣线的绒感、布面轻微的起伏与折痕。
+- **material**：刺绣（`medium: embroidery`，这是档案里第一个非照片材料，之前只有 photo / collage / illustration / film still）。
+- **spatialDepth**：几乎没有，是一张平面纺织品的正面记录。
+- **hierarchy**：三朵红百合 → "Aimili" 字样 → 亚麻底。
+- **mood**：安静、手作、有点旧物的温度。
+- **visualStyle**：工艺／织物记录，和 Henna Collage 同属"手工材料"。
+- **interaction**：无。
+- **dna**：memory（embroidery / lily / red / linen），accent `#981838`。
+- **echoes**：candidates「繡上的字是 Aimili — 品牌或名字待確認」。
+- **水印处理**：原图右下角有小红书水印（"小红书号：114475715"）。我裁掉了底部 130 像素，水印完全消失，刺绣与 "Aimili" 字样都保持完整（1440×1800 → 1440×1670）。裁切的位置我先看了底部条带确认过。
+- **不确定**：来源（我先按规则记 `collected`，如果是你自己的作品或收藏的物件，告我）；日期无 EXIF，暂用与同批文件（Tomato Illustration）一致的 2026-08-30。

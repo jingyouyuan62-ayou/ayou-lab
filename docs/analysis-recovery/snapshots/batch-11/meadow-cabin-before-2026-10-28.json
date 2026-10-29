@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "entryId": "meadow-cabin",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "entry": {
+    "id": "meadow-cabin",
+    "title": "Meadow Cabin",
+    "date": "2025-11-09",
+    "source": "collected",
+    "medium": "photo",
+    "category": "memory",
+    "tags": [
+      "cabin",
+      "meadow",
+      "forest",
+      "quiet"
+    ],
+    "note": "A log cabin on a green slope below a dark wall of conifers, a few cows grazing further down.",
+    "image": "images/meadow-cabin.jpg",
+    "accent": "#485828",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "新疆",
+        "想到缺省樂隊的〈Meadow〉"
+      ]
+    }
+  },
+  "imageSha256": "8cb65b2a3404817735f0e58b247b8066cce01163b6e3445586957b1f6b299b89"
+}

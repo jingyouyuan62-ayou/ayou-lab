@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "entryId": "long-afternoon",
+  "sourceFormat": "structured_markdown",
+  "status": "ready_for_review",
+  "finalizedAt": "2026-10-28",
+  "entryReferences": {
+    "title": "Long Afternoon",
+    "category": "dream",
+    "accent": "#039674",
+    "image": "images/long-afternoon.jpg",
+    "echoes": {
+      "candidates": [
+        "夜鷺（黑冠夜鷺）— 依黑色頭背與灰白身體判斷，待確認",
+        "背景的白色格紋斜屋頂建築，疑似台北文創大樓（誠品生活松菸）一帶，未確認"
+      ],
+      "confirmed": [
+        "台北松山文創園區",
+        "園區裡的噴水池（巴洛克花園一帶）",
+        "去這裡的路上遇到一位很友善、很健談的計程車司機"
+      ]
+    },
+    "imageSha256": "9a397d64744b89d8623399e94bc5fdbca90714fb70943a5ece37ab83c63efc76"
+  },
+  "mappingNotes": [
+    "原文未另列 content；标准化时只把 composition 已有的可见描述移入 content，没有新增观察。",
+    "历史原文中的 Echoes 原样保存在原文文件；正式条目继续使用当前候选/确认分层，未自动改写。",
+    "原文 accent #039674（绿色平面实测）。 与当前 Archive 顶层 accent #039674 一并保留。"
+  ],
+  "pending": [],
+  "proposedPatch": {
+    "analysis": {
+      "content": "历史原文未单列 content；原文 composition 记录：左约六成是喷泉水池照片，右约四成是纯绿平面；右下角一只夜鹭抠图横跨两区，底部中央偏左是一块半透明浅绿文字面板，画面里散布水滴图形，右上角是描边云。",
+      "composition": "左约六成是喷泉水池照片，右约四成是纯绿平面；右下角一只夜鹭抠图横跨两区，底部中央偏左是一块半透明浅绿文字面板，画面里散布水滴图形，右上角是描边云。",
+      "color": "饱和薄荷绿 #039674 占满右区并定调整体；照片部分是灰蓝低饱和（水汽、水流），配白与黑描边。",
+      "typography": "白色无衬线中文诗句，左对齐六行，压在浅绿透明面板上，尾行部分被夜鹭挡住。",
+      "texture": "照片区柔、糊、有水雾感；图形区是完全平涂的矢量色块——刻意混合两种质感分辨率。",
+      "material": "混合媒材——照片 + 矢量图形 + 抠图主体 + 文字，属数字拼贴。",
+      "spatialDepth": "被压平的；图形元素取消了照片的纵深，照片退为底纹，鸟是贴在最前面的悬浮层（脚部无落点）。",
+      "hierarchy": "绿色平面与水滴 → 夜鹭 → 诗句面板，照片作背景。",
+      "mood": "慵懒、潮湿、梦幻；诗句语气轻软（“午后被拉得很长”“花在晒太阳，云在发呆”），带一点微醺式的惆怅。",
+      "visualStyle": "小红书式图文海报／数字拼贴，可爱图形与照片并置。",
+      "interaction": "以阅读文字为核心，为“信息流里被读到”而设计；适合日后做文字层提取素材。",
+      "dna": "dream 为主，memory、color 为辅，略涉 strange（悬空的鸟）。",
+      "uncertainty": "无 EXIF，日期取导入／导出日期 2026-07-21；诗末几字被鸟遮挡无法确读；作者是否为本人未知。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0cddc-8a20-7452-a8df-ba63bcc59d9b",
+      "messageId": "48971c58-7b7c-4c1b-b069-e23b44f6e6ef",
+      "timestamp": "2026-09-23T10:52:40.405Z",
+      "sourceTitle": "Long Afternoon",
+      "originalArtifact": "docs/analysis-recovery/original/long-afternoon.txt",
+      "originalSha256": "b178362dc13c7b0ca58edb3264463078c358dfbd5fd8f3e88790b31bc7c7bd2c",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+## 2. Fishing Harbor（原 `IMG_8367.jpeg`，2026-02-21）
+
+- **内容**：低矮防波堤上拴着一排小渔船，堤上有两个小小人影；沙滩上一个穿白衣的人朝海走去；右下岩石上还有两个人。
+- **composition**：天空占上半约 3/5，海平线偏上，防波堤横切画面把船和水隔开，沙滩大面积留白。
+- **color**：淡蓝白天空（`#D8D8E8`、`#C8D8E8`）＋海水蓝绿（`#88B8D8`、`#78A8C8`）＋暖米色沙。
+- **typography**：无文字。
+- **texture**：平静海面细纹、沙粒、岩石粗糙面。
+- **material**：数字照片，调色清淡，日系/胶片感。
+- **spatialDepth**：强；沙滩—浅水—防波堤—远海—天空层层排列。
+- **hierarchy**：渔船群 → 堤上人影 → 沙滩上行走的白衣人 → 天空。
+- **mood**：空旷、干净、日常的安静。
+- **visualStyle**：海边纪实，语气接近 archive 里的 Tiaoshi Station。
+- **interaction**：无。
+- **dna**：memory（harbor / boats / beach / sea），accent `#88B8D8`。
+- **echoes**：candidates「與同日拍的 Gulls & Water 同一趟海邊 — 地點待確認」。
+- **不确定**：地点（如果就是青島，正好和同一天那张海鸥照片对上）；画面里的人与你是否有关。

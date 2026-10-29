@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "entryId": "daisies",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "entry": {
+    "id": "daisies",
+    "title": "Daisies",
+    "date": "2026-09-18",
+    "source": "collected",
+    "medium": "photo",
+    "category": "nature",
+    "tags": [
+      "daisies",
+      "white",
+      "yellow",
+      "green"
+    ],
+    "note": "A dense patch of white daisies opening above dark leaves and stone.",
+    "image": "images/daisies.jpg",
+    "accent": "#3E4523",
+    "echoes": {
+      "candidates": [],
+      "confirmed": []
+    }
+  },
+  "imageSha256": "239c53311378d4b30b6f3a0df8b938d7b2d2fea2268a9acd84ebf56c38eeb465"
+}

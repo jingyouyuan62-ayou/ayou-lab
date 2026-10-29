@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "entryId": "record-store",
+  "sourceFormat": "structured_markdown",
+  "status": "needs_owner_confirmation",
+  "finalizedAt": "2026-10-28",
+  "entryReferences": {
+    "title": "Chia Chia Records",
+    "category": "memory",
+    "accent": "#3B7A94",
+    "image": "images/record-store.jpg",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "Chia Chia Records (佳佳唱片行), Taiwan",
+        "I found albums by a singer I love here."
+      ]
+    },
+    "imageSha256": "b6feadd36ef3fe1cb032ed93bd0719b46ee18958986bf402c0d50b5e57f05ac2"
+  },
+  "mappingNotes": [
+    "历史原文标题为「Record Store」；当前 Archive 标题为「Chia Chia Records」，标题按现有条目保留。",
+    "历史原文中的 Echoes 原样保存在原文文件；正式条目继续使用当前候选/确认分层，未自动改写。",
+    "原文 accent #3B7A94 与当前 Archive 顶层 accent #3B7A94 一并保留。"
+  ],
+  "pending": [
+    "uncertainty：历史原文未提供可核验内容；需重新读取原图确认，本轮未调用视觉模型。"
+  ],
+  "proposedPatch": {
+    "analysis": {
+      "content": "唱片行内部，满墙 CD 与唱片，蓝白色手写标签卡配二维码，地上堆着纸箱，后墙有涂鸦，浅色瓷砖地面，冷青调。",
+      "composition": "强对角线透视，货架从左上向右下延伸，右侧地面留白",
+      "color": "冷青灰 #7E939B、纸白 #E6E4DC、标签蓝 #4A7FA8、木架暖褐；低到中饱和",
+      "typography": "有。大量店内小标签（中文+英文），密集网格排列",
+      "texture": "CD 盒反光、纸板、瓷砖、涂鸦墙",
+      "material": "塑料、纸、金属架、瓷砖",
+      "spatialDepth": "强透视，货架层层推进",
+      "hierarchy": "密集 CD 阵列 → 蓝色标签卡 → 地面纸箱",
+      "mood": "复古、拥挤、被音乐包围的日常温暖",
+      "visualStyle": "低饱和冷调纪实摄影，胶片感",
+      "interaction": "密集网格滚动、标签悬停、货架视差",
+      "dna": "主 memory，次 color",
+      "uncertainty": "待补充：历史原文未提供可核验的 uncertainty 内容。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a09ed2-fcd9-7ba0-a7dd-bc85721df254",
+      "messageId": "884b5813-a0a4-4e9b-818b-ffbb0e988cd8",
+      "timestamp": "2026-09-16T08:28:27.196Z",
+      "sourceTitle": "Record Store",
+      "originalArtifact": "docs/analysis-recovery/original/record-store.txt",
+      "originalSha256": "a1f426c47b536bae719032489522613fffd058eb87a267b6d3d2a024d11036c4",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
+    }
+  }
+}

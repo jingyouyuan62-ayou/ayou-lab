@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "entryId": "city-canopy",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "entry": {
+    "id": "city-canopy",
+    "title": "City Canopy",
+    "date": "2025-11-04",
+    "source": "own",
+    "medium": "photo",
+    "category": "nature",
+    "tags": [
+      "canopy",
+      "branches",
+      "glass",
+      "green"
+    ],
+    "note": "Branches and leaves spreading across a pale glass facade, seen from underneath.",
+    "image": "images/city-canopy.jpg",
+    "accent": "#545F52",
+    "echoes": {
+      "candidates": [
+        "行道樹與現代建築 — 地點待確認"
+      ],
+      "confirmed": []
+    }
+  },
+  "imageSha256": "3c6a743b12afaf0fbb81facba33b0475f07f5e171f1939396929260d10dd3de0"
+}

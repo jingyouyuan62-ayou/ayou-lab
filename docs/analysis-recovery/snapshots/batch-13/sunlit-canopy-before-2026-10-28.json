@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "entryId": "sunlit-canopy",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "entry": {
+    "id": "sunlit-canopy",
+    "title": "Sunlit Canopy",
+    "date": "2026-09-18",
+    "source": "own",
+    "medium": "photo",
+    "category": "nature",
+    "tags": [
+      "canopy",
+      "leaves",
+      "backlight",
+      "sky"
+    ],
+    "note": "Looking up into a plane tree, its leaves lit from behind until the green turns yellow against an open blue sky.",
+    "image": "images/sunlit-canopy.jpg",
+    "accent": "#CABE2A",
+    "echoes": {
+      "candidates": [
+        "法國梧桐（懸鈴木）行道樹，葉形與城市行道樹一致，拍攝地點未確認"
+      ],
+      "confirmed": []
+    }
+  },
+  "imageSha256": "f8bd75d94127b60c7d8bd26aa344b249e4cf4797f23b4dfb71e147844caba5dc"
+}

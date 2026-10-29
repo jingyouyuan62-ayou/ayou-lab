@@ -1,0 +1,16 @@
+## 4. Lighthouse（原 `IMG_5787.JPG`）
+
+- **内容**：白色灯塔立在一道长长的白墙后面，墙的右侧接一排带拱窗的白色建筑；前景是略有枯黄的绿草地，天空是饱和度很高的深蓝。
+- **composition**：灯塔在左三分之一处成为主塔，白墙横贯画面把这个"白"连成一条基线，草地占下半。
+- **color**：深蓝天（`#48A8D8`、`#1888C8`）＋纯白建筑＋带黄斑的绿草，对比干净利落。
+- **typography**：无文字。
+- **texture**：灯塔塔身的竖向接缝与窗洞、白墙的平整、草地的高低不平。
+- **material**：数字照片，色彩饱和、颗粒感偏胶片。
+- **spatialDepth**：中；草坡—白墙—灯塔—天空，层次简单明确。
+- **hierarchy**：白灯塔 → 白墙与拱廊 → 草地与天空。
+- **mood**：明亮、开阔、有点海报感。
+- **visualStyle**：地标建筑记录，接近 archive 里 Tiaoshi Station、Jiming Temple 的"去到那里"的路线。
+- **interaction**：无。
+- **dna**：memory（lighthouse / white / grass / blue），accent `#1888C8`。
+- **echoes**：candidates「台灣的燈塔（鵝鑾鼻一帶？）— 地點待確認」。
+- **不确定**：具体是哪一座灯塔；**无拍摄时间**，date 暂用导出日 2026-09-18。

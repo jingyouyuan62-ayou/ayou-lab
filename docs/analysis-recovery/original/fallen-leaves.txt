@@ -1,0 +1,17 @@
+### 3. Fallen Leaves（原 `IMG_4728.jpeg`）
+
+- **画面内容**：灰色石材地面上散落约八、九片黄绿色落叶，石板之间有一条斜向接缝。
+- **composition**：叶片沿斜线随机分布；石缝形成一条对角分割线，把画面切成两半。
+- **color**：冷灰蓝石材（`#98A8B8`/`#8898A8`/`#A8B8C8`）对叶子的黄（`#D8C878`/`#D8C868`）与橄榄绿。
+- **typography**：无文字。
+- **texture**：石面细密斑点（高频）对比叶脉与干枯边缘（低频）。
+- **material**：数字照片，光线平、无强烈阴影。
+- **spatialDepth**：弱，几乎是平面的俯拍。
+- **hierarchy**：中部的叶片群 → 石缝对角线 → 石面颗粒。
+- **mood**：日常、微凉、偶然被看见。
+- **visualStyle**：日常收集式纪实，和 archive 里 ginkgo-fence 的语气接近。
+- **interaction**：可作散点/飘落粒子素材（可能性，未实现）。
+- **dna**：color（tags: leaves / stone / yellow / autumn）。
+- **accent**：`#D6C468`。
+- **echoes**：candidates 留空。
+- **不确定**：树种（枫香或槭类？无法从照片确认）；拍摄地点未知。

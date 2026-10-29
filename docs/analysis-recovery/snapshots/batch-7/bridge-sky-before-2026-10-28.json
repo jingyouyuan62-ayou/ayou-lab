@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "entryId": "bridge-sky",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "entry": {
+    "id": "bridge-sky",
+    "title": "Bridge & Sky",
+    "date": "2025-12-22",
+    "source": "own",
+    "medium": "photo",
+    "category": "nature",
+    "note": "A bridge cutting into the blue.",
+    "image": "images/bridge-sky.jpg",
+    "accent": "#5BB9E0"
+  },
+  "imageSha256": "4e0dfcf45f92c2de77aef618022131db46c65362f9ca79b41856cbe00247572a"
+}

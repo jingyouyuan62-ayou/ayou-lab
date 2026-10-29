@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "entryId": "grass-field",
+  "capturedAt": "2026-10-28",
+  "reason": "项目所有者授权原图重分析前的历史标准化草案快照。",
+  "entryReferences": {
+    "title": "Park Bench",
+    "category": "nature",
+    "accent": "#4D9840",
+    "echoes": null,
+    "image": "images/grass-field.jpg",
+    "imageSha256": "804cf4962c1b26b68b124453f3f907db0b83fc83959c66f18bd9b53fd5e30a75"
+  },
+  "analysis": {
+    "content": "画面不是单纯草地，而是公园一角：黑色铁艺长椅放在石板小广场上，周围是草地和泥土小径，后面是刷白的树干和小池塘，上方是翠绿的枫树枝叶罩下来。",
+    "composition": "长椅居中偏左，绿叶从上方覆盖成框；前景草地、中景长椅与石板、背景树干与水面",
+    "color": "翠绿 #4E8C3A、树干白 #E8E8E0、长椅深黑 #22262A、石板灰",
+    "typography": "待补充：历史原文未提供可核验的 typography 内容。",
+    "texture": "草、树皮、石板、铁艺",
+    "material": "待补充：历史原文未提供可核验的 material 内容。",
+    "spatialDepth": "前景草地 → 中景长椅 → 背景池塘，层次清楚",
+    "hierarchy": "黑色长椅 → 绿色枝叶 → 白色树干",
+    "mood": "安静、清凉、无人、夏日午后",
+    "visualStyle": "日系公园摄影，绿调胶片感",
+    "interaction": "待补充：历史原文未提供可核验的 interaction 内容。",
+    "dna": "主 nature，次 dream",
+    "uncertainty": "待补充：历史原文未提供可核验的 uncertainty 内容。"
+  },
+  "analysisSource": {
+    "type": "historical_chat_recovery",
+    "sessionId": "01a09ed2-fcd9-7ba0-a7dd-bc85721df254",
+    "messageId": "75185437-e322-499f-b271-75379b3f3179",
+    "timestamp": "2026-09-18T04:06:25.465Z",
+    "sourceTitle": "Grass Field",
+    "originalArtifact": "docs/analysis-recovery/original/grass-field.txt",
+    "originalSha256": "7110084838b4c128c7858730a7cd43dc2a3c04469b99b9b612fd4d52b9b95d0d",
+    "sourceFormat": "structured_markdown",
+    "mappingVersion": "2026-10-26.v2.1"
+  }
+}

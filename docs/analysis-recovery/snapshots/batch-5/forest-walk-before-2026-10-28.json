@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "entryId": "forest-walk",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "imageSha256": "9a7bc9f48a4991ce64328319b654cfd6d20c3b9067d68048247cbd296a838b04",
+  "entry": {
+    "id": "forest-walk",
+    "title": "Forest Walk",
+    "date": "2026-09-18",
+    "source": "collected",
+    "medium": "photo",
+    "category": "nature",
+    "tags": [
+      "walkway",
+      "forest",
+      "steps",
+      "green"
+    ],
+    "note": "A wooden walkway and its steps curving down through dense wet green.",
+    "image": "images/forest-walk.jpg",
+    "accent": "#485828",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "阿里山"
+      ]
+    }
+  }
+}

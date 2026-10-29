@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "entryId": "golden-branches",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "entry": {
+    "id": "golden-branches",
+    "title": "Golden Branches",
+    "date": "2025-12-03",
+    "source": "own",
+    "medium": "photo",
+    "category": "nature",
+    "tags": [
+      "conifer",
+      "gold",
+      "green",
+      "autumn"
+    ],
+    "note": "A conifer turning gold against darker green, its thin needles hanging in sprays.",
+    "image": "images/golden-branches.jpg",
+    "accent": "#8A6A38",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "水杉"
+      ]
+    }
+  },
+  "imageSha256": "412b897e76644067da24aca913e35e887fb83b2b6d52ec8b4932415eaec07156"
+}

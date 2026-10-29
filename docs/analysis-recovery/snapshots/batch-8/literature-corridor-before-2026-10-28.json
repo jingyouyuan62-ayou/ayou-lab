@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "entryId": "literature-corridor",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "entry": {
+    "id": "literature-corridor",
+    "title": "Literature Corridor",
+    "date": "2026-07-22",
+    "source": "own",
+    "medium": "photo",
+    "category": "memory",
+    "note": "A corridor and classrooms in the literature museum.",
+    "image": "images/literature-corridor.jpg",
+    "accent": "#5095B4"
+  },
+  "imageSha256": "37c6f31c7740a4207f6c416fb2946840852f922250d699e201170b48764e1800"
+}

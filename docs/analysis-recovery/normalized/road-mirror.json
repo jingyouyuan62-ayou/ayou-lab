@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "entryId": "road-mirror",
+  "sourceFormat": "structured_markdown",
+  "status": "ready_for_review",
+  "finalizedAt": "2026-10-28",
+  "entryReferences": {
+    "title": "Road Mirror",
+    "category": "strange",
+    "accent": "#007EBA",
+    "image": "images/road-mirror.jpg",
+    "echoes": {
+      "candidates": [
+        "道路凸面鏡，地點未確認"
+      ],
+      "confirmed": []
+    },
+    "imageSha256": "fda4f782ce547a8b3a5a7c4a99abceb824efaacb3bd0e919a9cee1d0626f715d"
+  },
+  "mappingNotes": [
+    "原文未另列 content；标准化时只把 composition 已有的可见描述移入 content，没有新增观察。",
+    "历史原文中的 Echoes 原样保存在原文文件；正式条目继续使用当前候选/确认分层，未自动改写。",
+    "原文 accent #007EBA（天空蓝）；暖色部分约 #D64A2C。 与当前 Archive 顶层 accent #007EBA 一并保留。"
+  ],
+  "pending": [],
+  "proposedPatch": {
+    "analysis": {
+      "content": "历史原文未单列 content；原文 composition 记录：竖幅 1290×1717。圆形凸面镜居中略偏上，镜下一根橙杆垂直贯穿下半部（带\"注意\"与红色上箭头）；四周是纯蓝天空。圆与竖线的几何对比。",
+      "composition": "竖幅 1290×1717。圆形凸面镜居中略偏上，镜下一根橙杆垂直贯穿下半部（带\"注意\"与红色上箭头）；四周是纯蓝天空。圆与竖线的几何对比。",
+      "color": "大面积饱和蓝天空（实测 #007EBA，深处 #00539A），配橙红（红镜框＋橙杆，暖色均值约 #D64A2C）与镜中反射的淡蓝。冷底 + 一点暖红。",
+      "typography": "杆上的\"注意\"与红色向上箭头（交通标识）、镜面里反射的路面标线——都属现实里的标识，不是编辑排版。",
+      "texture": "凸面镜把景物压缩、弯曲并带高光反光；天空平滑；镜框是光滑塑料。",
+      "material": "玻璃镜面、塑料镜框、金属/塑料杆。",
+      "spatialDepth": "双层空间——镜外（天空、杆）与镜内（被弯折的路、水、山、云），镜内自成一个小世界。",
+      "hierarchy": "① 居中的圆镜（焦点）；② 垂直橙杆（引导线）；③ 大片天空（留白）。",
+      "mood": "晴朗、俏皮、略带超现实；\"世界被装进一个泡泡\"的错觉。",
+      "visualStyle": "街头／路牌摄影；冷调高饱和。",
+      "interaction": "镜内画面可做轻微扭曲/涟漪，镜外天空可缓慢移动，适合\"镜中世界\"的交互。",
+      "dna": "归档 strange（超现实的小世界）；color（蓝橙）可作备选。",
+      "uncertainty": "地点未知；无 EXIF，日期用导入日 2026-04-08；镜中反射的具体地点无法辨认。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a11eef-e71c-7240-bd19-bb7c015e6da3",
+      "messageId": "8079f667-1daf-4514-abb5-dc313bfa299e",
+      "timestamp": "2026-10-13T11:47:53.548Z",
+      "sourceTitle": "Road Mirror",
+      "originalArtifact": "docs/analysis-recovery/original/road-mirror.txt",
+      "originalSha256": "1ecd508a039cb13aacf1038fb1555504f8e4352ce5c63f249bb127b366c6ede5",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
+    }
+  }
+}

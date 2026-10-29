@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "entryId": "fishing-harbor",
+  "sourceFormat": "structured_markdown",
+  "status": "ready_for_review",
+  "finalizedAt": "2026-10-28",
+  "entryReferences": {
+    "title": "Fishing Harbor",
+    "category": "memory",
+    "accent": "#88B8D8",
+    "image": "images/fishing-harbor.jpg",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "青島",
+        "畫面中的人是路人"
+      ]
+    },
+    "imageSha256": "eb62b2ce498e37a47af69dd2305f56965806deb42cefd9d8a8751863901f2da7"
+  },
+  "mappingNotes": [
+    "历史原文中的 Echoes 原样保存在原文文件；正式条目继续使用当前候选/确认分层，未自动改写。",
+    "原文 accent #88B8D8 与当前 Archive 顶层 accent #88B8D8 一并保留。"
+  ],
+  "pending": [],
+  "proposedPatch": {
+    "analysis": {
+      "content": "低矮防波堤上拴着一排小渔船，堤上有两个小小人影；沙滩上一个穿白衣的人朝海走去；右下岩石上还有两个人。",
+      "composition": "天空占上半约 3/5，海平线偏上，防波堤横切画面把船和水隔开，沙滩大面积留白。",
+      "color": "淡蓝白天空（#D8D8E8、#C8D8E8）＋海水蓝绿（#88B8D8、#78A8C8）＋暖米色沙。",
+      "typography": "画面中无可读文字。",
+      "texture": "平静海面细纹、沙粒、岩石粗糙面。",
+      "material": "数字照片，调色清淡，日系/胶片感。",
+      "spatialDepth": "强；沙滩—浅水—防波堤—远海—天空层层排列。",
+      "hierarchy": "渔船群 → 堤上人影 → 沙滩上行走的白衣人 → 天空。",
+      "mood": "空旷、干净、日常的安静。",
+      "visualStyle": "海边纪实，语气接近 archive 里的 Tiaoshi Station。",
+      "interaction": "未发现与画面结构直接相关的交互方案。",
+      "dna": "memory（harbor / boats / beach / sea）",
+      "uncertainty": "地点（如果就是青島，正好和同一天那张海鸥照片对上）；画面里的人与你是否有关。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "7ab96e70-667d-4ac2-a137-3b440b4a09e4",
+      "timestamp": "2026-09-20T09:43:07.435Z",
+      "sourceTitle": "Fishing Harbor",
+      "originalArtifact": "docs/analysis-recovery/original/fishing-harbor.txt",
+      "originalSha256": "0c0994523f625022cfa10db0c6b9dea3af7c8068e0d5baae2512fd6419b62a00",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
+    }
+  }
+}

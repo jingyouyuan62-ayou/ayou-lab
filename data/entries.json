@@ -9,7 +9,33 @@
     "note": "Looking up into layers of branches, green needles, and small red blossoms.",
     "image": "images/red-tree.PNG",
     "accent": "#975235",
-    "ideas": ["Live2D 分层视差：近枝 / 中冠 / 远梢", "花叶飘落粒子效果"]
+    "ideas": ["Live2D 分层视差：近枝 / 中冠 / 远梢", "花叶飘落粒子效果"],
+    "analysis": {
+      "content": "实际画面是从下往上看的树冠：深色、盘曲的枝干交织成网，绿色羽状叶（像松柏针叶），成簇的鲜红小花/果实点缀其间，背景是米色天空。整体被压平成一张图案，很像屏风画或印染布。",
+      "composition": "满构图、无单一焦点；枝条从四周向中间交织",
+      "color": "米色底 #E8E3D2、近黑枝干 #2A2E28、灰绿 #7A8A72、鲜红点缀 #D8442E",
+      "typography": "画面中无可读文字。",
+      "texture": "平面图案感，红色呈细密点状",
+      "material": "纸、织物、屏风画",
+      "spatialDepth": "几乎没有纵深，被压平",
+      "hierarchy": "枝干骨架 → 红色簇点 → 绿叶 → 米色底",
+      "mood": "繁盛、古典、装饰性、略带神秘",
+      "visualStyle": "图案化植物画",
+      "interaction": "作为背景纹理平铺、局部放大、缓慢漂移",
+      "dna": "主 color，次 nature",
+      "uncertainty": "画面无法确认它是真实树冠的仰拍，还是对绘画、屏风、印花布等平面作品的翻拍或数字合成；红色簇究竟是花、果还是装饰纹样也不能确定。具体树种、地点与拍摄或创作日期同样无法由画面证明。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a09ed2-fcd9-7ba0-a7dd-bc85721df254",
+      "messageId": "340473bb-fd9d-49cd-a4e6-a81ee61d266d",
+      "timestamp": "2026-09-17T06:20:42.927Z",
+      "sourceTitle": "Red Tree",
+      "originalArtifact": "docs/analysis-recovery/original/red-tree.txt",
+      "originalSha256": "004885821e89e7f62dfad23a93f5b0cf3ab463133c46052a82109c817ab92be0",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
+    }
   },
   {
     "id": "fireworks-night",
@@ -24,6 +50,32 @@
     "echoes": {
       "candidates": [],
       "confirmed": ["大稻埕夏日烟花祭"]
+    },
+    "analysis": {
+      "content": "横幅夜景中有多组烟花绽放：中央偏左一组最大、最密，右中一组向右侧展开，左下、右下和底部还有更小的白色、粉紫及少量偏蓝碎光。左侧与底部由近黑色的树冠剪影遮住部分画面，底部中央可见少量零散亮光；画面中没有清晰人物、建筑轮廓、地平线或可读地点标识。",
+      "composition": "画面为 16:9 横幅。两组最大烟花分别占据中上部偏左与右中，形成不平衡的双重点；暗色树冠从左缘压入并向底边展开，遮住下半部部分碎光并充当暗色底座。上半部大片近黑夜空为负空间，使花束彼此分离；视线从中央最大花束移向右中花束，再被底部零散光点引回。",
+      "color": "背景由近黑夜空主导，夜空近黑处约 #090B12，左侧树冠暗部约 #040403；主高光为暖白，中央和右侧烟花的亮部平均约 #C8BAB9，峰值可到白色；低处散布粉紫约 #C9B0B7 与少量偏蓝约 #9FA9D1 的短促光迹。高亮火花只占小面积，却因与大面积暗背景形成强明度对比而成为焦点；粉紫位于下方，为暖白爆光增加第二层色温。",
+      "typography": "画面中无可读文字、数字或标识；文字不参与构图、层级或信息传达。",
+      "texture": "烟花由细密、断续的放射线与颗粒状亮点构成，外围比中心更松散；暗天纹理平滑，只带轻微压缩与夜景噪点。前景树冠近乎没有内部细节，边缘是不规则的叶团剪影；底部灯光比远处火花更实、更小，形成近处硬边与远处细碎光迹的纹理差异。",
+      "material": "可辨认的是夜空中的光与烟、前景树叶形成的剪影，以及底部少量灯光或地表亮点。树冠内部过暗，具体树种不可辨；没有足够证据确认建筑、水面或地表的材质。",
+      "spatialDepth": "最前层是左侧与底部的树冠剪影，它们最暗并遮住部分低处光迹；中间层是沿下半部散布的较小粉紫、蓝白与白色烟花以及底部灯光；后层是两组主烟花和更碎的远端花束，最远为近黑夜空与残余烟雾。深度主要由尺度、遮挡和亮度差建立；机位看似位于树下或低处远望，但这是推测。",
+      "hierarchy": "1）中央偏左的最大花束，面积与亮度最高，先夺走视线；2）右中第二大花束，以次大面积和向右展开的线条续接视线；3）底部粉紫、蓝白与白色碎光，色相变化和贴近树冠的位置形成第三层；4）左缘与底边树冠面积虽大，但因亮度最低退为暗框。",
+      "mood": "大面积黑天与细碎高亮爆裂形成开阔、庆典和短暂的感觉；低处树冠压住画面，使观看位置像在树下或远处，因而在热闹之外留下一点距离感。画面没有人物、声音或现场环境，不能据此判断人群密度或真实气氛。",
+      "visualStyle": "以强对比夜景摄影为基础：近黑底色、暖白高光、轻微长曝光或拖尾感和细颗粒光迹；花束边缘偏软，可能来自远距离、手持、长曝光或后期处理，具体手段无法确认。",
+      "interaction": "1）将树冠与烟花分成前后两层做轻微视差，滚动时树影先动、烟花后动；2）火花只做缓慢闪烁与极短拖尾，保留瞬间感；3）悬停底部粉紫碎光时略提亮该色层，强调画面第二层色彩。",
+      "dna": "主类 DREAM：大面积近黑夜空、漂浮的细线和短暂爆裂共同制造梦境式悬浮感；次类 COLOR：暖白高光与底部粉紫、蓝光在黑底上形成决定性色彩对比。Archive category 保持 dream。",
+      "uncertainty": "画面本身无法核实具体拍摄地点、真实拍摄日期、机位与设备；大稻埕夏日烟花祭来自使用者已确认记录，不是图像本身的标识。多组烟花是在同一瞬间同时绽放、发生在很短的连续时间内，还是由长曝光或后期叠加形成，单张图不足以判定；前景树种以及底部零散亮光的具体来源也无法确认。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a09ed2-fcd9-7ba0-a7dd-bc85721df254",
+      "messageId": "d3be6bbb-28e1-4e9d-b6fb-c86761bc290d",
+      "timestamp": "2026-09-18T02:32:25.146Z",
+      "sourceTitle": "Night Sparks",
+      "originalArtifact": "docs/analysis-recovery/original/night-sparks.txt",
+      "originalSha256": "ef4a1146293d52b1019ab8530329159c48efdda88050085b8438d6d69bfc55a8",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -39,6 +91,32 @@
     "echoes": {
       "candidates": [],
       "confirmed": ["想到馬蒂斯的《舞蹈》（Matisse, La Danse）"]
+    },
+    "analysis": {
+      "content": "俯拍静物：一颗红番茄，周围散落数枚绿色星形萼片。",
+      "composition": "居中、近似对称、放射式排布；大面积留白；俯视平铺。",
+      "color": "主色 #A62B1F；调色板 #8F1912、#3E5A2E、#E8E8E6；整体暖色、高饱和。",
+      "typography": "画面中无可读文字。",
+      "texture": "番茄皮光滑带高光，台面哑光，轻微颗粒。",
+      "material": "新鲜果实、湿润果皮、哑光纸面。",
+      "spatialDepth": "浅景深、接近平面，靠柔和投影产生轻微立体。",
+      "hierarchy": "番茄最先被看到，其次是散落的绿色星形。",
+      "mood": "干净、俏皮，带一点仪式感和轻微超现实。",
+      "visualStyle": "高调极简静物，但构图有异样感。",
+      "interaction": "放射状排布可做悬停位移；萼片可缓慢旋转或漂移；投影随鼠标偏移。",
+      "dna": "主类 STRANGE，次类 COLOR，置信度为 high；Archive category 记 strange。",
+      "uncertainty": "萼片是有意布置还是巧合？这决定它有多“strange”。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a09ed2-fcd9-7ba0-a7dd-bc85721df254",
+      "messageId": "198eacd4-a553-4a56-b4a7-9b4d57d05cff",
+      "timestamp": "2026-09-16T08:02:42.432Z",
+      "sourceTitle": "Tomato",
+      "originalArtifact": "docs/analysis-recovery/original/tomato.txt",
+      "originalSha256": "3c64ffa769c66e6577ce01b05aea2dd7b2437ae92aa2491ec2109e3b74222749",
+      "sourceFormat": "structured_json",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -54,6 +132,32 @@
     "echoes": {
       "candidates": [],
       "confirmed": ["The pale irregular shape at the top-left and the tilted blue panel are both my own processed henna tattoo."]
+    },
+    "analysis": {
+      "content": "画面实际是：钴蓝底色铺满黄色圆点（半调网点），上面叠着几张撕边的白色星形纸片、带着紫色网点；中间是两块蓝色矩形面板，里面是一段蓝粉色的细密分叉纹理（像叶脉，也像热成像扫描）；一条亮品红的斜线穿过画面，背后还有绿色网点区域。",
+      "composition": "不对称、倾斜动感；撕边星形向外炸开；中央蓝色面板是锚点。",
+      "color": "钴蓝 #1560B0、亮黄 #E8E23C、青蓝 #29B7E8、品红 #E8257F、白粉 #F2E4EC；高饱和。",
+      "typography": "画面中无可读文字。",
+      "texture": "半调网点、撕纸边、颗粒、扫描/热成像质感。",
+      "material": "纸、印刷网点、丝线/光束。",
+      "spatialDepth": "画面呈扁平二维拼贴，以叠层而非真实纵深建立前后关系。",
+      "hierarchy": "中央蓝色面板 + 品红线最先 → 白色星形 → 网点底。",
+      "mood": "躁动、俏皮、叛逆、zine 感。",
+      "visualStyle": "数字拼贴 / 网版（riso）/ 波普。",
+      "interaction": "叠层视差、网点流动、线条绘制动画。",
+      "dna": "主类 STRANGE，次类 COLOR；Archive category 记 strange。",
+      "uncertainty": "当次原文未能确认海娜纹身在画面中的具体位置，并询问蓝色面板里的分叉纹理是否就是海娜；后续使用者已确认左上不规则浅色形状和中部斜放蓝色面板都是其处理过的海娜纹身。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a09ed2-fcd9-7ba0-a7dd-bc85721df254",
+      "messageId": "884b5813-a0a4-4e9b-818b-ffbb0e988cd8",
+      "timestamp": "2026-09-16T08:28:27.200Z",
+      "sourceTitle": "Henna Collage",
+      "originalArtifact": "docs/analysis-recovery/original/henna-collage.txt",
+      "originalSha256": "b2a8ce57892c8728e8d26da7aef118a73fa3f806745b03ab88c85e0289c51217",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -69,18 +173,70 @@
     "echoes": {
       "candidates": [],
       "confirmed": ["漂浮的梦"]
+    },
+    "analysis": {
+      "content": "一只白色小布偶（两只耳朵、大眼睛、小小微笑）漂浮在青绿色水面上，周围一圈圈涟漪，背景是虚化的绿叶。柔焦、梦幻，又有一点轻微的超现实（玩偶泡在水里）。",
+      "composition": "中心构图，主体小、环境大量虚化",
+      "color": "青绿水面 #4E9E96、米白布偶 #F2F0EA、虚化绿 #5E8A6E",
+      "typography": "画面中无可读文字。",
+      "texture": "水面波纹、柔焦、绒毛质感",
+      "material": "水、毛绒",
+      "spatialDepth": "浅，靠景深区分",
+      "hierarchy": "白布偶 → 涟漪 → 虚化绿叶",
+      "mood": "梦幻、柔软、治愈，略带孤独",
+      "visualStyle": "柔焦梦幻摄影",
+      "interaction": "涟漪动画、悬浮微动",
+      "dna": "主 dream，次 memory",
+      "uncertainty": "无法确认这个兔形玩偶的具体角色、品牌或来源；它看起来贴在青绿色水纹表面，但没有清楚的入水线或投影，因此不能判定是实物漂浮在水中、贴近水面拍摄，还是后期合成的图像。画面没有可验证的地点、日期与尺度信息。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a09ed2-fcd9-7ba0-a7dd-bc85721df254",
+      "messageId": "340473bb-fd9d-49cd-a4e6-a81ee61d266d",
+      "timestamp": "2026-09-17T06:20:42.927Z",
+      "sourceTitle": "Soft Object",
+      "originalArtifact": "docs/analysis-recovery/original/soft-object.txt",
+      "originalSha256": "6a4bb41d58a54edd61c48eba51a158ed453397735d68e8dc98af42aec996d7af",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
     "id": "frozen-water",
-    "title": "Frozen Water",
+    "title": "Horse in Snow",
     "date": "2026-03-27",
     "source": "collected",
     "medium": "photo",
-    "category": "nature",
-    "note": "Cold water, frozen in place.",
+    "category": "dream",
+    "note": "A horse grazing in a snowfield as dusk turns the birches blue and pink.",
     "image": "images/frozen-water.jpg",
-    "accent": "#78A1D2"
+    "accent": "#9FB6D4",
+    "analysis": {
+      "content": "雪原上低头吃草的马，黄昏蓝调时刻。",
+      "composition": "马在下方中偏右；白桦树构成垂直轴；地平线在上三分之一；下半部大片雪地留白。",
+      "color": "历史原文记录主色为 #C9D6E8，调色板为 #C5793C、#D9C2D2、#9FB6D4、#3E4A5A；整体冷调、低饱和。",
+      "typography": "画面中无可读文字。",
+      "texture": "柔和、轻微模糊、梦幻；雪面平滑，树枝纤细。",
+      "material": "画面可辨认的是雪、马毛、白桦树皮与暮色空气。",
+      "spatialDepth": "前景雪地 / 中景马与树林 / 背景白桦与天空，层次清晰。",
+      "hierarchy": "暖橙色的马（冷底上的焦点）→ 白桦树 → 粉紫色天空。",
+      "mood": "安静、冷冽、梦幻、温柔，略带孤独。",
+      "visualStyle": "柔焦冬日风景，偏绘画感。",
+      "interaction": "雪/马/树做分层视差；蓝到粉的渐变随滚动变化；雾霜质感叠加。",
+      "dna": "原文主类为 DREAM，次类为 NATURE，置信度为 high；Archive category 已按历史分析改为 dream。",
+      "uncertainty": "历史原文仅指出原条目标题、分类和强调色不准确，现均已按该分析修正；原文未提供其他需要保留的不确定项。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a09ed2-fcd9-7ba0-a7dd-bc85721df254",
+      "messageId": "198eacd4-a553-4a56-b4a7-9b4d57d05cff",
+      "timestamp": "2026-09-16T08:02:42.432Z",
+      "sourceTitle": "Frozen Water",
+      "originalArtifact": "docs/analysis-recovery/original/frozen-water.txt",
+      "originalSha256": "cbfea702a4da46d9796516db724d84c705403044a1b64ca8fbc8e17c69231516",
+      "sourceFormat": "structured_json",
+      "mappingVersion": "2026-10-26.v2.1"
+    }
   },
   {
     "id": "ginkgo-fence",
@@ -91,7 +247,37 @@
     "category": "nature",
     "note": "A golden ginkgo, backlit until it glows.",
     "image": "images/ginkgo-fence.jpg",
-    "accent": "#D2A12C"
+    "accent": "#D2A12C",
+    "echoes": {
+      "candidates": ["秋天的银杏", "逆光的树"],
+      "confirmed": []
+    },
+    "analysis": {
+      "content": "画面是一棵逆光的金黄色大树，右侧有深绿松枝框住，下方一条蓝色栏杆横过，前景是暗色灌木和石阶，天空很亮。原文认为这棵树更像银杏，不太像枫树。",
+      "composition": "树冠占左侧与中部；右侧松枝作框；底部栏杆做水平线；逆光高调。",
+      "color": "金黄 #F2C43C、亮白天空、墨绿 #2E4A2E、栏杆蓝 #3A7BC8；暖黄主导。",
+      "typography": "画面中无可读文字。",
+      "texture": "细密叶片、逆光透光、针叶。",
+      "material": "树叶、光、金属栏杆、石。",
+      "spatialDepth": "前景灌木/栏杆 → 中景大树 → 背景亮天空。",
+      "hierarchy": "金色树冠 → 蓝栏杆 → 深绿松枝。",
+      "mood": "明亮、温暖、秋天、短暂。",
+      "visualStyle": "逆光秋景，高调胶片感。",
+      "interaction": "落叶飘动、光斑闪烁。",
+      "dna": "主类 NATURE，次类 COLOR；Archive category 记 nature。",
+      "uncertainty": "当次原文中树的识别尚未确定：原文认为更像银杏、并不像枫树，并请求使用者确认；后续使用者确认后，当前标题已改为 Ginkgo & Fence。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a09ed2-fcd9-7ba0-a7dd-bc85721df254",
+      "messageId": "d3be6bbb-28e1-4e9d-b6fb-c86761bc290d",
+      "timestamp": "2026-09-18T02:32:25.146Z",
+      "sourceTitle": "Maple & Fence",
+      "originalArtifact": "docs/analysis-recovery/original/ginkgo-fence.txt",
+      "originalSha256": "4197cc6da1f4c8105bb7c2b4b1906a1e18181f369c42959ea25f1772169a7374",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
+    }
   },
   {
     "id": "bridge-sky",
@@ -102,7 +288,33 @@
     "category": "nature",
     "note": "A bridge cutting into the blue.",
     "image": "images/bridge-sky.jpg",
-    "accent": "#5BB9E0"
+    "accent": "#5BB9E0",
+    "analysis": {
+      "content": "一座巨大的高架桥横跨天空，钢桁架桥身从左上斜跨过去；右侧是一根巨大的混凝土桥墩，中间有拱形开口；下方是深墨绿的针叶林和草坡。低角度仰拍，气势很强。",
+      "composition": "强对角线（桥身）+ 右侧垂直巨柱；天与林分层；仰视",
+      "color": "天蓝 #4FA8DE、云白、混凝土灰 #B8B8AE、森林墨绿 #2E4A34、草坡黄绿 #8FA84E",
+      "typography": "画面中无可读文字。",
+      "texture": "混凝土粗糙面、钢桁架、云、针叶林",
+      "material": "混凝土、钢、云、树",
+      "spatialDepth": "前景桥墩 → 中景桥身与森林 → 远景天空，纵深强",
+      "hierarchy": "巨大桥墩 → 桥身 → 蓝天白云 → 森林",
+      "mood": "壮阔，压迫感和开阔感同时存在，工业与自然对照",
+      "visualStyle": "工程/建筑摄影，明亮冷调，胶片感",
+      "interaction": "仰视视差、云层流动",
+      "dna": "主 nature，次 strange",
+      "uncertainty": "无法确认桥梁名称、所在地点、跨度与实际尺度；仰拍和广角透视会放大桥体高度与压迫感，画面不能用来判断真实距离。前景针叶林的具体树种也不能确认，天空的饱和度与胶片色偏无法区分是现场光线还是后期处理。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a09ed2-fcd9-7ba0-a7dd-bc85721df254",
+      "messageId": "d3be6bbb-28e1-4e9d-b6fb-c86761bc290d",
+      "timestamp": "2026-09-18T02:32:25.144Z",
+      "sourceTitle": "Bridge & Sky",
+      "originalArtifact": "docs/analysis-recovery/original/bridge-sky.txt",
+      "originalSha256": "9ecf2232dd9bf85b235e56aeb0477bfe2b0380dff8a06fd4febd18969e398960",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
+    }
   },
   {
     "id": "grass-field",
@@ -113,7 +325,33 @@
     "category": "nature",
     "note": "An empty bench in the quiet green.",
     "image": "images/grass-field.jpg",
-    "accent": "#4D9840"
+    "accent": "#4D9840",
+    "analysis": {
+      "content": "画面不是单纯草地，而是公园一角：黑色铁艺长椅放在石板小广场上，周围是草地和泥土小径，后面是刷白的树干和小池塘，上方是翠绿的枫树枝叶罩下来。",
+      "composition": "长椅居中偏左，绿叶从上方覆盖成框；前景草地、中景长椅与石板、背景树干与水面",
+      "color": "翠绿 #4E8C3A、树干白 #E8E8E0、长椅深黑 #22262A、石板灰",
+      "typography": "画面中没有任何可读文字、数字或编辑性标识；白色树干只是表面处理，不构成文字。",
+      "texture": "草、树皮、石板、铁艺",
+      "material": "可辨认的材质包括前景草地与湿土、刷白的树干和树皮、黑色金属长椅、灰蓝色石材铺地，以及后方的水面。枝叶是活体植物组织。",
+      "spatialDepth": "前景草地 → 中景长椅 → 背景池塘，层次清楚",
+      "hierarchy": "黑色长椅 → 绿色枝叶 → 白色树干",
+      "mood": "安静、清凉、无人、夏日午后",
+      "visualStyle": "日系公园摄影，绿调胶片感",
+      "interaction": "1）将上方叶冠、前景树干与草地、长椅和石板、后方水面分成多层，做缓慢视差；2）悬停时让树影与水面反光轻微明暗变化，保持空椅的安静感。",
+      "dna": "主 nature，次 dream",
+      "uncertainty": "无法确认具体公园、地点、拍摄日期与树种；白色树干所用药剂或涂料及其维护用途只能看出是人工处理，不能仅凭照片断定。空长椅是长期无人还是恰好无人经过，也无法从单张画面判断。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a09ed2-fcd9-7ba0-a7dd-bc85721df254",
+      "messageId": "75185437-e322-499f-b271-75379b3f3179",
+      "timestamp": "2026-09-18T04:06:25.465Z",
+      "sourceTitle": "Grass Field",
+      "originalArtifact": "docs/analysis-recovery/original/grass-field.txt",
+      "originalSha256": "7110084838b4c128c7858730a7cd43dc2a3c04469b99b9b612fd4d52b9b95d0d",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
+    }
   },
   {
     "id": "record-store",
@@ -128,6 +366,32 @@
     "echoes": {
       "candidates": [],
       "confirmed": ["Chia Chia Records (佳佳唱片行), Taiwan", "I found albums by a singer I love here."]
+    },
+    "analysis": {
+      "content": "唱片行内部，满墙 CD 与唱片，蓝白色手写标签卡配二维码，地上堆着纸箱，后墙有涂鸦，浅色瓷砖地面，冷青调。",
+      "composition": "强对角线透视，货架从左上向右下延伸，右侧地面留白",
+      "color": "冷青灰 #7E939B、纸白 #E6E4DC、标签蓝 #4A7FA8、木架暖褐；低到中饱和",
+      "typography": "有。大量店内小标签（中文+英文），密集网格排列",
+      "texture": "CD 盒反光、纸板、瓷砖、涂鸦墙",
+      "material": "塑料、纸、金属架、瓷砖",
+      "spatialDepth": "强透视，货架层层推进",
+      "hierarchy": "密集 CD 阵列 → 蓝色标签卡 → 地面纸箱",
+      "mood": "复古、拥挤、被音乐包围的日常温暖",
+      "visualStyle": "低饱和冷调纪实摄影，胶片感",
+      "interaction": "密集网格滚动、标签悬停、货架视差",
+      "dna": "主 memory，次 color",
+      "uncertainty": "画面本身没有足以独立确认店名、街道或城市的完整招牌；「Chia Chia Records」来自已确认记录。远景涂鸦、海报和大多数唱片标签字太小，具体作品与版本无法逐项辨认；拍摄日期、楼层与机位也不能由画面确认。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a09ed2-fcd9-7ba0-a7dd-bc85721df254",
+      "messageId": "884b5813-a0a4-4e9b-818b-ffbb0e988cd8",
+      "timestamp": "2026-09-16T08:28:27.196Z",
+      "sourceTitle": "Record Store",
+      "originalArtifact": "docs/analysis-recovery/original/record-store.txt",
+      "originalSha256": "a1f426c47b536bae719032489522613fffd058eb87a267b6d3d2a024d11036c4",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -139,7 +403,33 @@
     "category": "nature",
     "note": "Tiaoshi Station on the North Coast of Taiwan.",
     "image": "images/coastal-station.jpg",
-    "accent": "#2889C6"
+    "accent": "#2889C6",
+    "analysis": {
+      "content": "台湾南迴公路旁的海边小车站/候车亭，白墙红瓦，紧贴大海和礁石；前景公路上写着「南迴公路」，还停着一辆黄色出租车；远处海面有一座小岛。",
+      "composition": "横向分层（天/海/岸/公路），车站居中偏左，公路斜切前景",
+      "color": "海蓝 #1E4A78、天空蓝 #6FA8D8、红瓦 #B85C3A、白墙 #EDE9E0、黄车 #E8B923",
+      "typography": "有。路面大字「南迴公路」、站牌小字、车牌",
+      "texture": "海面波纹、礁石、沥青",
+      "material": "混凝土、瓦、沥青、海水",
+      "spatialDepth": "公路 → 车站 → 海 → 天，层次清楚",
+      "hierarchy": "白色车站 → 蓝海 → 黄色出租车（跳色）",
+      "mood": "晴朗、辽阔、夏天、旅途感",
+      "visualStyle": "台式海滨旅行摄影",
+      "interaction": "横向图层视差、海浪微动",
+      "dna": "主 nature，次 memory",
+      "uncertainty": "画面中能辨出站体上的 Tiaoshi 字样，但不能仅凭它确认正式行政名称、路线归属或周边地点。远处小岛名称、拍摄日期、所在楼层与实际机位无法确定；黄色出租车是经过、停靠还是候客，也只能从静止画面推测。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a09ed2-fcd9-7ba0-a7dd-bc85721df254",
+      "messageId": "340473bb-fd9d-49cd-a4e6-a81ee61d266d",
+      "timestamp": "2026-09-17T06:20:42.927Z",
+      "sourceTitle": "Coastal Station",
+      "originalArtifact": "docs/analysis-recovery/original/coastal-station.txt",
+      "originalSha256": "6ff72cac68cdf51ebe532512c830a0e2dae840ba59632abb4863aed030568bd4",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
+    }
   },
   {
     "id": "ntu-gate",
@@ -154,6 +444,32 @@
     "echoes": {
       "candidates": [],
       "confirmed": ["台大文學院（牌匾「文學院」）"]
+    },
+    "analysis": {
+      "content": "画面是深蓝黑色的木门（十字格纹 + 方形小玻璃），旁边是米褐色小砖墙，墙上挂着一块竖排木牌，写着金字「文學院」。",
+      "composition": "左半是门，右半是墙与牌匾，正面平视",
+      "color": "门深蓝黑 #2A3540、砖墙米褐 #C8BCA8、木牌浅黄、金字",
+      "typography": "有。「文學院」三字，金色楷体，竖排",
+      "texture": "木门漆面、砖纹、木牌",
+      "material": "木、砖、石、玻璃",
+      "spatialDepth": "画面呈近正面、被压缩的浅空间：深色木门和砖墙是最前层，略微退后的白色门框与墙面形成很浅的第二层，只有左下露出一小段门槛和地面。画面没有走廊、远景或明显透视，深度主要来自门框凹入与门底阴影。",
+      "hierarchy": "1）右侧浅色木牌与深色「文學院」三字因高反差先被看到；2）左侧大面积深蓝黑木门及其中四块方玻璃形成第二视觉块；3）灰褐砖墙因纹理细密而退后；4）底部狭窄地面只作承托。",
+      "mood": "安静、庄重、旧校园的时间感",
+      "visualStyle": "建筑细节摄影，低饱和正视",
+      "interaction": "1）将木门、门框与砖墙分成浅层前后关系做极轻微横向视差，幅度保持在几像素内；2）悬停木牌时让木纹与字缘轻微提亮，不改变牌匾内容。",
+      "dna": "主 memory，次 color",
+      "uncertainty": "「文學院」牌匾文字可读，但画面只包含一扇木门、一段砖墙和牌匾，无法据此确认它在校园中的具体位置或是否为主要入口；门后空间、楼内用途、拍摄日期以及木牌的制作年代都不能由这张照片证明。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a09ed2-fcd9-7ba0-a7dd-bc85721df254",
+      "messageId": "75185437-e322-499f-b271-75379b3f3179",
+      "timestamp": "2026-09-18T04:06:25.465Z",
+      "sourceTitle": "College Gate",
+      "originalArtifact": "docs/analysis-recovery/original/ntu-gate.txt",
+      "originalSha256": "58d2ba57f0ca2871ced52553f7efbde3c04ca47e93257ff186f42720a31a9977",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -165,7 +481,33 @@
     "category": "memory",
     "note": "A corridor and classrooms in the literature museum.",
     "image": "images/literature-corridor.jpg",
-    "accent": "#5095B4"
+    "accent": "#5095B4",
+    "analysis": {
+      "content": "画面是一条空无一人的走廊：上浅蓝、下深蓝的双色墙面，白色天花，左侧一排高窗透着光，右侧是带玻璃的教室门，水磨石地面，尽头有一扇绿门。一点透视很强。",
+      "composition": "强单点透视，两侧线条向中心汇聚",
+      "color": "浅蓝 #A8C8DC、深蓝 #5E86A8、白 #EDEDE8、尽头绿门 #5E7A50",
+      "typography": "画面中没有清晰可读的文字、数字或标识；门窗上的白色边框、墙面开关和尽头暗部都只是建筑细节，不构成可辨排版。",
+      "texture": "水磨石、粉刷墙、玻璃、木门框",
+      "material": "可辨认的材质包括浅蓝与深蓝的粉刷墙面、白色天花与窗框、玻璃窗和门、木质门框、灰色水磨石地面，以及金属门把和墙装设备。",
+      "spatialDepth": "极强的纵深",
+      "hierarchy": "尽头的门 → 两侧窗与门 → 地面",
+      "mood": "安静、空旷、怀旧，带一点忧郁和梦境",
+      "visualStyle": "空间摄影，蓝色调，胶片感",
+      "interaction": "1）将两侧门窗墙面向后退、尽头绿门作为最远层，滚动时做缓慢纵深视差；2）鼠标横向移动时让左侧窗前光带与地面反光轻微滑动，保持空走廊的安静。",
+      "dna": "主 memory，次 dream",
+      "uncertainty": "画面无法确认走廊实际长度、楼层、整栋建筑的用途以及尽头绿门后的空间；两侧教室是否有人使用也不能判断。整体偏蓝无法区分是现场光、胶片、滤镜还是白平衡造成。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a09ed2-fcd9-7ba0-a7dd-bc85721df254",
+      "messageId": "75185437-e322-499f-b271-75379b3f3179",
+      "timestamp": "2026-09-18T04:06:25.465Z",
+      "sourceTitle": "Literature Corridor",
+      "originalArtifact": "docs/analysis-recovery/original/literature-corridor.txt",
+      "originalSha256": "cdc2e60bc9aed9a9885736c9985135a5ab700c3839c660d4b9551048436b3a46",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
+    }
   },
   {
     "id": "gallery-poster",
@@ -180,6 +522,32 @@
     "echoes": {
       "candidates": [],
       "confirmed": ["共感 Entanglements — The Rhythm of Being, 2026.05.09–09.20, Gallery 1A 1B."]
+    },
+    "analysis": {
+      "content": "画廊展厅，一面蓝白大理石纹理墙，墙上打了白色圆点；墙上文字是「共感 / Entanglements / 存在的節奏 / The Rhythm of Being」，日期 2026 05-09 – 09-20，Gallery 1A 1B，以及一串艺术家名单；地面是灰色大理石，天花有轨道灯。",
+      "composition": "强透视，墙角线向左侧收束；壁画铺满画面；圆形元素反复出现",
+      "color": "冰蓝 #A9C4DA、白 #EDF1F4、淡赭 #C9A98A、灰石 #8A9AA0；冷、低饱和",
+      "typography": "有。展览标题（黑体，左对齐）、日期、展厅号、艺术家小字",
+      "texture": "大理石纹理、粉质壁画、地面反光",
+      "material": "石材、涂料、金属灯具",
+      "spatialDepth": "室内透视（墙/地/天）",
+      "hierarchy": "大标题「共感」→ 蓝色壁画 → 白色圆点 → 地面倒影",
+      "mood": "冷静、当代、干净、带一点梦幻",
+      "visualStyle": "当代美术馆视觉",
+      "interaction": "圆点作为悬停焦点、文字滑入、反光渐变",
+      "dna": "主 color，次 memory",
+      "uncertainty": "本图未发现需特别保留的不确定项。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a09ed2-fcd9-7ba0-a7dd-bc85721df254",
+      "messageId": "884b5813-a0a4-4e9b-818b-ffbb0e988cd8",
+      "timestamp": "2026-09-16T08:28:27.196Z",
+      "sourceTitle": "Gallery Poster",
+      "originalArtifact": "docs/analysis-recovery/original/gallery-poster.txt",
+      "originalSha256": "d54a3214b981c53122a6aad2485ea07f82ec4d3799e9f45e98daca05498202b0",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -191,7 +559,33 @@
     "category": "color",
     "note": "Four small drawings in pen and ink — a fingerprint wave, wildflowers, tomatoes, and a girl.",
     "image": "images/tomato-illustration.jpg",
-    "accent": "#C23B22"
+    "accent": "#C23B22",
+    "analysis": {
+      "content": "这张是四格手绘拼贴：左上是指纹变成蓝色海浪、配一句英文格言；右上是花瓶与野花线稿；左下是番茄线稿、写着 tomato.；右下是炭笔女孩小画。",
+      "composition": "2×2 网格拼贴，每格独立，留白多",
+      "color": "米白纸 #F5F2E8、蓝墨水 #3A7BC8、番茄红 #C0392B、淡黄纸 #F5EFCF",
+      "typography": "有。手写英文格言 / KAMA MIND / tomato.，随手、笔记本感",
+      "texture": "纸张、笔触、手绘粗糙感",
+      "material": "纸、墨水",
+      "spatialDepth": "平面拼贴",
+      "hierarchy": "四格平等",
+      "mood": "温柔、私密、手作、文艺",
+      "visualStyle": "手账/插画拼贴",
+      "interaction": "网格悬停放大单格、线条绘制动画",
+      "dna": "我读到的是 dream / memory；你之前把它放在 color，可以再定",
+      "uncertainty": "本图未发现需特别保留的不确定项。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a09ed2-fcd9-7ba0-a7dd-bc85721df254",
+      "messageId": "340473bb-fd9d-49cd-a4e6-a81ee61d266d",
+      "timestamp": "2026-09-17T06:20:42.927Z",
+      "sourceTitle": "Tomato Illustration",
+      "originalArtifact": "docs/analysis-recovery/original/tomato-illustration.txt",
+      "originalSha256": "eef3624c9e71eeca8d9bfcac59d0ca4f40a16e102a08b83613140dc21264cf3c",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
+    }
   },
   {
     "id": "moon",
@@ -206,6 +600,32 @@
     "echoes": {
       "candidates": [],
       "confirmed": ["Opening screenshot from Kiki's Delivery Service (Studio Ghibli, Hayao Miyazaki)."]
+    },
+    "analysis": {
+      "content": "这张根本不是单纯“月亮”。画面是《魔女宅急便》的标题卡：深藏蓝夜空、中央满月、月亮上骑着扫帚的小魔女剪影，中间是白色日文标题「魔女の宅急便」，右下角有“映倫”分级标志。",
+      "composition": "强中心对称，月亮居中偏上，标题横贯中部，大片负空间",
+      "color": "深藏蓝 #12234A、月白 #E8EEF5、纯白文字；冷、低饱和",
+      "typography": "有。日文标题，白色，居中，带书法感；右下角小标志",
+      "texture": "平滑胶片感，轻微颗粒",
+      "material": "夜空、月面",
+      "spatialDepth": "剪影式前后关系，简洁",
+      "hierarchy": "月亮+人物 → 标题 → 深蓝留白",
+      "mood": "宁静、梦幻、怀旧、温柔",
+      "visualStyle": "动画电影标题卡，极简深蓝",
+      "interaction": "淡入、月亮微光、标题渐显",
+      "dna": "主 dream，次 memory",
+      "uncertainty": "本图未发现需特别保留的不确定项。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a09ed2-fcd9-7ba0-a7dd-bc85721df254",
+      "messageId": "884b5813-a0a4-4e9b-818b-ffbb0e988cd8",
+      "timestamp": "2026-09-16T08:28:27.196Z",
+      "sourceTitle": "Moon",
+      "originalArtifact": "docs/analysis-recovery/original/moon.txt",
+      "originalSha256": "b4fc3250ebe8151d70f7572639c709ef5dc7fc6bff6d8db21a11d4d6901ba720",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -221,6 +641,32 @@
     "echoes": {
       "candidates": [],
       "confirmed": ["南京鸡鸣寺"]
+    },
+    "analysis": {
+      "content": "画面是仰视的中式多层塔：红粉色木构、青蓝色瓦、白色栏杆、顶端金色塔刹；前景是一道灰蓝瓦檐和深色木构，背景是湛蓝天空。",
+      "composition": "塔居中偏右，前景屋檐形成斜线，仰视",
+      "color": "天蓝 #1E6FB8、塔身红 #B84A4A、瓦青蓝 #5E8AA0、金塔刹 #D8B84A",
+      "typography": "画面中没有清晰可读的文字或标识；檐下彩绘、瓦当纹样与建筑装饰不构成可辨排版。",
+      "texture": "木雕、瓦、彩绘",
+      "material": "木、瓦、彩绘、金",
+      "spatialDepth": "前景屋檐 → 中景塔 → 背景天空",
+      "hierarchy": "塔身 → 金色塔刹 → 前景瓦檐",
+      "mood": "庄严、繁复、明亮、华丽",
+      "visualStyle": "传统建筑仰视摄影",
+      "interaction": "1）将前景屋檐、塔身和蓝天分成三层，滚动时做缓慢纵深视差；2）沿着前景瓦当横移指针时，让圆形瓦当的明暗轻微变化，强调重复节奏。",
+      "dna": "主 color，次 memory",
+      "uncertainty": "本图未发现需特别保留的不确定项。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a09ed2-fcd9-7ba0-a7dd-bc85721df254",
+      "messageId": "75185437-e322-499f-b271-75379b3f3179",
+      "timestamp": "2026-09-18T04:06:25.465Z",
+      "sourceTitle": "Jiming Temple",
+      "originalArtifact": "docs/analysis-recovery/original/jiming-temple.txt",
+      "originalSha256": "d030ec191c66a990d2d987ddb3b246071794aa61e47d5e3e797b48dfd387872d",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -232,7 +678,33 @@
     "category": "color",
     "note": "A plane crossing the blue.",
     "image": "images/airplane.jpg",
-    "accent": "#257EB1"
+    "accent": "#257EB1",
+    "analysis": {
+      "content": "画面是飞机舷窗视角：左上角是机翼（翼梢有红色航司标志），下方是连绵的雪山与河谷，上方是深蓝天空。",
+      "composition": "机翼从左上方斜入，雪山占据下半，俯视地平线",
+      "color": "天空湛蓝 #1E7FC0、雪白、山脊蓝灰 #7E9AB0、红色标志点缀",
+      "typography": "画面中没有可读文字或数字；翼梢只有红色航空公司图形标志，它不构成可读排版。",
+      "texture": "金属机翼、雪、云、岩石",
+      "material": "可辨认的材质包括机翼的涂装金属或复合材料、下方积雪与裸露岩石、远处云层与高空雾气。机舱玻璃本身不在画面内，无法判断是否隔着玻璃拍摄。",
+      "spatialDepth": "极强的高空俯视纵深",
+      "hierarchy": "1）左侧深蓝机翼以大面积暗色实体和斜向轮廓先被看到；2）下方雪山的明暗山脊形成第二层复杂纹理；3）远处浅色雾带把天空与地表分开；4）顶部的蓝色高空作为最大负空间留在最后。",
+      "mood": "辽阔、壮丽、冷冽、旅途感",
+      "visualStyle": "机窗航拍，冷蓝调",
+      "interaction": "1）将机翼作为静止前景，让下方雪山地貌随滚动缓慢反向移动，造成高空视差；2）悬停云层与地平线时略增强雾带的明暗层次，不改变原始蓝色调。",
+      "dna": "主 color，次 nature",
+      "uncertainty": "本图未发现需特别保留的不确定项。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a09ed2-fcd9-7ba0-a7dd-bc85721df254",
+      "messageId": "75185437-e322-499f-b271-75379b3f3179",
+      "timestamp": "2026-09-18T04:06:25.465Z",
+      "sourceTitle": "Airplane",
+      "originalArtifact": "docs/analysis-recovery/original/airplane.txt",
+      "originalSha256": "6474e9472e85f0e0e34089de7494b87208b57a2b70b64ec5f1ac15ddb2838ba4",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
+    }
   },
   {
     "id": "lantern-light",
@@ -247,6 +719,32 @@
     "echoes": {
       "candidates": ["《千与千寻》式的灯笼巷"],
       "confirmed": ["九份老街"]
+    },
+    "analysis": {
+      "content": "夜晚的老街巷子，头顶挂满红灯笼，灯笼上写着「九份」两个字；下方是来往的人群，左侧是卖帽子的小店，巷子向里延伸，全是暖红的灯光。所以这张其实是九份老街。",
+      "composition": "纵向深巷透视，灯笼在上方形成引导线，人群在下方",
+      "color": "红灯笼 #E8452E、暖橙光、暗背景 #3A2420、白字；暖、饱和红主导",
+      "typography": "有。灯笼上重复的「九份」，形成节奏",
+      "texture": "灯笼纸、暖光、夜色、人群",
+      "material": "纸灯笼、木、布料",
+      "spatialDepth": "深巷纵深，灯笼层层递进",
+      "hierarchy": "红灯笼 → 人群 → 店铺细节",
+      "mood": "热闹、温暖、怀旧、拥挤",
+      "visualStyle": "夜间街拍，暖红调，复古胶片感",
+      "interaction": "灯笼摇曳、人群流动、纵深视差",
+      "dna": "主 dream，次 memory",
+      "uncertainty": "本图未发现需特别保留的不确定项。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a09ed2-fcd9-7ba0-a7dd-bc85721df254",
+      "messageId": "d3be6bbb-28e1-4e9d-b6fb-c86761bc290d",
+      "timestamp": "2026-09-18T02:32:25.144Z",
+      "sourceTitle": "Lantern Light",
+      "originalArtifact": "docs/analysis-recovery/original/lantern-light.txt",
+      "originalSha256": "c4ef8f67451288f31c184e7881c1c8860e388fb914b6b5246061345d2aa1ef1b",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -263,6 +761,32 @@
     "echoes": {
       "candidates": [],
       "confirmed": []
+    },
+    "analysis": {
+      "content": "一片被阳光打碎的强烈反光海面，正中偏下有一艘很小的深色小船。正方形画幅，四周留有黑色边框。",
+      "composition": "单一主体居中；反光形成一条从左上到中右的斜向光带；大面积高光充当负空间。",
+      "color": "近似双色——高亮白（约 #E8E8E8）与海蓝（约 #385878–#486888）。",
+      "typography": "画面中无可读文字。",
+      "texture": "水面是碎裂的点状闪光颗粒；船是一小块实心暗色。",
+      "material": "历史原文记录为“数字照片，无可见胶片颗粒；有编辑/导出痕迹”。",
+      "spatialDepth": "浅。地平线靠上（观察），海面被压缩得接近平面（解释）。",
+      "hierarchy": "小船 → 反光带 → 黑色画框。",
+      "mood": "空旷、刺眼、安静的晕眩感。",
+      "visualStyle": "high-key 极简海景，偏屏幕壁纸式构图。",
+      "interaction": "理论可做“反光随指针流动”（仅为可能性，未实现）。",
+      "dna": "原文主类为 DREAM（sea / glare / boat / blue）；Archive category 记 dream。",
+      "uncertainty": "EXIF 被清除，拍摄时间与地点未知；黑框是否是有意添加的画框也不确定；来源标记为 collected，若实际为使用者自己拍摄则需要后续确认。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "7ec740c5-5017-401a-bd95-3bfb516c6426",
+      "timestamp": "2026-09-18T15:27:56.972Z",
+      "sourceTitle": "Glittering Sea",
+      "originalArtifact": "docs/analysis-recovery/original/glittering-sea.txt",
+      "originalSha256": "693df9ef20d1f5a7d2578fca72ca8e00d8535bdfb800bd09a65c8b58a9b306bb",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -279,6 +803,32 @@
     "echoes": {
       "candidates": [],
       "confirmed": ["阿里山森林鐵道"]
+    },
+    "analysis": {
+      "content": "一条窄轨铁道弯进雾绿色森林；右侧是覆满苔藓的矮石墙；左侧有木栏杆、被虚化的警示牌、黄黑条纹信号杆（亮着绿灯）和一个橙色圆锥。",
+      "composition": "铁轨作为引导线从下方中央弯入中景；密集的树干形成垂直柱状节奏；左右压暗、中景透亮。",
+      "color": "深橄榄绿/墨绿为主（#282818–#484828），苔藓处偏亮；黄黑信号杆与橙色圆锥是极小的暖色点缀。",
+      "typography": "左侧警示牌有文字，但被虚化且出画，不可读，因此不记录内容。",
+      "texture": "潮湿苔藓、碎石道砟、树皮，以及雾气的柔化。",
+      "material": "历史原文记录为数字照片，对焦偏软。",
+      "spatialDepth": "强。线性透视、雾气衰减与近景栏杆共同形成景观层次。",
+      "hierarchy": "铁轨 → 发光信号杆 → 苔藓石墙 → 近景栏杆。",
+      "mood": "潮湿、幽静，带一点旧时光与神秘。",
+      "visualStyle": "山林铁道纪实，克制、有电影感。",
+      "interaction": "可做随滚动的雾或分层视差（仅为可能性，未实现）。",
+      "dna": "原文主类为 NATURE（forest / rail / moss / mist）；Archive category 记 nature。",
+      "uncertainty": "地点待确认；拍摄日期未知，EXIF 被 Photoshop 清空，entry 里的 2026-09-18 是导出/导入日期，不是拍摄日期。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "7ec740c5-5017-401a-bd95-3bfb516c6426",
+      "timestamp": "2026-09-18T15:27:56.972Z",
+      "sourceTitle": "Forest Railway",
+      "originalArtifact": "docs/analysis-recovery/original/forest-railway.txt",
+      "originalSha256": "b7e5636bab5d2d48836777ccbacf90758a00dbdfddfc00f5ba8ddf048708f53f",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -295,6 +845,32 @@
     "echoes": {
       "candidates": [],
       "confirmed": ["梧桐落葉"]
+    },
+    "analysis": {
+      "content": "灰色石材地面上散落约八、九片黄绿色落叶，石板之间有一条斜向接缝。",
+      "composition": "叶片沿斜线随机分布；石缝形成一条对角分割线，把画面切成两半。",
+      "color": "冷灰蓝石材（#98A8B8、#8898A8、#A8B8C8）对叶子的黄（#D8C878、#D8C868）与橄榄绿。",
+      "typography": "画面中无可读文字。",
+      "texture": "石面细密斑点形成高频纹样，叶脉与干枯边缘形成较低频的细节。",
+      "material": "历史原文记录为数字照片，光线平、无强烈阴影。",
+      "spatialDepth": "弱，几乎是平面的俯拍。",
+      "hierarchy": "中部的叶片群 → 石缝对角线 → 石面颗粒。",
+      "mood": "日常、微凉，像偶然看见的一刻。",
+      "visualStyle": "日常收集式纪实，和 Archive 里 ginkgo-fence 的语气接近。",
+      "interaction": "可作散点或飘落粒子素材（仅为可能性，未实现）。",
+      "dna": "原文主类为 COLOR（leaves / stone / yellow / autumn）；Archive category 记 color。",
+      "uncertainty": "树种无法从照片确认，历史原文提出可能是枫香或槭类；拍摄地点未知。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "7ec740c5-5017-401a-bd95-3bfb516c6426",
+      "timestamp": "2026-09-18T15:27:56.972Z",
+      "sourceTitle": "Fallen Leaves",
+      "originalArtifact": "docs/analysis-recovery/original/fallen-leaves.txt",
+      "originalSha256": "58c221431443316ec3bcb8dd013957758496ece9f983632ec33bf73f8f1b052d",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -311,6 +887,32 @@
     "echoes": {
       "candidates": [],
       "confirmed": []
+    },
+    "analysis": {
+      "content": "粗壮绿色花茎上的一个花序，多朵乳白钟形花苞下垂，间有褐色干枯苞片与卷须状残片；背景是被虚化的暗绿枝叶。",
+      "composition": "左侧花茎构成强竖线，花序居中偏上，右下有一条交叉的细茎；浅景深压缩空间。",
+      "color": "象牙白（#E8E8E8–#D8C8A8）与多层绿（#182818–#989858），并带少量干褐。",
+      "typography": "画面中无可读文字。",
+      "texture": "花瓣呈蜡质或纸质半透光，苞片干燥起皱。",
+      "material": "历史原文记录为数字照片，有明显手机浅景深虚化。",
+      "spatialDepth": "中等，靠背景虚化与前后茎的遮挡建立。",
+      "hierarchy": "中央花朵 → 左侧粗茎 → 右下细茎 → 暗背景。",
+      "mood": "安静、微凉，接近植物标本的静物感。",
+      "visualStyle": "植物特写；原文判断画面为丝兰或凤尾兰一类的钟形花。",
+      "interaction": "未发现与画面结构直接相关的交互方案。",
+      "dna": "原文主类为 NATURE（flower / ivory / stalk / backlight）；Archive category 记 nature。",
+      "uncertainty": "具体品种无法确认；这些花是尚未开放还是本来就这样下垂，也无法确定。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "7ec740c5-5017-401a-bd95-3bfb516c6426",
+      "timestamp": "2026-09-18T15:27:56.972Z",
+      "sourceTitle": "White Bells",
+      "originalArtifact": "docs/analysis-recovery/original/white-bells.txt",
+      "originalSha256": "a55a4ef2bb307c2fa858e8ad1b8377d3d48fc02cd31a21866531f0e367723d58",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -327,6 +929,32 @@
     "echoes": {
       "candidates": ["暗房放大機／早期攝影器材"],
       "confirmed": ["共感 Entanglements 展場的一件展品"]
+    },
+    "analysis": {
+      "content": "白色美术馆房间里立着一台深木色老机器，由木框、金属支臂和镜片结构组成，像放大机或早期摄影、印刷器械；右侧黑色三脚架上装一盏点亮的工作灯，架子中间挂一盏小油灯；地面贴有「請勿越線 Please do not step over」的胶带字。",
+      "composition": "主体在左三分线上，高灯在右，地面与墙的交线横切画面下部，四周大量留白。",
+      "color": "暖灰米白墙面平均约 #8C8175，机器是深棕木与黑色金属；点亮的灯是全画面唯一高亮白点。",
+      "typography": "地面胶带文字为「請勿越線 Please do not step over」，中英混排、无衬线，属于功能性的展览用语。",
+      "texture": "墙面有均匀噪点或颗粒，木头有光泽与磨痕，地面哑光。",
+      "material": "历史原文记录为数字照片，整体偏暖并带轻微颗粒感。",
+      "spatialDepth": "中等，靠地面延伸、脚架与主体的前后关系以及灯光照射范围建立。",
+      "hierarchy": "老机器 → 工作灯 → 油灯 → 地面文字。",
+      "mood": "安静、疏离，像被摆好的一幕舞台。",
+      "visualStyle": "美术馆展览现场记录，接近类型学静物摄影。",
+      "interaction": "未发现与画面结构直接相关的明确交互点。",
+      "dna": "原文主类为 STRANGE（museum / machine / wood / exhibition）；Archive category 记 strange。",
+      "uncertainty": "这台装置的正式名称与用途无法确认，因此不能断言它是展品还是展场工具；油灯是否属于作品的一部分也无法确认。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "7ec740c5-5017-401a-bd95-3bfb516c6426",
+      "timestamp": "2026-09-18T15:27:56.972Z",
+      "sourceTitle": "Old Machine",
+      "originalArtifact": "docs/analysis-recovery/original/old-machine.txt",
+      "originalSha256": "8d817310c738b2d73432393aad3d888a2c95a33b32f51521fb9fec9985649486",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -343,6 +971,32 @@
     "echoes": {
       "candidates": [],
       "confirmed": ["九份"]
+    },
+    "analysis": {
+      "content": "蓝调时刻俯瞰一座山坡城镇，远处是海岸线和一个孤立小岛；天空被丝状卷云铺满。右侧建筑上有「九份教會」招牌，左侧下方停着一排游览车。",
+      "composition": "天空占上半 2/3，海平线横切中部，屋顶与树冠压在前景下缘；视线由近处建筑被引向海上的小岛。",
+      "color": "深蓝到青蓝的冷调（#182838–#183848），云隙是近乎白的高光（约 #E8E8E8）。",
+      "typography": "建筑上有「九份教會」招牌，中文字、无衬线，属于现场文字而非设计排版。",
+      "texture": "云的絮状层次、山林的暗块、屋顶的金属反光。",
+      "material": "历史原文记录为数字照片，夜景噪点不明显，色调偏冷。",
+      "spatialDepth": "强：前景屋顶 → 中景山脊 → 海湾 → 小岛，层层后退。",
+      "hierarchy": "天空与云 → 海湾与小岛 → 前景城镇。",
+      "mood": "辽阔、微凉，像快要入夜时的沉静。",
+      "visualStyle": "风景纪实，接近蓝调时刻的风光摄影。",
+      "interaction": "可做随滚动的云层与远山分层视差（仅为可能性，未实现）。",
+      "dna": "历史原文主类为 DREAM（dusk / coast / clouds / town）；Archive category 保持当前值 memory。",
+      "uncertainty": "具体拍摄点位于九份一带，但无法从画面进一步确认；原文判断远方小岛是基隆嶼，但不能完全确定。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "855fae5f-8e36-4fdb-bd4c-a0a73bb3ced9",
+      "timestamp": "2026-09-18T16:12:05.564Z",
+      "sourceTitle": "Above Jiufen",
+      "originalArtifact": "docs/analysis-recovery/original/above-jiufen.txt",
+      "originalSha256": "f8b1799bd9ecff69b2177aeece500f3c72db28b637fbd0c159d3a2dac595b64f",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -359,6 +1013,32 @@
     "echoes": {
       "candidates": [],
       "confirmed": ["松山文創園區"]
+    },
+    "analysis": {
+      "content": "石造水盤把水落進下方水池，四周是棕櫚與濃密綠植，後方有建築外牆。",
+      "composition": "水盤在左侧近景起框，棕櫚在中央偏右形成放射狀，前景水池與石階壓住底部。",
+      "color": "被胶片感滤镜统一过的深绿（#284838–#486858），水盤是偏灰的绿。",
+      "typography": "画面中无可读文字。",
+      "texture": "石材表面、落水的连续水线、棕櫚叶片的齿状边缘。",
+      "material": "历史原文记录为数字照片，绿色明显被调过，并推测使用了胶片模拟滤镜。",
+      "spatialDepth": "中等，靠前景水盤与后景建筑分层。",
+      "hierarchy": "棕櫚 → 水盤與落水 → 背景建築與灌木。",
+      "mood": "潮濕、安靜，带一点人造感的绿。",
+      "visualStyle": "旅途中庭園纪实，色调接近胶片刻录。",
+      "interaction": "历史原文记录为几乎没有交互点。",
+      "dna": "原文主类为 NATURE（courtyard / fountain / green / palm）；Archive category 记 nature。",
+      "uncertainty": "画面无法确认这里是旅館、校園还是公园中庭；绿色是否完全由后期滤镜造成也无法确认。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "855fae5f-8e36-4fdb-bd4c-a0a73bb3ced9",
+      "timestamp": "2026-09-18T16:12:05.564Z",
+      "sourceTitle": "Green Courtyard",
+      "originalArtifact": "docs/analysis-recovery/original/green-courtyard.txt",
+      "originalSha256": "a3e521a05309b13a1c86098c5ee0ab53b440fb0cb63fba7a1e041ca74f2ff779",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -375,6 +1055,32 @@
     "echoes": {
       "candidates": [],
       "confirmed": ["上海外灘源聖誕集市"]
+    },
+    "analysis": {
+      "content": "商店货架上密密麻麻摆满发光的雪球、提灯和圣诞小屋，每一件里面都是一个小场景，包括圣诞老人、雪人和小火车。",
+      "composition": "摆件层层叠起填满画面，几乎无留白；中央偏上的白色灯箱造型提灯是视觉高点。",
+      "color": "暖金与暗棕（#987848、#785838、#281808），靠内部的灯光发亮。",
+      "typography": "画面中无可读文字。",
+      "texture": "玻璃、金属、塑料与雪球内部的雪粒，表面反射杂乱。",
+      "material": "历史原文记录为数字照片，暗部有轻微噪点。",
+      "spatialDepth": "浅到中，主要是前后排摆件的堆叠遮挡。",
+      "hierarchy": "最亮的白色提灯与圣诞小屋 → 前排球形提灯 → 背景货架。",
+      "mood": "节日的热闹与轻微拥挤感，介于温暖和俗气之间。",
+      "visualStyle": "橱窗或商店陈列摄影，接近“物品堆积”式的记录。",
+      "interaction": "未发现与画面结构直接相关的交互方案。",
+      "dna": "原文主类为 MEMORY（snowglobe / lantern / gold / kitsch）；Archive category 记 memory。",
+      "uncertainty": "拍摄地点与商店名称无法从画面确认；这些是长期收藏还是店内商品，也无法判断。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "855fae5f-8e36-4fdb-bd4c-a0a73bb3ced9",
+      "timestamp": "2026-09-18T16:12:05.564Z",
+      "sourceTitle": "Snow Globes",
+      "originalArtifact": "docs/analysis-recovery/original/snow-globes.txt",
+      "originalSha256": "d052fa357fa171440f945bdf5a21bb3a47e4266889c956034ac52e5e2f6a4eb7",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -391,6 +1097,32 @@
     "echoes": {
       "candidates": [],
       "confirmed": []
+    },
+    "analysis": {
+      "content": "逆光的芒草或芦苇成片向一侧倾倒，上方是黄绿色的柳叶，背景是蓝天，画面有明显太阳光斑。",
+      "composition": "芦苇从中景横向铺开，柳枝在左上形成黄色团块，天空留出右上角。",
+      "color": "金黄的穗（#B8A848–#C8D8D8 过渡）与蓝天、黄绿柳叶，形成典型的秋日暖冷对比。",
+      "typography": "画面中无可读文字。",
+      "texture": "穗毛的绒毛感、细长的茎线与柳叶的碎点。",
+      "material": "历史原文记录为数字照片，逆光导致高光溢出与雾化。",
+      "spatialDepth": "中等，靠前景深色叶片与远景天空拉开。",
+      "hierarchy": "左侧成片的穗 → 天空 → 前景叶片剪影。",
+      "mood": "柔和、暖，像几乎晕开的午后。",
+      "visualStyle": "秋日逆光植物照，情绪偏梦幻。",
+      "interaction": "可做随风摆动的轻微动效（仅为可能性，未实现）。",
+      "dna": "原文主类为 COLOR（reeds / backlight / gold / sky）；Archive category 记 color。",
+      "uncertainty": "植物种类无法确认，历史原文认为可能是芒草或芦苇；拍摄地点也未知。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "855fae5f-8e36-4fdb-bd4c-a0a73bb3ced9",
+      "timestamp": "2026-09-18T16:12:05.564Z",
+      "sourceTitle": "Backlit Reeds",
+      "originalArtifact": "docs/analysis-recovery/original/backlit-reeds.txt",
+      "originalSha256": "8f2dfbef3141242acaa8d471c44e31677d3d20af824a254de1faa9ae96278eb0",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -407,6 +1139,32 @@
     "echoes": {
       "candidates": [],
       "confirmed": ["青島"]
+    },
+    "analysis": {
+      "content": "绿蓝色水面上有三只海鸥：一只正要起飞、一只低飞掠过水面、一只已经浮在水上；它们都背对镜头朝右。",
+      "composition": "三只鸟在上中下三点排成一条松散的竖线，水面填满整个画面，没有天空或岸线。",
+      "color": "单一色轴的青绿水（#689898–#78A8A8），鸟是白、灰与黑尖翅形成的硬对比。",
+      "typography": "画面中无可读文字。",
+      "texture": "水面有细密波纹，鸟羽表面显得顺滑。",
+      "material": "历史原文记录为数字照片，具有长焦压缩感。",
+      "spatialDepth": "浅，画面几乎被压成一张纹理面。",
+      "hierarchy": "起飞的那只 → 掠水的那只 → 漂浮的那只 → 水面。",
+      "mood": "明亮、轻盈，像动作被冰住的一瞬。",
+      "visualStyle": "动物行为纪实，构图接近图案化。",
+      "interaction": "未发现与画面结构直接相关的交互方案。",
+      "dna": "原文主类为 NATURE（gulls / water / teal / flight）；Archive category 记 nature。",
+      "uncertainty": "拍摄地点无法确认；这三只海鸥是同一群，还是一连串动作中的三个画面，也无法判断。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "855fae5f-8e36-4fdb-bd4c-a0a73bb3ced9",
+      "timestamp": "2026-09-18T16:12:05.564Z",
+      "sourceTitle": "Gulls & Water",
+      "originalArtifact": "docs/analysis-recovery/original/gulls-on-water.txt",
+      "originalSha256": "ea6084ea0bf155f350be61e403a4ed53552a185734e2bfe2f4d46e3b148264c1",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -423,6 +1181,32 @@
     "echoes": {
       "candidates": [],
       "confirmed": []
+    },
+    "analysis": {
+      "content": "一大片白色雏菊（黄色花心）开在密实的绿叶上，右上方有深色石头/岩壁作背景。",
+      "composition": "没有单一主体，花朵散布成均匀的图案；上方花朵密集、下方叶片渐多，形成自然的疏密变化。",
+      "color": "以深浅不一的绿为主（#283808、#182808、#384818 一族），白花与黄花心是画面中唯一的高亮区。",
+      "typography": "画面中无可读文字。",
+      "texture": "花瓣平滑、花心颗粒感、叶片边缘锯齿明显、石头粗粝。",
+      "material": "数字照片，无可见胶片颗粒。",
+      "spatialDepth": "浅到中，靠前景叶片与后方石头分层，没有强透视。",
+      "hierarchy": "白花群 → 黄花心点缀 → 深绿叶片与石头。",
+      "mood": "明亮、繁盛、日常的春末感。",
+      "visualStyle": "自然植物特写，接近\"野花地\"式的记录照。",
+      "interaction": "未发现与画面结构直接相关的交互方案。",
+      "dna": "nature（tags: daisies / white / yellow / green）",
+      "uncertainty": "这张没有拍摄信息，我按\"和网络保存的那张阿里山铁道同批导出、且同样无相机 EXIF\"推断为 collected（网络保存），日期暂用导出日 2026-09-18；如果其实是你拍的，告我一声我改。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "82c2f926-4cd2-49dc-8710-b8176397965a",
+      "timestamp": "2026-09-19T08:31:52.865Z",
+      "sourceTitle": "Daisies",
+      "originalArtifact": "docs/analysis-recovery/original/daisies.txt",
+      "originalSha256": "97763f19e5a9483b1e036929fa16c0c3f0d72762ac42405c8ec2077da9d6a1ae",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -439,6 +1223,32 @@
     "echoes": {
       "candidates": ["八重櫻（重瓣櫻花）— 品種待確認"],
       "confirmed": []
+    },
+    "analysis": {
+      "content": "从下往上拍的八重樱（重瓣樱花），粉白色花团挂在深色枝条上，背景是纯净的深蓝天空。",
+      "composition": "树枝呈放射状从下方伸入画面，花朵沿枝条成串分布；天空被切成不规则的小块，形成\"碎玻璃\"式的负空间。",
+      "color": "粉白花朵、近黑的枝条、饱和的蓝天（#4888C8、#68A8D8），三色对比非常干净。",
+      "typography": "画面中无可读文字。",
+      "texture": "花瓣层叠成绒球状（重瓣特征），枝条细而脆，天空平滑无云。",
+      "material": "数字照片，色彩饱和，像是晴天的直射光。",
+      "spatialDepth": "中；靠枝条前后交叠与大小变化建立，天空本身是无限远的底。",
+      "hierarchy": "中央密集的花团 → 放射状枝条 → 蓝天。",
+      "mood": "清爽、盛开、略带\"抬头才看见\"的偶然感。",
+      "visualStyle": "春日仰拍花卉照，接近 archive 里 Under the Canopy 的观看方式（都是抬头看枝干结构）。",
+      "interaction": "可做枝条随滚动的轻微视差（可能性，未实现）。",
+      "dna": "color（tags: blossom / pink / blue / spring）",
+      "uncertainty": "具体品种（八重樱是较有把握的判断，但不是 100%）；地点。来源按\"有真实拍摄 EXIF\"记为 own。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "82c2f926-4cd2-49dc-8710-b8176397965a",
+      "timestamp": "2026-09-19T08:31:52.865Z",
+      "sourceTitle": "Cherry Blossoms",
+      "originalArtifact": "docs/analysis-recovery/original/cherry-blossoms.txt",
+      "originalSha256": "932f2e10e7d10ab7c82a032c2ddaaef2ff7bf31a1e947b6c1976091c916b41bd",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -455,6 +1265,32 @@
     "echoes": {
       "candidates": [],
       "confirmed": []
+    },
+    "analysis": {
+      "content": "淡白色的月亮悬在画面中央偏左，前景是失焦的枯枝，右下有一根横向粗枝；背景是干净的深蓝天空。",
+      "composition": "月亮极小且居中，四周被虚焦枝条包成框架；前景枝干横切底部，形成\"透过树看月亮\"的层次。",
+      "color": "深蓝为主（#4868A8、#385898），月亮是接近白的浅灰蓝，枝条偏棕黑。",
+      "typography": "画面中无可读文字。",
+      "texture": "枯枝粗糙、失焦处呈柔糊状，天空平滑。",
+      "material": "数字照片，长焦压缩 + 浅景深，画面偏冷。",
+      "spatialDepth": "中；前景虚、月亮实、天空无限远，靠焦点差建立深度。",
+      "hierarchy": "月亮 → 虚焦枝条框 → 右下横向枝条。",
+      "mood": "安静、寒冷、夜晚的孤独感。",
+      "visualStyle": "极简夜景/冬夜抒情摄影。",
+      "interaction": "未发现与画面结构直接相关的交互方案。",
+      "dna": "dream（tags: moon / branches / blue / winter）",
+      "uncertainty": "月相（看起来接近半月，但倾斜角度让我不能完全确定是上弦还是下弦）；拍摄地点。来源按有完整拍摄 EXIF 记为 own。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "82c2f926-4cd2-49dc-8710-b8176397965a",
+      "timestamp": "2026-09-19T08:31:52.865Z",
+      "sourceTitle": "Moon & Branches",
+      "originalArtifact": "docs/analysis-recovery/original/moon-branches.txt",
+      "originalSha256": "4ec79ff9bd8253e99e42d06f3ee442f8635ef72d7e4be7346ecd569998139256",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -471,6 +1307,32 @@
     "echoes": {
       "candidates": [],
       "confirmed": ["水杉"]
+    },
+    "analysis": {
+      "content": "一棵正在转黄的针叶树（水杉/落羽杉一类）枝叶特写；左侧一根粗树干，背景是深绿针叶林和少量阔叶。",
+      "composition": "树干在左缘充当竖框，金黄枝叶像帘幕从右上斜向左下。",
+      "color": "金棕（#886838、#785838、#584828）对深绿，整体暖调。",
+      "typography": "画面中无可读文字。",
+      "texture": "细密下垂的羽状针叶，树干纵向裂纹明显。",
+      "material": "数字照片，带轻微胶片感暖调；画面最上方有一条很窄的暗边，像导出裁切残留。",
+      "spatialDepth": "中；前景枝叶—树干—背景林层。",
+      "hierarchy": "中央金黄叶幕 → 左侧树干 → 暗绿背景。",
+      "mood": "秋末的温暖与迟缓。",
+      "visualStyle": "季节自然特写，与 Ginkgo & Fence 同属\"变色树\"family。",
+      "interaction": "未发现与画面结构直接相关的交互方案。",
+      "dna": "nature（conifer / gold / green / autumn）",
+      "uncertainty": "树种；顶部那条暗边是否是你有意保留的。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "7ab96e70-667d-4ac2-a137-3b440b4a09e4",
+      "timestamp": "2026-09-20T09:43:07.435Z",
+      "sourceTitle": "Golden Branches",
+      "originalArtifact": "docs/analysis-recovery/original/golden-branches.txt",
+      "originalSha256": "1de21dd4677f770e0dc8ff2d80b7208e579e0bb5bebdaac4a3a591e0598d2d45",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -487,6 +1349,32 @@
     "echoes": {
       "candidates": [],
       "confirmed": ["青島", "畫面中的人是路人"]
+    },
+    "analysis": {
+      "content": "低矮防波堤上拴着一排小渔船，堤上有两个小小人影；沙滩上一个穿白衣的人朝海走去；右下岩石上还有两个人。",
+      "composition": "天空占上半约 3/5，海平线偏上，防波堤横切画面把船和水隔开，沙滩大面积留白。",
+      "color": "淡蓝白天空（#D8D8E8、#C8D8E8）＋海水蓝绿（#88B8D8、#78A8C8）＋暖米色沙。",
+      "typography": "画面中无可读文字。",
+      "texture": "平静海面细纹、沙粒、岩石粗糙面。",
+      "material": "数字照片，调色清淡，日系/胶片感。",
+      "spatialDepth": "强；沙滩—浅水—防波堤—远海—天空层层排列。",
+      "hierarchy": "渔船群 → 堤上人影 → 沙滩上行走的白衣人 → 天空。",
+      "mood": "空旷、干净、日常的安静。",
+      "visualStyle": "海边纪实，语气接近 archive 里的 Tiaoshi Station。",
+      "interaction": "未发现与画面结构直接相关的交互方案。",
+      "dna": "memory（harbor / boats / beach / sea）",
+      "uncertainty": "地点（如果就是青島，正好和同一天那张海鸥照片对上）；画面里的人与你是否有关。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "7ab96e70-667d-4ac2-a137-3b440b4a09e4",
+      "timestamp": "2026-09-20T09:43:07.435Z",
+      "sourceTitle": "Fishing Harbor",
+      "originalArtifact": "docs/analysis-recovery/original/fishing-harbor.txt",
+      "originalSha256": "0c0994523f625022cfa10db0c6b9dea3af7c8068e0d5baae2512fd6419b62a00",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -503,6 +1391,32 @@
     "echoes": {
       "candidates": [],
       "confirmed": ["黑框是有意加的：讓人想到冬天的海"]
+    },
+    "analysis": {
+      "content": "深色礁石被浪拍打，白色泡沫漫过石头退回沙滩；后方是深蓝海面和一条极亮的天空；正方形画幅外有黑边。",
+      "composition": "横向分层——天空／蓝海／浪花／礁石／沙；黑框把画面装裱起来。",
+      "color": "深蓝（#587898、#385878）＋白（#E8E8E8）＋近黑礁石；黑框占画面约 37%。",
+      "typography": "画面中无可读文字。",
+      "texture": "浪花泡沫颗粒、湿石反光、沙的粗糙。",
+      "material": "数字照片，正方形＋黑框的导出方式，和 Glittering Sea 是同一套处理。",
+      "spatialDepth": "中，靠海面蓝的深浅与礁石层叠。",
+      "hierarchy": "泡沫与礁石 → 蓝海 → 亮天空。",
+      "mood": "冷、开阔、动势被冻住。",
+      "visualStyle": "海景特写，构图接近收藏类壁纸。",
+      "interaction": "未发现与画面结构直接相关的交互方案。",
+      "dna": "nature（rocks / waves / foam / blue）",
+      "uncertainty": "黑框是有意加的还是导出产生的。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "7ab96e70-667d-4ac2-a137-3b440b4a09e4",
+      "timestamp": "2026-09-20T09:43:07.435Z",
+      "sourceTitle": "Rocks & Surf",
+      "originalArtifact": "docs/analysis-recovery/original/rocks-surf.txt",
+      "originalSha256": "8b762febc69fd7be7686a06828cc1d3e4dd7ea8f57520151b89a86357900593e",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -519,6 +1433,32 @@
     "echoes": {
       "candidates": ["紫羅蘭（stock, Matthiola）— 品種待確認"],
       "confirmed": []
+    },
+    "analysis": {
+      "content": "一片紫罗兰（stock）花田，紫、粉、黄、白、红、橙的花穗向上生长，背景是纯净的深蓝天空。",
+      "composition": "花穗作竖线密集排列，近处虚、远处实；下方拥挤，上方留出大片天空。",
+      "color": "深蓝天空（#4888B8）与高饱和多彩花色形成强对比。",
+      "typography": "画面中无可读文字。",
+      "texture": "花瓣的缎面质感、绿色花茎细线、失焦花穗的柔糊。",
+      "material": "数字照片，晴日直射光。",
+      "spatialDepth": "中，靠虚实与花穗高低建立。",
+      "hierarchy": "中央最高的粉白花穗 → 两侧彩色花群 → 蓝天。",
+      "mood": "明亮、繁盛，有一点糖霜感。",
+      "visualStyle": "花田摄影，接近\"野花地\"记录。",
+      "interaction": "未发现与画面结构直接相关的交互方案。",
+      "dna": "color（flowers / purple / pink / blue）",
+      "uncertainty": "品种与地点。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "7ab96e70-667d-4ac2-a137-3b440b4a09e4",
+      "timestamp": "2026-09-20T09:43:07.435Z",
+      "sourceTitle": "Flower Field",
+      "originalArtifact": "docs/analysis-recovery/original/flower-field.txt",
+      "originalSha256": "97dff127a1dda63bbde8ff99e2b9e4aa1b39738ccb527b2e625d61fc36cce681",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -535,6 +1475,32 @@
     "echoes": {
       "candidates": [],
       "confirmed": ["新疆", "想到缺省樂隊的〈Meadow〉"]
+    },
+    "analysis": {
+      "content": "绿色草坡上立着一间覆草原木小屋，背后是深暗的针叶林墙；坡上几头牛在吃草，一道木栅栏横过坡面，最前景是虚化的草。",
+      "composition": "严格三段式——暗林（上）／亮草坡与小屋（中）／虚焦前景（下）；小屋极小且偏右上，是唯一的人造焦点。",
+      "color": "多层绿（#283828、#384828、#485828）与近黑的林，小屋是唯一暖木色。",
+      "typography": "画面中无可读文字。",
+      "texture": "草坡柔顺、林墙密实颗粒、原木纹理。",
+      "material": "数字照片，长焦压缩＋前景虚化。",
+      "spatialDepth": "强；虚前景—草坡—木屋—林墙层层后退。",
+      "hierarchy": "木屋 → 牛群与栅栏 → 深色林墙。",
+      "mood": "安静、偏远，时间被拉长。",
+      "visualStyle": "高原牧场景观，\"远望式\"纪实。",
+      "interaction": "未发现与画面结构直接相关的交互方案。",
+      "dna": "memory（cabin / meadow / forest / quiet）",
+      "uncertainty": "地点；EXIF 是 19:45 但画面是明亮白天——如果拍摄地在新疆这类使用北京时间的西部高纬度地区，这个时间点是说得通的，但我无法从照片确认。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "7ab96e70-667d-4ac2-a137-3b440b4a09e4",
+      "timestamp": "2026-09-20T09:43:07.435Z",
+      "sourceTitle": "Meadow Cabin",
+      "originalArtifact": "docs/analysis-recovery/original/meadow-cabin.txt",
+      "originalSha256": "ea127b8fd46ce398c87bdf1ec65a0f103322fc88cc5484637983ec5553f2ec51",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -551,6 +1517,32 @@
     "echoes": {
       "candidates": [],
       "confirmed": ["新疆"]
+    },
+    "analysis": {
+      "content": "绿色山坡横贯画面，山脊上压着一层低云；左侧远处有一间小屋，坡面上几只牛羊在吃草；天空被云层填满，左上隐约露出山尖。",
+      "composition": "上三分之一是云与远山，中间是斜向延伸的山脊线，动物沿坡面排成一条松散的横线。",
+      "color": "黄绿与灰绿（#586838、#384838），云是暖白到灰（#C8C8A8），整体低对比。",
+      "typography": "画面中无可读文字。",
+      "texture": "草坡细密、云的棉絮状边缘、远山被雾化。",
+      "material": "数字照片，长焦压缩感。",
+      "spatialDepth": "强；草坡—动物—山脊—云层—远山层层后退。",
+      "hierarchy": "山脊的云 → 草坡与动物 → 左侧小屋。",
+      "mood": "辽阔、安静，云贴着地面，近乎梦境。",
+      "visualStyle": "高原牧场风景，和 Meadow Cabin 是同一趟的姊妹作。",
+      "interaction": "未发现与画面结构直接相关的交互方案。",
+      "dna": "原文记主类 NATURE（meadow / clouds / cattle / hill）；Archive category 记 nature。",
+      "uncertainty": "地点：当次原文仍待确认；当前条目 echoes.confirmed 已记录“新疆”。EXIF 是 19:45，但画面明亮，和 Meadow Cabin 是同一个时间疑点。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "c4ac2edc-45eb-4bc5-9189-cc4da44c12b0",
+      "timestamp": "2026-09-20T10:27:03.859Z",
+      "sourceTitle": "Cloud Line",
+      "originalArtifact": "docs/analysis-recovery/original/cloud-line.txt",
+      "originalSha256": "dc9c7d4a9c4089d9bf2799348cb75ae1277f0484bbbf4a87fdcc4c3b547aa112",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -567,6 +1559,32 @@
     "echoes": {
       "candidates": [],
       "confirmed": ["青島老城區"]
+    },
+    "analysis": {
+      "content": "一栋淡蓝外墙的三层小楼有深色坡屋顶和白色窗套，阳台玻璃上贴着红色「新年快乐」；前景是松枝，楼体坐在花岗岩石砌基座上，右下角有一只陶制花盆。",
+      "composition": "建筑占画面上三分之二并成为主体，松枝从左上与右上伸入形成框景，石砌基座横在下方。",
+      "color": "浅蓝主调（最饱和点是 #0878C8）、灰白石材与深绿松针，红字是唯一的暖色点缀。",
+      "typography": "阳台玻璃上有红字「新年快乐」，中文字、印刷贴纸，是画面里唯一的文字。",
+      "texture": "墙面涂料、石块粗糙接缝、松针密实。",
+      "material": "历史原文记录为数字照片，有胶片颗粒感，可能加了滤镜。",
+      "spatialDepth": "中等：松枝在近处，建筑位于中景，天空在远处。",
+      "hierarchy": "蓝色楼体 → 「新年快乐」红字 → 松枝与石基。",
+      "mood": "明亮干净，带一点节日的暖。",
+      "visualStyle": "建筑记录或街拍，观看方式接近 Archive 里的 College Gate。",
+      "interaction": "未发现与画面结构直接相关的交互方案。",
+      "dna": "原文主类为 MEMORY（house / blue / pine / granite）；Archive category 记 memory。",
+      "uncertainty": "画面无法确认具体地点；拍摄日期未知，EXIF 被清空，entry 里的 2026-09-18 是导出日期。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "c4ac2edc-45eb-4bc5-9189-cc4da44c12b0",
+      "timestamp": "2026-09-20T10:27:03.855Z",
+      "sourceTitle": "Blue House",
+      "originalArtifact": "docs/analysis-recovery/original/blue-house.txt",
+      "originalSha256": "d03e3a1ca3bf797e2dd7d8416108331c6e4169a4890934f87a9bd9841ad81733",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -583,6 +1601,32 @@
     "echoes": {
       "candidates": ["柑橘類果樹 — 品種待確認"],
       "confirmed": ["想到電影《以你的名字呼喚我》的義大利夏天"]
+    },
+    "analysis": {
+      "content": "一根结果的枝条横过画面，挂着十来颗柑橘，其中几颗被切开露出果肉、切面朝向镜头；背景是均匀的深蓝天空。",
+      "composition": "枝叶从左上斜向右下，切开的果实在中段最密集，形成视觉重心；天空是大片纯色负空间。",
+      "color": "绿叶（#486828、#284818）、橙色果肉与深蓝天空（#285878，占 38%）形成三色对撞。",
+      "typography": "画面中无可读文字。",
+      "texture": "果皮油亮颗粒、叶面反光、果肉的多汁纤维。",
+      "material": "历史原文记录为数字照片，逆光让果肉透亮。",
+      "spatialDepth": "浅，主体几乎贴在平面上。",
+      "hierarchy": "切开的果肉 → 完整果实 → 叶片枝条 → 天空。",
+      "mood": "清爽、慷慨，带一点展示的仪式感。",
+      "visualStyle": "植物静物，接近 Archive 里 Tomato 的水果肖像路线。",
+      "interaction": "未发现与画面结构直接相关的交互方案。",
+      "dna": "原文主类为 STRANGE（oranges / branch / blue / halved）；Archive category 记 strange。",
+      "uncertainty": "品种无法确认，橙、橘或柑都不能从画面断定；果实被切开挂在树上究竟是摘果还是摆拍，也无法从照片判断。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "c4ac2edc-45eb-4bc5-9189-cc4da44c12b0",
+      "timestamp": "2026-09-20T10:27:03.855Z",
+      "sourceTitle": "Cut Oranges",
+      "originalArtifact": "docs/analysis-recovery/original/cut-oranges.txt",
+      "originalSha256": "a3c7ab21cf5af4de1b0c6db4724827c76359a58d4fbb2ec13aa19c730e1a31a8",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -599,6 +1643,32 @@
     "echoes": {
       "candidates": [],
       "confirmed": ["荷花"]
+    },
+    "analysis": {
+      "content": "被浮萍覆盖的水面上立着荷叶与几枚黑色莲蓬，叶片上有虫咬与霉斑。",
+      "composition": "俯视，荷叶散布成不规则点阵，下方叶片最大最完整，重心偏下。",
+      "color": "统一在青绿—蓝绿之间（#78A888、#588868），低对比偏冷。",
+      "typography": "画面中无可读文字。",
+      "texture": "浮萍的细颗粒、荷叶脉络与斑点、水下暗块。",
+      "material": "数字照片，蓝绿色偏明显。",
+      "spatialDepth": "浅到中，靠茎高与叶片大小暗示高度。",
+      "hierarchy": "前排大荷叶 → 后排荷叶与莲蓬 → 浮萍底。",
+      "mood": "安静、湿冷，有一点衰败的秋意。",
+      "visualStyle": "池塘植物记录，接近类型学静物。",
+      "interaction": "未发现与画面结构直接相关的交互方案。",
+      "dna": "nature（lotus / pond / duckweed / green）",
+      "uncertainty": "荷花还是睡莲（从立叶与莲蓬判断更像荷花，但不能完全确定）；地点。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "c4ac2edc-45eb-4bc5-9189-cc4da44c12b0",
+      "timestamp": "2026-09-20T10:27:03.855Z",
+      "sourceTitle": "Lotus Pond",
+      "originalArtifact": "docs/analysis-recovery/original/lotus-pond.txt",
+      "originalSha256": "30274c8910264a412c8edf401e063066e97c1785d239c74dbddcfbf6cdeafc26",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -615,6 +1685,32 @@
     "echoes": {
       "candidates": [],
       "confirmed": ["桂花"]
+    },
+    "analysis": {
+      "content": "一簇四瓣橘黄色小花在暗绿叶片前开放，逆光让花瓣透亮；右上角有一片被照亮的绿叶。",
+      "composition": "花簇集中在中央偏左下，四周留出深色背景；浅景深把背景压成糊面。",
+      "color": "金黄色（#C08A2A）对近黑的绿（#181808、#182808），是 Archive 里对比最强的一组之一。",
+      "typography": "画面中无可读文字。",
+      "texture": "花瓣的蜡质柔光、叶面光泽与失焦颗粒。",
+      "material": "历史原文记录为数字照片，使用长焦微距与逆光。",
+      "spatialDepth": "浅，靠叶片前后与虚化分层。",
+      "hierarchy": "中央花簇 → 右上被光照亮的叶片 → 黑暗背景。",
+      "mood": "温暖、私密，像闻到香味的那一瞬间。",
+      "visualStyle": "秋日花卉微距。",
+      "interaction": "未发现与画面结构直接相关的交互方案。",
+      "dna": "原文主类为 COLOR（osmanthus / yellow / autumn / blossom）；Archive category 记 color。",
+      "uncertainty": "品种仍不能完全确定，历史原文虽然把握较高，但只说可能是桂花；具体地点未知。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "c4ac2edc-45eb-4bc5-9189-cc4da44c12b0",
+      "timestamp": "2026-09-20T10:27:03.855Z",
+      "sourceTitle": "Osmanthus",
+      "originalArtifact": "docs/analysis-recovery/original/osmanthus.txt",
+      "originalSha256": "bc3266813da4c1a89bbc9c6b7fb308cf0ccc2fe4facb071fb88713a024d54688",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -631,6 +1727,32 @@
     "echoes": {
       "candidates": [],
       "confirmed": ["阿里山"]
+    },
+    "analysis": {
+      "content": "一条木栈道带着台阶在浓绿中蜿蜒下行，两侧是茂密的灌木、蕨类与高树，光线柔和；远处栈道转向并消失在树后。",
+      "composition": "栈道作为 S 形引导线从左上经中间阶梯到右下；树干与枝叶在四周形成自然边框。",
+      "color": "饱满的黄绿到深绿（#485828、#586828），没有强对比色。",
+      "typography": "画面中无可读文字。",
+      "texture": "木板的横向纹理、蕨类的羽状叶片、湿润的草。",
+      "material": "历史原文记录为数字照片，光线柔，像阴天或林下散射光。",
+      "spatialDepth": "强；栈道由近及远逐级收缩，纵深明确。",
+      "hierarchy": "栈道与阶梯 → 两侧植被 → 深处光斑。",
+      "mood": "湿润、安静，像被绿色包围。",
+      "visualStyle": "山间步道纪实，和 Forest Railway 是同一批的来源。",
+      "interaction": "未发现与画面结构直接相关的交互方案。",
+      "dna": "原文主类为 NATURE（walkway / forest / steps / green）；Archive category 记 nature。",
+      "uncertainty": "具体地点无法确认；拍摄时间未知，EXIF 被清空，entry 里的 2026-09-18 是导出日期，不是拍摄日期。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "ef5362cb-bf65-4a4b-976c-72ec17049607",
+      "timestamp": "2026-09-20T10:41:53.904Z",
+      "sourceTitle": "Forest Walk",
+      "originalArtifact": "docs/analysis-recovery/original/forest-walk.txt",
+      "originalSha256": "3d94931848a17b22156f94dcedee61b7c5ce824301f340d4f7346fc9be9ccc28",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -647,6 +1769,32 @@
     "echoes": {
       "candidates": ["廣玉蘭（Magnolia grandiflora）— 品種待確認"],
       "confirmed": []
+    },
+    "analysis": {
+      "content": "一棵广玉兰只开了一朵白色大花，其余是革质深绿叶片，许多叶子翻出赭红的背面；背景是干净的蓝天。",
+      "composition": "树冠占据右侧与下方，左上是留白的天空；那朵白花是唯一的亮点，位于画面中部偏右。",
+      "color": "深绿（#081808）、赭金叶背（最饱和点 #887808）、白花与蓝天形成四色层次。",
+      "typography": "画面中无可读文字。",
+      "texture": "叶片革质发亮，花瓣厚实绵密。",
+      "material": "历史原文记录为数字照片，光线偏侧逆光。",
+      "spatialDepth": "中等，靠枝叶的层叠与天空衬托。",
+      "hierarchy": "白花 → 翻起的赭色叶背 → 深绿叶与蓝天。",
+      "mood": "夏日午后安静，而整棵树只开一朵带来一点珍稀感。",
+      "visualStyle": "树木特写，与 Archive 里 Under the Canopy 同属抬头看树的视角。",
+      "interaction": "未发现与画面结构直接相关的交互方案。",
+      "dna": "原文主类为 NATURE（magnolia / white / leaves / blue）；Archive category 记 nature。",
+      "uncertainty": "具体品种无法确认；拍摄时间未知，entry 里的 2026-09-18 是导出日期，不是拍摄日期。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "ef5362cb-bf65-4a4b-976c-72ec17049607",
+      "timestamp": "2026-09-20T10:41:53.904Z",
+      "sourceTitle": "Magnolia",
+      "originalArtifact": "docs/analysis-recovery/original/magnolia.txt",
+      "originalSha256": "a02243eeb326b4d218cf8bf079fbb84ac8a283aa9dec618a17bf0550c91211b8",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -663,6 +1811,32 @@
     "echoes": {
       "candidates": ["白玉蘭（Magnolia denudata）— 品種待確認"],
       "confirmed": []
+    },
+    "analysis": {
+      "content": "白玉兰开在光秃的枝条上，花瓣乳白微暖，背景是被调成灰青色的天空。",
+      "composition": "枝条从左侧与下方岔开，花朵沿枝分布；天空作为大面积负空间，构图疏朗。",
+      "color": "白与灰青（#688888、#586868）为主，枝条是近黑的褐。",
+      "typography": "画面中无可读文字。",
+      "texture": "花瓣有蜡感与半透明效果，枝条呈现干燥细密的质感。",
+      "material": "历史原文记录为数字照片，色调被压过，偏胶片青。",
+      "spatialDepth": "浅到中，仰拍让花朵几乎贴在天空上。",
+      "hierarchy": "中下部集中的花簇 → 放射的枝条 → 灰青天空。",
+      "mood": "早春、清冷，花开但树枝还空着。",
+      "visualStyle": "春日仰拍花卉照，与 Cherry Blossoms 构成春花的一组对照。",
+      "interaction": "未发现与画面结构直接相关的交互方案。",
+      "dna": "历史原文主类为 COLOR（magnolia / white / teal / spring）；Archive category 保持当前值 dream。",
+      "uncertainty": "具体品种无法确认；拍摄时间未知，entry 里的 2026-09-18 是导出日期，不是拍摄日期。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "ef5362cb-bf65-4a4b-976c-72ec17049607",
+      "timestamp": "2026-09-20T10:41:53.904Z",
+      "sourceTitle": "Yulan",
+      "originalArtifact": "docs/analysis-recovery/original/yulan.txt",
+      "originalSha256": "26c8cdaebbb76817ea291e2fe893988e4f473b70e387eeac689e071a14e609ee",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -679,6 +1853,32 @@
     "echoes": {
       "candidates": [],
       "confirmed": ["新疆"]
+    },
+    "analysis": {
+      "content": "草场与深色针叶林交替成带状，远处草甸上散落着大量像小白点的羊群，近处牛群在吃草或卧着；左下有一道斜向阴影。",
+      "composition": "画面近乎水平分层：顶部林带、中部亮草甸与远处羊群、下部林带、最前景草坡与牛群。",
+      "color": "亮草绿（#486838、#587858）对近黑林带（#181818），对比强烈。",
+      "typography": "画面中无可读文字。",
+      "texture": "草的柔顺、林带的密实颗粒、远处羊群的细碎点。",
+      "material": "历史原文记录为数字照片，长焦压缩让层次被压平。",
+      "spatialDepth": "强，但被长焦压缩成多层平行带。",
+      "hierarchy": "中部亮草甸上的羊群 → 两道林带 → 前景牛群。",
+      "mood": "辽阔、丰饶、安静，几乎像图案。",
+      "visualStyle": "高原牧场风景，与 Meadow Cabin、Cloud Line 同属新疆那一组。",
+      "interaction": "未发现与画面结构直接相关的交互方案。",
+      "dna": "原文主类为 NATURE（pasture / forest / cattle / green）；Archive category 记 nature。",
+      "uncertainty": "具体地点无法从画面进一步确认。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "ef5362cb-bf65-4a4b-976c-72ec17049607",
+      "timestamp": "2026-09-20T10:41:53.904Z",
+      "sourceTitle": "Pasture & Forest",
+      "originalArtifact": "docs/analysis-recovery/original/pasture-forest.txt",
+      "originalSha256": "f3562de94c974013e912814c4d9594946807389a24624e1aa6d170acdd23de69",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -695,6 +1895,32 @@
     "echoes": {
       "candidates": [],
       "confirmed": ["夏日的水杉", "我很喜歡杉樹"]
+    },
+    "analysis": {
+      "content": "一条笔直的水渠夹在两列高大乔木之间，尽头有一座小桥把画面收住；水面映出树影与天空，两侧树干下部露出水面与树根。",
+      "composition": "高度对称的绿色隧道，透视消失点位于中轴线，桥是终点。",
+      "color": "深浅不同的绿（#285838、#588858）与水面反射出的浅蓝（#C8D8E8）。",
+      "typography": "画面中无可读文字。",
+      "texture": "树叶的羽状细密、水面的镜面反射与轻微波纹、树干的粗糙。",
+      "material": "历史原文记录为数字照片，色调偏青绿。",
+      "spatialDepth": "很强，对称透视线把视线直接推到尽头的小桥。",
+      "hierarchy": "中轴的水渠与小桥 → 两侧的树墙 → 顶部一线天空。",
+      "mood": "静谧、几乎超现实，像走进一条绿色的走廊。",
+      "visualStyle": "景观摄影，接近绿色教堂式的对称构图。",
+      "interaction": "可做随滚动推进的透视动效（仅为可能性，未实现）。",
+      "dna": "历史原文主类为 DREAM（canal / trees / bridge / green）；Archive category 保持当前值 memory。",
+      "uncertainty": "地点和树种无法确认；原文根据羽状落叶与直干推测很像水杉，但不能确定。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "ef5362cb-bf65-4a4b-976c-72ec17049607",
+      "timestamp": "2026-09-20T10:41:53.904Z",
+      "sourceTitle": "Green Canal",
+      "originalArtifact": "docs/analysis-recovery/original/green-canal.txt",
+      "originalSha256": "a60177e053e9124f9ffedfaf339cc86b4f29dd1b06046c6d97de90db184b80b9",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -711,6 +1937,32 @@
     "echoes": {
       "candidates": ["行道樹與現代建築 — 地點待確認"],
       "confirmed": []
+    },
+    "analysis": {
+      "content": "从树下向上拍，深色树干与枝条向四周伸展，叶隙间露出淡色玻璃幕墙与少量天空。",
+      "composition": "主干从左侧斜向上，枝条放射状分割画面；建筑的水平线与树枝的斜线互相切割。",
+      "color": "灰绿主调（平均 #545F52）＋玻璃的浅灰蓝，低饱和。",
+      "typography": "画面中无可读文字。",
+      "texture": "叶片细碎、树干光滑、幕墙平整反光。",
+      "material": "数字照片，光线均匀（阴天或处于建筑阴影）。",
+      "spatialDepth": "中；枝条（近）—树冠（中）—幕墙与天空（远）。",
+      "hierarchy": "放射的枝条 → 密集叶幕 → 玻璃立面。",
+      "mood": "城市里被树遮住的安静一角。",
+      "visualStyle": "都市树木仰拍，与 Under the Canopy 同视角，但背景换成了建筑。",
+      "interaction": "未发现与画面结构直接相关的交互方案。",
+      "dna": "nature（canopy / branches / glass / green）",
+      "uncertainty": "地点——这张不像旅行地，更像日常城市。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "5ab10604-193a-40f4-aade-fd81927c79b1",
+      "timestamp": "2026-09-20T16:02:09.806Z",
+      "sourceTitle": "City Canopy",
+      "originalArtifact": "docs/analysis-recovery/original/city-canopy.txt",
+      "originalSha256": "c674d6ebd65751dc6ec142d24e77ebd0c736782d4dbd73ef470c240776291145",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -727,6 +1979,32 @@
     "echoes": {
       "candidates": [],
       "confirmed": ["歌曲〈Bloody Mary girl〉：左上為其封面，日文為歌詞", "右下是自己照封面做的拼豆", "我很喜歡這首歌"]
+    },
+    "analysis": {
+      "content": "一张黑胶唱片，片心的圆照片里有人在乳白青绿的水中游泳；唱片四周散布日文句子（可读的有「気にかかるロンリーガール」「夢見てるようなザ・ブルー」等）、绿色像素状笔触，左上印着 \"Blood circul…\"（被裁断），上方一根白色线缆；右下一只手举着一块拼豆做的方形马赛克，图案正是那张游泳照片。",
+      "composition": "唱片是主视觉偏左上，日文沿弧线环绕，右下拼豆方块是第二个锚点；整体是海报式的非对称拼贴。",
+      "color": "白底＋青绿的水色（#486858）＋绿色文字与笔触，只有手和线缆是暖色。",
+      "typography": "日文句子沿曲线排布，既是信息也是图形；左上被裁断的英文 \"Blood circul\" 无法确定完整词。",
+      "texture": "黑胶同心纹、水的乳浊感、拼豆的机械颗粒、纸面留白。",
+      "material": "数字拼贴／平面设计（很可能是唱片封面），照片＋文字＋图形合成。",
+      "spatialDepth": "平面化，靠叠压（手与拼豆在最前）制造浅层空间。",
+      "hierarchy": "唱片与片心照片 → 环绕日文 → 右下的拼豆方块 → 背景笔触。",
+      "mood": "清凉、忧郁而甜，像一首歌的情绪板。",
+      "visualStyle": "唱片封面／海报式拼贴，和 archive 里 Henna Collage 同属混合材料路线。",
+      "interaction": "可做唱片旋转或拼豆逐格显影的动效（可能性，未实现）。",
+      "dna": "strange（record / collage / text / teal）",
+      "uncertainty": "这是某张唱片的官方封面还是你自己拼的；日文句子的完整内容与出处；左上英文被裁断。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "5ab10604-193a-40f4-aade-fd81927c79b1",
+      "timestamp": "2026-09-20T16:02:09.806Z",
+      "sourceTitle": "Record Collage",
+      "originalArtifact": "docs/analysis-recovery/original/record-collage.txt",
+      "originalSha256": "ac9dfb565d5cea2fd85608019ba2ae3b89525e77625ba01d71924bae3857ce06",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -743,6 +2021,32 @@
     "echoes": {
       "candidates": [],
       "confirmed": ["台北赤峰街"]
+    },
+    "analysis": {
+      "content": "一根竖管上装着两块标志——红边三角的「路面凸起」警告牌，下面是黄底直书的「減速慢行」；右侧是蓝灰管线，左边与下方是店招、植栽、停放机车和被阴影吞掉的巷弄。",
+      "composition": "标志牌居中偏右成为主体，管线给出垂直边界，背景店招与植物填补空隙。",
+      "color": "蓝灰（#384848、#485858）＋标志牌的黄褐（#886848）与红边。",
+      "typography": "「減速慢行」四个繁体汉字，直书、黑体感；三角形里还有小字标识但看不清；左侧招牌能读到 \"1331\"。",
+      "texture": "金属管线的哑光漆面、植物碎叶、阴影里的模糊。",
+      "material": "数字照片，整体偏蓝，像傍晚或建筑阴影里拍的。",
+      "spatialDepth": "中，靠前景管件与背景巷弄的虚实拉开。",
+      "hierarchy": "「減速慢行」牌 → 三角警告牌 → 招牌与植栽 → 阴影。",
+      "mood": "日常、微凉，带一点旧城区的拥挤。",
+      "visualStyle": "街头部件记录，接近 archive 里 Literature Corridor 那种\"看城市零件\"的眼光。",
+      "interaction": "未发现与画面结构直接相关的交互方案。",
+      "dna": "memory（sign / street / characters / pipes）",
+      "uncertainty": "具体街道（从繁体中文字与街景看是台湾，但不能确定是哪条街）。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "5ab10604-193a-40f4-aade-fd81927c79b1",
+      "timestamp": "2026-09-20T16:02:09.806Z",
+      "sourceTitle": "Slow Down",
+      "originalArtifact": "docs/analysis-recovery/original/slow-down.txt",
+      "originalSha256": "acd6d5cb1da8d1a6905788ec333dbbc7af9b16a1aa25c92b1ad212dc31b7979b",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -759,6 +2063,32 @@
     "echoes": {
       "candidates": [],
       "confirmed": ["台北迪化街附近"]
+    },
+    "analysis": {
+      "content": "黄昏的街口——左侧高楼立面挂满层层店招（華源堂中醫診所、中醫師許周淑華、朝陽牙醫、麗麗路、牛亭等），横跨路面的棕色路牌写着「…水驛站 / WEI-SHUI STATION」，下方是骑机车的人、车流与一辆印着 Bolt 的白色休旅车；天空是带粉的淡蓝暮色。",
+      "composition": "垂直叠加——天空／高楼／招牌群／街道与人车；招牌沿街面密集排列，形成城市的网格肌理。",
+      "color": "暮色蓝（#98B8D8）＋招牌的多彩（黄、绿、红、白）＋柏油灰。",
+      "typography": "大量繁体中文店招与英文 \"Bolt\"、路牌中英双语，文字密度极高，本身就是这条街的视觉内容。",
+      "texture": "玻璃幕墙与老旧水泥墙并置、灯箱与塑料招牌、湿黑的柏油。",
+      "material": "数字照片，黄昏的暖冷交界光。",
+      "spatialDepth": "强；前景机车—车流—街面招牌—高楼—天空。",
+      "hierarchy": "密集招牌 → 前景骑手与车 → 高楼 → 暮色天空。",
+      "mood": "热闹、拥挤、有生活感，黄昏把杂乱变得柔和。",
+      "visualStyle": "街头纪实，和 Chia Chia Records 同属\"城市记忆\"。",
+      "interaction": "未发现与画面结构直接相关的交互方案。",
+      "dna": "color（street / signs / dusk / scooters）",
+      "uncertainty": "城市与街道（台湾的可能性大）；路牌中文我读作「…水驛站」，把握不足，所以只把英文部分写进候选。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "5ab10604-193a-40f4-aade-fd81927c79b1",
+      "timestamp": "2026-09-20T16:02:09.806Z",
+      "sourceTitle": "Dusk Street",
+      "originalArtifact": "docs/analysis-recovery/original/dusk-street.txt",
+      "originalSha256": "504a10d2176cf9e61b028252c803adb0fe0e094551fcd63bbdc0acae2521eb96",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -775,6 +2105,32 @@
     "echoes": {
       "candidates": [],
       "confirmed": ["阿里山"]
+    },
+    "analysis": {
+      "content": "一整坡蓝色绣球花开在长草之上，上方有树枝横过；左侧是树林与草坡，右下角零星几朵橙色的花。",
+      "composition": "绣球花坡从左下向右上抬升，占据画面右半；上方树枝形成顶框，左下草地留出呼吸空间。",
+      "color": "蓝紫的花＋多层绿（#284838、#287848），整体偏冷。",
+      "typography": "画面中无可读文字。",
+      "texture": "花球的密集小花、草叶的细长、树皮的粗糙。",
+      "material": "数字照片，色彩略降饱和。",
+      "spatialDepth": "中；草→花坡→树丛。",
+      "hierarchy": "成片绣球 → 上方树枝 → 草地与杂草。",
+      "mood": "湿润、繁盛，像梅雨末尾的庭园。",
+      "visualStyle": "庭园植物记录，与 Flower Field 同属\"花海\"但更野。",
+      "interaction": "未发现与画面结构直接相关的交互方案。",
+      "dna": "nature（hydrangea / blue / garden / grass）",
+      "uncertainty": "地点；无拍摄时间，date 暂用导出日 2026-09-18。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "a83139e9-4b0d-491e-bd25-5bddb7f83ba1",
+      "timestamp": "2026-09-20T16:39:13.739Z",
+      "sourceTitle": "Hydrangeas",
+      "originalArtifact": "docs/analysis-recovery/original/hydrangeas.txt",
+      "originalSha256": "76572a2444cd0dbb05edaa30167941671a2875fe2c6aa903e9cb57a7ff1a6ec9",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -791,6 +2147,32 @@
     "echoes": {
       "candidates": [],
       "confirmed": ["台南四草綠色隧道"]
+    },
+    "analysis": {
+      "content": "一棵枯死倒下的树横在水边，光秃的枝干向两侧张开，根部与周边的气根缠绕；背后是密实的绿色灌木与水面的倒影。",
+      "composition": "枯木从左下横贯至右侧中段，成为画面唯一的结构线；绿色植被在上半部形成背景墙。",
+      "color": "灰白的枯木对深绿植被，水面是带倒影的墨绿（#689878 一族）。",
+      "typography": "画面中无可读文字。",
+      "texture": "枯木的风化裂纹、气根的细密、水面的柔波与倒影。",
+      "material": "数字照片，光线柔（阴影下或阴天）。",
+      "spatialDepth": "中；靠水面倒影把空间向\"下\"延伸，形成上下对称感。",
+      "hierarchy": "枯木主干 → 气根与灌木 → 水面倒影。",
+      "mood": "安静、微暗，生命与死亡并置。",
+      "visualStyle": "水边植物纪实，接近 archive 里 Lotus Pond 的\"看一潭水\"的视角。",
+      "interaction": "未发现与画面结构直接相关的交互方案。",
+      "dna": "nature（tree / water / roots / green）",
+      "uncertainty": "地点；这棵枯木的形状让人想到动物或鹿角，但那只是我的联想，没有写进档案。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "a83139e9-4b0d-491e-bd25-5bddb7f83ba1",
+      "timestamp": "2026-09-20T16:39:13.739Z",
+      "sourceTitle": "Fallen Tree",
+      "originalArtifact": "docs/analysis-recovery/original/fallen-tree.txt",
+      "originalSha256": "7f303f008ffde07c0171f7c5f4fedfcc7034a4729764bd34c6b46a57a83dd158",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -807,6 +2189,32 @@
     "echoes": {
       "candidates": [],
       "confirmed": ["阿里山", "讓我想起山裡潮濕微涼的空氣"]
+    },
+    "analysis": {
+      "content": "黑色水面上立着一丛高高的草，叶片夹着几条几乎全白的枯叶与几朵橙色小花；左上有一段倒木，背景是暗到近乎剪影的森林。",
+      "composition": "草丛正好在画面中心，水中倒影在下方形成第二个\"草丛\"，构成上下呼应的对称。",
+      "color": "极深的墨绿与黑（#081808、#182808）＋草叶的浅黄绿与橙色小花。",
+      "typography": "画面中无可读文字。",
+      "texture": "草叶的细长下垂、水面的镜面感、背景森林的绒状暗块。",
+      "material": "数字照片，曝光偏暗。",
+      "spatialDepth": "中；靠水面倒影和背景的暗度推远。",
+      "hierarchy": "中央草丛 → 水中倒影 → 暗色森林。",
+      "mood": "幽暗、静谧，有一点湿地的野性。",
+      "visualStyle": "湿地植物特写，与 Fallen Tree 很可能是同一处水塘。",
+      "interaction": "未发现与画面结构直接相关的交互方案。",
+      "dna": "nature（pond / grass / dark / orange）",
+      "uncertainty": "地点；无拍摄时间（文件里没有 EXIF），date 暂用导出日 2026-09-18。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "a83139e9-4b0d-491e-bd25-5bddb7f83ba1",
+      "timestamp": "2026-09-20T16:39:13.739Z",
+      "sourceTitle": "Pond Grass",
+      "originalArtifact": "docs/analysis-recovery/original/pond-grass.txt",
+      "originalSha256": "c14115f1f73abb04aea9bafcc5a4f01ea947098e0ab72a3c0f0b04a31c76a7e0",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -823,6 +2231,32 @@
     "echoes": {
       "candidates": [],
       "confirmed": ["台灣的燈塔（鵝鑾鼻一帶）", "再往前走可以看見太平洋，我在那裡看到人生中最藍的海"]
+    },
+    "analysis": {
+      "content": "白色灯塔立在一道长长的白墙后面，墙的右侧接一排带拱窗的白色建筑；前景是略有枯黄的绿草地，天空是饱和度很高的深蓝。",
+      "composition": "灯塔在左三分之一处成为主塔，白墙横贯画面把这个\"白\"连成一条基线，草地占下半。",
+      "color": "深蓝天（#48A8D8、#1888C8）＋纯白建筑＋带黄斑的绿草，对比干净利落。",
+      "typography": "画面中无可读文字。",
+      "texture": "灯塔塔身的竖向接缝与窗洞、白墙的平整、草地的高低不平。",
+      "material": "数字照片，色彩饱和、颗粒感偏胶片。",
+      "spatialDepth": "中；草坡—白墙—灯塔—天空，层次简单明确。",
+      "hierarchy": "白灯塔 → 白墙与拱廊 → 草地与天空。",
+      "mood": "明亮、开阔、有点海报感。",
+      "visualStyle": "地标建筑记录，接近 archive 里 Tiaoshi Station、Jiming Temple 的\"去到那里\"的路线。",
+      "interaction": "未发现与画面结构直接相关的交互方案。",
+      "dna": "memory（lighthouse / white / grass / blue）",
+      "uncertainty": "具体是哪一座灯塔；无拍摄时间，date 暂用导出日 2026-09-18。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "a83139e9-4b0d-491e-bd25-5bddb7f83ba1",
+      "timestamp": "2026-09-20T16:39:13.739Z",
+      "sourceTitle": "Lighthouse",
+      "originalArtifact": "docs/analysis-recovery/original/lighthouse.txt",
+      "originalSha256": "c0d982bf319a6de72b43208b0deb122b9b809c661495d2879ecdff6756570c84",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -839,6 +2273,32 @@
     "echoes": {
       "candidates": ["繡上的字是 Aimili — 品牌或名字待確認"],
       "confirmed": []
+    },
+    "analysis": {
+      "content": "亚麻布上用暗红线绣出的三朵百合，下方绣着草写字母 \"Aimili\"。",
+      "composition": "三朵花集中在中央偏上，草写的名字在下方充当\"落款\"；四周留白均匀，像一块标本布。",
+      "color": "米白亚麻（#D8D8C8、#D8D8D8）＋深红绣线（最饱和处 #981838），只有两种颜色。",
+      "typography": "绣出的 \"Aimili\"，草写体，字本身就是绣品的一部分，不是后加的文字。",
+      "texture": "亚麻的粗织网格、绣线的绒感、布面轻微的起伏与折痕。",
+      "material": "刺绣（medium: embroidery，这是档案里第一个非照片材料，之前只有 photo / collage / illustration / film still）。",
+      "spatialDepth": "几乎没有，是一张平面纺织品的正面记录。",
+      "hierarchy": "三朵红百合 → \"Aimili\" 字样 → 亚麻底。",
+      "mood": "安静、手作、有点旧物的温度。",
+      "visualStyle": "工艺／织物记录，和 Henna Collage 同属\"手工材料\"。",
+      "interaction": "未发现与画面结构直接相关的交互方案。",
+      "dna": "memory（embroidery / lily / red / linen）",
+      "uncertainty": "来源（我先按规则记 collected，如果是你自己的作品或收藏的物件，告我）；日期无 EXIF，暂用与同批文件（Tomato Illustration）一致的 2026-08-30。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "cbbe30d0-6490-40b5-8f02-be9b4223f86b",
+      "timestamp": "2026-09-20T17:02:49.211Z",
+      "sourceTitle": "Embroidered Lilies",
+      "originalArtifact": "docs/analysis-recovery/original/embroidered-lilies.txt",
+      "originalSha256": "6d81e81c5a222eac907e91975955b222ddb02603b8cfb260ee798434566f9f9f",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -855,6 +2315,32 @@
     "echoes": {
       "candidates": ["法國梧桐（懸鈴木）行道樹，葉形與城市行道樹一致，拍攝地點未確認"],
       "confirmed": []
+    },
+    "analysis": {
+      "content": "历史原文未单列 content；原文 composition 记录：竖幅、抬头直视树冠，画框内没有地平线；左侧约三分之二被叶层填满，右侧留出一道从下往上的天空楔形，左下深色枝干作对角配重。",
+      "composition": "竖幅、抬头直视树冠，画框内没有地平线；左侧约三分之二被叶层填满，右侧留出一道从下往上的天空楔形，左下深色枝干作对角配重。",
+      "color": "两大家族色——背光叶片的橄榄绿到亮黄绿（暗部 #2F3516 → 受光 #CABE2A），与干净的浅蓝天空 #9FBEEA 对冲。",
+      "typography": "画面中无可读文字。",
+      "texture": "叶片相互叠压，受光面半透带叶脉，暗部哑光；有轻微数码锐化痕迹。",
+      "material": "活体植物组织，宽掌状裂叶、尖裂齿缘，形态符合悬铃木（法国梧桐）一类行道树；枝条为木质。",
+      "spatialDepth": "深度靠光而非透视建立——一层层叶片平面 + 缝隙里透出的天空；竖直方向读作“高度”，最亮的一簇接近太阳方向的画面上部。",
+      "hierarchy": "第一眼是上中部亮黄绿叶簇 → 其次是右侧天空楔形 → 左下暗叶作为底座。",
+      "mood": "盛夏、明快、微微眩晕（仰视姿态），清晰而暖。",
+      "visualStyle": "自然光的手机直拍，近似“透光性”研究，无滤镜痕迹。",
+      "interaction": "引导视线上仰、放大看叶形细节；适合日后作为叶形／配色提取素材。",
+      "dna": "nature 为主，color 为辅。",
+      "uncertainty": "文件经 Photoshop 重存，EXIF 无拍摄日期／机型／GPS，日期取导入日期 2026-09-18；树种与地点为形态推断。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0cddc-8a20-7452-a8df-ba63bcc59d9b",
+      "messageId": "48971c58-7b7c-4c1b-b069-e23b44f6e6ef",
+      "timestamp": "2026-09-23T10:52:40.405Z",
+      "sourceTitle": "Sunlit Canopy",
+      "originalArtifact": "docs/analysis-recovery/original/sunlit-canopy.txt",
+      "originalSha256": "6a9bffa9fd62b2fe91a7ee7b7612974c2aa965762ba6db4dda5313219cde25e8",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -871,6 +2357,32 @@
     "echoes": {
       "candidates": ["夜鷺（黑冠夜鷺）— 依黑色頭背與灰白身體判斷，待確認", "背景的白色格紋斜屋頂建築，疑似台北文創大樓（誠品生活松菸）一帶，未確認"],
       "confirmed": ["台北松山文創園區", "園區裡的噴水池（巴洛克花園一帶）", "去這裡的路上遇到一位很友善、很健談的計程車司機"]
+    },
+    "analysis": {
+      "content": "历史原文未单列 content；原文 composition 记录：左约六成是喷泉水池照片，右约四成是纯绿平面；右下角一只夜鹭抠图横跨两区，底部中央偏左是一块半透明浅绿文字面板，画面里散布水滴图形，右上角是描边云。",
+      "composition": "左约六成是喷泉水池照片，右约四成是纯绿平面；右下角一只夜鹭抠图横跨两区，底部中央偏左是一块半透明浅绿文字面板，画面里散布水滴图形，右上角是描边云。",
+      "color": "饱和薄荷绿 #039674 占满右区并定调整体；照片部分是灰蓝低饱和（水汽、水流），配白与黑描边。",
+      "typography": "白色无衬线中文诗句，左对齐六行，压在浅绿透明面板上，尾行部分被夜鹭挡住。",
+      "texture": "照片区柔、糊、有水雾感；图形区是完全平涂的矢量色块——刻意混合两种质感分辨率。",
+      "material": "混合媒材——照片 + 矢量图形 + 抠图主体 + 文字，属数字拼贴。",
+      "spatialDepth": "被压平的；图形元素取消了照片的纵深，照片退为底纹，鸟是贴在最前面的悬浮层（脚部无落点）。",
+      "hierarchy": "绿色平面与水滴 → 夜鹭 → 诗句面板，照片作背景。",
+      "mood": "慵懒、潮湿、梦幻；诗句语气轻软（“午后被拉得很长”“花在晒太阳，云在发呆”），带一点微醺式的惆怅。",
+      "visualStyle": "小红书式图文海报／数字拼贴，可爱图形与照片并置。",
+      "interaction": "以阅读文字为核心，为“信息流里被读到”而设计；适合日后做文字层提取素材。",
+      "dna": "dream 为主，memory、color 为辅，略涉 strange（悬空的鸟）。",
+      "uncertainty": "无 EXIF，日期取导入／导出日期 2026-07-21；诗末几字被鸟遮挡无法确读；作者是否为本人未知。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0cddc-8a20-7452-a8df-ba63bcc59d9b",
+      "messageId": "48971c58-7b7c-4c1b-b069-e23b44f6e6ef",
+      "timestamp": "2026-09-23T10:52:40.405Z",
+      "sourceTitle": "Long Afternoon",
+      "originalArtifact": "docs/analysis-recovery/original/long-afternoon.txt",
+      "originalSha256": "b178362dc13c7b0ca58edb3264463078c358dfbd5fd8f3e88790b31bc7c7bd2c",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -887,6 +2399,32 @@
     "echoes": {
       "candidates": [],
       "confirmed": ["新疆喀拉峻"]
+    },
+    "analysis": {
+      "content": "历史原文未单列 content；原文 composition 记录：竖幅。公路从画面左下进入、先向右甩再向左折，消失在中间；右侧绿色护栏是一条持续后退的对角线；地平线约在四成高处，湖面偏右中，带一座小岛。",
+      "composition": "竖幅。公路从画面左下进入、先向右甩再向左折，消失在中间；右侧绿色护栏是一条持续后退的对角线；地平线约在四成高处，湖面偏右中，带一座小岛。",
+      "color": "三段式——天空的浅蓝到右上深蓝渐变、地平线一带的雾白、赭黄干丘陵，加上深灰蓝的沥青。蓝色系实测平均 #6B99BB，占画面约 27%；黄中线与绿护栏是小面积重音。",
+      "typography": "画面内无文字，只有道路标线。",
+      "texture": "沥青哑光细颗粒、矮草、碎石路肩，远处被雾气软化；有轻微后期调色痕迹。",
+      "material": "沥青、喷漆金属护栏、干草、湖水。",
+      "spatialDepth": "标准线性透视，路边线收束于弯道；丘陵—水面—雾层三层后退，远山被雾压平。",
+      "hierarchy": "黄线与道路曲线先抓住视线 → 亮色湖面 → 最后是天空。",
+      "mood": "开阔、安静、微微过曝的夏日感；空路的孤独，属于旅行记忆。",
+      "visualStyle": "旅行壁纸式的风景照，高键天空、地面偏胶片感的降饱和。",
+      "interaction": "视线会顺着路面往里走，弯道本身构成一个“再往前是什么”的开放式叙事。",
+      "dna": "nature 为主，color（蓝／赭对比）与 memory（旅途）为辅。",
+      "uncertainty": "无 EXIF 拍摄信息，日期取文件日期 2025-12-22（未必是拍摄日）；地点未知。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0cddc-8a20-7452-a8df-ba63bcc59d9b",
+      "messageId": "88eb4ca2-8919-459b-a91c-b5c6221d0a9a",
+      "timestamp": "2026-10-08T07:33:21.259Z",
+      "sourceTitle": "Lake Road",
+      "originalArtifact": "docs/analysis-recovery/original/lake-road.txt",
+      "originalSha256": "6982a6788a5fe68a7f1f528846744cfb87150677aa6b9845d1aa9d3b61f39605",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -903,6 +2441,32 @@
     "echoes": {
       "candidates": ["老式印花布或壁紙上的舊玫瑰圖樣，可能是抱枕、桌布或包布，來源未確認"],
       "confirmed": []
+    },
+    "analysis": {
+      "content": "历史原文未单列 content；原文 composition 记录：满版图案，没有焦点式构图；一丛玫瑰从左下往右上攀爬，边缘被裁切，具重复铺展性。",
+      "composition": "满版图案，没有焦点式构图；一丛玫瑰从左下往右上攀爬，边缘被裁切，具重复铺展性。",
+      "color": "暗李紫的印花 #6A4B72（玫瑰花体实测）压在淡鼠尾草绿的布面 #B6B796 上，底下还有一层更深的绿调花纹暗印，整体低对比、发灰。",
+      "typography": "画面中无可读文字。",
+      "texture": "放大到 100% 能看到清晰的经纬织纹（亚麻感织物），印花嵌在纤维里，边缘略带网点般的斑驳。",
+      "material": "印花织物（亚麻或棉），老式印花布质感。",
+      "spatialDepth": "几乎没有纵深，只有「暗印 → 印花 → 织纹」这三层极薄的叠压。",
+      "hierarchy": "上方最大的一朵玫瑰 → 花枝 → 小朵与花苞。",
+      "mood": "安静、老旧、居家的甜；像褪色了的旧东西。",
+      "visualStyle": "老式印花布／壁纸样本的图案美学，接近项目里「lived-in warmth」那一侧。",
+      "interaction": "可平铺的图案，适合日后当作纹理素材来调用。",
+      "dna": "memory 为主，color（紫＋鼠尾草绿）为辅。",
+      "uncertainty": "无拍摄日期，日期取文件日期 2026-09-04；物件类型与是否为本人所有都未确认，按约定先记 collected。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0cddc-8a20-7452-a8df-ba63bcc59d9b",
+      "messageId": "88eb4ca2-8919-459b-a91c-b5c6221d0a9a",
+      "timestamp": "2026-10-08T07:33:21.259Z",
+      "sourceTitle": "Purple Roses",
+      "originalArtifact": "docs/analysis-recovery/original/purple-roses.txt",
+      "originalSha256": "8627d1d3f3f6a9791e583c74364d90d81a30106f7d68b76ced04438b5f8fe8dd",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -919,6 +2483,32 @@
     "echoes": {
       "candidates": [],
       "confirmed": ["阿里山", "和 pond grass 是同一位拍攝者", "很空靈、很夢幻的一張——看到這張圖會讓我願意相信世界上有精靈"]
+    },
+    "analysis": {
+      "content": "历史原文未单列 content；原文 composition 记录：竖幅。花团从左上部斜向铺到右下；一根带苔的枝条在左侧中段竖切画面；背景是几乎全黑的叶丛，右下角散着几朵褪成米白的花。",
+      "composition": "竖幅。花团从左上部斜向铺到右下；一根带苔的枝条在左侧中段竖切画面；背景是几乎全黑的叶丛，右下角散着几朵褪成米白的花。",
+      "color": "暗场主导（接近纯黑的像素占 33%），淡紫花球实测 #756087，另混有米白与淡粉的过花期花朵；右缘一小片被阳光打亮的黄绿叶片。",
+      "typography": "画面中无可读文字。",
+      "texture": "花瓣纸质、边缘清晰；叶片有光泽与中脉；暗部化成颗粒；亮部边缘带轻微光晕（bloom）。",
+      "material": "活体植物组织，枝条上有苔。",
+      "spatialDepth": "浅，靠光的衰减建立——最亮的花离镜头最近，背景读不出空间。",
+      "hierarchy": "中偏右最亮的一团花 → 深色苔枝这条线 → 底部褪白的花。",
+      "mood": "幽暗、梦幻、临界的将谢感，像黄昏。",
+      "visualStyle": "暗调特写，阴影提亮加光晕，接近明暗对照法（chiaroscuro）。",
+      "interaction": "暗底会让人想放大看花的结构；放进页面后，反而把站点的暖灰底衬得更亮。",
+      "dna": "nature 为主，dream 为辅。",
+      "uncertainty": "无 EXIF，日期取文件日期 2026-07-29。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0cddc-8a20-7452-a8df-ba63bcc59d9b",
+      "messageId": "88eb4ca2-8919-459b-a91c-b5c6221d0a9a",
+      "timestamp": "2026-10-08T07:33:21.259Z",
+      "sourceTitle": "Lilac Hydrangeas",
+      "originalArtifact": "docs/analysis-recovery/original/lilac-hydrangeas.txt",
+      "originalSha256": "03ad8a77000e4e93b09380e2200b683806a5eac2f262741395f54ba27fde9a5f",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -935,6 +2525,32 @@
     "echoes": {
       "candidates": ["殿宇具體名稱未確認，形制接近泰山碧霞祠／南天門一帶"],
       "confirmed": ["泰山", "高考後偷跑出去玩；爸媽發現我不在的時候，我已經在泰山腳下"]
+    },
+    "analysis": {
+      "content": "历史原文未单列 content；原文 composition 记录：竖幅 1320×1982（约 2:3）。横向三段——上半雾与远山，中部偏左是楼阁主体，下半是深色树冠作底。右上有一锥形山峰，屋檐与山脊构成右高左低的斜线；主体居中略偏左，上方留白较多。",
+      "composition": "竖幅 1320×1982（约 2:3）。横向三段——上半雾与远山，中部偏左是楼阁主体，下半是深色树冠作底。右上有一锥形山峰，屋檐与山脊构成右高左低的斜线；主体居中略偏左，上方留白较多。",
+      "color": "冷调、低饱和的蓝青主导。实测雾/天空 #84A4B9，远峰 #90BAD5，屋瓦一带 #688596，前景树冠 #203129，全图均值 #516D75。暖色仅一处：檐下赭黄帷幕（实测最暖像素约 #9F8566）；匾额为深蓝（约 #1B3747 一带）。",
+      "typography": "唯一文字是建筑上的匾额——深蓝底金字的中式匾额书法，分辨率不足以辨读。属建筑构件/标识，非编辑性排版。",
+      "texture": "带胶片感的颗粒与雾化；屋瓦呈整齐放射状瓦垄条纹，树叶细碎、边缘柔，远景被雾抹平。",
+      "material": "灰瓦（筒瓦/琉璃）、深色木构、石材台基与岩石、织物（帷幕）。",
+      "spatialDepth": "层次多——前景树丛（暗、软）→ 楼阁（锐、实处）→ 极远处下方平原/城市（雾化）→ 更远山影；空气透视明显。俯视视角暗示拍摄点在较高处。",
+      "hierarchy": "① 被蓝匾与橘帘勾出最强对比的楼阁；② 右侧锥峰；③ 雾中平原；④ 底部树冠压边。",
+      "mood": "高远、安静、清冷，近乎仙境/梦境，带海拔感与孤绝感。",
+      "visualStyle": "纪实风景/旅行摄影 + 冷调胶片色彩；意象接近中国山水画里的\"云端楼阁\"。",
+      "interaction": "树/楼阁/远山/雾四层天然适合视差；雾可缓慢流动。",
+      "dna": "归档 nature；color（蓝）与 dream（雾中悬浮）可作备选。",
+      "uncertainty": "地点未知；无 EXIF，日期用导入日 2025-12-22；匾额文字不可辨；下方是城市还是农田不确定；胶片/数码后期无法判断；橘帘是装饰还是宗教挂饰不确定。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a11eef-e71c-7240-bd19-bb7c015e6da3",
+      "messageId": "833145ce-78da-43c3-8136-1ea4ec355d75",
+      "timestamp": "2026-10-13T05:42:04.688Z",
+      "sourceTitle": "Mountain Pavilion",
+      "originalArtifact": "docs/analysis-recovery/original/mountain-pavilion.txt",
+      "originalSha256": "bde7e469c60bfd4418ee8981c64e71368188e490135d54779e6b61f00f4e42d8",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -951,6 +2567,32 @@
     "echoes": {
       "candidates": [],
       "confirmed": ["台南四草綠色隧道", "紅樹林景觀"]
+    },
+    "analysis": {
+      "content": "历史原文未单列 content；原文 composition 记录：横幅 1320×867（约 3:2）。上方约 55% 是探出的枝冠，水线在中部偏下横贯，下方约 40% 是绿水与倒影；枝干自左上斜向右收拢，左侧有一个暗\"洞口\"。整体为\"树冠／水线／水面\"三层横带，向左收进形成纵深。",
+      "composition": "横幅 1320×867（约 3:2）。上方约 55% 是探出的枝冠，水线在中部偏下横贯，下方约 40% 是绿水与倒影；枝干自左上斜向右收拢，左侧有一个暗\"洞口\"。整体为\"树冠／水线／水面\"三层横带，向左收进形成纵深。",
+      "color": "近单色青绿。实测树冠 #458065 / #4C7A64，水面 #436B5D / #477769，全图均值 #497463。几乎无暖色，阴影偏冷，低饱和湿润。",
+      "typography": "画面中无可读文字。",
+      "texture": "细密圆叶的颗粒感；苍白枝干平滑盘结；水面为丝滑横向波纹并带镜面倒影；水线下缘有一条根须/胎生苗的绒状带。",
+      "material": "木、叶、水；水面呈丝质、镜面反射质感。",
+      "spatialDepth": "中等。主体是树冠与水两个平面，左侧退去的树线与水中倒影制造纵深，左侧\"洞口\"暗示向内通道。",
+      "hierarchy": "① 横跨画面的苍白枝干（暗叶上的亮线）；② 水线的绒状根系；③ 绿水与倒影。",
+      "mood": "静、冷、被包裹的\"绿色寂静\"，略带幽闭与秘密感；潮湿、自然覆盖。",
+      "visualStyle": "自然纪实摄影；接近\"绿色隧道\"（红树林）题材的经典构图。",
+      "interaction": "树冠与水面可做视差；涟漪/倒影可动；叶片漂浮；洞口引导\"穿越感\"。",
+      "dna": "归档 nature；dream（不真实的绿光）可作备选。",
+      "uncertainty": "具体物种（水笔仔/海茄苳一类）未定；地点未确认；是否与 fallen tree 同地未确认；日期 2026-08-01 来自 EXIF。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a11eef-e71c-7240-bd19-bb7c015e6da3",
+      "messageId": "833145ce-78da-43c3-8136-1ea4ec355d75",
+      "timestamp": "2026-10-13T05:42:04.688Z",
+      "sourceTitle": "Green Tunnel",
+      "originalArtifact": "docs/analysis-recovery/original/green-tunnel.txt",
+      "originalSha256": "9add87746b7f1bd0c067249825142b1f20fbeeab2cbd97bf20518bf42fcd5cbf",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -967,6 +2609,32 @@
     "echoes": {
       "candidates": [],
       "confirmed": ["前往台灣最南點（鵝鑾鼻）的路上", "途中要經過一條很長的小道"]
+    },
+    "analysis": {
+      "content": "历史原文未单列 content；原文 composition 记录：竖幅 1320×1976。满幅枝叶、无单一焦点；一条被阳光穿透的黄绿亮带斜穿中部（左上偏中→中右）；右上角露出一块蓝天与剪影叶；下半浓荫，左侧是细密枯枝的网。",
+      "composition": "竖幅 1320×1976。满幅枝叶、无单一焦点；一条被阳光穿透的黄绿亮带斜穿中部（左上偏中→中右）；右上角露出一块蓝天与剪影叶；下半浓荫，左侧是细密枯枝的网。",
+      "color": "绿色主导、跨度极大——阴影近黑绿 #17261B、中间绿、逆光酸黄绿高光（最亮 #B7C13E，高光带均值 #93AA4F）；右上天空是被叶隙切碎的蓝 #74A6A2；全图均值 #49623A。",
+      "typography": "画面中无可读文字。",
+      "texture": "密集小叶与交错细枝形成网状；叶隙透光成小孔；颗粒/噪点明显（胶片感）。",
+      "material": "叶、枝条；叶片逆光呈半透光，有次表面透光的发光感。",
+      "spatialDepth": "浅但分层——前景细枝、中层发光叶片、背后叶隙与天空；像一团有光从背后/上方打入的块体。",
+      "hierarchy": "① 发光的黄绿叶带；② 右上蓝天缺口；③ 底部与左侧深色缠结作框。",
+      "mood": "郁郁葱葱、盛夏、繁密，略带压倒性的密；斑驳日光，略微混乱。",
+      "visualStyle": "自然逆光摄影；与已归档 sunlit canopy 属同类\"仰视透光树冠\"拍法。",
+      "interaction": "光斑随光移动；风动叶片；可做斑驳光影动效。",
+      "dna": "归档 nature；color（强绿）可作备选。",
+      "uncertainty": "物种未知；地点未知；是否与 sunlit canopy 同一次拍摄未知；日期 2026-08-07 来自 EXIF；无法判断是照片还是视频截图。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a11eef-e71c-7240-bd19-bb7c015e6da3",
+      "messageId": "833145ce-78da-43c3-8136-1ea4ec355d75",
+      "timestamp": "2026-10-13T05:42:04.688Z",
+      "sourceTitle": "Backlit Thicket",
+      "originalArtifact": "docs/analysis-recovery/original/backlit-thicket.txt",
+      "originalSha256": "d81eb891e07c6bb9d0ed876a90f4c706f8db8230e444e03f53b2d6df067ad72c",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -983,6 +2651,32 @@
     "echoes": {
       "candidates": [],
       "confirmed": ["新疆"]
+    },
+    "analysis": {
+      "content": "历史原文未单列 content；原文 composition 记录：竖幅 1080×1626。天空约占上部 1/3，中段是层叠山脉与谷地，下段是草坡；木栈道自左中折向右手边，右下角一个背影人物作为比例与视线落点。天／山／地三层横向分布，栈道把视线从近景引向谷底。",
+      "composition": "竖幅 1080×1626。天空约占上部 1/3，中段是层叠山脉与谷地，下段是草坡；木栈道自左中折向右手边，右下角一个背影人物作为比例与视线落点。天／山／地三层横向分布，栈道把视线从近景引向谷底。",
+      "color": "大面积蓝（天、远山）对冲黄褐与橄榄（草坡）。实测天空/云 #9CB4C9，远山蓝 #3D83B2，前景草坡 #5C5941 / #6C674D。整体偏冷、低饱和，云的灰白提亮上半部。",
+      "typography": "画面中无可读文字。",
+      "texture": "云层有明显体积与颗粒（胶片感）；草坡是细碎草点；木栈道是整齐的横向木板条纹。",
+      "material": "草、木（栈道）、空气与云；可见胶片颗粒。",
+      "spatialDepth": "很强。前景草坡（近、暖）→ 栈道斜向纵深 → 谷底河流与房舍（远）→ 层叠山脉（更远）→ 天空，典型空气透视。",
+      "hierarchy": "① 谷底与层叠山脉（视觉中心）；② 右上巨大云团；③ 右下的木栈道与人物（近景落点）。",
+      "mood": "辽阔、清冷、通透；带\"到达后驻足远望\"的旅行感与渺小感。",
+      "visualStyle": "旅行风景摄影／冷调胶片，类似高山草原的经典机位。",
+      "interaction": "云可缓慢移动；栈道与谷地可做视差；适合\"由近及远推镜\"的分层动效。",
+      "dna": "归档 nature；color（蓝）可作备选。",
+      "uncertainty": "地点未知；无 EXIF，日期用导入日 2025-12-22；图中人物身份不明；是否为你自己拍的未确认。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a11eef-e71c-7240-bd19-bb7c015e6da3",
+      "messageId": "8079f667-1daf-4514-abb5-dc313bfa299e",
+      "timestamp": "2026-10-13T11:47:53.548Z",
+      "sourceTitle": "Valley Overlook",
+      "originalArtifact": "docs/analysis-recovery/original/valley-overlook.txt",
+      "originalSha256": "a6f2dcea7d5054c227afc5383006709555078c6369ce1bb2a38d3428aa69ca25",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -999,6 +2693,32 @@
     "echoes": {
       "candidates": ["像印花布、貼膜或筆記本封面一類的表面，具體物件未確認"],
       "confirmed": []
+    },
+    "analysis": {
+      "content": "历史原文未单列 content；原文 composition 记录：竖幅 1080×1920。满幅重复图案（漩涡、星、花），无焦点、无主体，像一段被框住的连续纹样。",
+      "composition": "竖幅 1080×1920。满幅重复图案（漩涡、星、花），无焦点、无主体，像一段被框住的连续纹样。",
+      "color": "紫底 + 淡绿/奶白卷纹与星芒。实测主色 #9785A0（丁香紫），浅纹 #A49BA7 与淡绿。整体柔和、低对比。",
+      "typography": "画面中无可读文字。",
+      "texture": "关键特征是覆盖全图的细密网点（halftone / 织物或贴膜的网格），把图案统一成一层带颗粒的膜。",
+      "material": "像印在布、贴膜或塑料表面的印花；网点提示可能是翻拍屏幕或带网格的打印面。",
+      "spatialDepth": "基本为平面；网点形成极薄的一层表面质感。",
+      "hierarchy": "无主次——通篇图案，明暗均匀。",
+      "mood": "甜、廉价可爱、怀旧；带一点小时候文具/贴纸的年代感。",
+      "visualStyle": "Y2K 印花／文具图案／甜系图案。",
+      "interaction": "适合做平铺背景或纹理层；漩涡可缓慢旋转铺陈。",
+      "dna": "归档 color（紫绿对比）；memory（童年印花）可作备选。",
+      "uncertainty": "实物是什么（布／贴膜／屏幕）未知；无 EXIF，日期用导入日 2026-09-04。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a11eef-e71c-7240-bd19-bb7c015e6da3",
+      "messageId": "8079f667-1daf-4514-abb5-dc313bfa299e",
+      "timestamp": "2026-10-13T11:47:53.548Z",
+      "sourceTitle": "Purple Swirls",
+      "originalArtifact": "docs/analysis-recovery/original/purple-swirls.txt",
+      "originalSha256": "41c55ba7b2128faa53df39a25f3e4bc55bddb5196d9ecfa87d5cc024fe7f1c63",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -1015,6 +2735,32 @@
     "echoes": {
       "candidates": ["道路凸面鏡，地點未確認"],
       "confirmed": []
+    },
+    "analysis": {
+      "content": "历史原文未单列 content；原文 composition 记录：竖幅 1290×1717。圆形凸面镜居中略偏上，镜下一根橙杆垂直贯穿下半部（带\"注意\"与红色上箭头）；四周是纯蓝天空。圆与竖线的几何对比。",
+      "composition": "竖幅 1290×1717。圆形凸面镜居中略偏上，镜下一根橙杆垂直贯穿下半部（带\"注意\"与红色上箭头）；四周是纯蓝天空。圆与竖线的几何对比。",
+      "color": "大面积饱和蓝天空（实测 #007EBA，深处 #00539A），配橙红（红镜框＋橙杆，暖色均值约 #D64A2C）与镜中反射的淡蓝。冷底 + 一点暖红。",
+      "typography": "杆上的\"注意\"与红色向上箭头（交通标识）、镜面里反射的路面标线——都属现实里的标识，不是编辑排版。",
+      "texture": "凸面镜把景物压缩、弯曲并带高光反光；天空平滑；镜框是光滑塑料。",
+      "material": "玻璃镜面、塑料镜框、金属/塑料杆。",
+      "spatialDepth": "双层空间——镜外（天空、杆）与镜内（被弯折的路、水、山、云），镜内自成一个小世界。",
+      "hierarchy": "① 居中的圆镜（焦点）；② 垂直橙杆（引导线）；③ 大片天空（留白）。",
+      "mood": "晴朗、俏皮、略带超现实；\"世界被装进一个泡泡\"的错觉。",
+      "visualStyle": "街头／路牌摄影；冷调高饱和。",
+      "interaction": "镜内画面可做轻微扭曲/涟漪，镜外天空可缓慢移动，适合\"镜中世界\"的交互。",
+      "dna": "归档 strange（超现实的小世界）；color（蓝橙）可作备选。",
+      "uncertainty": "地点未知；无 EXIF，日期用导入日 2026-04-08；镜中反射的具体地点无法辨认。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a11eef-e71c-7240-bd19-bb7c015e6da3",
+      "messageId": "8079f667-1daf-4514-abb5-dc313bfa299e",
+      "timestamp": "2026-10-13T11:47:53.548Z",
+      "sourceTitle": "Road Mirror",
+      "originalArtifact": "docs/analysis-recovery/original/road-mirror.txt",
+      "originalSha256": "1ecd508a039cb13aacf1038fb1555504f8e4352ce5c63f249bb127b366c6ede5",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -1031,6 +2777,32 @@
     "echoes": {
       "candidates": ["抹茶甜點；餐巾上有「茶」字標誌，店家未確認"],
       "confirmed": []
+    },
+    "analysis": {
+      "content": "历史原文未单列 content；原文 composition 记录：竖幅 3024×4032。甜品居中偏上，白盘与餐巾在下方，黑色木桌铺满四周与前景，形成大块暗色负空间；视角略高。",
+      "composition": "竖幅 3024×4032。甜品居中偏上，白盘与餐巾在下方，黑色木桌铺满四周与前景，形成大块暗色负空间；视角略高。",
+      "color": "黑（桌）＋白（奶油/盘/餐巾）＋抹茶绿（主体），三色强对比。实测抹茶绿 #859A52（高光 #B3CD83），暗部接近纯黑，另有棕色糖浆与抹茶粉点缀。",
+      "typography": "画面文字极少——餐巾上有一个毛笔字标志（似「茶」）与 ® 号，属品牌标识，不是编辑排版。",
+      "texture": "甜品表面是浓稠带气泡的胶冻/奶油质感；糖浆光滑发亮；木桌有细密木纹；餐巾是纸质纹理。",
+      "material": "奶油、糖浆、坚果碎、抹茶粉、陶瓷盘、纸巾、木质桌面。",
+      "spatialDepth": "浅。主体在近景，背景压暗虚化，基本是单一平面。",
+      "hierarchy": "① 抹茶甜品（最饱和、最亮）；② 白色盘与奶油；③ 黑桌（负空间、压边）。",
+      "mood": "甜、安静、咖啡馆式的日常；冷绿与纯黑的反差让它比普通甜品照更\"重\"。",
+      "visualStyle": "手机食物摄影，高对比暗调。",
+      "interaction": "糖浆可缓慢流下；静态食物照，交互空间小。",
+      "dna": "归档 color（黑绿白强对比）；memory 可作备选。",
+      "uncertainty": "店家未知；EXIF 拍摄时间 2026-04-04 12:48:33；是否你本人拍的未确认（默认 collected）。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a11eef-e71c-7240-bd19-bb7c015e6da3",
+      "messageId": "323c98fe-49ca-4f25-b4b6-ed47fcfe6447",
+      "timestamp": "2026-10-15T08:57:43.703Z",
+      "sourceTitle": "Matcha Dessert",
+      "originalArtifact": "docs/analysis-recovery/original/matcha-dessert.txt",
+      "originalSha256": "79e034b75148e2e5410a943db72b3735ade6bd0d170eb78a632cc810335e63d6",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -1047,6 +2819,32 @@
     "echoes": {
       "candidates": ["照片來自 SOULAB WALLPAPER 帳號（自由女神像，Statue of Liberty）"],
       "confirmed": ["把它當作手機壁紙，用來顯化"]
+    },
+    "analysis": {
+      "content": "- IMG_0355.PNG — Dazz Pro 修图界面的截图，真正的画面是里面那张公园长椅照片。 - 截屏2025-10-15 19.51.33.png — 一篇散文帖的截图（写夏夜、萤火虫、竹林）。 - 截屏2025-10-15 19.52.36.png — 阅读 App 里《追忆似水年华》正文的截图（第 33–34 页）。",
+      "composition": "竖幅 1320×2868（手机壁纸比例）。雕像居中偏左，火炬臂从画面上缘冲出画框，身体占下半；右侧留出大片平涂青绿天空。低角度仰拍。",
+      "color": "近乎双色——青绿天空（实测 #71AA9D）＋雕像的浅绿灰；火炬顶端的金色是唯一暖色。",
+      "typography": "底部一行白色小字水印「SOULABWALLPAPER | PHOTOGRAPHY © 2026」，是作者署名/版权，不是编辑排版。",
+      "texture": "雕像表面有石材做旧纹理与刻痕（衣褶、铆钉）；天空是纯净平涂、几乎无颗粒。",
+      "material": "铜/石雕像（视觉）；天空是数字背景。",
+      "spatialDepth": "中等。仰拍把雕像推向前景，天空成为无深度的背景板。",
+      "hierarchy": "① 面部与火炬；② 大面积天空留白；③ 底部水印。",
+      "mood": "明亮、扁平、海报感；青绿调把纪念碑变得冷静而超现实。",
+      "visualStyle": "手机壁纸／调色摄影，平涂色块 + 单一色相。",
+      "interaction": "适合做整屏背景；天空可做渐变或缓慢移动。",
+      "dna": "归档 color（青绿）；dream 可作备选。",
+      "uncertainty": "非你拍摄；无 EXIF，日期用导入日 2026-09-18；这是 PNG（4.5MB），比其它图重。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a11eef-e71c-7240-bd19-bb7c015e6da3",
+      "messageId": "323c98fe-49ca-4f25-b4b6-ed47fcfe6447",
+      "timestamp": "2026-10-15T08:57:43.703Z",
+      "sourceTitle": "Teal Liberty",
+      "originalArtifact": "docs/analysis-recovery/original/teal-liberty.txt",
+      "originalSha256": "c8610df29bf05efecdb9eee60819443b28c49f049458ff9f22a80f48a617415f",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -1063,6 +2861,32 @@
     "echoes": {
       "candidates": [],
       "confirmed": ["富錦街（路牌可見 107／187 巷）", "《藍色大門》(Blue Gate Crossing) 的取景地就在這條街", "我很喜歡這部電影"]
+    },
+    "analysis": {
+      "content": "历史原文未单列 content；原文 composition 记录：竖幅 1319×1980（截图中裁出）。建筑转角占右半，混凝土格面墙与树影铺在左侧，路牌与灯杆在右侧竖立，下方是马路与人行横道线。",
+      "composition": "竖幅 1319×1980（截图中裁出）。建筑转角占右半，混凝土格面墙与树影铺在左侧，路牌与灯杆在右侧竖立，下方是马路与人行横道线。",
+      "color": "整体冷蓝。实测深蓝 #23526B、中蓝 #3B6984 / #52829E，全图偏蓝灰；唯一的暖色是绿灯与黄线。",
+      "typography": "路牌「富錦街 Fujin St. 107/187 巷」与下方的禁停标志文字——都是现实里的标识，不是编辑排版。",
+      "texture": "石材格面墙方正整洁、树影斑驳柔软；路面与标线是粗糙沥青；灌木叶片细碎。",
+      "material": "石材贴面、金属灯杆与标志牌、混凝土、沥青、绿篱。",
+      "spatialDepth": "中等。前景车道与人行横道 → 中景灯杆/路牌与矮墙绿篱 → 建筑体块占据纵深。",
+      "hierarchy": "① 竖立的交通灯杆与路牌（视觉锚点）；② 左侧大面阴影斑驳的墙；③ 底部的人行横道。",
+      "mood": "安静、清冷、午后的城市；蓝调带一点电影感。",
+      "visualStyle": "手机街拍 + Dazz Pro 冷调胶片感。",
+      "interaction": "光影可缓慢移动；适合做静态城市背景。",
+      "dna": "归档 memory（一条具体的台北街道）；color（蓝调）可作备选。",
+      "uncertainty": "无 EXIF，日期用截图文件时间 2026-07-26；是否你本人拍的未确认（默认 collected）。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a11eef-e71c-7240-bd19-bb7c015e6da3",
+      "messageId": "aa13b188-b211-4930-952f-ed2a34fdd9c1",
+      "timestamp": "2026-10-16T02:29:52.157Z",
+      "sourceTitle": "Fujin Street",
+      "originalArtifact": "docs/analysis-recovery/original/fujin-street.txt",
+      "originalSha256": "cf62d501c8a6f16ba9f70d9bb0a8a6d23d9697d0d93932352508c5d24f4ce5c1",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -1079,6 +2903,32 @@
     "echoes": {
       "candidates": ["海鷗群；海邊或港口上空的常見風景，地點未確認"],
       "confirmed": []
+    },
+    "analysis": {
+      "content": "上半张几乎全是空的蓝天，中央偏下有一只双翼完全展开的大海鸥，呈斜向的 V 字；其余海鸥沿右侧和底部排布，多只被画框切掉一部分。",
+      "composition": "竖幅 3024×4032；上半张几乎全是空的蓝天，中央偏下有一只双翼完全展开的大海鸥，呈斜向的 V 字；其余海鸥沿右侧和底部排布，多只被画框切掉一部分。",
+      "color": "天空从 #5E7DAC 到 #6585B4 之间几乎没有渐变；鸥身偏冷白，翼尖近黑，喙和脚带一点黄。",
+      "typography": "画面中无可读文字。",
+      "texture": "天空平滑无云；羽毛的层叠细纹和黑色翼缘很清楚，带轻微手机锐化痕迹。",
+      "material": "画面可辨认天空、海鸥羽毛，以及翼尖、喙和脚的局部表面；历史原文只记录了羽毛的层叠细纹、近黑翼缘和喙脚的一点黄色，没有进一步确认这些部位的具体材质。",
+      "spatialDepth": "空间深度只靠鸟的大小和遮挡判断，中央那只最近，右侧与底部的小鸥更远，没有地平线。",
+      "hierarchy": "中央大海鸥 → 四周小鸥 → 整片蓝天。",
+      "mood": "开阔、轻盈，有点被鸟群包围的抬头瞬间。",
+      "visualStyle": "接近克制的高对比纪实，蓝天占大面积使它像一块色块海报。",
+      "interaction": "可以让鸟群沿不同方向极慢漂移，或让天空渐变随光标移动。",
+      "dna": "Visual DNA：NATURE。Archive category 记 nature。",
+      "uncertainty": "无法判断拍摄地点与海鸥种类；EXIF 只有 2026-02-20 08:59。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a142a1-1b91-7b32-89cb-cb8ed877d66c",
+      "messageId": "153bc33e-5a59-4739-b966-50c45ae06020",
+      "timestamp": "2026-10-17T06:20:35.775Z",
+      "sourceTitle": "Gulls Overhead",
+      "originalArtifact": "docs/analysis-recovery/original/gulls-overhead.txt",
+      "originalSha256": "5412e962598df053725225c321bfd46e48637bbd7db81694e14235d6cd3ffb72",
+      "sourceFormat": "dense_prose",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {
@@ -1095,6 +2945,32 @@
     "echoes": {
       "candidates": ["街燈夜景；像歐式街燈被樹葉包圍，具體地點未確認"],
       "confirmed": []
+    },
+    "analysis": {
+      "content": "灯杆从底部正中升起，多灯罩的街灯位于中上部，奶白灯罩向四周展开，像一棵发光的树；树叶从四边向中心挤压，几乎没有露天的空。",
+      "composition": "竖幅 2390×2953；灯杆从底部贯穿到中心，灯罩在画面中上部向四周展开，树叶从四边向中央挤压，几乎没有负空间。",
+      "color": "叶子被灯光染成黄绿（#998F3A、#CBBB54），阴影处是深橄榄到近黑（#333016），灯罩最亮处是暖米白。",
+      "typography": "画面中无可读文字。",
+      "texture": "叶片密集细小，很多边缘虚焦成柔和散景；灯杆表面有金属粗糙感，夜景高感光度带来轻微颗粒。",
+      "material": "灯杆呈金属粗糙表面；画面还可辨认灯罩、灯光与树叶，其他材质无法进一步确认。",
+      "spatialDepth": "前景是虚焦叶片，中景是清晰的灯头，背景是虚化夜色；灯杆把视线从底部引到中心。",
+      "hierarchy": "最亮是灯头，其次是被照亮的左上叶片，最后才是深色背景。",
+      "mood": "像安静的夜路，温暖但不亲密，带旧城公园的味道。",
+      "visualStyle": "夜拍、柔焦、黄色偏移，略有老照片滤镜感。",
+      "interaction": "让灯罩极慢地呼吸式明暗，或让前景叶片滚动时以不同速度做视差。",
+      "dna": "主类 DREAM（夜色、暖光与柔焦共同主导）；Archive category 记 dream。",
+      "uncertainty": "看不出城市与具体地点，灯罩数量因遮挡无法数清，画面也没有人物或路牌。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a142a1-1b91-7b32-89cb-cb8ed877d66c",
+      "messageId": "153bc33e-5a59-4739-b966-50c45ae06020",
+      "timestamp": "2026-10-17T06:20:35.775Z",
+      "sourceTitle": "Lantern Tree",
+      "originalArtifact": "docs/analysis-recovery/original/lantern-tree.txt",
+      "originalSha256": "aecb60b0fd41e65ea52d78a7130fdc41965f9faae206d88bdcf87484a96a74db",
+      "sourceFormat": "dense_prose",
+      "mappingVersion": "2026-10-26.v2.1"
     }
   },
   {

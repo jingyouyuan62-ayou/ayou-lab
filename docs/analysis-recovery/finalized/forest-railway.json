@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "entryId": "forest-railway",
+  "sourceFormat": "structured_markdown",
+  "status": "ready_for_review",
+  "finalizedAt": "2026-10-28",
+  "validationDraft": null,
+  "entryReferences": {
+    "image": "images/forest-railway.jpg",
+    "imageSha256": "6056c9d43e9b0c8fa6257f788ebcc4268e809b0bdbbc9b3583eb96a52ef38f08",
+    "title": "Forest Railway",
+    "category": "nature",
+    "accent": "#3A452B",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "阿里山森林鐵道"
+      ]
+    }
+  },
+  "proposedPatch": {
+    "analysis": {
+      "content": "一条窄轨铁道弯进雾绿色森林；右侧是覆满苔藓的矮石墙；左侧有木栏杆、被虚化的警示牌、黄黑条纹信号杆（亮着绿灯）和一个橙色圆锥。",
+      "composition": "铁轨作为引导线从下方中央弯入中景；密集的树干形成垂直柱状节奏；左右压暗、中景透亮。",
+      "color": "深橄榄绿/墨绿为主（#282818–#484828），苔藓处偏亮；黄黑信号杆与橙色圆锥是极小的暖色点缀。",
+      "typography": "左侧警示牌有文字，但被虚化且出画，不可读，因此不记录内容。",
+      "texture": "潮湿苔藓、碎石道砟、树皮，以及雾气的柔化。",
+      "material": "历史原文记录为数字照片，对焦偏软。",
+      "spatialDepth": "强。线性透视、雾气衰减与近景栏杆共同形成景观层次。",
+      "hierarchy": "铁轨 → 发光信号杆 → 苔藓石墙 → 近景栏杆。",
+      "mood": "潮湿、幽静，带一点旧时光与神秘。",
+      "visualStyle": "山林铁道纪实，克制、有电影感。",
+      "interaction": "可做随滚动的雾或分层视差（仅为可能性，未实现）。",
+      "dna": "原文主类为 NATURE（forest / rail / moss / mist）；Archive category 记 nature。",
+      "uncertainty": "地点待确认；拍摄日期未知，EXIF 被 Photoshop 清空，entry 里的 2026-09-18 是导出/导入日期，不是拍摄日期。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "7ec740c5-5017-401a-bd95-3bfb516c6426",
+      "timestamp": "2026-09-18T15:27:56.972Z",
+      "sourceTitle": "Forest Railway",
+      "originalArtifact": "docs/analysis-recovery/original/forest-railway.txt",
+      "originalSha256": "b7e5636bab5d2d48836777ccbacf90758a00dbdfddfc00f5ba8ddf048708f53f",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
+    }
+  },
+  "mappingNotes": [
+    "原文的“画面内容”映射为 content，其余逐维字段按原顺序映射。",
+    "警示牌保留“有文字但不可读”的判断，没有猜测文字内容。",
+    "原文候选“阿里山／太平山森林鐵道（蹦蹦車）— 地點待確認”已被后续使用者确认的“阿里山森林鐵道”取代；当前 confirmed 原样保留，不回退恢复旧候选。",
+    "原文 accent #3A452B 与当前顶层 accent 一致。"
+  ],
+  "pending": []
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "entryId": "blue-house",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "imageSha256": "e6f85925c385ff754975a5d87696c634923f888ed465a76d78b8a1563d807086",
+  "entry": {
+    "id": "blue-house",
+    "title": "Blue House",
+    "date": "2026-09-18",
+    "source": "collected",
+    "medium": "photo",
+    "category": "memory",
+    "tags": [
+      "house",
+      "blue",
+      "pine",
+      "granite"
+    ],
+    "note": "A pale blue house with a stone base behind pine branches, a red Happy New Year sign on its balcony.",
+    "image": "images/blue-house.jpg",
+    "accent": "#0878C8",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "青島老城區"
+      ]
+    }
+  }
+}

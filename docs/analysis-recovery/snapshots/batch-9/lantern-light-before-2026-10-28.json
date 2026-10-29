@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "entryId": "lantern-light",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "entry": {
+    "id": "lantern-light",
+    "title": "Lantern Light",
+    "date": "2026-08-03",
+    "source": "own",
+    "medium": "photo",
+    "category": "dream",
+    "note": "People and lanterns in warm light.",
+    "image": "images/lantern-light.jpg",
+    "accent": "#A12E17",
+    "echoes": {
+      "candidates": [
+        "《千与千寻》式的灯笼巷"
+      ],
+      "confirmed": [
+        "九份老街"
+      ]
+    }
+  },
+  "imageSha256": "dcf66a251488b20945555e8db9ccdf042fb06292e9efc0cd25b18fcc784f6e74"
+}

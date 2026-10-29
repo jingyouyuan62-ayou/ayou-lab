@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "entryId": "moon",
+  "kind": "owner_authorized_image_reanalysis",
+  "status": "applied",
+  "createdAt": "2026-10-28",
+  "image": {
+    "path": "images/moon.jpg",
+    "sha256": "a6f5558d2d80281f2ad2832e4d9f12f02fe9b34dcbfac324d44ab8c47b90a228",
+    "width": 1600,
+    "height": 900
+  },
+  "historicalTrace": {
+    "original": "docs/analysis-recovery/original/moon.txt",
+    "originalSha256": "b4fc3250ebe8151d70f7572639c709ef5dc7fc6bff6d8db21a11d4d6901ba720",
+    "normalized": "docs/analysis-recovery/normalized/moon.json",
+    "normalizedSha256": "a2f85d61f3f92e1b4ef1d7006762bab9c11b94f56d7c984f1c6ede79c580603e",
+    "previousArchiveAnalysis": "docs/analysis-recovery/reanalysis/moon-before-2026-10-28.json"
+  },
+  "preservedEntryMetadata": {
+    "title": "Kiki's Delivery Service",
+    "category": "dream",
+    "accent": "#042161",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "Opening screenshot from Kiki's Delivery Service (Studio Ghibli, Hayao Miyazaki)."
+      ]
+    }
+  },
+  "proposedAnalysis": {
+    "content": "这张根本不是单纯“月亮”。画面是《魔女宅急便》的标题卡：深藏蓝夜空、中央满月、月亮上骑着扫帚的小魔女剪影，中间是白色日文标题「魔女の宅急便」，右下角有“映倫”分级标志。",
+    "composition": "强中心对称，月亮居中偏上，标题横贯中部，大片负空间",
+    "color": "深藏蓝 #12234A、月白 #E8EEF5、纯白文字；冷、低饱和",
+    "typography": "有。日文标题，白色，居中，带书法感；右下角小标志",
+    "texture": "平滑胶片感，轻微颗粒",
+    "material": "夜空、月面",
+    "spatialDepth": "剪影式前后关系，简洁",
+    "hierarchy": "月亮+人物 → 标题 → 深蓝留白",
+    "mood": "宁静、梦幻、怀旧、温柔",
+    "visualStyle": "动画电影标题卡，极简深蓝",
+    "interaction": "淡入、月亮微光、标题渐显",
+    "dna": "主 dream，次 memory",
+    "uncertainty": "本图未发现需特别保留的不确定项。"
+  },
+  "comparisonWithHistoricalDraft": {
+    "preservedConclusions": [
+      "保留历史标准化草案中已有、且本轮未修改的全部视觉判断。",
+      "保留当前标题、category、accent 与 Echoes；不新增 confirmed Echo。"
+    ],
+    "refinements": [
+      "根据原图确认这是清晰可读的电影标题卡，作品名、人物、月亮与标题文字均可辨认，不再勉强补充泛化限制。"
+    ],
+    "changedVisualConclusions": [],
+    "historicalInformationLost": [],
+    "unsupportedAdditions": []
+  },
+  "validation": {
+    "oneImageReadOnly": true,
+    "allThirteenAnalysisFieldsPresent": true,
+    "allValuesAreNonEmptyStrings": true,
+    "imageAndHistoricalArtifactsTraceable": true,
+    "preservedTitleCategoryAccentAndEchoes": true,
+    "noUnsupportedConfirmedEchoes": true
+  }
+}

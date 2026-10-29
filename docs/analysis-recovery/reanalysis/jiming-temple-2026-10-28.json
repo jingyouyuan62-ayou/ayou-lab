@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "entryId": "jiming-temple",
+  "kind": "owner_authorized_image_reanalysis",
+  "status": "applied",
+  "createdAt": "2026-10-28",
+  "image": {
+    "path": "images/jiming-temple.jpg",
+    "sha256": "6ec4e942e9383732069a6fba26541adfb4ca890b0b55c8f244aaf369526ab8ad",
+    "width": 1072,
+    "height": 1600
+  },
+  "historicalTrace": {
+    "original": "docs/analysis-recovery/original/jiming-temple.txt",
+    "originalSha256": "d030ec191c66a990d2d987ddb3b246071794aa61e47d5e3e797b48dfd387872d",
+    "normalized": "docs/analysis-recovery/normalized/jiming-temple.json",
+    "normalizedSha256": "a5b3ac8d2840e6b3f123668a54afb263a801ba24d4bf92664a418c43ac889234",
+    "previousArchiveAnalysis": "docs/analysis-recovery/reanalysis/jiming-temple-before-2026-10-28.json"
+  },
+  "preservedEntryMetadata": {
+    "title": "Jiming Temple",
+    "category": "color",
+    "accent": "#3298D3",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "南京鸡鸣寺"
+      ]
+    }
+  },
+  "proposedAnalysis": {
+    "content": "画面是仰视的中式多层塔：红粉色木构、青蓝色瓦、白色栏杆、顶端金色塔刹；前景是一道灰蓝瓦檐和深色木构，背景是湛蓝天空。",
+    "composition": "塔居中偏右，前景屋檐形成斜线，仰视",
+    "color": "天蓝 #1E6FB8、塔身红 #B84A4A、瓦青蓝 #5E8AA0、金塔刹 #D8B84A",
+    "typography": "画面中没有清晰可读的文字或标识；檐下彩绘、瓦当纹样与建筑装饰不构成可辨排版。",
+    "texture": "木雕、瓦、彩绘",
+    "material": "木、瓦、彩绘、金",
+    "spatialDepth": "前景屋檐 → 中景塔 → 背景天空",
+    "hierarchy": "塔身 → 金色塔刹 → 前景瓦檐",
+    "mood": "庄严、繁复、明亮、华丽",
+    "visualStyle": "传统建筑仰视摄影",
+    "interaction": "1）将前景屋檐、塔身和蓝天分成三层，滚动时做缓慢纵深视差；2）沿着前景瓦当横移指针时，让圆形瓦当的明暗轻微变化，强调重复节奏。",
+    "dna": "主 color，次 memory",
+    "uncertainty": "本图未发现需特别保留的不确定项。"
+  },
+  "comparisonWithHistoricalDraft": {
+    "preservedConclusions": [
+      "保留历史标准化草案中已有、且本轮未修改的全部视觉判断。",
+      "保留当前标题、category、accent 与 Echoes；不新增 confirmed Echo。"
+    ],
+    "refinements": [
+      "根据原图补足 typography 与 interaction；现有鸡鸣寺身份、色彩、建筑结构与 DNA 判断保持不变。"
+    ],
+    "changedVisualConclusions": [],
+    "historicalInformationLost": [],
+    "unsupportedAdditions": []
+  },
+  "validation": {
+    "oneImageReadOnly": true,
+    "allThirteenAnalysisFieldsPresent": true,
+    "allValuesAreNonEmptyStrings": true,
+    "imageAndHistoricalArtifactsTraceable": true,
+    "preservedTitleCategoryAccentAndEchoes": true,
+    "noUnsupportedConfirmedEchoes": true
+  }
+}

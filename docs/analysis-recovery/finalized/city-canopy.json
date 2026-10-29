@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "entryId": "city-canopy",
+  "sourceFormat": "structured_markdown",
+  "status": "ready_for_review",
+  "finalizedAt": "2026-10-28",
+  "entryReferences": {
+    "title": "City Canopy",
+    "category": "nature",
+    "accent": "#545F52",
+    "image": "images/city-canopy.jpg",
+    "echoes": {
+      "candidates": [
+        "行道樹與現代建築 — 地點待確認"
+      ],
+      "confirmed": []
+    },
+    "imageSha256": "3c6a743b12afaf0fbb81facba33b0475f07f5e171f1939396929260d10dd3de0"
+  },
+  "mappingNotes": [
+    "历史原文中的 Echoes 原样保存在原文文件；正式条目继续使用当前候选/确认分层，未自动改写。",
+    "原文 accent #545F52 与当前 Archive 顶层 accent #545F52 一并保留。"
+  ],
+  "pending": [],
+  "proposedPatch": {
+    "analysis": {
+      "content": "从树下向上拍，深色树干与枝条向四周伸展，叶隙间露出淡色玻璃幕墙与少量天空。",
+      "composition": "主干从左侧斜向上，枝条放射状分割画面；建筑的水平线与树枝的斜线互相切割。",
+      "color": "灰绿主调（平均 #545F52）＋玻璃的浅灰蓝，低饱和。",
+      "typography": "画面中无可读文字。",
+      "texture": "叶片细碎、树干光滑、幕墙平整反光。",
+      "material": "数字照片，光线均匀（阴天或处于建筑阴影）。",
+      "spatialDepth": "中；枝条（近）—树冠（中）—幕墙与天空（远）。",
+      "hierarchy": "放射的枝条 → 密集叶幕 → 玻璃立面。",
+      "mood": "城市里被树遮住的安静一角。",
+      "visualStyle": "都市树木仰拍，与 Under the Canopy 同视角，但背景换成了建筑。",
+      "interaction": "未发现与画面结构直接相关的交互方案。",
+      "dna": "nature（canopy / branches / glass / green）",
+      "uncertainty": "地点——这张不像旅行地，更像日常城市。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "5ab10604-193a-40f4-aade-fd81927c79b1",
+      "timestamp": "2026-09-20T16:02:09.806Z",
+      "sourceTitle": "City Canopy",
+      "originalArtifact": "docs/analysis-recovery/original/city-canopy.txt",
+      "originalSha256": "c674d6ebd65751dc6ec142d24e77ebd0c736782d4dbd73ef470c240776291145",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
+    }
+  }
+}

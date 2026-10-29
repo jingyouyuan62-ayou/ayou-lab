@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "entryId": "red-tree",
+  "capturedAt": "2026-10-28",
+  "reason": "项目所有者授权原图重分析前的历史标准化草案快照。",
+  "entryReferences": {
+    "title": "Under the Canopy",
+    "category": "color",
+    "accent": "#975235",
+    "echoes": null,
+    "image": "images/red-tree.PNG",
+    "imageSha256": "0c2228c0cd42f0ca492622ca238202b7439589788abdac8d5648543e9af8c496"
+  },
+  "analysis": {
+    "content": "实际画面是从下往上看的树冠：深色、盘曲的枝干交织成网，绿色羽状叶（像松柏针叶），成簇的鲜红小花/果实点缀其间，背景是米色天空。整体被压平成一张图案，很像屏风画或印染布。",
+    "composition": "满构图、无单一焦点；枝条从四周向中间交织",
+    "color": "米色底 #E8E3D2、近黑枝干 #2A2E28、灰绿 #7A8A72、鲜红点缀 #D8442E",
+    "typography": "画面中无可读文字。",
+    "texture": "平面图案感，红色呈细密点状",
+    "material": "纸、织物、屏风画",
+    "spatialDepth": "几乎没有纵深，被压平",
+    "hierarchy": "枝干骨架 → 红色簇点 → 绿叶 → 米色底",
+    "mood": "繁盛、古典、装饰性、略带神秘",
+    "visualStyle": "图案化植物画",
+    "interaction": "作为背景纹理平铺、局部放大、缓慢漂移",
+    "dna": "主 color，次 nature",
+    "uncertainty": "待补充：历史原文未提供可核验的 uncertainty 内容。"
+  },
+  "analysisSource": {
+    "type": "historical_chat_recovery",
+    "sessionId": "01a09ed2-fcd9-7ba0-a7dd-bc85721df254",
+    "messageId": "340473bb-fd9d-49cd-a4e6-a81ee61d266d",
+    "timestamp": "2026-09-17T06:20:42.927Z",
+    "sourceTitle": "Red Tree",
+    "originalArtifact": "docs/analysis-recovery/original/red-tree.txt",
+    "originalSha256": "004885821e89e7f62dfad23a93f5b0cf3ab463133c46052a82109c817ab92be0",
+    "sourceFormat": "structured_markdown",
+    "mappingVersion": "2026-10-26.v2.1"
+  }
+}

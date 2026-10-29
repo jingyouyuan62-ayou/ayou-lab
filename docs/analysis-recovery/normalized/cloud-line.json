@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "entryId": "cloud-line",
+  "sourceFormat": "structured_markdown",
+  "status": "ready_for_review",
+  "entryReferences": {
+    "image": "images/cloud-line.jpg",
+    "imageSha256": "12b604597ee0265133b4fa6ec821a182cc1872edd1ea6e7943c552f44eca9550",
+    "title": "Cloud Line",
+    "category": "nature",
+    "accent": "#586838",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "新疆"
+      ]
+    }
+  },
+  "proposedPatch": {
+    "analysis": {
+      "content": "绿色山坡横贯画面，山脊上压着一层低云；左侧远处有一间小屋，坡面上几只牛羊在吃草；天空被云层填满，左上隐约露出山尖。",
+      "composition": "上三分之一是云与远山，中间是斜向延伸的山脊线，动物沿坡面排成一条松散的横线。",
+      "color": "黄绿与灰绿（#586838、#384838），云是暖白到灰（#C8C8A8），整体低对比。",
+      "typography": "画面中无可读文字。",
+      "texture": "草坡细密、云的棉絮状边缘、远山被雾化。",
+      "material": "数字照片，长焦压缩感。",
+      "spatialDepth": "强；草坡—动物—山脊—云层—远山层层后退。",
+      "hierarchy": "山脊的云 → 草坡与动物 → 左侧小屋。",
+      "mood": "辽阔、安静，云贴着地面，近乎梦境。",
+      "visualStyle": "高原牧场风景，和 Meadow Cabin 是同一趟的姊妹作。",
+      "interaction": "未发现与画面结构直接相关的交互方案。",
+      "dna": "原文记主类 NATURE（meadow / clouds / cattle / hill）；Archive category 记 nature。",
+      "uncertainty": "地点：当次原文仍待确认；当前条目 echoes.confirmed 已记录“新疆”。EXIF 是 19:45，但画面明亮，和 Meadow Cabin 是同一个时间疑点。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "c4ac2edc-45eb-4bc5-9189-cc4da44c12b0",
+      "timestamp": "2026-09-20T10:27:03.859Z",
+      "sourceTitle": "Cloud Line",
+      "originalArtifact": "docs/analysis-recovery/original/cloud-line.txt",
+      "originalSha256": "dc9c7d4a9c4089d9bf2799348cb75ae1277f0484bbbf4a87fdcc4c3b547aa112",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
+    }
+  },
+  "mappingNotes": [
+    "原文的“内容”映射为 content。",
+    "原文的“无文字”被标准化为明确的“画面中无可读文字。”",
+    "原文的“无”交互被标准化为与画面结构相关的明确空值句，没有新增交互方案。",
+    "当次原文把新疆写在 candidate；当前顶层 echoes.confirmed 已记录“新疆”，按现行条目保留，不回退为候选。"
+  ],
+  "pending": []
+}

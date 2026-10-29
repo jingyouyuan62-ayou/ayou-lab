@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "entryId": "blue-house",
+  "sourceFormat": "structured_markdown",
+  "status": "ready_for_review",
+  "finalizedAt": "2026-10-28",
+  "validationDraft": null,
+  "entryReferences": {
+    "image": "images/blue-house.jpg",
+    "imageSha256": "e6f85925c385ff754975a5d87696c634923f888ed465a76d78b8a1563d807086",
+    "title": "Blue House",
+    "category": "memory",
+    "accent": "#0878C8",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "青島老城區"
+      ]
+    }
+  },
+  "proposedPatch": {
+    "analysis": {
+      "content": "一栋淡蓝外墙的三层小楼有深色坡屋顶和白色窗套，阳台玻璃上贴着红色「新年快乐」；前景是松枝，楼体坐在花岗岩石砌基座上，右下角有一只陶制花盆。",
+      "composition": "建筑占画面上三分之二并成为主体，松枝从左上与右上伸入形成框景，石砌基座横在下方。",
+      "color": "浅蓝主调（最饱和点是 #0878C8）、灰白石材与深绿松针，红字是唯一的暖色点缀。",
+      "typography": "阳台玻璃上有红字「新年快乐」，中文字、印刷贴纸，是画面里唯一的文字。",
+      "texture": "墙面涂料、石块粗糙接缝、松针密实。",
+      "material": "历史原文记录为数字照片，有胶片颗粒感，可能加了滤镜。",
+      "spatialDepth": "中等：松枝在近处，建筑位于中景，天空在远处。",
+      "hierarchy": "蓝色楼体 → 「新年快乐」红字 → 松枝与石基。",
+      "mood": "明亮干净，带一点节日的暖。",
+      "visualStyle": "建筑记录或街拍，观看方式接近 Archive 里的 College Gate。",
+      "interaction": "未发现与画面结构直接相关的交互方案。",
+      "dna": "原文主类为 MEMORY（house / blue / pine / granite）；Archive category 记 memory。",
+      "uncertainty": "画面无法确认具体地点；拍摄日期未知，EXIF 被清空，entry 里的 2026-09-18 是导出日期。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "c4ac2edc-45eb-4bc5-9189-cc4da44c12b0",
+      "timestamp": "2026-09-20T10:27:03.855Z",
+      "sourceTitle": "Blue House",
+      "originalArtifact": "docs/analysis-recovery/original/blue-house.txt",
+      "originalSha256": "d03e3a1ca3bf797e2dd7d8416108331c6e4169a4890934f87a9bd9841ad81733",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
+    }
+  },
+  "mappingNotes": [
+    "原文“内容”映射为 content，其余字段按原名映射。",
+    "原文 typography 保留了可读的「新年快乐」现场文字。",
+    "原文地点 candidate 已由后续使用者确认“青島老城區”；当前 confirmed 原样保留。",
+    "原文 accent #0878C8 与当前顶层 accent 一致。"
+  ],
+  "pending": []
+}

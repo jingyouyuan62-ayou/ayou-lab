@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "entryId": "cut-oranges",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "imageSha256": "950ee7fb61678fb22a640f0f69a9fbe98517bc2b7ee80eb490ee6828874cd5ee",
+  "entry": {
+    "id": "cut-oranges",
+    "title": "Cut Oranges",
+    "date": "2025-11-03",
+    "source": "collected",
+    "medium": "photo",
+    "category": "strange",
+    "tags": [
+      "oranges",
+      "branch",
+      "blue",
+      "halved"
+    ],
+    "note": "Oranges hanging on a branch, several of them cut open, held against a flat blue sky.",
+    "image": "images/cut-oranges.jpg",
+    "accent": "#486828",
+    "echoes": {
+      "candidates": [
+        "柑橘類果樹 — 品種待確認"
+      ],
+      "confirmed": [
+        "想到電影《以你的名字呼喚我》的義大利夏天"
+      ]
+    }
+  }
+}

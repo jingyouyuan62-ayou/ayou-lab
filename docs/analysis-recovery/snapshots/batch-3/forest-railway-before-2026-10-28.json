@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "entryId": "forest-railway",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "imageSha256": "6056c9d43e9b0c8fa6257f788ebcc4268e809b0bdbbc9b3583eb96a52ef38f08",
+  "entry": {
+    "id": "forest-railway",
+    "title": "Forest Railway",
+    "date": "2026-09-18",
+    "source": "collected",
+    "medium": "photo",
+    "category": "nature",
+    "tags": [
+      "forest",
+      "rail",
+      "moss",
+      "mist"
+    ],
+    "note": "A narrow track curving into a damp forest, moss on everything that has stopped moving.",
+    "image": "images/forest-railway.jpg",
+    "accent": "#3A452B",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "阿里山森林鐵道"
+      ]
+    }
+  }
+}

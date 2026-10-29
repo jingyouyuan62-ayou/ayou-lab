@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "entryId": "glittering-sea",
+  "sourceFormat": "structured_markdown",
+  "status": "ready_for_review",
+  "finalizedAt": "2026-10-28",
+  "validationDraft": null,
+  "entryReferences": {
+    "image": "images/glittering-sea.jpg",
+    "imageSha256": "200315422460ee4f4a9a00cfd153c75753404da25f04daf271ef6a256f820657",
+    "title": "Glittering Sea",
+    "category": "dream",
+    "accent": "#3C5D84",
+    "echoes": {
+      "candidates": [],
+      "confirmed": []
+    }
+  },
+  "proposedPatch": {
+    "analysis": {
+      "content": "一片被阳光打碎的强烈反光海面，正中偏下有一艘很小的深色小船。正方形画幅，四周留有黑色边框。",
+      "composition": "单一主体居中；反光形成一条从左上到中右的斜向光带；大面积高光充当负空间。",
+      "color": "近似双色——高亮白（约 #E8E8E8）与海蓝（约 #385878–#486888）。",
+      "typography": "画面中无可读文字。",
+      "texture": "水面是碎裂的点状闪光颗粒；船是一小块实心暗色。",
+      "material": "历史原文记录为“数字照片，无可见胶片颗粒；有编辑/导出痕迹”。",
+      "spatialDepth": "浅。地平线靠上（观察），海面被压缩得接近平面（解释）。",
+      "hierarchy": "小船 → 反光带 → 黑色画框。",
+      "mood": "空旷、刺眼、安静的晕眩感。",
+      "visualStyle": "high-key 极简海景，偏屏幕壁纸式构图。",
+      "interaction": "理论可做“反光随指针流动”（仅为可能性，未实现）。",
+      "dna": "原文主类为 DREAM（sea / glare / boat / blue）；Archive category 记 dream。",
+      "uncertainty": "EXIF 被清除，拍摄时间与地点未知；黑框是否是有意添加的画框也不确定；来源标记为 collected，若实际为使用者自己拍摄则需要后续确认。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "7ec740c5-5017-401a-bd95-3bfb516c6426",
+      "timestamp": "2026-09-18T15:27:56.972Z",
+      "sourceTitle": "Glittering Sea",
+      "originalArtifact": "docs/analysis-recovery/original/glittering-sea.txt",
+      "originalSha256": "693df9ef20d1f5a7d2578fca72ca8e00d8535bdfb800bd09a65c8b58a9b306bb",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
+    }
+  },
+  "mappingNotes": [
+    "原文的“画面内容”映射为 content，其余逐维字段按原顺序映射。",
+    "原文 typography 写“无文字”，标准化为规范空值句。",
+    "原文 Echo candidates 为空，当前顶层 Echoes 也保持空数组。",
+    "原文 accent #3C5D84 与当前顶层 accent 一致。"
+  ],
+  "pending": []
+}

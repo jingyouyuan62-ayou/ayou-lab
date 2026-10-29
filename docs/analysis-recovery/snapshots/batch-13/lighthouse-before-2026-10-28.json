@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "entryId": "lighthouse",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "entry": {
+    "id": "lighthouse",
+    "title": "Lighthouse",
+    "date": "2026-09-18",
+    "source": "own",
+    "medium": "photo",
+    "category": "memory",
+    "tags": [
+      "lighthouse",
+      "white",
+      "grass",
+      "blue"
+    ],
+    "note": "A white lighthouse behind a long white wall, on a green slope under a deep blue sky.",
+    "image": "images/lighthouse.jpg",
+    "accent": "#1888C8",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "台灣的燈塔（鵝鑾鼻一帶）",
+        "再往前走可以看見太平洋，我在那裡看到人生中最藍的海"
+      ]
+    }
+  },
+  "imageSha256": "82f323d01008dbb2f1ae09af9655197cf98533eab79cb24235b36e1113b851c8"
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "entryId": "purple-swirls",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "entry": {
+    "id": "purple-swirls",
+    "title": "Purple Swirls",
+    "date": "2026-09-04",
+    "source": "collected",
+    "medium": "photo",
+    "category": "color",
+    "tags": [
+      "purple",
+      "pattern",
+      "stars",
+      "swirls",
+      "texture"
+    ],
+    "note": "A purple surface covered in pale swirls, stars and small flowers, seen close enough that the halftone mesh shows through.",
+    "image": "images/purple-swirls.jpg",
+    "accent": "#9785A0",
+    "echoes": {
+      "candidates": [
+        "像印花布、貼膜或筆記本封面一類的表面，具體物件未確認"
+      ],
+      "confirmed": []
+    }
+  },
+  "imageSha256": "5fc31b4abf56167666a8271e825e21dff43ae73e85b0439eaf14a818dafb9df7"
+}

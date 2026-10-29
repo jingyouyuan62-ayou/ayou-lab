@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "entryId": "lantern-light",
+  "capturedAt": "2026-10-28",
+  "reason": "项目所有者授权原图重分析前的历史标准化草案快照。",
+  "entryReferences": {
+    "title": "Lantern Light",
+    "category": "dream",
+    "accent": "#A12E17",
+    "echoes": {
+      "candidates": [
+        "《千与千寻》式的灯笼巷"
+      ],
+      "confirmed": [
+        "九份老街"
+      ]
+    },
+    "image": "images/lantern-light.jpg",
+    "imageSha256": "dcf66a251488b20945555e8db9ccdf042fb06292e9efc0cd25b18fcc784f6e74"
+  },
+  "analysis": {
+    "content": "夜晚的老街巷子，头顶挂满红灯笼，灯笼上写着「九份」两个字；下方是来往的人群，左侧是卖帽子的小店，巷子向里延伸，全是暖红的灯光。所以这张其实是九份老街。",
+    "composition": "纵向深巷透视，灯笼在上方形成引导线，人群在下方",
+    "color": "红灯笼 #E8452E、暖橙光、暗背景 #3A2420、白字；暖、饱和红主导",
+    "typography": "有。灯笼上重复的「九份」，形成节奏",
+    "texture": "灯笼纸、暖光、夜色、人群",
+    "material": "纸灯笼、木、布料",
+    "spatialDepth": "深巷纵深，灯笼层层递进",
+    "hierarchy": "红灯笼 → 人群 → 店铺细节",
+    "mood": "热闹、温暖、怀旧、拥挤",
+    "visualStyle": "夜间街拍，暖红调，复古胶片感",
+    "interaction": "灯笼摇曳、人群流动、纵深视差",
+    "dna": "主 dream，次 memory",
+    "uncertainty": "待补充：历史原文未提供可核验的 uncertainty 内容。"
+  },
+  "analysisSource": {
+    "type": "historical_chat_recovery",
+    "sessionId": "01a09ed2-fcd9-7ba0-a7dd-bc85721df254",
+    "messageId": "d3be6bbb-28e1-4e9d-b6fb-c86761bc290d",
+    "timestamp": "2026-09-18T02:32:25.144Z",
+    "sourceTitle": "Lantern Light",
+    "originalArtifact": "docs/analysis-recovery/original/lantern-light.txt",
+    "originalSha256": "c4ef8f67451288f31c184e7881c1c8860e388fb914b6b5246061345d2aa1ef1b",
+    "sourceFormat": "structured_markdown",
+    "mappingVersion": "2026-10-26.v2.1"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "entryId": "pasture-forest",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "imageSha256": "03d89ef5263a0eca549d06afaf6ed404a8df309a830271a75bd263fe7d4308b5",
+  "entry": {
+    "id": "pasture-forest",
+    "title": "Pasture & Forest",
+    "date": "2025-11-09",
+    "source": "collected",
+    "medium": "photo",
+    "category": "nature",
+    "tags": [
+      "pasture",
+      "forest",
+      "cattle",
+      "green"
+    ],
+    "note": "Bands of dark conifer forest cutting across bright pasture, with cattle grazing on the grass.",
+    "image": "images/pasture-forest.jpg",
+    "accent": "#486838",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "新疆"
+      ]
+    }
+  }
+}

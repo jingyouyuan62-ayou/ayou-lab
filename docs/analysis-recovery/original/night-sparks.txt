@@ -1,0 +1,20 @@
+## 1. Night Sparks（烟花）
+
+画面：夜空中同时绽放多组烟花，主体是白色和金色的大朵放射状火花，下方还有一些粉红色的爆点；底部和两侧是树木的黑色剪影，像画框一样把烟花围住。
+
+- composition：烟花群集中在画面中上部，深色树影在底部形成框架，不对称
+- color：夜空近黑 #0A0C12、火花白/金 #F5E6C8、粉色点缀 #E85A7A；高对比
+- typography：无
+- texture：细线状火花、烟雾、夜景颗粒
+- material：夜空、烟雾、光
+- spatialDepth：烟花在远处，树影贴在近处
+- hierarchy：中央大烟花 → 周围爆点 → 树影
+- mood：绚烂、庆祝、短暂，热闹里带一点孤独
+- visualStyle：夜景烟花摄影
+- interaction：火花粒子、绽放动画、点击触发
+- dna：主 dream，次 color
+- accent：#201B21
+
+`echoes`：`{ "candidates": ["夏日祭 / 花火大会", "跨年烟花"], "confirmed": [] }`
+
+✓ 和现有条目一致。

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "entryId": "literature-corridor",
+  "kind": "owner_authorized_image_reanalysis",
+  "status": "applied",
+  "createdAt": "2026-10-28",
+  "image": {
+    "path": "images/literature-corridor.jpg",
+    "sha256": "37c6f31c7740a4207f6c416fb2946840852f922250d699e201170b48764e1800",
+    "width": 1236,
+    "height": 1600
+  },
+  "historicalTrace": {
+    "original": "docs/analysis-recovery/original/literature-corridor.txt",
+    "originalSha256": "cdc2e60bc9aed9a9885736c9985135a5ab700c3839c660d4b9551048436b3a46",
+    "normalized": "docs/analysis-recovery/normalized/literature-corridor.json",
+    "normalizedSha256": "287feb0d353278b0c6368d01e44c3a310e9d82622048dbb01adf09eb5b1f202f",
+    "previousArchiveAnalysis": "docs/analysis-recovery/reanalysis/literature-corridor-before-2026-10-28.json"
+  },
+  "preservedEntryMetadata": {
+    "title": "Literature Corridor",
+    "category": "memory",
+    "accent": "#5095B4",
+    "echoes": null
+  },
+  "proposedAnalysis": {
+    "content": "画面是一条空无一人的走廊：上浅蓝、下深蓝的双色墙面，白色天花，左侧一排高窗透着光，右侧是带玻璃的教室门，水磨石地面，尽头有一扇绿门。一点透视很强。",
+    "composition": "强单点透视，两侧线条向中心汇聚",
+    "color": "浅蓝 #A8C8DC、深蓝 #5E86A8、白 #EDEDE8、尽头绿门 #5E7A50",
+    "typography": "画面中没有清晰可读的文字、数字或标识；门窗上的白色边框、墙面开关和尽头暗部都只是建筑细节，不构成可辨排版。",
+    "texture": "水磨石、粉刷墙、玻璃、木门框",
+    "material": "可辨认的材质包括浅蓝与深蓝的粉刷墙面、白色天花与窗框、玻璃窗和门、木质门框、灰色水磨石地面，以及金属门把和墙装设备。",
+    "spatialDepth": "极强的纵深",
+    "hierarchy": "尽头的门 → 两侧窗与门 → 地面",
+    "mood": "安静、空旷、怀旧，带一点忧郁和梦境",
+    "visualStyle": "空间摄影，蓝色调，胶片感",
+    "interaction": "1）将两侧门窗墙面向后退、尽头绿门作为最远层，滚动时做缓慢纵深视差；2）鼠标横向移动时让左侧窗前光带与地面反光轻微滑动，保持空走廊的安静。",
+    "dna": "主 memory，次 dream",
+    "uncertainty": "画面无法确认走廊实际长度、楼层、整栋建筑的用途以及尽头绿门后的空间；两侧教室是否有人使用也不能判断。整体偏蓝无法区分是现场光、胶片、滤镜还是白平衡造成。"
+  },
+  "comparisonWithHistoricalDraft": {
+    "preservedConclusions": [
+      "保留历史标准化草案中已有、且本轮未修改的全部视觉判断。",
+      "保留当前标题、category、accent 与 Echoes；不新增 confirmed Echo。"
+    ],
+    "refinements": [
+      "根据原图补足 typography、material、interaction 与 uncertainty；原有单点透视、蓝调与空无情绪保持不变。"
+    ],
+    "changedVisualConclusions": [],
+    "historicalInformationLost": [],
+    "unsupportedAdditions": []
+  },
+  "validation": {
+    "oneImageReadOnly": true,
+    "allThirteenAnalysisFieldsPresent": true,
+    "allValuesAreNonEmptyStrings": true,
+    "imageAndHistoricalArtifactsTraceable": true,
+    "preservedTitleCategoryAccentAndEchoes": true,
+    "noUnsupportedConfirmedEchoes": true
+  }
+}

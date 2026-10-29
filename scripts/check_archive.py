@@ -7,6 +7,7 @@ manually against docs/IMAGE_ANALYSIS_SPEC.md.
 
 import argparse
 import datetime
+import hashlib
 import json
 import os
 import re
@@ -35,6 +36,22 @@ ANALYSIS_FIELDS = (
     "dna",
     "uncertainty",
 )
+ANALYSIS_SOURCE_FIELDS = {
+    "type",
+    "sessionId",
+    "messageId",
+    "timestamp",
+    "sourceTitle",
+    "originalArtifact",
+    "originalSha256",
+    "sourceFormat",
+    "mappingVersion",
+}
+ANALYSIS_SOURCE_FORMATS = {
+    "structured_json",
+    "structured_markdown",
+    "dense_prose",
+}
 REQUIRED = {
     "id": str,
     "title": str,
@@ -49,6 +66,15 @@ REQUIRED = {
 KEBAB = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 HEX = re.compile(r"^#[0-9A-Fa-f]{6}$")
 DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+SHA256 = re.compile(r"^[0-9a-f]{64}$")
+
+
+def file_sha256(path):
+    digest = hashlib.sha256()
+    with open(path, "rb") as handle:
+        for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
 
 
 def string_list(value):
@@ -231,6 +257,77 @@ def main():
                                 label
                             )
                         )
+
+        if "analysisSource" in entry:
+            if entry.get("analysis") is None:
+                error("{}: analysisSource requires analysis".format(label))
+            source = entry["analysisSource"]
+            if not isinstance(source, dict):
+                error("{}: analysisSource must be an object".format(label))
+            else:
+                missing = ANALYSIS_SOURCE_FIELDS - set(source)
+                extra = set(source) - ANALYSIS_SOURCE_FIELDS
+                if missing:
+                    error(
+                        "{}: analysisSource missing {}".format(
+                            label, sorted(missing)
+                        )
+                    )
+                if extra:
+                    error(
+                        "{}: analysisSource has unexpected keys {}".format(
+                            label, sorted(extra)
+                        )
+                    )
+                if source.get("type") != "historical_chat_recovery":
+                    error("{}: analysisSource.type is invalid".format(label))
+                if source.get("sourceFormat") not in ANALYSIS_SOURCE_FORMATS:
+                    error("{}: analysisSource.sourceFormat is invalid".format(label))
+                if source.get("mappingVersion") != "2026-10-26.v2.1":
+                    error("{}: analysisSource.mappingVersion is invalid".format(label))
+                timestamp = source.get("timestamp")
+                try:
+                    datetime.datetime.fromisoformat(
+                        str(timestamp).replace("Z", "+00:00")
+                    )
+                except ValueError:
+                    error("{}: analysisSource.timestamp is invalid".format(label))
+                if not isinstance(source.get("sourceTitle"), str) or not source.get(
+                    "sourceTitle", ""
+                ).strip():
+                    error("{}: analysisSource.sourceTitle is empty".format(label))
+                original = source.get("originalArtifact")
+                if not isinstance(original, str) or not original.startswith(
+                    "docs/analysis-recovery/original/"
+                ):
+                    error(
+                        "{}: analysisSource.originalArtifact must be under "
+                        "docs/analysis-recovery/original/".format(label)
+                    )
+                else:
+                    original_path = os.path.join(ROOT, original)
+                    if not os.path.isfile(original_path):
+                        error(
+                            "{}: analysisSource artifact does not exist: {}".format(
+                                label, original
+                            )
+                        )
+                    else:
+                        expected_hash = source.get("originalSha256")
+                        if not isinstance(expected_hash, str) or not SHA256.match(
+                            expected_hash
+                        ):
+                            error(
+                                "{}: analysisSource.originalSha256 is invalid".format(
+                                    label
+                                )
+                            )
+                        elif file_sha256(original_path) != expected_hash:
+                            error(
+                                "{}: analysisSource artifact hash mismatch".format(
+                                    label
+                                )
+                            )
 
     for entry_id, count in sorted(seen_ids.items()):
         if count > 1:

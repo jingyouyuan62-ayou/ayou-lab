@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "entryId": "frozen-water",
+  "approvedAt": "2026-10-28",
+  "approvedBy": "project_owner",
+  "instruction": "以修改后的为准：采用历史分析提出的标题、Visual DNA 主类与 accent；同时修正与画面不符的 note。",
+  "beforeSnapshot": "docs/analysis-recovery/snapshots/batch-2/frozen-water-before-2026-10-27.json",
+  "finalMapping": "docs/analysis-recovery/finalized/frozen-water.json",
+  "before": {
+    "id": "frozen-water",
+    "title": "Frozen Water",
+    "date": "2026-03-27",
+    "source": "collected",
+    "medium": "photo",
+    "category": "nature",
+    "note": "Cold water, frozen in place.",
+    "image": "images/frozen-water.jpg",
+    "accent": "#78A1D2"
+  },
+  "after": {
+    "id": "frozen-water",
+    "title": "Horse in Snow",
+    "date": "2026-03-27",
+    "source": "collected",
+    "medium": "photo",
+    "category": "dream",
+    "note": "A horse grazing in a snowfield as dusk turns the birches blue and pink.",
+    "image": "images/frozen-water.jpg",
+    "accent": "#9FB6D4"
+  },
+  "changes": {
+    "title": {
+      "from": "Frozen Water",
+      "to": "Horse in Snow"
+    },
+    "category": {
+      "from": "nature",
+      "to": "dream"
+    },
+    "note": {
+      "from": "Cold water, frozen in place.",
+      "to": "A horse grazing in a snowfield as dusk turns the birches blue and pink."
+    },
+    "accent": {
+      "from": "#78A1D2",
+      "to": "#9FB6D4"
+    }
+  }
+}

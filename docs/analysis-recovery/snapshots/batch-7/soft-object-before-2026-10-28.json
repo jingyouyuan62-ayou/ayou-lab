@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "entryId": "soft-object",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "entry": {
+    "id": "soft-object",
+    "title": "Soft Object",
+    "date": "2026-07-08",
+    "source": "collected",
+    "medium": "photo",
+    "category": "memory",
+    "note": "Something soft I wanted to keep.",
+    "image": "images/soft-object.jpg",
+    "accent": "#56B7A8",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "漂浮的梦"
+      ]
+    }
+  },
+  "imageSha256": "8dfc881ebb5df38e542e295f17c46b37470a2d0b4a468ff4d4d75a534ee6e147"
+}

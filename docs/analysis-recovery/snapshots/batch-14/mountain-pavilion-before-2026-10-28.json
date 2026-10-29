@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "entryId": "mountain-pavilion",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "entry": {
+    "id": "mountain-pavilion",
+    "title": "Mountain Pavilion",
+    "date": "2025-09-07",
+    "source": "own",
+    "medium": "photo",
+    "category": "nature",
+    "tags": [
+      "temple",
+      "mountain",
+      "mist",
+      "pine",
+      "blue"
+    ],
+    "note": "A tiered pavilion with a blue plaque and saffron drapes standing on a wooded ridge, its far peaks and the flat city below dissolved into blue mist.",
+    "image": "images/mountain-pavilion.jpg",
+    "accent": "#97BBD4",
+    "echoes": {
+      "candidates": [
+        "殿宇具體名稱未確認，形制接近泰山碧霞祠／南天門一帶"
+      ],
+      "confirmed": [
+        "泰山",
+        "高考後偷跑出去玩；爸媽發現我不在的時候，我已經在泰山腳下"
+      ]
+    }
+  },
+  "imageSha256": "d70acd2062879143c56e01d23906319d03bd0e8b2e5f85ff3eeb2d5d697bfc63"
+}

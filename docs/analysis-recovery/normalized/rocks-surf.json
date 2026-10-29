@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "entryId": "rocks-surf",
+  "sourceFormat": "structured_markdown",
+  "status": "ready_for_review",
+  "finalizedAt": "2026-10-28",
+  "entryReferences": {
+    "title": "Rocks & Surf",
+    "category": "nature",
+    "accent": "#587898",
+    "image": "images/rocks-surf.jpg",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "黑框是有意加的：讓人想到冬天的海"
+      ]
+    },
+    "imageSha256": "41d20972046152e0fd67d5600128f634fdcf1b32e8470530696ab6a75b2bcbda"
+  },
+  "mappingNotes": [
+    "历史原文中的 Echoes 原样保存在原文文件；正式条目继续使用当前候选/确认分层，未自动改写。",
+    "原文 accent #587898 与当前 Archive 顶层 accent #587898 一并保留。"
+  ],
+  "pending": [],
+  "proposedPatch": {
+    "analysis": {
+      "content": "深色礁石被浪拍打，白色泡沫漫过石头退回沙滩；后方是深蓝海面和一条极亮的天空；正方形画幅外有黑边。",
+      "composition": "横向分层——天空／蓝海／浪花／礁石／沙；黑框把画面装裱起来。",
+      "color": "深蓝（#587898、#385878）＋白（#E8E8E8）＋近黑礁石；黑框占画面约 37%。",
+      "typography": "画面中无可读文字。",
+      "texture": "浪花泡沫颗粒、湿石反光、沙的粗糙。",
+      "material": "数字照片，正方形＋黑框的导出方式，和 Glittering Sea 是同一套处理。",
+      "spatialDepth": "中，靠海面蓝的深浅与礁石层叠。",
+      "hierarchy": "泡沫与礁石 → 蓝海 → 亮天空。",
+      "mood": "冷、开阔、动势被冻住。",
+      "visualStyle": "海景特写，构图接近收藏类壁纸。",
+      "interaction": "未发现与画面结构直接相关的交互方案。",
+      "dna": "nature（rocks / waves / foam / blue）",
+      "uncertainty": "黑框是有意加的还是导出产生的。"
+    },
+    "analysisSource": {
+      "type": "historical_chat_recovery",
+      "sessionId": "01a0b4ac-0591-74c3-886d-c68e92c3580e",
+      "messageId": "7ab96e70-667d-4ac2-a137-3b440b4a09e4",
+      "timestamp": "2026-09-20T09:43:07.435Z",
+      "sourceTitle": "Rocks & Surf",
+      "originalArtifact": "docs/analysis-recovery/original/rocks-surf.txt",
+      "originalSha256": "8b762febc69fd7be7686a06828cc1d3e4dd7ea8f57520151b89a86357900593e",
+      "sourceFormat": "structured_markdown",
+      "mappingVersion": "2026-10-26.v2.1"
+    }
+  }
+}

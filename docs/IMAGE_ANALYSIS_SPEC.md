@@ -1,20 +1,26 @@
 # Ayou-Lab 图片分析规范
 
-状态：正式规范 v1（2026-10-17）
+状态：正式规范 v2.1（2026-10-26）
 
-依据：`AGENTS.md`、`data/entries.json`（提交 `4072faf`）、`archive.js`，以及项目所有者在本轮明确的 16 项分析维度。本文档不重新设计分析体系，只把已经执行过的要求固定下来。
+依据：`AGENTS.md`、`data/entries.json`（2026-10-26 的 83 条快照）、现有 11 条完整分析、
+`archive.js`，以及项目所有者确认的 16 项分析维度。本文档不重新设计分析体系；v2.1 增加历史
+分析恢复、标准映射、来源追溯和逐条验收规则。
 
 ## 0. 这份文件解决什么问题
 
 完整分析结果过去只存在于对话里，新对话无法读取，导致格式、深度和执行顺序反复偏移。
+2026-10-26 审计又确认：83 条图片中只有 11 条已有结构化 `analysis`，其余 72 条的分析仍只在
+历史对话中。历史补录的目的是恢复这些判断，不是重新看图，也不是把所有图片改写成同一套结论。
 
 从本文件生效起：
 
 - 新增图片的完整分析以本文件为准。
 - `AGENTS.md` 仍是项目级最高规则；本文件负责图片分析的具体标准。
 - 对话中的临时说法不能覆盖本文件；如确需修改标准，先改本文件。
-- 现有 73 条 Archive 条目不因本文件而回填或重写。
-- 已经归档的图片不重新分析；分析只针对尚未归档的候选。
+- 新图片仍需逐张看图；历史上已经分析过的图片不得为了补录而重新调用视觉模型。
+- 历史补录只允许读取、摘录、映射和补齐可追溯来源；原始分析必须单独保存后才可标准化。
+- 当前 11 条完整分析不因本规范升级而重写；72 条历史分析按本文第 9.1 节逐条验收后写入。
+- 未获得明确授权前，不批量修改 `data/entries.json`。
 
 ## 1. 事实来源与优先级
 
@@ -28,36 +34,47 @@
 
 如有冲突，`AGENTS.md` 优先；其次本文件；再次数据现状。发现冲突时在报告中写明，不自行选择一套"看起来更合理"的做法。
 
+历史补录另有一条来源优先级：
+
+1. 当次助手最终报告中的原始分析。
+2. 当次保存的结构化分析草稿或可验证报告附件。
+3. 仅当前两者缺失时，才使用历史记录中明确标注为原始助理输出的可审计副本。
+
+不能把内部推理、计划、未执行提案或后续对同一条目的概括当成原始分析。
+
 ## 2. 当前 Archive 数据结构（已核实）
 
 `data/entries.json` 是数组，每个条目现有字段如下：
 
 | 字段 | 类型 | 现状 | 说明 |
 | --- | --- | --- | --- |
-| `id` | string | 73/73 | kebab-case，与图片文件名主干一致 |
-| `title` | string | 73/73 | 1–5 个英文单词（2026-10-17 放宽） |
-| `date` | string | 73/73 | `YYYY-MM-DD` |
-| `source` | string | 73/73 | 只能是 `own` 或 `collected` |
-| `medium` | string | 73/73 | 例：`photo`、`collage`、`illustration`、`film still`、`embroidery`、`textile` |
-| `category` | string | 73/73 | `nature` / `memory` / `strange` / `color` / `dream` |
-| `note` | string | 73/73 | 单句英文观察，中位数约 88 字符，最长 167 |
-| `image` | string | 73/73 | `images/<filename>` |
-| `accent` | string | 73/73 | `#RRGGBB`，从图片像素实测 |
-| `tags` | string[] | 54/73 | 新条目使用；原始 19 条没有 |
-| `echoes` | object | 64/73 | `{ "candidates": [], "confirmed": [] }` |
-| `ideas` | string[] | 1/73 | 旧字段，仅 `red-tree` 使用；按确认"全部保留"，既不删除也不取代 |
-| `analysis` | object | 0/73 | 完整视觉分析；新条目必须包含，旧条目不回填 |
+| `id` | string | 83/83 | kebab-case，与图片文件名主干一致 |
+| `title` | string | 83/83 | 1–5 个英文单词（2026-10-17 放宽） |
+| `date` | string | 83/83 | `YYYY-MM-DD` |
+| `source` | string | 83/83 | 只能是 `own` 或 `collected` |
+| `medium` | string | 83/83 | 例：`photo`、`collage`、`illustration`、`film still`、`embroidery`、`textile` |
+| `category` | string | 83/83 | `nature` / `memory` / `strange` / `color` / `dream` |
+| `note` | string | 83/83 | 单句英文观察，中位数约 88 字符，最长 167 |
+| `image` | string | 83/83 | `images/<filename>` |
+| `accent` | string | 83/83 | `#RRGGBB`，从图片像素实测 |
+| `tags` | string[] | 64/83 | 新条目使用；原始 19 条没有 |
+| `echoes` | object | 74/83 | `{ "candidates": [], "confirmed": [] }` |
+| `ideas` | string[] | 1/83 | 旧字段，仅 `red-tree` 使用；按确认"全部保留"，既不删除也不取代 |
+| `analysis` | object | 11/83 | 完整视觉分析；新条目必须包含，历史条目按恢复流程补录 |
+| `analysisSource` | object | 可选 | 仅历史恢复条目使用；记录原始对话与原文文件的来源 |
 
 已核实的关键事实：
 
-- 原始 19 条没有 `tags`，属于冻结条目，不因规范更新而回填。
+- 原始 19 条没有 `tags`。2026-10-26 的恢复任务只补 `analysis` 和来源元数据，不顺手补
+  `tags`、标题或其他既有元数据。
 - 9 条没有 `echoes`；缺失与空对象在现有数据中并存。
 - `echoes.candidates` 与 `echoes.confirmed` 都是字符串数组。
 - `archive.js` 只渲染 `title`、`date`、`medium`、`source`、`note`、`confirmed` echoes、`category`，并用 `accent` 作为卡片强调色。
 - **历史上 `entries.json` 不存储 16 维完整分析。** 已核对全部 57 个历史版本：从未出现过
   composition、texture、spatialDepth 等分析字段，只有 `note` 单句摘要；完整分析曾只存在于
   对话报告里，这是跨对话不一致的根因。
-- **从 2026-10-17 起，新条目的完整分析必须存入 `analysis` 对象。** 现有 73 条不回填。
+- **从 2026-10-17 起，新条目的完整分析必须存入 `analysis` 对象。** 2026-10-26 起，
+  有历史原文的旧条目通过恢复流程补录，不重新看图。
 
 因此：完整分析存入条目的 `analysis` 对象。完整分析可以比 `note` 更细，不要求与短摘要
 完全一致；`title`、`accent`、`echoes` 仍以条目顶层的现有字段为准，不在 `analysis` 中重复。
@@ -89,6 +106,50 @@
 - `accent` → 条目顶层 `accent`
 - `echoes` → 条目顶层 `echoes.candidates` / `echoes.confirmed`
 - `dna` → `analysis.dna` 写分析说明，条目顶层 `category` 只存一个主类
+
+所有 13 个 `analysis` 字段必须是单个 string；`echoes.candidates` 与
+`echoes.confirmed` 必须是 string 数组。不得因为旧分析的嵌套对象、数组或布尔值而改变正式
+数据类型；映射阶段将旧值展开为等价文字，并在原文文件中保留旧结构。
+
+历史恢复条目另加一个可选的顶层对象：
+
+```json
+{
+  "analysisSource": {
+    "type": "historical_chat_recovery",
+    "sessionId": "01a09ed2-fcd9-7ba0-a7dd-bc85721df254",
+    "messageId": "198eacd4-a553-4a56-b4a7-9b4d57d05cff",
+    "timestamp": "2026-09-16T08:02:42.432Z",
+    "sourceTitle": "Frozen Water",
+    "originalArtifact": "docs/analysis-recovery/original/frozen-water.txt",
+    "originalSha256": "64-lowercase-hex",
+    "sourceFormat": "structured_json",
+    "mappingVersion": "2026-10-26.v2.1"
+  }
+}
+```
+
+`sourceFormat` 只能是 `structured_json`、`structured_markdown` 或 `dense_prose`。
+`sourceTitle` 必须记录分析当时的标题；条目后来改名时，依靠它建立历史原文与当前条目的对应。
+来源对象不属于 16 个分析维度，不显示在网站上；它只用于追溯。已有 11 条的既有分析没有
+历史来源对象，不反向伪造来源。
+
+## 2.1 明确空值与待补充
+
+不能为了填满字段而编造内容，也不能用无法审计的 `null`、空字符串或单独的 `N/A` 代替分析。
+统一使用可读、可检查的明确形式：
+
+| 情形 | 正式写法 |
+| --- | --- |
+| 画面没有文字 | `画面中无可读文字。` |
+| 画面明确是平面，没有真实纵深 | `画面呈扁平二维排布，无可辨认的真实纵深层次。` |
+| 没有与画面结构直接相关的交互方案 | `未发现与画面结构直接相关的交互方案。` |
+| 材质无法确认 | `材质无法从画面确认。` |
+| 历史原文未提供某个维度 | `待补充：历史原文未提供可核验的 <字段名> 内容。` |
+| 没有可靠联想 | `echoes.candidates` 与 `echoes.confirmed` 使用空数组 |
+
+“无”“没有”或“N/A”不能单独成为一个字段。字段虽然无法补全，也必须说明是画面事实还是
+历史来源缺失；后一种情况会使该条处于 `needs_owner_confirmation`，不能直接写入正式资料库。
 
 ## 3. 必要分析维度
 
@@ -206,6 +267,20 @@
 - 不确定的事项不得用常识补齐。会影响归档判断的疑点（地点、身份、文字含义）保留在
   `uncertainty`，必要时请使用者确认；不要为了让分析完整而编造答案。
 
+## 4.1 历史分析恢复规则
+
+- 先保存原始分析，再做映射。原文保存到 `docs/analysis-recovery/original/<id>.txt`。
+- 原文文件只摘录该图片对应的用户可见助手报告；不包含内部推理、工具日志或后续改写。
+- 映射只调整字段位置、字段名称、嵌套类型和必要标点；不重新观察图片，不改写视觉结论。
+- 原始分析的独特描述必须保留。不得用固定模板替换颜色、构图、材质或交互判断。
+- 顶层 `title`、`accent`、`category`、`echoes` 以当前条目为准。原文与当前元数据冲突时，
+  写入 `mappingNotes` 并等待所有者确认，不借标准化顺手改标题、分类或联想。
+- 若当前条目完全没有 `echoes`，原文明确列出的 AI 联想只能恢复到
+  `proposedPatch.echoes.candidates`；`confirmed` 保持空数组，不得升级为使用者确认。
+- 原文未覆盖某字段时按 2.1 标记待补充，不根据 `note`、标签或常识补写。
+- 同一图片存在多个历史版本时，优先选择最接近当次归档、字段最完整且可由消息 ID 验证的版本。
+- 只有原文、标准化草案和映射清单三者都能对应到同一 `id` 与图片路径时，才可进入正式写入。
+
 ## 5. Visual DNA 的使用
 
 五个类别是当前工作分类，不是永久固定标签：
@@ -282,9 +357,18 @@ python3 scripts/check_archive.py
 
 脚本只能检查形式；分析深度仍按 8.2 逐图检查。
 
+历史恢复的样本和批次另运行：
+
+```bash
+python3 scripts/check_analysis_recovery.py
+```
+
+它检查样本清单、原文文件哈希、13 个字段、顶层标题/强调色/echoes 对应关系、图片路径和
+未决事项。脚本通过只表示可以审阅，不表示项目所有者已经接受分析判断。
+
 ### 8.2 内容质量检查（逐图、人工与模型自检）
 
-以下阈值是本规范的验收标准，用来防止空泛输出；它们不是对既有 73 条条目的追溯要求。
+以下阈值是本规范的验收标准，用来防止空泛输出；历史恢复逐条通过后同样适用。
 
 每项都要有可指认的依据，不能只勾选"已写"：
 
@@ -306,6 +390,8 @@ python3 scripts/check_archive.py
 - [ ] `uncertainty` 列出真实限制，不是空话。
 - [ ] `title` 为 1–5 个英文单词、非设备文件名、不与现有标题重复。
 - [ ] 报告为中文；观察与推论分开；没有补写画面外信息。
+- [ ] 历史恢复条目有原始文件、消息来源、原文 SHA-256 和映射版本。
+- [ ] 原始分析中的每个有效判断都能在标准化结果或 `mappingNotes` 中找到去向。
 
 ### 8.3 需要使用者确认的部分
 
@@ -342,6 +428,23 @@ python3 scripts/check_archive.py
 - 报告失败；若怀疑对话状态损坏，建议新开会话，而不是继续在同一状态里反复操作。
 - 未完成的工作不得写成完成。
 
+## 9.1 历史补录的逐条事务
+
+每处理一条历史分析，必须按以下顺序完成：
+
+1. 用当前 `id`、标题和图片路径锁定唯一 Archive 条目。
+2. 在历史记录中找到该条目的当次用户可见分析，记录 session ID、message ID 与时间。
+3. 将对应原文单独保存到 `docs/analysis-recovery/original/<id>.txt`，计算 SHA-256。
+4. 先生成 `docs/analysis-recovery/normalized/<id>.json`，只做 16 项映射。
+5. 对比原文与标准化结果，列出所有改写、类型变化、待补充和元数据冲突。
+6. 运行 `python3 scripts/check_analysis_recovery.py --entry <id>`。
+7. 写入 `data/entries.json` 前，再验证该条图片仍存在、内容对应同一画面、没有重复 id。
+8. 单条 JSON 解析和恢复检查通过后，才追加该条的 `analysis` 与 `analysisSource`。
+9. 立即运行 `python3 scripts/check_archive.py --strict-analysis`；通过后才进入下一条。
+
+任何工具报错、载荷错误或无法验证内容时，停止当前条目，保留已经保存的原文与草案；不得继续
+批量写入，也不得把失败条目计为完成。
+
 ## 10. 已确认决定与待确认事项
 
 ### 10.1 已确认（2026-10-17）
@@ -356,8 +459,9 @@ python3 scripts/check_archive.py
 
 ### 10.2 仍需确认
 
-1. **旧条目是否回填**：现有 73 条没有 `analysis`，按"已归档不重析"的规则暂不回填。是否要
-   将来单独做一次历史补录，等待确认。
+1. **旧条目回填范围**：2026-10-26 已确认需要补录 72 条历史分析，但当前只批准规范、可访问性
+   检查和 3 条样本。剩余 69 条必须等 3 条样本验收后分批继续。
+2. **样本中的历史冲突**：标准化不得自行修正历史标题、主类或既有 `accent`；由项目所有者逐项确认。
 
 完整分析的标准参考案例已加入第 13 节（`Night Sparks`），用于展示输出深度；它不改变
 该条目，也不构成对已归档图片的例行重析。新条目按照同一深度写入 `analysis` 对象。
@@ -374,10 +478,12 @@ python3 scripts/check_archive.py
 现有数据可以用来确认"条目层"的风格与结构，但不能冒充完整分析范例：
 
 - `Night Sparks`：标题语气、深色强调色 `#201B21`、已确认的 Echo「大稻埕夏日烟花祭」。
-- `Bridge & Sky`：1–5 个英文词的标题（现有标题都偏短）、单句英文 note、`own` 来源、无 Echo 时可以直接省略该字段。
-- `Tomato`：note 可以有轻微解读（"the color of warmth"），但 Echo 必须由使用者确认（馬蒂斯的《舞蹈》）。
+- `Bridge & Sky`：1–5 个英文词的标题、单句英文 note、`own` 来源、无 Echo 时可以直接省略该字段。
+- `Tomato`：note 可以有轻微解读，但 Echo 必须由使用者确认。
 
-这些案例只支持标题、note、accent、echoes 的已有做法；它们没有 composition、texture 等完整分析，不能作为深度标准。完整深度的参考见下一节。
+这些旧案例只支持标题、note、accent、echoes 的既有做法。现有 11 条带 `analysis` 的条目可以
+作为存储和字段深度参考；历史恢复的三种格式样例见
+`docs/analysis-recovery/README.md`。
 
 ## 13. 完整分析参考案例：Night Sparks
 

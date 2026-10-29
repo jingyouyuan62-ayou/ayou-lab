@@ -1,0 +1,17 @@
+## 2. College Gate
+
+画面是深蓝黑色的木门（十字格纹 + 方形小玻璃），旁边是米褐色小砖墙，墙上挂着一块竖排木牌，写着金字「**文學院**」。
+
+- composition：左半是门，右半是墙与牌匾，正面平视
+- color：门深蓝黑 #2A3540、砖墙米褐 #C8BCA8、木牌浅黄、金字
+- typography：有。「文學院」三字，金色楷体，竖排
+- texture：木门漆面、砖纹、木牌
+- material：木、砖、石、玻璃
+- mood：安静、庄重、旧校园的时间感
+- visualStyle：建筑细节摄影，低饱和正视
+- dna：主 memory，次 color
+- accent：#AB9F81
+
+`echoes`：`{ "candidates": ["老校园", "文学院门牌"], "confirmed": ["文學院（牌匾文字）"] }`
+
+✓ 和你说的台大文学院一致。

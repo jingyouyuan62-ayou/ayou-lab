@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "entryId": "frozen-water",
+  "capturedAt": "2026-10-27",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "imageSha256": "2be173a15418e6c26133131509b0c81cb9a664c747c03a80e5dd44910777ba4b",
+  "entry": {
+    "id": "frozen-water",
+    "title": "Frozen Water",
+    "date": "2026-03-27",
+    "source": "collected",
+    "medium": "photo",
+    "category": "nature",
+    "note": "Cold water, frozen in place.",
+    "image": "images/frozen-water.jpg",
+    "accent": "#78A1D2"
+  }
+}

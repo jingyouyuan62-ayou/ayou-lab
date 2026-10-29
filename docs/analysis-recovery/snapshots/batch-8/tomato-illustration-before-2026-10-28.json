@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "entryId": "tomato-illustration",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "entry": {
+    "id": "tomato-illustration",
+    "title": "Tomato Illustration",
+    "date": "2026-08-30",
+    "source": "collected",
+    "medium": "illustration",
+    "category": "color",
+    "note": "Four small drawings in pen and ink — a fingerprint wave, wildflowers, tomatoes, and a girl.",
+    "image": "images/tomato-illustration.jpg",
+    "accent": "#C23B22"
+  },
+  "imageSha256": "c2c44a9d6a358da639668253d73ae16d605630154d36e47a81f063387a4cfa62"
+}

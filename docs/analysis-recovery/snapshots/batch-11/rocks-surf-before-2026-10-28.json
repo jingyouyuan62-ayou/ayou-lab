@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "entryId": "rocks-surf",
+  "capturedAt": "2026-10-28",
+  "reason": "历史分析正式标准化前的 Archive 条目快照。",
+  "entry": {
+    "id": "rocks-surf",
+    "title": "Rocks & Surf",
+    "date": "2026-03-30",
+    "source": "collected",
+    "medium": "photo",
+    "category": "nature",
+    "tags": [
+      "rocks",
+      "waves",
+      "foam",
+      "blue"
+    ],
+    "note": "Dark rocks taking the surf, foam spreading over them into the sand.",
+    "image": "images/rocks-surf.jpg",
+    "accent": "#587898",
+    "echoes": {
+      "candidates": [],
+      "confirmed": [
+        "黑框是有意加的：讓人想到冬天的海"
+      ]
+    }
+  },
+  "imageSha256": "41d20972046152e0fd67d5600128f634fdcf1b32e8470530696ab6a75b2bcbda"
+}
