@@ -1,0 +1,69 @@
+name: Import approved visual candidate
+
+on:
+  issues:
+    types: [labeled]
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+concurrency:
+  group: ayou-approved-candidate-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
+jobs:
+  import:
+    if: >-
+      github.event.sender.login == github.repository_owner &&
+      github.event.label.name == 'ayou-approved' &&
+      contains(github.event.issue.labels.*.name, 'ayou-candidate') &&
+      !contains(github.event.issue.labels.*.name, 'ayou-imported')
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GITHUB_REPOSITORY: ${{ github.repository }}
+      GITHUB_BASE_BRANCH: ${{ github.event.repository.default_branch }}
+      CANDIDATE_BRANCH: codex/import-candidate-${{ github.event.issue.number }}-${{ github.run_id }}
+
+    steps:
+      - name: Check out default branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install image dependency
+        run: python -m pip install --disable-pip-version-check -r requirements.txt
+
+      - name: Validate and import candidate
+        run: >-
+          python scripts/import_candidate.py
+          --event-path "$GITHUB_EVENT_PATH"
+          --result-path /tmp/ayou-candidate-import.json
+
+      - name: Create review commit
+        env:
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          git config user.name "Ayou-Lab candidate bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$CANDIDATE_BRANCH"
+          git add data/entries.json images
+          git commit -m "Import approved visual candidate #${ISSUE_NUMBER}"
+          git push --set-upstream origin "$CANDIDATE_BRANCH"
+
+      - name: Open pull request and update issue
+        run: >-
+          python scripts/import_candidate.py
+          --post-pr
+          --event-path "$GITHUB_EVENT_PATH"
+          --result-path /tmp/ayou-candidate-import.json

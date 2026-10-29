@@ -62,6 +62,8 @@
 | `ideas` | string[] | 1/83 | 旧字段，仅 `red-tree` 使用；按确认"全部保留"，既不删除也不取代 |
 | `analysis` | object | 11/83 | 完整视觉分析；新条目必须包含，历史条目按恢复流程补录 |
 | `analysisSource` | object | 可选 | 仅历史恢复条目使用；记录原始对话与原文文件的来源 |
+| `provenance` | object | 可选 | 自动化导入条目使用；记录来源页、许可证据和最终文件哈希 |
+| `candidateIssue` | integer | 可选 | 自动化导入条目的审批 Issue 编号 |
 
 已核实的关键事实：
 
@@ -133,6 +135,12 @@
 `sourceTitle` 必须记录分析当时的标题；条目后来改名时，依靠它建立历史原文与当前条目的对应。
 来源对象不属于 16 个分析维度，不显示在网站上；它只用于追溯。已有 11 条的既有分析没有
 历史来源对象，不反向伪造来源。
+
+自动化候选条目另加 `provenance` 对象，至少包含 `provider`、`sourceId`、
+`sourcePage`、`imageUrl`、`creator`、`sourceDate`、`license`、`licenseUrl`、
+`rightsStatus`、`verifiedAt` 和 `evidence`。初始自动化只允许
+`rightsStatus` 为 `public_domain` 或 `cc0`。导入后还会记录 `finalSha256` 与
+`finalDimensions`，用于确认最终 JPEG 与审批时看到的来源一致。
 
 ## 2.1 明确空值与待补充
 

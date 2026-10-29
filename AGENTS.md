@@ -94,6 +94,9 @@ Current important files and folders:
 - `archive.js`
 - `data/entries.json`
 - `images/`
+- `.github/workflows/`
+- `scripts/generate_candidates.py`
+- `scripts/import_candidate.py`
 
 The archive mechanism should remain data-driven:
 
@@ -302,6 +305,9 @@ unless the user overrides them explicitly.
   the existing top-level fields. Existing entries are not backfilled.
 - New entries carry `tags`; the original 19 entries do not. Do not retrofit old entries
   unless the user asks.
+- New entries imported through the approved-candidate workflow carry `provenance` and
+  `candidateIssue`. `provenance.rightsStatus` must be `public_domain` or `cc0` until the
+  owner explicitly widens the policy.
 - The original 19 entries are frozen: do not touch them unless the user reports a
   specific error.
 
@@ -315,6 +321,19 @@ unless the user overrides them explicitly.
   duplicate ids, then commit, push, and verify the live URL really serves the new data.
 - `python3 scripts/check_archive.py` performs that structural pass; the analysis-depth
   checklist in `docs/IMAGE_ANALYSIS_SPEC.md` still has to be checked by hand.
+
+### AI candidate automation
+
+- The daily candidate workflow is documented in `docs/AI_CANDIDATE_WORKFLOW.md`.
+- It runs on GitHub Actions and does not require the Mac to remain on.
+- It creates exactly 3 GitHub Issues per run and never writes unapproved candidates into
+  `images/` or `data/entries.json`.
+- The approval boundary is the `ayou-approved` label on an `ayou-candidate` Issue.
+- Approved candidates create a review PR; do not bypass that PR or auto-merge it.
+- The initial source policy is Art Institute of Chicago public-domain works and Wikimedia
+  Commons Public Domain/CC0 files only.
+- Never place `DEEPSEEK_API_KEY` or other credentials in the repository, an Issue, a PR, or
+  a log.
 
 ### Known file pitfalls
 

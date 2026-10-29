@@ -13,6 +13,7 @@ import os
 import re
 import sys
 from collections import Counter
+from urllib.parse import urlparse
 
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -52,6 +53,21 @@ ANALYSIS_SOURCE_FORMATS = {
     "structured_markdown",
     "dense_prose",
 }
+PROVENANCE_REQUIRED = {
+    "provider",
+    "sourceId",
+    "sourcePage",
+    "imageUrl",
+    "creator",
+    "sourceDate",
+    "license",
+    "licenseUrl",
+    "rightsStatus",
+    "verifiedAt",
+    "evidence",
+}
+PROVENANCE_OPTIONAL = {"finalSha256", "finalDimensions"}
+PUBLIC_DOMAIN_STATUSES = {"public_domain", "cc0"}
 REQUIRED = {
     "id": str,
     "title": str,
@@ -328,6 +344,59 @@ def main():
                                     label
                                 )
                             )
+
+        if "provenance" in entry:
+            if entry.get("analysis") is None:
+                error("{}: provenance requires analysis".format(label))
+            provenance = entry["provenance"]
+            if not isinstance(provenance, dict):
+                error("{}: provenance must be an object".format(label))
+            else:
+                missing = PROVENANCE_REQUIRED - set(provenance)
+                extra = set(provenance) - PROVENANCE_REQUIRED - PROVENANCE_OPTIONAL
+                if missing:
+                    error(
+                        "{}: provenance missing {}".format(label, sorted(missing))
+                    )
+                if extra:
+                    error(
+                        "{}: provenance has unexpected keys {}".format(
+                            label, sorted(extra)
+                        )
+                    )
+                for field in PROVENANCE_REQUIRED:
+                    value = provenance.get(field)
+                    if not isinstance(value, str) or not value.strip():
+                        error(
+                            "{}: provenance.{} must be a non-empty string".format(
+                                label, field
+                            )
+                        )
+                if provenance.get("rightsStatus") not in PUBLIC_DOMAIN_STATUSES:
+                    error(
+                        "{}: provenance.rightsStatus must be public_domain or cc0".format(
+                            label
+                        )
+                    )
+                for field in ("sourcePage", "imageUrl", "licenseUrl"):
+                    value = provenance.get(field)
+                    parsed = urlparse(value) if isinstance(value, str) else None
+                    if parsed is None or parsed.scheme != "https" or not parsed.netloc:
+                        error(
+                            "{}: provenance.{} must be an HTTPS URL".format(
+                                label, field
+                            )
+                        )
+                final_hash = provenance.get("finalSha256")
+                if final_hash is not None and (
+                    not isinstance(final_hash, str) or not SHA256.match(final_hash)
+                ):
+                    error("{}: provenance.finalSha256 is invalid".format(label))
+
+        if "candidateIssue" in entry and (
+            not isinstance(entry["candidateIssue"], int) or entry["candidateIssue"] < 1
+        ):
+            error("{}: candidateIssue must be a positive integer".format(label))
 
     for entry_id, count in sorted(seen_ids.items()):
         if count > 1:

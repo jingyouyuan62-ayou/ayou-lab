@@ -329,6 +329,16 @@ footer {
     color: rgba(41, 40, 33, 0.72);
 }
 
+.entry-source {
+    display: inline-block;
+    margin-top: 12px;
+    color: rgba(41, 40, 33, 0.72);
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-decoration-color: rgba(41, 40, 33, 0.28);
+    text-underline-offset: 0.2em;
+}
+
 .archive-status {
     font-family: Georgia, "Times New Roman", serif;
     font-size: 18px;

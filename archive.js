@@ -85,6 +85,21 @@ function createCard(entry) {
         body.append(echo);
     }
 
+    if (entry.provenance && entry.provenance.sourcePage) {
+        const source = document.createElement("a");
+        source.className = "entry-source";
+        source.href = entry.provenance.sourcePage;
+        source.target = "_blank";
+        source.rel = "noopener noreferrer";
+        source.textContent =
+            "↗ " +
+            (entry.provenance.provider === "aic"
+                ? "Art Institute of Chicago"
+                : "Wikimedia Commons");
+        source.title = `${entry.provenance.license} · ${entry.provenance.creator}`;
+        body.append(source);
+    }
+
     const category = document.createElement("p");
     category.className = "entry-tags";
     category.textContent = entry.category.toUpperCase();
