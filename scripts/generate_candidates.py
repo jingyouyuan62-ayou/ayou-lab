@@ -2,6 +2,7 @@
 """Find and analyze three public-domain visual candidates per daily run."""
 
 import argparse
+import base64
 import datetime as dt
 import json
 import os
@@ -25,6 +26,7 @@ from candidate_common import (
     inspect_image_bytes,
     markdown_escape,
     nearest_archive_matches,
+    save_jpeg_bytes,
     today_shanghai,
     validate_candidate,
     wikimedia_license_allowed,
@@ -243,7 +245,7 @@ def existing_candidate_source_keys(repo, token):
     return seen
 
 
-def deepseek_analysis(candidate, api_key, base_url, model):
+def deepseek_analysis(candidate, image_bytes, api_key, base_url, model):
     spec = SPEC_PATH.read_text(encoding="utf-8")
     required_json = {
         "title": "1-5 plain English words",
@@ -290,6 +292,10 @@ Project analysis specification:
         spec,
     )
     source = candidate["source"]
+    analysis_image = save_jpeg_bytes(image_bytes, max_edge=1600, quality=90)
+    image_data_url = "data:image/jpeg;base64,{}".format(
+        base64.b64encode(analysis_image).decode("ascii")
+    )
     user_text = """
 Candidate source metadata:
 - provider: {provider}
@@ -321,7 +327,7 @@ Analyze only this one image. The result will be held for the owner's approval.
                     {
                         "type": "image_url",
                         "image_url": {
-                            "url": source["imageUrl"],
+                            "url": image_data_url,
                             "detail": "high",
                         },
                     },
@@ -392,7 +398,9 @@ def candidate_from_source(source_candidate, api_key, base_url, model):
         },
         "nearestArchive": nearest,
     }
-    analysis = deepseek_analysis(candidate, api_key, base_url, model)
+    analysis = deepseek_analysis(
+        candidate, image_bytes, api_key, base_url, model
+    )
     candidate.update(
         {
             "title": analysis.get("title"),

@@ -25,7 +25,7 @@ from candidate_common import (  # noqa: E402
     verify_current_rights,
     wikimedia_license_allowed,
 )
-from generate_candidates import issue_body  # noqa: E402
+from generate_candidates import deepseek_analysis, issue_body  # noqa: E402
 
 
 def sample_candidate():
@@ -168,6 +168,36 @@ class CandidatePipelineTests(unittest.TestCase):
         self.assertIn("![Candidate]", body)
         self.assertIn("ayou-approved", body)
         self.assertIn("<!-- AYOU_CANDIDATE_V1", body)
+
+    @patch("generate_candidates.http_json")
+    def test_deepseek_receives_embedded_jpeg(self, http_json):
+        sample = next((ROOT / "images").glob("*.jpg")).read_bytes()
+        http_json.return_value = {
+            "choices": [
+                {
+                    "message": {
+                        "content": json.dumps(
+                            sample_candidate(), ensure_ascii=False
+                        )
+                    }
+                }
+            ]
+        }
+        result = deepseek_analysis(
+            sample_candidate(),
+            sample,
+            "test-key",
+            "https://api.deepseek.com",
+            "deepseek-flash",
+        )
+        payload = json.loads(http_json.call_args.kwargs["body"].decode("utf-8"))
+        image_part = payload["messages"][1]["content"][1]
+        self.assertTrue(
+            image_part["image_url"]["url"].startswith(
+                "data:image/jpeg;base64,"
+            )
+        )
+        self.assertEqual(result["title"], "Quiet Red Field")
 
     def test_image_fingerprint_and_accent_are_measurable(self):
         sample = next((ROOT / "images").glob("*.jpg"))

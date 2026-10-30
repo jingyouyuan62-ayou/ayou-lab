@@ -16,7 +16,7 @@ GitHub Issue，项目所有者可以在手机上查看、批准或拒绝。批�
 每天 08:17（Asia/Shanghai）
   → GitHub Actions
   → 从 Art Institute of Chicago / Wikimedia Commons 找公开领域图片
-  → DeepSeek 视觉分析
+  → 下载并压缩图片，以内嵌 JPEG 交给 DeepSeek 视觉分析
   → 创建 3 个 GitHub Issue
   → 手机添加 ayou-approved
   → 再次下载、解码、核对视觉内容和来源授权
@@ -82,6 +82,8 @@ GitHub Issue，项目所有者可以在手机上查看、批准或拒绝。批�
 - 导入时重新查询来源 API；授权已变化则停止。
 - 导入时比较审批前后的 dHash；来源图片在审批后被替换则停止。
 - 导入时重新检查内容裁剪后的 dHash；距离 12 或以下视为重复并停止。
+- 候选分析使用 Actions 当场下载并压缩后的内嵌 JPEG；DeepSeek 不需要直接访问
+  Art Institute 或 Wikimedia 图片服务器。
 - 导入脚本只向 `entries.json` 末尾追加一条，不重排已有条目。
 - 任何检查失败都删除新图片并恢复原始 `entries.json`。
 - 工作流只创建 PR，不直接推送到 `main`。
