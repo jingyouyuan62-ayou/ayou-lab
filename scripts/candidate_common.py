@@ -202,6 +202,15 @@ def require_https_host(url, provider):
         )
 
 
+def normalize_https_url(url):
+    value = str(url or "").strip()
+    if value.startswith("//"):
+        return "https:{}".format(value)
+    if value.startswith("http://"):
+        return "https://{}".format(value.removeprefix("http://"))
+    return value
+
+
 def http_request(
     url,
     *,

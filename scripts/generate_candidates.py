@@ -26,6 +26,7 @@ from candidate_common import (
     inspect_image_bytes,
     markdown_escape,
     nearest_archive_matches,
+    normalize_https_url,
     save_jpeg_bytes,
     today_shanghai,
     validate_candidate,
@@ -196,11 +197,12 @@ def wikimedia_search(query, limit=16):
             or clean_html(metadata.get("UsageTerms", {}).get("value"))
             or rights_status.replace("_", " ").title()
         )
-        license_url = clean_html(
-            metadata.get("LicenseUrl", {}).get("value")
-        ) or "https://commons.wikimedia.org/wiki/Commons:Licensing"
-        image_url = info.get("thumburl") or info.get("url")
-        page_url = info.get("descriptionurl")
+        license_url = normalize_https_url(
+            clean_html(metadata.get("LicenseUrl", {}).get("value"))
+            or "https://commons.wikimedia.org/wiki/Commons:Licensing"
+        )
+        image_url = normalize_https_url(info.get("thumburl") or info.get("url"))
+        page_url = normalize_https_url(info.get("descriptionurl"))
         if not title or not image_url or not page_url:
             continue
         yield {

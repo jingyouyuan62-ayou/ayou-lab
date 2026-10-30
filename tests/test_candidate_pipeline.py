@@ -19,6 +19,7 @@ from candidate_common import (  # noqa: E402
     hamming_distance,
     inspect_image_bytes,
     nearest_archive_matches,
+    normalize_https_url,
     save_jpeg_bytes,
     slugify,
     validate_candidate,
@@ -127,6 +128,16 @@ class CandidatePipelineTests(unittest.TestCase):
         }
         self.assertEqual(wikimedia_license_allowed(cc0), "cc0")
         self.assertIsNone(wikimedia_license_allowed(copyrighted))
+
+    def test_urls_are_upgraded_to_https(self):
+        self.assertEqual(
+            normalize_https_url("http://creativecommons.org/publicdomain/zero/1.0/"),
+            "https://creativecommons.org/publicdomain/zero/1.0/",
+        )
+        self.assertEqual(
+            normalize_https_url("//commons.wikimedia.org/wiki/File:Example.jpg"),
+            "https://commons.wikimedia.org/wiki/File:Example.jpg",
+        )
 
     def test_slugify_is_stable(self):
         self.assertEqual(slugify("Quiet Red Field"), "quiet-red-field")
