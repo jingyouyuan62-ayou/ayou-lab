@@ -280,6 +280,8 @@ state the limitation in `analysis.dna`; never force a false claim.
 
 `title` must be 1-5 plain English words derived from visible form, not a copy of
 the museum catalogue title where possible. `note` must be one English sentence.
+Keep each analysis field concise but evidence-based, usually 40-120 Chinese
+characters. Do not put the accent inside `analysis`.
 `echoes.confirmed` must always be an empty array. `echoes.candidates` are only
 AI suggestions. The measured accent is supplied below; refer to that exact hex
 inside `analysis.color` and do not infer a different official accent.
@@ -338,7 +340,7 @@ Analyze only this one image. The result will be held for the owner's approval.
         ],
         "response_format": {"type": "json_object"},
         "temperature": 0.35,
-        "max_tokens": 4200,
+        "max_tokens": 7000,
     }
     endpoint = "{}/chat/completions".format(base_url.rstrip("/"))
     response = http_json(
@@ -364,10 +366,54 @@ Analyze only this one image. The result will be held for the owner's approval.
     try:
         result = json.loads(content)
     except json.JSONDecodeError as exc:
-        raise CandidateError("DeepSeek did not return valid JSON") from exc
+        object_start = content.find("{")
+        object_end = content.rfind("}")
+        if object_start < 0 or object_end <= object_start:
+            raise CandidateError("DeepSeek did not return valid JSON") from exc
+        try:
+            result = json.loads(content[object_start : object_end + 1])
+        except json.JSONDecodeError:
+            raise CandidateError("DeepSeek did not return valid JSON") from exc
     if not isinstance(result, dict):
         raise CandidateError("DeepSeek response must be one JSON object")
     return result
+
+
+def normalize_analysis_result(result):
+    if not isinstance(result, dict):
+        raise CandidateError("DeepSeek response must be one JSON object")
+
+    title = clean_html(result.get("title"))
+    title = re.sub(r"[^A-Za-z0-9' &-]+", " ", title)
+    title = " ".join(title.split()[:5]).strip(" -&'")
+
+    category = result.get("category")
+    if isinstance(category, list) and len(category) == 1:
+        category = category[0]
+    if isinstance(category, str):
+        category = category.strip().lower()
+
+    analysis = result.get("analysis")
+    if isinstance(analysis, dict):
+        analysis = {
+            field: analysis.get(field) for field in ANALYSIS_FIELDS
+        }
+
+    echoes = result.get("echoes")
+    if not isinstance(echoes, dict):
+        echoes = {"candidates": [], "confirmed": []}
+
+    return {
+        "title": title,
+        "fitScore": result.get("fitScore"),
+        "fitReason": result.get("fitReason"),
+        "category": category,
+        "medium": result.get("medium"),
+        "note": result.get("note"),
+        "tags": result.get("tags"),
+        "echoes": echoes,
+        "analysis": analysis,
+    }
 
 
 def candidate_from_source(source_candidate, api_key, base_url, model):
@@ -405,9 +451,8 @@ def candidate_from_source(source_candidate, api_key, base_url, model):
     analysis = deepseek_analysis(
         candidate, image_bytes, api_key, base_url, model
     )
+    analysis = normalize_analysis_result(analysis)
     echoes = analysis.get("echoes")
-    if not isinstance(echoes, dict):
-        echoes = {"candidates": [], "confirmed": []}
     candidate.update(
         {
             "title": analysis.get("title"),

@@ -26,7 +26,11 @@ from candidate_common import (  # noqa: E402
     verify_current_rights,
     wikimedia_license_allowed,
 )
-from generate_candidates import deepseek_analysis, issue_body  # noqa: E402
+from generate_candidates import (  # noqa: E402
+    deepseek_analysis,
+    issue_body,
+    normalize_analysis_result,
+)
 
 
 def sample_candidate():
@@ -230,6 +234,19 @@ class CandidatePipelineTests(unittest.TestCase):
                 "https://api.deepseek.com",
                 "deepseek-flash",
             )
+
+    def test_generated_analysis_is_normalized(self):
+        result = sample_candidate()
+        result["title"] = '“Quiet Red Field, at Dusk!”'
+        result["category"] = ["COLOR"]
+        result["analysis"]["accent"] = "#FFFFFF"
+        normalized = normalize_analysis_result(result)
+        self.assertEqual(normalized["title"], "Quiet Red Field at Dusk")
+        self.assertEqual(normalized["category"], "color")
+        self.assertEqual(
+            set(normalized["analysis"]),
+            set(ANALYSIS_FIELDS),
+        )
 
     def test_image_fingerprint_and_accent_are_measurable(self):
         sample = next((ROOT / "images").glob("*.jpg"))
