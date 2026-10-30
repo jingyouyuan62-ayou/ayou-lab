@@ -251,7 +251,7 @@ def deepseek_analysis(candidate, image_bytes, api_key, base_url, model):
         "title": "1-5 plain English words",
         "fitScore": "integer 0-100 for fit with the current Visual DNA",
         "fitReason": "one concise sentence explaining the score",
-        "category": sorted(CATEGORIES),
+        "category": "exactly one of: {}".format(", ".join(sorted(CATEGORIES))),
         "medium": "short medium label",
         "note": "one factual English sentence",
         "tags": ["2-8 short kebab-case tags"],
@@ -363,6 +363,8 @@ Analyze only this one image. The result will be held for the owner's approval.
         result = json.loads(content)
     except json.JSONDecodeError as exc:
         raise CandidateError("DeepSeek did not return valid JSON") from exc
+    if not isinstance(result, dict):
+        raise CandidateError("DeepSeek response must be one JSON object")
     return result
 
 
@@ -401,6 +403,9 @@ def candidate_from_source(source_candidate, api_key, base_url, model):
     analysis = deepseek_analysis(
         candidate, image_bytes, api_key, base_url, model
     )
+    echoes = analysis.get("echoes")
+    if not isinstance(echoes, dict):
+        echoes = {"candidates": [], "confirmed": []}
     candidate.update(
         {
             "title": analysis.get("title"),
@@ -410,10 +415,7 @@ def candidate_from_source(source_candidate, api_key, base_url, model):
             "medium": analysis.get("medium") or source_candidate["medium"],
             "note": analysis.get("note"),
             "tags": analysis.get("tags"),
-            "echoes": analysis.get("echoes") or {
-                "candidates": [],
-                "confirmed": [],
-            },
+            "echoes": echoes,
             "analysis": analysis.get("analysis"),
         }
     )

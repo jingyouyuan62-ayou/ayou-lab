@@ -97,6 +97,12 @@ class CandidatePipelineTests(unittest.TestCase):
         with self.assertRaises(CandidateError):
             validate_candidate(candidate)
 
+    def test_category_list_is_rejected_as_invalid_output(self):
+        candidate = sample_candidate()
+        candidate["category"] = ["color"]
+        with self.assertRaises(CandidateError):
+            validate_candidate(candidate)
+
     @patch("candidate_common.http_json")
     def test_approval_rechecks_aic_public_domain_status(self, http_json):
         candidate = sample_candidate()
@@ -198,6 +204,21 @@ class CandidatePipelineTests(unittest.TestCase):
             )
         )
         self.assertEqual(result["title"], "Quiet Red Field")
+
+    @patch("generate_candidates.http_json")
+    def test_deepseek_non_object_response_raises_candidate_error(self, http_json):
+        sample = next((ROOT / "images").glob("*.jpg")).read_bytes()
+        http_json.return_value = {
+            "choices": [{"message": {"content": "[]"}}]
+        }
+        with self.assertRaises(CandidateError):
+            deepseek_analysis(
+                sample_candidate(),
+                sample,
+                "test-key",
+                "https://api.deepseek.com",
+                "deepseek-flash",
+            )
 
     def test_image_fingerprint_and_accent_are_measurable(self):
         sample = next((ROOT / "images").glob("*.jpg"))

@@ -353,7 +353,7 @@ def validate_candidate(candidate):
         raise CandidateError("title must use plain English words")
 
     category = candidate.get("category")
-    if category not in CATEGORIES:
+    if not isinstance(category, str) or category not in CATEGORIES:
         raise CandidateError("category is invalid")
 
     medium = _nonempty_string(candidate.get("medium"), "medium", 2, 40)
