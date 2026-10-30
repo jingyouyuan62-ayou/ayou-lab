@@ -15,6 +15,7 @@ import shutil
 import struct
 import subprocess
 import tempfile
+import time
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode, urlparse
 from urllib.request import Request, urlopen
@@ -64,7 +65,10 @@ ALLOWED_HOSTS = {
         "thumb.wikimedia.org",
     },
 }
-USER_AGENT = "Ayou-Lab candidate workflow/1.0"
+USER_AGENT = (
+    "Ayou-Lab/1.0 "
+    "(https://github.com/jingyouyuan62-ayou/ayou-lab; archive candidate workflow)"
+)
 AIC_API = "https://api.artic.edu/api/v1/artworks"
 WIKIMEDIA_API = "https://commons.wikimedia.org/w/api.php"
 CANDIDATE_BLOCK_NAME = "AYOU_CANDIDATE_V1"
@@ -213,35 +217,51 @@ def http_request(
     }
     if headers:
         request_headers.update(headers)
-    request = Request(
-        url,
-        data=body,
-        headers=request_headers,
-        method=method,
-    )
-    try:
-        with urlopen(request, timeout=timeout) as response:
-            final_url = response.geturl()
-            chunks = []
-            total = 0
-            while True:
-                chunk = response.read(1024 * 1024)
-                if not chunk:
-                    break
-                total += len(chunk)
-                if total > max_bytes:
-                    raise CandidateError(
-                        "Response exceeds {} bytes: {}".format(max_bytes, url)
-                    )
-                chunks.append(chunk)
-            return b"".join(chunks), response.headers, final_url
-    except HTTPError as exc:
-        detail = exc.read(2000).decode("utf-8", errors="replace")
-        raise CandidateError(
-            "HTTP {} for {}: {}".format(exc.code, url, detail)
-        ) from exc
-    except URLError as exc:
-        raise CandidateError("Network error for {}: {}".format(url, exc)) from exc
+    for attempt in range(3):
+        request = Request(
+            url,
+            data=body,
+            headers=request_headers,
+            method=method,
+        )
+        try:
+            with urlopen(request, timeout=timeout) as response:
+                final_url = response.geturl()
+                chunks = []
+                total = 0
+                while True:
+                    chunk = response.read(1024 * 1024)
+                    if not chunk:
+                        break
+                    total += len(chunk)
+                    if total > max_bytes:
+                        raise CandidateError(
+                            "Response exceeds {} bytes: {}".format(max_bytes, url)
+                        )
+                    chunks.append(chunk)
+                return b"".join(chunks), response.headers, final_url
+        except HTTPError as exc:
+            detail = exc.read(2000).decode("utf-8", errors="replace")
+            if (
+                method.upper() == "GET"
+                and exc.code in {429, 503}
+                and attempt < 2
+            ):
+                retry_after = exc.headers.get("Retry-After")
+                try:
+                    delay = float(retry_after) if retry_after else 2**attempt
+                except ValueError:
+                    delay = 2**attempt
+                time.sleep(max(1, min(delay, 8)))
+                continue
+            raise CandidateError(
+                "HTTP {} for {}: {}".format(exc.code, url, detail)
+            ) from exc
+        except URLError as exc:
+            raise CandidateError(
+                "Network error for {}: {}".format(url, exc)
+            ) from exc
+    raise CandidateError("Request retries exhausted for {}".format(url))
 
 
 def http_json(url, **kwargs):

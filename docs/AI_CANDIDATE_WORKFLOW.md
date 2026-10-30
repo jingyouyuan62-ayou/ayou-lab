@@ -15,7 +15,7 @@ GitHub Issue，项目所有者可以在手机上查看、批准或拒绝。批�
 ```text
 每天 08:17（Asia/Shanghai）
   → GitHub Actions
-  → 从 Art Institute of Chicago / Wikimedia Commons 找公开领域图片
+  → 从 Wikimedia Commons 找 Public Domain / CC0 图片
   → 下载并压缩图片，以内嵌 JPEG 交给 DeepSeek 视觉分析
   → 创建 3 个 GitHub Issue
   → 手机添加 ayou-approved
@@ -28,10 +28,9 @@ GitHub Issue，项目所有者可以在手机上查看、批准或拒绝。批�
 
 ## 来源与授权
 
-第一版只接受：
-
-- Art Institute of Chicago API 明确标记 `is_public_domain=true` 的作品；
-- Wikimedia Commons 明确标记为 Public Domain 或 CC0 的文件。
+第一版自动发现只使用 Wikimedia Commons 中明确标记为 Public Domain 或 CC0
+的文件。Art Institute of Chicago 的许可核验代码保留，但其图片服务器目前会对
+GitHub 托管运行器返回 Cloudflare 403，因此暂不参与自动发现。
 
 不接受仅凭“网页上能打开”“Pinterest 上有转载”或模型猜测为可用的图片。候选 Issue
 会显示来源页、作者、许可名称、许可链接和自动核验依据。

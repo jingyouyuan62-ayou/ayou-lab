@@ -165,7 +165,7 @@ def wikimedia_search(query, limit=16):
         "gsrlimit": str(limit),
         "prop": "imageinfo",
         "iiprop": "url|size|extmetadata",
-        "iiurlwidth": "1600",
+        "iiurlwidth": "1280",
         "format": "json",
         "formatversion": "2",
     }
@@ -621,10 +621,9 @@ def create_issue(repo, token, candidate):
 
 def source_iter(category, attempt):
     query = QUERY_BANK[category][attempt % len(QUERY_BANK[category])]
-    adapter_order = ["artic", "wikimedia"] if attempt % 2 == 0 else [
-        "wikimedia",
-        "artic",
-    ]
+    # AIC's image server currently returns Cloudflare 403 to GitHub-hosted
+    # runners, so automatic discovery stays on Wikimedia until that changes.
+    adapter_order = ["wikimedia"]
     for adapter in adapter_order:
         try:
             if adapter == "artic":
